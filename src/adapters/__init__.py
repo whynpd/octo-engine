@@ -1,0 +1,1 @@
+# API adapters for Freshdesk and Jira 

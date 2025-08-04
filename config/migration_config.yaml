@@ -1,0 +1,115 @@
+# Freshdesk to Jira ITSM Migration Configuration
+
+# Freshdesk Configuration
+freshdesk:
+  instances:
+    - name: "instance1"
+      url: "https://your-company.freshdesk.com"
+      api_key: "your_freshdesk_api_key"
+      # Optional: Custom headers for authentication
+      headers:
+        Content-Type: "application/json"
+      # Rate limiting (requests per minute)
+      rate_limit: 100
+      # Timeout settings
+      timeout: 30
+      # Batch size for ticket retrieval
+      batch_size: 100
+
+# Jira Configuration
+jira:
+  url: "https://your-company.atlassian.net"
+  username: "your_jira_username"
+  api_token: "your_jira_api_token"
+  # Project key where tickets will be migrated
+  project_key: "ITSM"
+  # Issue type for tickets
+  issue_type: "Incident"
+  # Rate limiting (requests per minute)
+  rate_limit: 100
+  # Timeout settings
+  timeout: 30
+  # Batch size for ticket creation
+  batch_size: 50
+
+# Migration Settings
+migration:
+  # General settings
+  dry_run: false
+  resume_from_checkpoint: true
+  checkpoint_interval: 1000
+  
+  # Data to migrate
+  migrate_tickets: true
+  migrate_comments: true
+  migrate_attachments: true
+  migrate_users: true
+  migrate_custom_fields: true
+  
+  # Filtering options
+  ticket_filters:
+    # Date range (optional)
+    created_after: "2023-01-01"
+    created_before: "2024-12-31"
+    # Status filters
+    statuses: ["open", "pending", "resolved", "closed"]
+    # Priority filters
+    priorities: ["low", "medium", "high", "urgent"]
+    # Exclude specific ticket IDs
+    exclude_ids: []
+  
+  # Attachment settings
+  attachments:
+    download_path: "./data/attachments"
+    max_file_size_mb: 50
+    allowed_extensions: [".pdf", ".doc", ".docx", ".txt", ".jpg", ".png", ".gif"]
+  
+  # Error handling
+  max_retries: 3
+  retry_delay: 5
+  continue_on_error: true
+
+# Field Mapping Configuration
+field_mapping:
+  # Priority mapping
+  priority:
+    "low": "Low"
+    "medium": "Medium"
+    "high": "High"
+    "urgent": "Highest"
+  
+  # Status mapping
+  status:
+    "open": "To Do"
+    "pending": "In Progress"
+    "resolved": "Done"
+    "closed": "Done"
+  
+  # Custom field mappings
+  custom_fields:
+    "source_field_name": "jira_field_name"
+    "category": "components"
+    "department": "customfield_10001"
+  
+  # Default values for missing fields
+  defaults:
+    priority: "Medium"
+    status: "To Do"
+    assignee: "admin"
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  file: "./logs/migration.log"
+  max_file_size: "100MB"
+  backup_count: 5
+  format: "{time:YYYY-MM-DD HH:mm:ss} | {level} | {message}"
+
+# Performance Settings
+performance:
+  # Concurrent operations
+  max_concurrent_requests: 10
+  # Memory management
+  max_memory_usage_mb: 2048
+  # Database connection pool
+  connection_pool_size: 20 
