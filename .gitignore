@@ -1,0 +1,68 @@
+# Environment variables and secrets
+.env
+.env.*
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Data files and exports
+*.json.gz
+detailed_tickets_export.json
+existing_ticket_ids.json
+modular_migration_results.json.gz
+
+# Batch files
+enhanced_migration/batches/
+enhanced_migration/attachments/
+enhanced_migration/ticket_details/
+enhanced_migration/ticket_attachments/
+enhanced_migration/conversations/
+enhanced_migration/conversation_attachments/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp 

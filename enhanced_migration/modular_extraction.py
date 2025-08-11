@@ -1,0 +1,665 @@
+# modular_extraction.py - Modular multi-threaded extraction system
+import threading
+import queue
+import time
+import logging
+import json
+import os
+from pathlib import Path
+from datetime import datetime
+from dotenv import load_dotenv
+import gzip
+
+# Import functions from individual step files
+from step1_get_ticket_ids import get_ticket_ids, save_to_csv
+from step2_extract_ticket_details import process_ticket_batch, read_ticket_ids_from_csv, get_ticket_details, fetch_conversations
+from step3_download_attachments import download_attachments_batch
+
+# Import additional functions from complete_extraction.py
+import requests
+import os
+from pathlib import Path
+
+# Load environment variables
+load_dotenv()
+
+# Configuration for multi-threaded migration
+CONFIG = {
+    'batch_size': 100,
+    'delay_between_requests': 0.01,
+    'delay_between_batches': 10,
+    'max_retries': 3,
+    'save_interval': 10,
+    'max_workers': 5,
+    'resume_enabled': True,
+    'rate_limit_requests_per_hour': 10000,
+    'thread_timeout': 300,  # 5 minutes timeout per thread
+    'max_queue_size': 1000
+}
+
+# Setup logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('modular_migration.log'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
+class MigrationCoordinator:
+    """Coordinates multi-threaded migration process with 4 separate JSON files per ticket"""
+    
+    def __init__(self):
+        self.ticket_queue = queue.Queue(maxsize=CONFIG['max_queue_size'])
+        self.batch_queue = queue.Queue(maxsize=CONFIG['max_queue_size'])
+        self.attachment_queue = queue.Queue(maxsize=CONFIG['max_queue_size'])
+        
+        self.step1_complete = threading.Event()
+        self.step2_complete = threading.Event()
+        self.step3_complete = threading.Event()
+        
+        self.step1_thread = None
+        self.step2_thread = None
+        self.step3_thread = None
+        
+        self.ticket_ids = []
+        self.all_tickets = []
+        self.attachments = []
+        
+        self.errors = []
+        self.lock = threading.Lock()
+        
+        # Create output directories
+        self.output_dirs = {
+            'ticket_details': Path('ticket_details'),
+            'ticket_attachments': Path('ticket_attachments'),
+            'conversations': Path('conversations'),
+            'conversation_attachments': Path('conversation_attachments')
+        }
+        
+        for dir_path in self.output_dirs.values():
+            dir_path.mkdir(exist_ok=True)
+        
+        # Get credentials from environment variables
+        self.FRESHDESK_DOMAIN = os.getenv("FRESHDESK_DOMAIN")
+        self.API_KEY = os.getenv("FRESHDESK_API_KEY")
+        
+        # Validate that required environment variables are set
+        if not self.FRESHDESK_DOMAIN:
+            raise ValueError("FRESHDESK_DOMAIN environment variable is not set")
+        if not self.API_KEY:
+            raise ValueError("FRESHDESK_API_KEY environment variable is not set")
+    
+    def download_file(self, url, filepath):
+        """Download a file from URL to the specified filepath with enhanced error handling"""
+        try:
+            # For S3 URLs, don't use Freshdesk authentication
+            if 's3.amazonaws.com' in url or 'cdn.freshdesk.com' in url:
+                response = requests.get(url, stream=True)
+            else:
+                # For Freshdesk API URLs, use authentication
+                response = requests.get(url, auth=(self.API_KEY, 'X'), stream=True)
+            
+            response.raise_for_status()
+            
+            with open(filepath, 'wb') as f:
+                for chunk in response.iter_content(chunk_size=8192):
+                    f.write(chunk)
+            
+            return True
+        except Exception as e:
+            logger.error(f"Error downloading {url}: {e}")
+            return False
+    
+    def sanitize_filename(self, filename):
+        """Sanitize filename to be safe for filesystem"""
+        # Remove or replace problematic characters
+        invalid_chars = '<>:"/\\|?*'
+        for char in invalid_chars:
+            filename = filename.replace(char, '_')
+        
+        # Limit length
+        if len(filename) > 200:
+            name, ext = os.path.splitext(filename)
+            filename = name[:200-len(ext)] + ext
+        
+        return filename
+    
+    def download_attachments_from_tickets(self, tickets, base_dir="attachments"):
+        """Download attachments from ticket data with enhanced functionality"""
+        if not tickets:
+            logger.info("No tickets provided for attachment download")
+            return
+        
+        # Create base directory
+        Path(base_dir).mkdir(exist_ok=True)
+        
+        downloaded_count = 0
+        failed_count = 0
+        total_attachments = 0
+        
+        logger.info(f"📁 Downloading attachments from {len(tickets)} tickets...")
+        
+        for ticket in tickets:
+            ticket_id = ticket.get('id')
+            if not ticket_id:
+                continue
+            
+            # Process ticket attachments
+            if 'attachments' in ticket:
+                for attachment in ticket['attachments']:
+                    total_attachments += 1
+                    attachment_url = attachment.get('attachment_url') or attachment.get('url')
+                    filename = attachment.get('name')
+                    
+                    if not attachment_url or not filename:
+                        logger.warning(f"Skipping attachment with missing URL or filename for ticket {ticket_id}")
+                        continue
+                    
+                    # Create ticket directory
+                    ticket_dir = Path(base_dir) / str(ticket_id)
+                    ticket_dir.mkdir(exist_ok=True)
+                    
+                    # Sanitize filename
+                    safe_filename = self.sanitize_filename(filename)
+                    filepath = ticket_dir / safe_filename
+                    
+                    # Check if file already exists
+                    if filepath.exists():
+                        logger.info(f"File already exists: {filepath}")
+                        continue
+                    
+                    logger.info(f"Downloading: {filename} for ticket {ticket_id}")
+                    
+                    if self.download_file(attachment_url, filepath):
+                        downloaded_count += 1
+                        logger.info(f"✅ Downloaded: {filepath}")
+                    else:
+                        failed_count += 1
+                        logger.error(f"❌ Failed to download: {filename}")
+            
+            # Process conversation attachments
+            if 'conversations' in ticket:
+                for conv in ticket['conversations']:
+                    if 'attachments' in conv:
+                        for attachment in conv['attachments']:
+                            total_attachments += 1
+                            attachment_url = attachment.get('attachment_url') or attachment.get('url')
+                            filename = attachment.get('name')
+                            
+                            if not attachment_url or not filename:
+                                continue
+                            
+                            # Create ticket directory
+                            ticket_dir = Path(base_dir) / str(ticket_id)
+                            ticket_dir.mkdir(exist_ok=True)
+                            
+                            # Sanitize filename and add conversation prefix
+                            safe_filename = self.sanitize_filename(filename)
+                            safe_filename = f"conv_{safe_filename}"
+                            filepath = ticket_dir / safe_filename
+                            
+                            # Check if file already exists
+                            if filepath.exists():
+                                logger.info(f"File already exists: {filepath}")
+                                continue
+                            
+                            logger.info(f"Downloading conversation attachment: {filename} for ticket {ticket_id}")
+                            
+                            if self.download_file(attachment_url, filepath):
+                                downloaded_count += 1
+                                logger.info(f"✅ Downloaded: {filepath}")
+                            else:
+                                failed_count += 1
+                                logger.error(f"❌ Failed to download: {filename}")
+        
+        logger.info(f"📊 Attachment Download Summary:")
+        logger.info(f"   - Total attachments found: {total_attachments}")
+        logger.info(f"   - Successfully downloaded: {downloaded_count}")
+        logger.info(f"   - Failed downloads: {failed_count}")
+        logger.info(f"   - Files saved to: {base_dir}/")
+    
+    def get_enhanced_ticket_details(self, ticket_id):
+        """Get detailed information for a specific ticket with enhanced attachment handling and user details"""
+        url = f"https://{self.FRESHDESK_DOMAIN}/api/v2/tickets/{ticket_id}"
+        response = requests.get(url, auth=(self.API_KEY, 'X'), headers={"Content-Type": "application/json"})
+        
+        if response.status_code == 200:
+            ticket_data = response.json()
+            
+            # Enhance attachments with more details if they exist
+            if ticket_data.get("attachments"):
+                enhanced_attachments = []
+                for att in ticket_data["attachments"]:
+                    enhanced_attachments.append({
+                        "id": att.get("id"),
+                        "name": att.get("name"),
+                        "url": att.get("attachment_url"),
+                        "content_type": att.get("content_type"),
+                        "size": att.get("size"),
+                        "created_at": att.get("created_at")
+                    })
+                ticket_data["attachments"] = enhanced_attachments
+            
+            # Include user details
+            ticket_data["requester_id"] = ticket_data.get("requester_id")
+            ticket_data["responder_id"] = ticket_data.get("responder_id")
+            
+            return ticket_data
+        else:
+            logger.error(f"Error fetching ticket details for {ticket_id}: {response.status_code}")
+            return None
+    
+    def get_enhanced_conversations(self, ticket_id):
+        """Fetch conversations for a ticket with enhanced attachment handling and user details"""
+        url = f"https://{self.FRESHDESK_DOMAIN}/api/v2/tickets/{ticket_id}/conversations"
+        response = requests.get(url, auth=(self.API_KEY, 'X'), headers={"Content-Type": "application/json"})
+
+        if response.status_code != 200:
+            logger.error(f"Error fetching conversations for ticket {ticket_id}")
+            return []
+
+        conversations = []
+        for convo in response.json():
+            attachments = [
+                {
+                    "id": att.get("id"),
+                    "name": att.get("name"),
+                    "url": att.get("attachment_url"),
+                    "content_type": att.get("content_type"),
+                    "size": att.get("size"),
+                    "created_at": att.get("created_at")
+                }
+                for att in convo.get("attachments", [])
+            ]
+            conversations.append({
+                "id": convo.get("id"),
+                "body_text": convo.get("body_text"),
+                "body": convo.get("body"),
+                "private": convo.get("private"),
+                "created_at": convo.get("created_at"),
+                "user_id": convo.get("user_id"),  # User who created the conversation
+                "created_by": convo.get("created_by"),  # Alternative field name
+                "incoming": convo.get("incoming"),  # Boolean indicating if it's from customer
+                "outgoing": convo.get("outgoing"),  # Boolean indicating if it's from agent
+                "source": convo.get("source"),  # Source of the conversation (email, portal, etc.)
+                "thread_id": convo.get("thread_id"),  # Thread ID for grouping conversations
+                "attachments": attachments
+            })
+
+        return conversations
+    
+    def save_ticket_data(self, ticket_id, ticket_data, conversations):
+        """Save JSON files for a ticket only when data exists, with ticket ID included"""
+        try:
+            files_created = 0
+            
+            # 1. Ticket Details (excluding attachments and conversations)
+            ticket_details = {k: v for k, v in ticket_data.items() 
+                           if k not in ['attachments', 'conversations']}
+            
+            # Always create ticket details file as it contains core ticket information
+            ticket_details['ticket_id'] = ticket_id  # Include ticket ID
+            details_file = self.output_dirs['ticket_details'] / f"ticket_{ticket_id}_details.json"
+            with open(details_file, 'w', encoding='utf-8') as f:
+                json.dump(ticket_details, f, indent=2, ensure_ascii=False)
+            files_created += 1
+            
+            # 2. Ticket Attachments (only if attachments exist)
+            ticket_attachments = ticket_data.get('attachments', [])
+            if ticket_attachments:
+                # Add ticket ID to each attachment
+                for attachment in ticket_attachments:
+                    attachment['ticket_id'] = ticket_id
+                
+                attachments_file = self.output_dirs['ticket_attachments'] / f"ticket_{ticket_id}_attachments.json"
+                with open(attachments_file, 'w', encoding='utf-8') as f:
+                    json.dump(ticket_attachments, f, indent=2, ensure_ascii=False)
+                files_created += 1
+                logger.info(f"📎 Created ticket attachments file for ticket {ticket_id} ({len(ticket_attachments)} attachments)")
+            else:
+                logger.info(f"📎 No ticket attachments for ticket {ticket_id} - skipping file creation")
+            
+            # 3. Conversations (only if conversations exist)
+            if conversations:
+                conversations_data = []
+                for conv in conversations:
+                    conv_data = {k: v for k, v in conv.items() if k != 'attachments'}
+                    conv_data['ticket_id'] = ticket_id  # Include ticket ID
+                    conversations_data.append(conv_data)
+                
+                conversations_file = self.output_dirs['conversations'] / f"ticket_{ticket_id}_conversations.json"
+                with open(conversations_file, 'w', encoding='utf-8') as f:
+                    json.dump(conversations_data, f, indent=2, ensure_ascii=False)
+                files_created += 1
+                logger.info(f"💬 Created conversations file for ticket {ticket_id} ({len(conversations)} conversations)")
+            else:
+                logger.info(f"💬 No conversations for ticket {ticket_id} - skipping file creation")
+            
+            # 4. Conversation Attachments (only if conversation attachments exist)
+            conversation_attachments = []
+            for conv in conversations:
+                if 'attachments' in conv and conv['attachments']:
+                    for attachment in conv['attachments']:
+                        attachment['conversation_id'] = conv.get('id')
+                        attachment['ticket_id'] = ticket_id  # Include ticket ID
+                        attachment['user_id'] = conv.get('user_id')  # Include user ID from conversation
+                        conversation_attachments.append(attachment)
+            
+            if conversation_attachments:
+                conv_attachments_file = self.output_dirs['conversation_attachments'] / f"ticket_{ticket_id}_conversation_attachments.json"
+                with open(conv_attachments_file, 'w', encoding='utf-8') as f:
+                    json.dump(conversation_attachments, f, indent=2, ensure_ascii=False)
+                files_created += 1
+                logger.info(f"📎 Created conversation attachments file for ticket {ticket_id} ({len(conversation_attachments)} attachments)")
+            else:
+                logger.info(f"📎 No conversation attachments for ticket {ticket_id} - skipping file creation")
+            
+            logger.info(f"✅ Created {files_created} JSON files for ticket {ticket_id}")
+            return True
+            
+        except Exception as e:
+            logger.error(f"❌ Error saving JSON files for ticket {ticket_id}: {e}")
+            return False
+    
+    def extract_attachments_from_ticket(self, ticket):
+        """Extract attachment information from a ticket object"""
+        attachments = []
+        ticket_id = ticket.get('id')
+        
+        if not ticket_id:
+            return attachments
+        
+        # Main ticket attachments
+        if 'attachments' in ticket:
+            for attachment in ticket['attachments']:
+                attachments.append({
+                    'ticket_id': ticket_id,
+                    'attachment_url': attachment.get('attachment_url') or attachment.get('url'),
+                    'name': attachment.get('name'),
+                    'content_type': attachment.get('content_type'),
+                    'size': attachment.get('size'),
+                    'source': 'ticket'
+                })
+        
+        # Conversation attachments
+        if 'conversations' in ticket:
+            for conv in ticket['conversations']:
+                if 'attachments' in conv:
+                    for attachment in conv['attachments']:
+                        attachments.append({
+                            'ticket_id': ticket_id,
+                            'attachment_url': attachment.get('attachment_url') or attachment.get('url'),
+                            'name': attachment.get('name'),
+                            'content_type': attachment.get('content_type'),
+                            'size': attachment.get('size'),
+                            'source': 'conversation'
+                        })
+        
+        return attachments
+    
+    def log_error(self, step, error):
+        """Thread-safe error logging"""
+        with self.lock:
+            self.errors.append({
+                'step': step,
+                'error': str(error),
+                'timestamp': datetime.now().isoformat()
+            })
+            logger.error(f"Error in {step}: {error}")
+    
+    def step1_worker(self):
+        """Step 1: Get all ticket IDs (runs first)"""
+        try:
+            logger.info("🚀 Starting Step 1: Getting ticket IDs...")
+            
+            # Get ticket IDs
+            ticket_objects = get_ticket_ids()
+            
+            if not ticket_objects:
+                logger.error("❌ No ticket IDs found in Step 1")
+                return
+            
+            # Save to CSV file (like original step1 does)
+            save_to_csv(ticket_objects)
+            logger.info("✅ CSV file created: ticket_ids.csv")
+            
+            # Extract just the ticket IDs from the objects
+            self.ticket_ids = [ticket['id'] for ticket in ticket_objects]
+            
+            logger.info(f"✅ Step 1 completed: {len(self.ticket_ids)} ticket IDs found")
+            
+            # Put ticket IDs in queue for Step 2
+            for ticket_id in self.ticket_ids:
+                self.ticket_queue.put(ticket_id)
+            
+            # Signal Step 1 is complete
+            self.step1_complete.set()
+            
+        except Exception as e:
+            self.log_error("Step 1", e)
+            self.step1_complete.set()  # Signal completion even on error
+    
+    def step2_worker(self):
+        """Step 2: Extract detailed ticket information and save 4 JSON files per ticket"""
+        try:
+            # Wait for Step 1 to complete
+            logger.info("⏳ Step 2 waiting for Step 1 to complete...")
+            self.step1_complete.wait(timeout=CONFIG['thread_timeout'])
+            
+            if not self.step1_complete.is_set():
+                logger.error("❌ Step 1 did not complete within timeout")
+                return
+            
+            logger.info("🚀 Starting Step 2: Extracting detailed ticket information...")
+            
+            # Read ticket IDs from CSV (like original step2 does)
+            ticket_ids = read_ticket_ids_from_csv('ticket_ids.csv')
+            
+            if not ticket_ids:
+                logger.error("❌ No ticket IDs found in CSV. Please ensure Step 1 completed successfully.")
+                return
+            
+            logger.info(f"📁 Read {len(ticket_ids)} ticket IDs from CSV")
+            
+            # Process tickets individually to create 4 JSON files each
+            processed_count = 0
+            total_tickets = len(ticket_ids)
+            
+            for i, ticket_id in enumerate(ticket_ids, 1):
+                logger.info(f"Processing ticket {i}/{total_tickets} (ID: {ticket_id})")
+                
+                try:
+                    # Get ticket details using enhanced function
+                    ticket_details = self.get_enhanced_ticket_details(ticket_id)
+                    
+                    if ticket_details:
+                        # Get conversations using enhanced function
+                        conversations = self.get_enhanced_conversations(ticket_id)
+                        
+                        # Save 4 separate JSON files
+                        success = self.save_ticket_data(ticket_id, ticket_details, conversations)
+                        
+                        if success:
+                            # Add to all tickets for Step 3
+                            ticket_details['conversations'] = conversations
+                            with self.lock:
+                                self.all_tickets.append(ticket_details)
+                            
+                            processed_count += 1
+                            logger.info(f"✅ Processed ticket {ticket_id} ({processed_count}/{total_tickets})")
+                        else:
+                            logger.error(f"❌ Failed to save JSON files for ticket {ticket_id}")
+                    else:
+                        logger.error(f"❌ Failed to extract details for ticket {ticket_id}")
+                    
+                    # Rate limiting between tickets
+                    if i < total_tickets:
+                        logger.info(f"Waiting {CONFIG['delay_between_requests']} seconds...")
+                        time.sleep(CONFIG['delay_between_requests'])
+                        
+                except Exception as e:
+                    logger.error(f"❌ Error processing ticket {ticket_id}: {e}")
+                    continue
+            
+            logger.info(f"✅ Step 2 completed: {processed_count}/{total_tickets} tickets processed")
+            self.step2_complete.set()
+            
+        except Exception as e:
+            self.log_error("Step 2", e)
+            self.step2_complete.set()
+    
+    def step3_worker(self):
+        """Step 3: Download attachments (waits for Step 2)"""
+        try:
+            # Wait for Step 2 to complete
+            logger.info("⏳ Step 3 waiting for Step 2 to complete...")
+            self.step2_complete.wait(timeout=CONFIG['thread_timeout'])
+            
+            if not self.step2_complete.is_set():
+                logger.error("❌ Step 2 did not complete within timeout")
+                return
+            
+            logger.info("🚀 Starting Step 3: Downloading attachments...")
+            
+            # Get all tickets with their data
+            with self.lock:
+                tickets_copy = self.all_tickets.copy()
+            
+            if not tickets_copy:
+                logger.info("📁 No tickets found to download attachments from")
+                self.step3_complete.set()
+                return
+            
+            logger.info(f"📁 Found {len(tickets_copy)} tickets with attachments to download")
+            
+            # Use the enhanced download function from complete_extraction.py
+            self.download_attachments_from_tickets(tickets_copy, "attachments")
+            
+            logger.info("✅ Step 3 completed: All attachments downloaded")
+            self.step3_complete.set()
+            
+        except Exception as e:
+            self.log_error("Step 3", e)
+            self.step3_complete.set()
+    
+    def run_migration(self):
+        """Run the complete multi-threaded migration"""
+        logger.info("🚀 Starting Modular Multi-Threaded Migration with 4 JSON files per ticket")
+        logger.info(f"Configuration: {CONFIG}")
+        logger.info("Output directories:")
+        for name, path in self.output_dirs.items():
+            logger.info(f"  - {name}: {path}")
+        
+        start_time = datetime.now()
+        
+        # Create and start threads
+        self.step1_thread = threading.Thread(target=self.step1_worker, name="Step1-Thread")
+        self.step2_thread = threading.Thread(target=self.step2_worker, name="Step2-Thread")
+        self.step3_thread = threading.Thread(target=self.step3_worker, name="Step3-Thread")
+        
+        # Start threads
+        logger.info("🔄 Starting threads...")
+        self.step1_thread.start()
+        self.step2_thread.start()
+        self.step3_thread.start()
+        
+        # Wait for all threads to complete
+        logger.info("⏳ Waiting for all threads to complete...")
+        self.step1_thread.join(timeout=CONFIG['thread_timeout'])
+        self.step2_thread.join(timeout=CONFIG['thread_timeout'])
+        self.step3_thread.join(timeout=CONFIG['thread_timeout'])
+        
+        # Check completion status
+        end_time = datetime.now()
+        duration = end_time - start_time
+        
+        logger.info(f"\n{'='*60}")
+        logger.info("MIGRATION COMPLETION SUMMARY")
+        logger.info(f"{'='*60}")
+        logger.info(f"Duration: {duration}")
+        logger.info(f"Step 1 completed: {self.step1_complete.is_set()}")
+        logger.info(f"Step 2 completed: {self.step2_complete.is_set()}")
+        logger.info(f"Step 3 completed: {self.step3_complete.is_set()}")
+        logger.info(f"Tickets processed: {len(self.all_tickets)}")
+        logger.info(f"Errors encountered: {len(self.errors)}")
+        
+        # Count files created
+        file_counts = {}
+        total_files_created = 0
+        for dir_name, dir_path in self.output_dirs.items():
+            if dir_path.exists():
+                file_count = len(list(dir_path.glob("*.json")))
+                file_counts[dir_name] = file_count
+                total_files_created += file_count
+                logger.info(f"Files in {dir_name}: {file_count}")
+        
+        logger.info(f"📁 Total JSON files created: {total_files_created}")
+        
+        # Calculate attachment statistics
+        total_conversations = sum(len(ticket.get('conversations', [])) for ticket in self.all_tickets)
+        total_attachments = sum(len(ticket.get('attachments', [])) for ticket in self.all_tickets)
+        total_conv_attachments = sum(
+            len(conv.get('attachments', [])) 
+            for ticket in self.all_tickets 
+            for conv in ticket.get('conversations', [])
+        )
+        
+        # Calculate user statistics
+        unique_requesters = set()
+        unique_conversation_users = set()
+        
+        for ticket in self.all_tickets:
+            if ticket.get('requester_id'):
+                unique_requesters.add(ticket['requester_id'])
+            
+            for conv in ticket.get('conversations', []):
+                if conv.get('user_id'):
+                    unique_conversation_users.add(conv['user_id'])
+        
+        logger.info(f"\n📊 Data Summary:")
+        logger.info(f"   - Tickets: {len(self.all_tickets)}")
+        logger.info(f"   - Conversations: {total_conversations}")
+        logger.info(f"   - Ticket Attachments: {total_attachments}")
+        logger.info(f"   - Conversation Attachments: {total_conv_attachments}")
+        logger.info(f"   - Unique Requesters: {len(unique_requesters)}")
+        logger.info(f"   - Unique Conversation Users: {len(unique_conversation_users)}")
+        
+        if self.errors:
+            logger.warning("⚠️ Errors encountered during migration:")
+            for error in self.errors:
+                logger.warning(f"  - {error['step']}: {error['error']}")
+        
+        # Save final results summary
+        summary = {
+            'migration_completed': datetime.now().isoformat(),
+            'duration_seconds': duration.total_seconds(),
+            'tickets_processed': len(self.all_tickets),
+            'files_created': file_counts,
+            'total_files_created': total_files_created,
+            'data_summary': {
+                'tickets': len(self.all_tickets),
+                'conversations': total_conversations,
+                'ticket_attachments': total_attachments,
+                'conversation_attachments': total_conv_attachments,
+                'unique_requesters': len(unique_requesters),
+                'unique_conversation_users': len(unique_conversation_users)
+            },
+            'errors': self.errors
+        }
+        
+        with open('migration_summary.json', 'w') as f:
+            json.dump(summary, f, indent=2)
+        
+        logger.info("📁 Migration summary saved to: migration_summary.json")
+        logger.info("🎉 Migration process completed!")
+
+def main():
+    """Main function to run modular migration"""
+    coordinator = MigrationCoordinator()
+    coordinator.run_migration()
+
+if __name__ == "__main__":
+    main() 
