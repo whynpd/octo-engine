@@ -1,0 +1,30 @@
+[
+  {
+    "id": 85004019824,
+    "body_text": "Hi Mohit, As discussed     1. I have added details like USPs, Positioning and others in Key communication section of the ticket.   2. The figma of the sample storefront that is shown in our meet has been added in the reference document section.   3. Please consider the attached Icon to represent LAMF",
+    "body": "<div>Hi Mohit, As discussed</div>\n<div><br></div>\n<div>1. I have added details like USPs, Positioning and others in Key communication section of the ticket. </div>\n<div>2. The figma of the sample storefront that is shown in our meet has been added in the reference document section. </div>\n<div>3. Please consider the attached Icon to represent LAMF</div>\n<div><br></div>\n<div><img src=\"https://indattachment.freshdesk.com/inline/attachment?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6ODUwMDE2NDgyOTUsImRvbWFpbiI6InBheXRtLWRlc2lnbm9jbC5mcmVzaGRlc2suY29tIiwiYWNjb3VudF9pZCI6MjQyNDk5OX0.cUiWDqWSmW9PirB0qLSrUBS7BQQMc4iSQhR0dMsW3xg\" style=\"width: 300px\" class=\"fr-fil fr-dib\"></div>",
+    "private": false,
+    "created_at": "2025-08-06T12:13:21Z",
+    "user_id": 85000683780,
+    "created_by": null,
+    "incoming": true,
+    "outgoing": null,
+    "source": 2,
+    "thread_id": null,
+    "ticket_id": 26591
+  },
+  {
+    "id": 85004027014,
+    "body_text": "Hi Mohit, PFA the Figma for LAMF product journey     https://www.figma.com/design/qFFZk7khxZO76NcCQ8va0a/LAMF-Lending?node-id=2093-16504&t=KKww6yymMnLeveHG-4",
+    "body": "<div>Hi Mohit, PFA the Figma for LAMF product journey</div>\n<div><br></div>\n<div><a href=\"https://www.figma.com/design/qFFZk7khxZO76NcCQ8va0a/LAMF-Lending?node-id=2093-16504&amp;t=KKww6yymMnLeveHG-4\" rel=\"noreferrer\">https://www.figma.com/design/qFFZk7khxZO76NcCQ8va0a/LAMF-Lending?node-id=2093-16504&amp;t=KKww6yymMnLeveHG-4</a></div>\n<div><br></div>\n<div><br></div>",
+    "private": false,
+    "created_at": "2025-08-07T10:25:23Z",
+    "user_id": 85000683780,
+    "created_by": null,
+    "incoming": true,
+    "outgoing": null,
+    "source": 2,
+    "thread_id": null,
+    "ticket_id": 26591
+  }
+]

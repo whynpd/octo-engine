@@ -1,0 +1,72 @@
+[
+  {
+    "id": 85004020311,
+    "body_text": "Hi Parakram Raj Bhardwaj,    Please find the banners attached below.",
+    "body": "<div style=\"font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; font-size:14px\">\n<div>Hi Parakram Raj Bhardwaj,<br><br>\n</div>\n<div dir=\"ltr\">Please find the banners attached below.</div>\n</div>",
+    "private": false,
+    "created_at": "2025-08-06T13:20:49Z",
+    "user_id": 85000184689,
+    "created_by": null,
+    "incoming": false,
+    "outgoing": null,
+    "source": 0,
+    "thread_id": null,
+    "ticket_id": 26572
+  },
+  {
+    "id": 85004020400,
+    "body_text": "Hi Parakram Raj Bhardwaj,  Please find the banners attached below.",
+    "body": "<div style=\"font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; font-size:14px\"><div>Hi Parakram Raj Bhardwaj,<br><br><span style='color: rgb(24, 50, 71); font-family: -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none' dir=\"ltr\">Please find the banners attached below.</span>\n</div></div>",
+    "private": false,
+    "created_at": "2025-08-06T13:33:51Z",
+    "user_id": 85000184689,
+    "created_by": null,
+    "incoming": false,
+    "outgoing": null,
+    "source": 0,
+    "thread_id": null,
+    "ticket_id": 26572
+  },
+  {
+    "id": 85004024521,
+    "body_text": "Hi Parakram Raj Bhardwaj,  PFA",
+    "body": "<div style=\"font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; font-size:14px\">\n<div dir=\"ltr\">Hi Parakram Raj Bhardwaj,<br><br>PFA<br><br>\n</div>\n<div></div>\n</div>",
+    "private": false,
+    "created_at": "2025-08-07T05:20:43Z",
+    "user_id": 85000184689,
+    "created_by": null,
+    "incoming": false,
+    "outgoing": null,
+    "source": 0,
+    "thread_id": null,
+    "ticket_id": 26572
+  },
+  {
+    "id": 85004024576,
+    "body_text": "Hi Parakram Raj Bhardwaj,  PFA",
+    "body": "<div style=\"font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; font-size:14px\">\n<div dir=\"ltr\">Hi Parakram Raj Bhardwaj,<br><br>PFA<br><br>\n</div>\n<div></div>\n</div>",
+    "private": false,
+    "created_at": "2025-08-07T05:26:38Z",
+    "user_id": 85000184689,
+    "created_by": null,
+    "incoming": false,
+    "outgoing": null,
+    "source": 0,
+    "thread_id": null,
+    "ticket_id": 26572
+  },
+  {
+    "id": 85004036632,
+    "body_text": "Hi Parakram Raj Bhardwaj,  PFA",
+    "body": "<div style=\"font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; font-size:14px\">\n<div dir=\"ltr\">Hi Parakram Raj Bhardwaj,<br><br>PFA<br><br>\n</div>\n<div></div>\n</div>",
+    "private": false,
+    "created_at": "2025-08-08T19:10:02Z",
+    "user_id": 85000184689,
+    "created_by": null,
+    "incoming": false,
+    "outgoing": null,
+    "source": 0,
+    "thread_id": null,
+    "ticket_id": 26572
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 85004032491,
+    "body_text": "Hi Kashish Bhatia,  Do you need subtitles here? If yes, then the 2nd video has one line in the beginning which needs to be removed.",
+    "body": "<div style=\"font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; font-size:14px\">\n<div dir=\"ltr\">Hi Kashish Bhatia,<br><br>Do you need subtitles here? If yes, then the 2nd video has one line in the beginning which needs to be removed.<br><br>\n</div>\n<div><div dir=\"ltr\"><div><br></div></div></div>\n</div>",
+    "private": false,
+    "created_at": "2025-08-08T06:41:15Z",
+    "user_id": 85000075782,
+    "created_by": null,
+    "incoming": false,
+    "outgoing": null,
+    "source": 0,
+    "thread_id": null,
+    "ticket_id": 26584
+  },
+  {
+    "id": 85004032536,
+    "body_text": "for copy.",
+    "body": "<div style=\"font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; font-size:14px\"><div dir=\"ltr\">for copy.</div></div>",
+    "private": true,
+    "created_at": "2025-08-08T06:47:48Z",
+    "user_id": 85000075782,
+    "created_by": null,
+    "incoming": false,
+    "outgoing": null,
+    "source": 2,
+    "thread_id": null,
+    "ticket_id": 26584
+  },
+  {
+    "id": 85004032939,
+    "body_text": "@Dheeraj Kr <dheeraj.kr@paytm.com> - Subtitles are not required.\r\n\r\n\r\nKashish Bhatia\r\nDeputy Manager - Growth\r\n+91 9999553114\r\n\r\n\r\nOn Fri, Aug 8, 2025 at 12:11 PM Dheeraj Kr <\r\nsupport@paytm-designocl.freshdesk.com> wrote:\r\n\r\n> Hi Kashish Bhatia,\r\n>\r\n> Do you need subtitles here? If yes, then the 2nd video has one line in the\r\n> beginning which needs to be removed.\r\n>\r\n>\r\n> On Wed, 6 Aug at 1:44 PM , Kashish Bhatia <kashish.bhatia@paytm.com>\r\n> wrote:\r\n> Not given.\r\n>\r\n> 26584:2424999\r\n>\r\n\r\n",
+    "body": "<div dir=\"ltr\">\n<div>\n<a class=\"gmail_plusreply\" id=\"plusReplyChip-5\" href=\"mailto:dheeraj.kr@paytm.com\" rel=\"noreferrer\">@Dheeraj Kr</a> - Subtitles are not required.<br><br><br>\n</div>\n<div><div dir=\"ltr\" class=\"gmail_signature\"><div dir=\"ltr\">\n<div>Kashish Bhatia</div>\n<div>Deputy Manager - Growth</div>\n<div>+91 9999553114<br>\n</div>\n</div></div></div>\n<br>\n</div>\n<br><div class=\"gmail_quote gmail_quote_container\"><div dir=\"ltr\" class=\"gmail_attr\"></div></div>\n<div class=\"freshdesk_quote\"><blockquote class=\"freshdesk_quote\">\n<div>On Fri, Aug 8, 2025 at 12:11 PM Dheeraj Kr &lt;<a href=\"mailto:support@paytm-designocl.freshdesk.com\" rel=\"noreferrer\">support@paytm-designocl.freshdesk.com</a>&gt; wrote:<br>\n</div>\n<blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\"><div style='font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;font-size:14px'>\n\t<div style='font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;font-size:14px'>\n<div dir=\"ltr\">Hi Kashish Bhatia,<br><br>Do you need subtitles here? If yes, then the 2nd video has one line in the beginning which needs to be removed.<br><br>\n</div>\n<div><div dir=\"ltr\"><div><br></div></div></div>\n<div>\n                          <blockquote>\n                            On\n                            Wed, 6 Aug at  1:44 PM\n                            <span>,  Kashish Bhatia &lt;<a href=\"mailto:kashish.bhatia@paytm.com\" target=\"_blank\" rel=\"noreferrer\">kashish.bhatia@paytm.com</a>&gt;  wrote:\n                            <div>Not given.</div>\n                          </span>\n</blockquote>\n                        </div>\n</div>\n\n\n\t\n\n\n\n\n\n\n\n\n</div></blockquote>\n</blockquote></div>",
+    "private": false,
+    "created_at": "2025-08-08T07:41:49Z",
+    "user_id": 85000782746,
+    "created_by": null,
+    "incoming": true,
+    "outgoing": null,
+    "source": 0,
+    "thread_id": null,
+    "ticket_id": 26584
+  }
+]

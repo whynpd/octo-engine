@@ -3,6 +3,7 @@ import time
 import logging
 import json
 import os
+import csv
 from pathlib import Path
 from datetime import datetime
 from dotenv import load_dotenv
@@ -28,7 +29,9 @@ CONFIG = {
     'max_retries': 3,
     'save_interval': 10,
     'resume_enabled': True,
-    'rate_limit_requests_per_hour': 10000
+    'rate_limit_requests_per_hour': 10000,
+    'csv_show_local_paths': True,  # True: show local file paths, False: show S3-style paths
+    'csv_include_original_urls': False  # False: use actual downloaded file URLs, True: use Freshdesk S3 URLs
 }
 
 # Setup logging
@@ -43,7 +46,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class MigrationCoordinator:
-    """Coordinates sequential migration process with 4 separate JSON files per ticket"""
+    """Coordinates sequential migration process with 4 separate JSON files per ticket and CSV reconciliation files"""
     
     def __init__(self):
         self.ticket_ids = []
@@ -62,6 +65,13 @@ class MigrationCoordinator:
         for dir_path in self.output_dirs.values():
             dir_path.mkdir(exist_ok=True)
         
+        # Create migration folder for CSV files
+        self.migration_dir = Path('migration')
+        self.migration_dir.mkdir(exist_ok=True)
+        
+        # Initialize CSV files for reconciliation
+        self.init_csv_files()
+        
         # Get credentials from environment variables
         self.FRESHDESK_DOMAIN = os.getenv("FRESHDESK_DOMAIN")
         self.API_KEY = os.getenv("FRESHDESK_API_KEY")
@@ -71,6 +81,198 @@ class MigrationCoordinator:
             raise ValueError("FRESHDESK_DOMAIN environment variable is not set")
         if not self.API_KEY:
             raise ValueError("FRESHDESK_API_KEY environment variable is not set")
+    
+    def init_csv_files(self):
+        """Initialize CSV files for reconciliation tracking"""
+        # 1. Ticket Attachments CSV
+        self.ticket_attachments_csv = self.migration_dir / 'ticket_attachments_reconciliation.csv'
+        with open(self.ticket_attachments_csv, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow([
+                'Ticket_ID', 'Timestamp_of_ticket', 'Attachment_ID', 'Attachment_Type', 
+                'Attachment_size', 'Uploaded_by', 'Attachment_URL'
+            ])
+        
+        # 2. Conversation Attachments CSV
+        self.conversation_attachments_csv = self.migration_dir / 'conversation_attachments_reconciliation.csv'
+        with open(self.conversation_attachments_csv, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow([
+                'Ticket_ID', 'Conversation_ID', 'Timestamp_of_conversation', 'Attachment_ID', 
+                'Attachment_Type', 'Attachment_size', 'Uploaded_by', 'Attachment_URL'
+            ])
+        
+        # 3. Conversations CSV
+        self.conversations_csv = self.migration_dir / 'conversations_reconciliation.csv'
+        with open(self.conversations_csv, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow([
+                'Ticket_ID', 'Timestamp_of_ticket', 'Conversation_ID', 'Created_by', 
+                'Comment', 'Attachment_IDs'
+            ])
+        
+        # 4. Ticket Details CSV
+        self.ticket_details_csv = self.migration_dir / 'ticket_details_reconciliation.csv'
+        with open(self.ticket_details_csv, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow([
+                'Ticket_ID', 'Timestamp_of_ticket', 'Created_by', 'Comment', 'Attachment_IDs'
+            ])
+        
+        logger.info("📊 Initialized 4 CSV files for reconciliation tracking")
+        logger.info(f"   - {self.ticket_attachments_csv}")
+        logger.info(f"   - {self.conversation_attachments_csv}")
+        logger.info(f"   - {self.conversations_csv}")
+        logger.info(f"   - {self.ticket_details_csv}")
+    
+    def add_ticket_attachments_to_csv(self, ticket_id, ticket_data):
+        """Add ticket attachments to reconciliation CSV"""
+        if not ticket_data.get('attachments'):
+            return
+        
+        ticket_timestamp = ticket_data.get('created_at', '')
+        created_by = ticket_data.get('requester_id', '')
+        
+        with open(self.ticket_attachments_csv, 'a', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            for attachment in ticket_data['attachments']:
+                # Generate file path based on configuration
+                filename = attachment.get('name', '')
+                if filename:
+                    safe_filename = self.sanitize_filename(filename)
+                    if CONFIG['csv_show_local_paths']:
+                        file_path = f"attachments/{ticket_id}/{safe_filename}"
+                    else:
+                        file_path = f"s3://freshdesk-attachments/{ticket_id}/{safe_filename}"
+                else:
+                    if CONFIG['csv_show_local_paths']:
+                        file_path = f"attachments/{ticket_id}/unknown_file"
+                    else:
+                        file_path = f"s3://freshdesk-attachments/{ticket_id}/unknown_file"
+                
+                # Use actual downloaded file URL or Freshdesk S3 URL based on configuration
+                if CONFIG['csv_include_original_urls']:
+                    file_url = attachment.get('url', '')
+                else:
+                    # Generate the actual file URL where it was downloaded
+                    if CONFIG['csv_show_local_paths']:
+                        file_url = f"file://{os.path.abspath(file_path)}"
+                    else:
+                        file_url = f"s3://freshdesk-attachments/{ticket_id}/{safe_filename}"
+                
+                writer.writerow([
+                    ticket_id,
+                    ticket_timestamp,
+                    attachment.get('id', ''),
+                    attachment.get('content_type', ''),
+                    attachment.get('size', ''),
+                    created_by,
+                    file_url
+                ])
+    
+    def add_conversation_attachments_to_csv(self, ticket_id, conversations):
+        """Add conversation attachments to reconciliation CSV"""
+        if not conversations:
+            return
+        
+        with open(self.conversation_attachments_csv, 'a', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            for conv in conversations:
+                if not conv.get('attachments'):
+                    continue
+                
+                conv_timestamp = conv.get('created_at', '')
+                created_by = conv.get('user_id', conv.get('created_by', ''))
+                
+                for attachment in conv['attachments']:
+                    # Generate file path based on configuration
+                    filename = attachment.get('name', '')
+                    if filename:
+                        safe_filename = self.sanitize_filename(filename)
+                        safe_filename = f"conv_{safe_filename}"
+                        if CONFIG['csv_show_local_paths']:
+                            file_path = f"attachments/{ticket_id}/{safe_filename}"
+                        else:
+                            file_path = f"s3://freshdesk-attachments/{ticket_id}/{safe_filename}"
+                    else:
+                        if CONFIG['csv_show_local_paths']:
+                            file_path = f"attachments/{ticket_id}/conv_unknown_file"
+                        else:
+                            file_path = f"s3://freshdesk-attachments/{ticket_id}/conv_unknown_file"
+                    
+                    # Use actual downloaded file URL or Freshdesk S3 URL based on configuration
+                    if CONFIG['csv_include_original_urls']:
+                        file_url = attachment.get('url', '')
+                    else:
+                        # Generate the actual file URL where it was downloaded
+                        if CONFIG['csv_show_local_paths']:
+                            file_url = f"file://{os.path.abspath(file_path)}"
+                        else:
+                            file_url = f"s3://freshdesk-attachments/{ticket_id}/{safe_filename}"
+                    
+                    writer.writerow([
+                        ticket_id,
+                        conv.get('id', ''),
+                        conv_timestamp,
+                        attachment.get('id', ''),
+                        attachment.get('content_type', ''),
+                        attachment.get('size', ''),
+                        created_by,
+                        file_url
+                    ])
+    
+    def add_conversations_to_csv(self, ticket_id, ticket_data, conversations):
+        """Add conversations to reconciliation CSV"""
+        if not conversations:
+            return
+        
+        ticket_timestamp = ticket_data.get('created_at', '')
+        
+        with open(self.conversations_csv, 'a', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            for conv in conversations:
+                # Get attachment IDs for this conversation
+                attachment_ids = []
+                if conv.get('attachments'):
+                    attachment_ids = [str(att.get('id', '')) for att in conv['attachments']]
+                
+                attachment_ids_str = ';'.join(attachment_ids) if attachment_ids else ''
+                
+                writer.writerow([
+                    ticket_id,
+                    ticket_timestamp,
+                    conv.get('id', ''),
+                    conv.get('user_id', conv.get('created_by', '')),
+                    conv.get('body_text', conv.get('body', ''))[:500],  # Limit comment length
+                    attachment_ids_str
+                ])
+    
+    def add_ticket_details_to_csv(self, ticket_id, ticket_data):
+        """Add ticket details to reconciliation CSV"""
+        ticket_timestamp = ticket_data.get('created_at', '')
+        created_by = ticket_data.get('requester_id', '')
+        
+        # Get attachment IDs for this ticket
+        attachment_ids = []
+        if ticket_data.get('attachments'):
+            attachment_ids = [str(att.get('id', '')) for att in ticket_data['attachments']]
+        
+        attachment_ids_str = ';'.join(attachment_ids) if attachment_ids else ''
+        
+        # Get comment from ticket description or subject
+        comment = ticket_data.get('description', ticket_data.get('subject', ''))
+        if comment:
+            comment = comment[:500]  # Limit comment length
+        
+        with open(self.ticket_details_csv, 'a', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow([
+                ticket_id,
+                ticket_timestamp,
+                created_by,
+                comment,
+                attachment_ids_str
+            ])
     
     def download_file(self, url, filepath):
         """Download a file from URL to the specified filepath with enhanced error handling"""
@@ -290,7 +492,7 @@ class MigrationCoordinator:
             return []
     
     def save_ticket_data(self, ticket_id, ticket_data, conversations):
-        """Save ticket data to 4 separate JSON files (only if data exists)"""
+        """Save ticket data to 4 separate JSON files (only if data exists) and update CSV files"""
         try:
             files_created = 0
             
@@ -304,6 +506,12 @@ class MigrationCoordinator:
             with open(details_file, 'w', encoding='utf-8') as f:
                 json.dump(ticket_details, f, indent=2, ensure_ascii=False)
             files_created += 1
+            
+            # Update CSV files for reconciliation
+            self.add_ticket_details_to_csv(ticket_id, ticket_data)
+            self.add_ticket_attachments_to_csv(ticket_id, ticket_data)
+            self.add_conversations_to_csv(ticket_id, ticket_data, conversations)
+            self.add_conversation_attachments_to_csv(ticket_id, conversations)
             
             # 2. Ticket Attachments (only if attachments exist)
             ticket_attachments = ticket_data.get('attachments', [])
@@ -356,6 +564,7 @@ class MigrationCoordinator:
                 logger.info(f"📎 No conversation attachments for ticket {ticket_id} - skipping file creation")
             
             logger.info(f"✅ Created {files_created} JSON files for ticket {ticket_id}")
+            logger.info(f"📊 Updated CSV reconciliation files for ticket {ticket_id}")
             return True
             
         except Exception as e:
@@ -460,8 +669,8 @@ class MigrationCoordinator:
                         logger.info(f"💬 Extracting conversations for {ticket_id}...")
                         conversations = self.get_enhanced_conversations(ticket_id)
                         
-                        # Save 4 separate JSON files
-                        logger.info(f"💾 Saving JSON files for {ticket_id}...")
+                        # Save 4 separate JSON files and update CSV files
+                        logger.info(f"💾 Saving JSON files and updating CSV for {ticket_id}...")
                         success = self.save_ticket_data(ticket_id, ticket_details, conversations)
                         
                         if success:
@@ -610,11 +819,17 @@ class MigrationCoordinator:
     
     def run_migration(self):
         """Run the complete sequential migration"""
-        logger.info("🚀 Starting Modular Sequential Migration with 4 JSON files per ticket")
+        logger.info("🚀 Starting Modular Sequential Migration with 4 JSON files per ticket and CSV reconciliation")
         logger.info(f"Configuration: {CONFIG}")
         logger.info("Output directories:")
         for name, path in self.output_dirs.items():
             logger.info(f"  - {name}: {path}")
+        
+        logger.info("CSV reconciliation files:")
+        logger.info(f"  - {self.ticket_attachments_csv}")
+        logger.info(f"  - {self.conversation_attachments_csv}")
+        logger.info(f"  - {self.conversations_csv}")
+        logger.info(f"  - {self.ticket_details_csv}")
         
         start_time = datetime.now()
         
@@ -658,6 +873,12 @@ class MigrationCoordinator:
         
         logger.info(f"📁 Total JSON files created: {total_files_created}")
         
+        # Count CSV reconciliation records
+        csv_counts = self.count_csv_records()
+        logger.info(f"📊 CSV reconciliation records:")
+        for csv_name, count in csv_counts.items():
+            logger.info(f"   - {csv_name}: {count} records")
+        
         # Calculate attachment statistics
         total_conversations = sum(len(ticket.get('conversations', [])) for ticket in self.all_tickets)
         total_attachments = sum(len(ticket.get('attachments', [])) for ticket in self.all_tickets)
@@ -699,6 +920,7 @@ class MigrationCoordinator:
             'tickets_processed': len(self.all_tickets),
             'files_created': file_counts,
             'total_files_created': total_files_created,
+            'csv_reconciliation_records': csv_counts,
             'data_summary': {
                 'tickets': len(self.all_tickets),
                 'conversations': total_conversations,
@@ -715,6 +937,45 @@ class MigrationCoordinator:
         
         logger.info("📁 Migration summary saved to: migration_summary.json")
         logger.info("🎉 Migration process completed!")
+    
+    def count_csv_records(self):
+        """Count records in CSV reconciliation files"""
+        csv_counts = {}
+        
+        try:
+            # Count ticket attachments
+            with open(self.ticket_attachments_csv, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f)
+                # Subtract 1 for header row
+                csv_counts['ticket_attachments'] = sum(1 for row in reader) - 1
+        except:
+            csv_counts['ticket_attachments'] = 0
+        
+        try:
+            # Count conversation attachments
+            with open(self.conversation_attachments_csv, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f)
+                csv_counts['conversation_attachments'] = sum(1 for row in reader) - 1
+        except:
+            csv_counts['conversation_attachments'] = 0
+        
+        try:
+            # Count conversations
+            with open(self.conversations_csv, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f)
+                csv_counts['conversations'] = sum(1 for row in reader) - 1
+        except:
+            csv_counts['conversations'] = 0
+        
+        try:
+            # Count ticket details
+            with open(self.ticket_details_csv, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f)
+                csv_counts['ticket_details'] = sum(1 for row in reader) - 1
+        except:
+            csv_counts['ticket_details'] = 0
+        
+        return csv_counts
 
 def main():
     """Main function to run modular migration"""
