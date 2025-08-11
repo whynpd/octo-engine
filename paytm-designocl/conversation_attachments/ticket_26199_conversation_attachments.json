@@ -1,0 +1,24 @@
+[
+  {
+    "id": 85001637262,
+    "name": "PDF.zip",
+    "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001637262/original/PDF.zip?Expires=1754945911&Signature=eucv-wFiPSt16AkPoxqP4VK92Ee4BvuzYKjxOhIH-mnGZuuTsCAF~L6CcwaX7ZGq~2nM3LYCR~d61J8NmXPW6SXSqoJ0doDvOJWrJNfgmu~NZAlbbJ7n0cnhAjOlbfLcD-07rxhJ-WRvMsJ3Uuoye~t7ermkIn8BA2wuegtZT8TcOtnM5255VfurQ7mr5LcvkAsAPyY7MVCffRoJkUJMI2dpCtPYylWLEMPK0njvx47wAYwMJ1Sddd~0QfpBkPu0sx748ySJPqaLxwr2TbWNyRbwIPmxFdsQquP8fh3otVtxDhE66ZVPidkrvhlINPBdB9R1k5od~psZGrEJRkkdJA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "content_type": "application/octet-stream",
+    "size": 734496,
+    "created_at": "2025-07-21T06:29:20Z",
+    "conversation_id": 85003896149,
+    "ticket_id": 26199,
+    "user_id": null
+  },
+  {
+    "id": 85001637263,
+    "name": "Jpg.zip",
+    "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001637263/original/Jpg.zip?Expires=1754945911&Signature=hOpcEAWdfU~KclpXGRKj1XkmZeiWVWBU35vdEC-2KTbNYq2oSv4WuegrIH3FBtTVAHihb9ct3YplK-E9d8MvL06QSGyDMYyibi6QUPBSjYkJPODl7y44zIpeQgUvzg126uV~lXVeHxRs~bJmgPysedFizEkF4c8BpBkrBdkihvnFrwUPn0u9yGIsUMhXEnY~K95kuHK5u~ZGWj8~-RHEVn~Aj9TaiEkHQDFS8J7nB2Syd2We793jVEeD-izstksimfQKoPrmLbsw4JkXbjafA6ALxIzxyu7rr~WWV61hVwV-rNrhltJCmsABtIJFAfcGZie28yxnl2dW2l9lyzBsZQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "content_type": "application/octet-stream",
+    "size": 3208448,
+    "created_at": "2025-07-21T06:30:03Z",
+    "conversation_id": 85003896149,
+    "ticket_id": 26199,
+    "user_id": null
+  }
+]

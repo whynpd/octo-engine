@@ -1,6 +1,4 @@
-# modular_extraction.py - Modular multi-threaded extraction system
-import threading
-import queue
+# modular_extraction.py - Modular sequential extraction system
 import time
 import logging
 import json
@@ -23,18 +21,15 @@ from pathlib import Path
 # Load environment variables
 load_dotenv()
 
-# Configuration for multi-threaded migration
+# Configuration for sequential migration
 CONFIG = {
     'batch_size': 100,
     'delay_between_requests': 0.01,
     'delay_between_batches': 10,
     'max_retries': 3,
     'save_interval': 10,
-    'max_workers': 5,
     'resume_enabled': True,
-    'rate_limit_requests_per_hour': 10000,
-    'thread_timeout': 300,  # 5 minutes timeout per thread
-    'max_queue_size': 1000
+    'rate_limit_requests_per_hour': 10000
 }
 
 # Setup logging
@@ -49,27 +44,13 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class MigrationCoordinator:
-    """Coordinates multi-threaded migration process with 4 separate JSON files per ticket"""
+    """Coordinates sequential migration process with 4 separate JSON files per ticket"""
     
     def __init__(self):
-        self.ticket_queue = queue.Queue(maxsize=CONFIG['max_queue_size'])
-        self.batch_queue = queue.Queue(maxsize=CONFIG['max_queue_size'])
-        self.attachment_queue = queue.Queue(maxsize=CONFIG['max_queue_size'])
-        
-        self.step1_complete = threading.Event()
-        self.step2_complete = threading.Event()
-        self.step3_complete = threading.Event()
-        
-        self.step1_thread = None
-        self.step2_thread = None
-        self.step3_thread = None
-        
         self.ticket_ids = []
         self.all_tickets = []
         self.attachments = []
-        
         self.errors = []
-        self.lock = threading.Lock()
         
         # Create output directories
         self.output_dirs = {
@@ -179,6 +160,9 @@ class MigrationCoordinator:
                     else:
                         failed_count += 1
                         logger.error(f"❌ Failed to download: {filename}")
+                    
+                    # Rate limiting for downloads
+                    time.sleep(CONFIG['delay_between_requests'])
             
             # Process conversation attachments
             if 'conversations' in ticket:
@@ -214,89 +198,104 @@ class MigrationCoordinator:
                             else:
                                 failed_count += 1
                                 logger.error(f"❌ Failed to download: {filename}")
+                            
+                            # Rate limiting for downloads
+                            time.sleep(CONFIG['delay_between_requests'])
         
-        logger.info(f"📊 Attachment Download Summary:")
+        logger.info(f"\n📊 Attachment Download Summary:")
         logger.info(f"   - Total attachments found: {total_attachments}")
         logger.info(f"   - Successfully downloaded: {downloaded_count}")
         logger.info(f"   - Failed downloads: {failed_count}")
         logger.info(f"   - Files saved to: {base_dir}/")
     
     def get_enhanced_ticket_details(self, ticket_id):
-        """Get detailed information for a specific ticket with enhanced attachment handling and user details"""
+        """Get detailed information for a specific ticket with enhanced fields"""
         url = f"https://{self.FRESHDESK_DOMAIN}/api/v2/tickets/{ticket_id}"
-        response = requests.get(url, auth=(self.API_KEY, 'X'), headers={"Content-Type": "application/json"})
         
-        if response.status_code == 200:
-            ticket_data = response.json()
+        try:
+            response = requests.get(url, auth=(self.API_KEY, 'X'), headers={"Content-Type": "application/json"})
             
-            # Enhance attachments with more details if they exist
-            if ticket_data.get("attachments"):
-                enhanced_attachments = []
-                for att in ticket_data["attachments"]:
-                    enhanced_attachments.append({
-                        "id": att.get("id"),
-                        "name": att.get("name"),
-                        "url": att.get("attachment_url"),
-                        "content_type": att.get("content_type"),
-                        "size": att.get("size"),
-                        "created_at": att.get("created_at")
-                    })
-                ticket_data["attachments"] = enhanced_attachments
-            
-            # Include user details
-            ticket_data["requester_id"] = ticket_data.get("requester_id")
-            ticket_data["responder_id"] = ticket_data.get("responder_id")
-            
-            return ticket_data
-        else:
-            logger.error(f"Error fetching ticket details for {ticket_id}: {response.status_code}")
+            if response.status_code == 200:
+                ticket_data = response.json()
+                
+                # Enhance with additional fields
+                ticket_data['requester_id'] = ticket_data.get('requester_id')
+                ticket_data['responder_id'] = ticket_data.get('responder_id')
+                
+                # Enhance attachments with more details if they exist
+                if ticket_data.get("attachments"):
+                    enhanced_attachments = []
+                    for att in ticket_data["attachments"]:
+                        enhanced_attachments.append({
+                            "id": att.get("id"),
+                            "name": att.get("name"),
+                            "url": att.get("attachment_url") or att.get("url"),
+                            "content_type": att.get("content_type"),
+                            "size": att.get("size"),
+                            "created_at": att.get("created_at")
+                        })
+                    ticket_data["attachments"] = enhanced_attachments
+                
+                return ticket_data
+            else:
+                logger.error(f"Error fetching ticket details for {ticket_id}: {response.status_code}")
+                return None
+                
+        except Exception as e:
+            logger.error(f"Error fetching ticket {ticket_id}: {e}")
             return None
     
     def get_enhanced_conversations(self, ticket_id):
-        """Fetch conversations for a ticket with enhanced attachment handling and user details"""
+        """Fetch conversations for a ticket with enhanced fields"""
         url = f"https://{self.FRESHDESK_DOMAIN}/api/v2/tickets/{ticket_id}/conversations"
-        response = requests.get(url, auth=(self.API_KEY, 'X'), headers={"Content-Type": "application/json"})
+        
+        try:
+            response = requests.get(url, auth=(self.API_KEY, 'X'), headers={"Content-Type": "application/json"})
 
-        if response.status_code != 200:
-            logger.error(f"Error fetching conversations for ticket {ticket_id}")
+            if response.status_code != 200:
+                logger.error(f"Error fetching conversations for ticket {ticket_id}")
+                return []
+
+            conversations = []
+            for convo in response.json():
+                attachments = [
+                    {
+                        "id": att.get("id"),
+                        "name": att.get("name"),
+                        "url": att.get("attachment_url") or att.get("url"),
+                        "content_type": att.get("content_type"),
+                        "size": att.get("size"),
+                        "created_at": att.get("created_at")
+                    }
+                    for att in convo.get("attachments", [])
+                ]
+                conversations.append({
+                    "id": convo.get("id"),
+                    "body_text": convo.get("body_text"),
+                    "body": convo.get("body"),
+                    "private": convo.get("private"),
+                    "created_at": convo.get("created_at"),
+                    "user_id": convo.get("user_id"),
+                    "created_by": convo.get("created_by"),
+                    "incoming": convo.get("incoming"),
+                    "outgoing": convo.get("outgoing"),
+                    "source": convo.get("source"),
+                    "thread_id": convo.get("thread_id"),
+                    "attachments": attachments
+                })
+
+            return conversations
+            
+        except Exception as e:
+            logger.error(f"Error fetching conversations for ticket {ticket_id}: {e}")
             return []
-
-        conversations = []
-        for convo in response.json():
-            attachments = [
-                {
-                    "id": att.get("id"),
-                    "name": att.get("name"),
-                    "url": att.get("attachment_url"),
-                    "content_type": att.get("content_type"),
-                    "size": att.get("size"),
-                    "created_at": att.get("created_at")
-                }
-                for att in convo.get("attachments", [])
-            ]
-            conversations.append({
-                "id": convo.get("id"),
-                "body_text": convo.get("body_text"),
-                "body": convo.get("body"),
-                "private": convo.get("private"),
-                "created_at": convo.get("created_at"),
-                "user_id": convo.get("user_id"),  # User who created the conversation
-                "created_by": convo.get("created_by"),  # Alternative field name
-                "incoming": convo.get("incoming"),  # Boolean indicating if it's from customer
-                "outgoing": convo.get("outgoing"),  # Boolean indicating if it's from agent
-                "source": convo.get("source"),  # Source of the conversation (email, portal, etc.)
-                "thread_id": convo.get("thread_id"),  # Thread ID for grouping conversations
-                "attachments": attachments
-            })
-
-        return conversations
     
     def save_ticket_data(self, ticket_id, ticket_data, conversations):
-        """Save JSON files for a ticket only when data exists, with ticket ID included"""
+        """Save ticket data to 4 separate JSON files (only if data exists)"""
         try:
             files_created = 0
             
-            # 1. Ticket Details (excluding attachments and conversations)
+            # 1. Ticket Details (always created - contains core ticket info)
             ticket_details = {k: v for k, v in ticket_data.items() 
                            if k not in ['attachments', 'conversations']}
             
@@ -401,17 +400,17 @@ class MigrationCoordinator:
         return attachments
     
     def log_error(self, step, error):
-        """Thread-safe error logging"""
-        with self.lock:
-            self.errors.append({
+        """Log errors during migration"""
+        error_info = {
                 'step': step,
                 'error': str(error),
                 'timestamp': datetime.now().isoformat()
-            })
-            logger.error(f"Error in {step}: {error}")
+        }
+        self.errors.append(error_info)
+        logger.error(f"❌ Error in {step}: {error}")
     
-    def step1_worker(self):
-        """Step 1: Get all ticket IDs (runs first)"""
+    def step1_get_ticket_ids(self):
+        """Step 1: Get all ticket IDs"""
         try:
             logger.info("🚀 Starting Step 1: Getting ticket IDs...")
             
@@ -420,7 +419,7 @@ class MigrationCoordinator:
             
             if not ticket_objects:
                 logger.error("❌ No ticket IDs found in Step 1")
-                return
+                return False
             
             # Save to CSV file (like original step1 does)
             save_to_csv(ticket_objects)
@@ -430,29 +429,15 @@ class MigrationCoordinator:
             self.ticket_ids = [ticket['id'] for ticket in ticket_objects]
             
             logger.info(f"✅ Step 1 completed: {len(self.ticket_ids)} ticket IDs found")
-            
-            # Put ticket IDs in queue for Step 2
-            for ticket_id in self.ticket_ids:
-                self.ticket_queue.put(ticket_id)
-            
-            # Signal Step 1 is complete
-            self.step1_complete.set()
+            return True
             
         except Exception as e:
             self.log_error("Step 1", e)
-            self.step1_complete.set()  # Signal completion even on error
+            return False
     
-    def step2_worker(self):
+    def step2_extract_ticket_details(self):
         """Step 2: Extract detailed ticket information and save 4 JSON files per ticket"""
         try:
-            # Wait for Step 1 to complete
-            logger.info("⏳ Step 2 waiting for Step 1 to complete...")
-            self.step1_complete.wait(timeout=CONFIG['thread_timeout'])
-            
-            if not self.step1_complete.is_set():
-                logger.error("❌ Step 1 did not complete within timeout")
-                return
-            
             logger.info("🚀 Starting Step 2: Extracting detailed ticket information...")
             
             # Read ticket IDs from CSV (like original step2 does)
@@ -460,7 +445,7 @@ class MigrationCoordinator:
             
             if not ticket_ids:
                 logger.error("❌ No ticket IDs found in CSV. Please ensure Step 1 completed successfully.")
-                return
+                return False
             
             logger.info(f"📁 Read {len(ticket_ids)} ticket IDs from CSV")
             
@@ -485,8 +470,7 @@ class MigrationCoordinator:
                         if success:
                             # Add to all tickets for Step 3
                             ticket_details['conversations'] = conversations
-                            with self.lock:
-                                self.all_tickets.append(ticket_details)
+                            self.all_tickets.append(ticket_details)
                             
                             processed_count += 1
                             logger.info(f"✅ Processed ticket {ticket_id} ({processed_count}/{total_tickets})")
@@ -505,49 +489,34 @@ class MigrationCoordinator:
                     continue
             
             logger.info(f"✅ Step 2 completed: {processed_count}/{total_tickets} tickets processed")
-            self.step2_complete.set()
+            return True
             
         except Exception as e:
             self.log_error("Step 2", e)
-            self.step2_complete.set()
+            return False
     
-    def step3_worker(self):
-        """Step 3: Download attachments (waits for Step 2)"""
+    def step3_download_attachments(self):
+        """Step 3: Download all attachments"""
         try:
-            # Wait for Step 2 to complete
-            logger.info("⏳ Step 3 waiting for Step 2 to complete...")
-            self.step2_complete.wait(timeout=CONFIG['thread_timeout'])
-            
-            if not self.step2_complete.is_set():
-                logger.error("❌ Step 2 did not complete within timeout")
-                return
+            if not self.all_tickets:
+                logger.warning("⚠️ No tickets to process for attachments. Please ensure Step 2 completed successfully.")
+                return False
             
             logger.info("🚀 Starting Step 3: Downloading attachments...")
             
-            # Get all tickets with their data
-            with self.lock:
-                tickets_copy = self.all_tickets.copy()
+            # Download attachments from all tickets
+            self.download_attachments_from_tickets(self.all_tickets)
             
-            if not tickets_copy:
-                logger.info("📁 No tickets found to download attachments from")
-                self.step3_complete.set()
-                return
-            
-            logger.info(f"📁 Found {len(tickets_copy)} tickets with attachments to download")
-            
-            # Use the enhanced download function from complete_extraction.py
-            self.download_attachments_from_tickets(tickets_copy, "attachments")
-            
-            logger.info("✅ Step 3 completed: All attachments downloaded")
-            self.step3_complete.set()
+            logger.info("✅ Step 3 completed: Attachments downloaded")
+            return True
             
         except Exception as e:
             self.log_error("Step 3", e)
-            self.step3_complete.set()
+            return False
     
     def run_migration(self):
-        """Run the complete multi-threaded migration"""
-        logger.info("🚀 Starting Modular Multi-Threaded Migration with 4 JSON files per ticket")
+        """Run the complete sequential migration"""
+        logger.info("🚀 Starting Modular Sequential Migration with 4 JSON files per ticket")
         logger.info(f"Configuration: {CONFIG}")
         logger.info("Output directories:")
         for name, path in self.output_dirs.items():
@@ -555,22 +524,22 @@ class MigrationCoordinator:
         
         start_time = datetime.now()
         
-        # Create and start threads
-        self.step1_thread = threading.Thread(target=self.step1_worker, name="Step1-Thread")
-        self.step2_thread = threading.Thread(target=self.step2_worker, name="Step2-Thread")
-        self.step3_thread = threading.Thread(target=self.step3_worker, name="Step3-Thread")
+        # Execute steps sequentially
+        logger.info("🔄 Starting sequential migration...")
         
-        # Start threads
-        logger.info("🔄 Starting threads...")
-        self.step1_thread.start()
-        self.step2_thread.start()
-        self.step3_thread.start()
+        # Step 1: Get ticket IDs
+        if not self.step1_get_ticket_ids():
+            logger.error("❌ Step 1 failed. Migration cannot continue.")
+            return
         
-        # Wait for all threads to complete
-        logger.info("⏳ Waiting for all threads to complete...")
-        self.step1_thread.join(timeout=CONFIG['thread_timeout'])
-        self.step2_thread.join(timeout=CONFIG['thread_timeout'])
-        self.step3_thread.join(timeout=CONFIG['thread_timeout'])
+        # Step 2: Extract ticket details and create JSON files
+        if not self.step2_extract_ticket_details():
+            logger.error("❌ Step 2 failed. Migration cannot continue.")
+            return
+        
+        # Step 3: Download attachments
+        if not self.step3_download_attachments():
+            logger.warning("⚠️ Step 3 failed, but migration completed.")
         
         # Check completion status
         end_time = datetime.now()
@@ -580,9 +549,6 @@ class MigrationCoordinator:
         logger.info("MIGRATION COMPLETION SUMMARY")
         logger.info(f"{'='*60}")
         logger.info(f"Duration: {duration}")
-        logger.info(f"Step 1 completed: {self.step1_complete.is_set()}")
-        logger.info(f"Step 2 completed: {self.step2_complete.is_set()}")
-        logger.info(f"Step 3 completed: {self.step3_complete.is_set()}")
         logger.info(f"Tickets processed: {len(self.all_tickets)}")
         logger.info(f"Errors encountered: {len(self.errors)}")
         

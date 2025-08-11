@@ -3,14 +3,26 @@
     "harish.chaduvula@paytm.com",
     "support@paytm-designocl.freshdesk.com",
     "soumya.jena@paytm.com",
-    "sarahana.sanchay@paytm.com"
+    "sarahana.sanchay@paytm.com",
+    "hirendra1.madhukar@paytm.com",
+    "zeeshan.ekram@paytm.com",
+    "priya.saini@paytm.com",
+    "swati2.singh@paytm.com",
+    "narendra.singh@paytm.com",
+    "devendar1.singh@paytm.com"
   ],
   "fwd_emails": [],
   "reply_cc_emails": [
     "harish.chaduvula@paytm.com",
     "support@paytm-designocl.freshdesk.com",
     "soumya.jena@paytm.com",
-    "sarahana.sanchay@paytm.com"
+    "sarahana.sanchay@paytm.com",
+    "hirendra1.madhukar@paytm.com",
+    "zeeshan.ekram@paytm.com",
+    "priya.saini@paytm.com",
+    "swati2.singh@paytm.com",
+    "narendra.singh@paytm.com",
+    "devendar1.singh@paytm.com"
   ],
   "ticket_cc_emails": [],
   "ticket_bcc_emails": [],
@@ -23,7 +35,7 @@
   "responder_id": 85000184682,
   "source": 2,
   "company_id": null,
-  "status": 2,
+  "status": 21,
   "subject": "Vivo V60 || New Product Launch - Offer Creative",
   "association_type": null,
   "support_email": null,
@@ -89,7 +101,7 @@
     "cf_only_for_video_request": "Not Applicable"
   },
   "created_at": "2025-08-05T08:39:10Z",
-  "updated_at": "2025-08-06T10:59:40Z",
+  "updated_at": "2025-08-11T11:42:52Z",
   "tags": [],
   "source_additional_info": null,
   "structured_description": null,

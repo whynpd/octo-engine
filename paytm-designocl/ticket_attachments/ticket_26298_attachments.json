@@ -1,0 +1,38 @@
+[
+  {
+    "id": 85001635297,
+    "name": "Speed if our bet_06.png",
+    "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001635297/original/Speed%20if%20our%20bet_06.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250811%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250811T205331Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=8e873371817b130aaeb92ebcd80c1fc2f9c1396459bd52579115487e697da512",
+    "content_type": "image/png",
+    "size": 842381,
+    "created_at": "2025-07-17T13:28:26Z",
+    "ticket_id": 26298
+  },
+  {
+    "id": 85001635298,
+    "name": "Mockup.png",
+    "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001635298/original/Mockup.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250811%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250811T205331Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=8ec3bbc0d57f9fbd467ef04f71e83f2eb252bde2ca9c3955fd85fee864099c93",
+    "content_type": "image/png",
+    "size": 3007130,
+    "created_at": "2025-07-17T13:28:26Z",
+    "ticket_id": 26298
+  },
+  {
+    "id": 85001635299,
+    "name": "Speed if our bet_06_Sampling.ai",
+    "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001635299/original/Speed%20if%20our%20bet_06_Sampling.ai?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250811%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250811T205331Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=fe655551bd395d83f70b5744068715a47e361e0e2f3132324d171289b545a241",
+    "content_type": "application/octet-stream",
+    "size": 1259467,
+    "created_at": "2025-07-17T13:28:26Z",
+    "ticket_id": 26298
+  },
+  {
+    "id": 85001635300,
+    "name": "Speed if our bet_06_Sampling.pdf",
+    "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001635300/original/Speed%20if%20our%20bet_06_Sampling.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250811%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250811T205331Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=d1b75f7d481f82fd03b40b8852dd13f387874472f26431b7bdbd1aa2027f804c",
+    "content_type": "application/pdf",
+    "size": 1696320,
+    "created_at": "2025-07-17T13:28:26Z",
+    "ticket_id": 26298
+  }
+]
