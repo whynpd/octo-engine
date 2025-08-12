@@ -3,9 +3,7 @@
     "vaibhav1.bhasin@paytm.com"
   ],
   "fwd_emails": [],
-  "reply_cc_emails": [
-    "vaibhav1.bhasin@paytm.com"
-  ],
+  "reply_cc_emails": [],
   "ticket_cc_emails": [],
   "ticket_bcc_emails": [],
   "fr_escalated": true,
@@ -17,7 +15,7 @@
   "responder_id": 85000075782,
   "source": 2,
   "company_id": null,
-  "status": 11,
+  "status": 21,
   "subject": "Consent for credit score check",
   "association_type": null,
   "support_email": null,
@@ -83,7 +81,7 @@
     "cf_only_for_video_request": "Not Applicable"
   },
   "created_at": "2025-08-05T11:17:43Z",
-  "updated_at": "2025-08-11T05:55:40Z",
+  "updated_at": "2025-08-12T08:49:28Z",
   "tags": [],
   "source_additional_info": null,
   "structured_description": null,
