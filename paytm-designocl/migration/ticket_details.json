@@ -4,312 +4,445 @@
     "Created_when": "2025-08-04T12:48:00Z",
     "Created_by": "85000238521",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004008121": "2025-08-12T08:28:58Z",
+      "85004008187": "2025-08-12T08:28:58Z",
+      "85004008243": "2025-08-12T08:28:58Z",
+      "85004008251": "2025-08-12T08:28:58Z",
+      "85004008346": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26559,
     "Created_when": "2025-08-05T07:18:38Z",
     "Created_by": "85000557778",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004009006": "2025-08-12T08:28:58Z",
+      "85004036123": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26558,
     "Created_when": "2025-08-05T06:11:49Z",
     "Created_by": "85000361610",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004019116": "2025-08-12T08:28:58Z",
+      "85004020747": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26547,
     "Created_when": "2025-08-04T10:17:27Z",
     "Created_by": "85000496991",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": "NA",
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26550,
     "Created_when": "2025-08-04T11:14:05Z",
     "Created_by": "85000231680",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004023848": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26549,
     "Created_when": "2025-08-04T11:11:31Z",
     "Created_by": "85000231680",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004023850": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26555,
     "Created_when": "2025-08-04T18:04:36Z",
     "Created_by": "85000254123",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004008290": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26546,
     "Created_when": "2025-08-04T10:11:30Z",
     "Created_by": "85000184680",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": "NA",
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26544,
     "Created_when": "2025-08-04T09:56:32Z",
     "Created_by": "85000496991",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004010387": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26548,
     "Created_when": "2025-08-04T10:34:32Z",
     "Created_by": "85000401297",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004012203": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26560,
     "Created_when": "2025-08-05T08:18:10Z",
     "Created_by": "85000236636",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004025459": "2025-08-12T08:28:58Z",
+      "85004026454": "2025-08-12T08:28:58Z",
+      "85004026600": "2025-08-12T08:28:58Z",
+      "85004028043": "2025-08-12T08:28:58Z",
+      "85004032572": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26551,
     "Created_when": "2025-08-04T11:16:51Z",
     "Created_by": "85000231680",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004023845": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26542,
     "Created_when": "2025-08-04T09:26:15Z",
     "Created_by": "85000496991",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004001938": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26557,
     "Created_when": "2025-08-05T06:08:17Z",
     "Created_by": "85000768327",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004009230": "2025-08-12T08:28:58Z",
+      "85004009247": "2025-08-12T08:28:58Z",
+      "85004018439": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26556,
     "Created_when": "2025-08-05T04:28:27Z",
     "Created_by": "85000916785",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004017246": "2025-08-12T08:28:58Z",
+      "85004025501": "2025-08-12T08:28:58Z",
+      "85004025548": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26543,
     "Created_when": "2025-08-04T09:38:08Z",
     "Created_by": "85000584524",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004008153": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26545,
     "Created_when": "2025-08-04T10:07:42Z",
     "Created_by": "85000584524",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004008176": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26554,
     "Created_when": "2025-08-04T13:42:00Z",
     "Created_by": "85000196642",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004003947": "2025-08-12T08:28:58Z",
+      "85004018964": "2025-08-12T08:28:58Z",
+      "85004018973": "2025-08-12T08:28:58Z",
+      "85004019468": "2025-08-12T08:28:58Z",
+      "85004027616": "2025-08-12T08:28:58Z",
+      "85004033366": "2025-08-12T08:28:58Z",
+      "85004033858": "2025-08-12T08:28:58Z",
+      "85004034393": "2025-08-12T08:28:58Z",
+      "85004034656": "2025-08-12T08:28:58Z",
+      "85004034672": "2025-08-12T08:28:58Z",
+      "85004034701": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26552,
     "Created_when": "2025-08-04T11:18:09Z",
     "Created_by": "85000474051",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004002812": "2025-08-12T08:28:58Z",
+      "85004010781": "2025-08-12T08:28:58Z",
+      "85004016493": "2025-08-12T08:28:58Z",
+      "85004018369": "2025-08-12T08:28:58Z",
+      "85004018431": "2025-08-12T08:28:58Z",
+      "85004019947": "2025-08-12T08:28:58Z",
+      "85004021047": "2025-08-12T08:28:58Z",
+      "85004024774": "2025-08-12T08:28:58Z",
+      "85004025484": "2025-08-12T08:28:58Z",
+      "85004026422": "2025-08-12T08:28:58Z",
+      "85004052400": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26561,
     "Created_when": "2025-08-05T08:18:14Z",
     "Created_by": "85000851453",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004009773": "2025-08-12T08:28:58Z",
+      "85004010309": "2025-08-12T08:28:58Z",
+      "85004011084": "2025-08-12T08:28:58Z",
+      "85004011125": "2025-08-12T08:28:58Z",
+      "85004011517": "2025-08-12T08:28:58Z",
+      "85004011752": "2025-08-12T08:28:58Z",
+      "85004011768": "2025-08-12T08:28:58Z",
+      "85004011881": "2025-08-12T08:28:58Z",
+      "85004011898": "2025-08-12T08:28:58Z",
+      "85004011906": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26567,
     "Created_when": "2025-08-05T10:36:32Z",
     "Created_by": "85000880487",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": "NA",
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26564,
     "Created_when": "2025-08-05T09:02:09Z",
     "Created_by": "85000184654",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": "NA",
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26571,
     "Created_when": "2025-08-05T11:17:43Z",
     "Created_by": "85000815225",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004052289": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26566,
     "Created_when": "2025-08-05T10:13:34Z",
     "Created_by": "85000570957",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004017738": "2025-08-12T08:28:58Z",
+      "85004019018": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26569,
     "Created_when": "2025-08-05T10:59:31Z",
     "Created_by": "85000254123",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004016680": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26563,
     "Created_when": "2025-08-05T08:39:10Z",
     "Created_by": "85000474051",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004010567": "2025-08-12T08:28:58Z",
+      "85004018374": "2025-08-12T08:28:58Z",
+      "85004019188": "2025-08-12T08:28:58Z",
+      "85004054955": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26565,
     "Created_when": "2025-08-05T09:48:45Z",
     "Created_by": "85000880487",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004010754": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26574,
     "Created_when": "2025-08-06T04:36:58Z",
     "Created_by": "85000496991",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004016382": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26568,
     "Created_when": "2025-08-05T10:58:45Z",
     "Created_by": "85000196642",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004019850": "2025-08-12T08:28:58Z",
+      "85004025039": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26570,
     "Created_when": "2025-08-05T11:09:06Z",
     "Created_by": "85000474051",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004011068": "2025-08-12T08:28:58Z",
+      "85004011182": "2025-08-12T08:28:58Z",
+      "85004019282": "2025-08-12T08:28:58Z",
+      "85004048961": "2025-08-12T08:28:58Z",
+      "85004053178": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26575,
     "Created_when": "2025-08-06T05:23:25Z",
     "Created_by": "85000184455",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004016529": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26577,
     "Created_when": "2025-08-06T05:25:05Z",
     "Created_by": "85000184455",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004016524": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26573,
     "Created_when": "2025-08-05T15:42:05Z",
     "Created_by": "85000916785",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004025448": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26576,
     "Created_when": "2025-08-06T05:24:53Z",
     "Created_by": "85000441335",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004017890": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26578,
     "Created_when": "2025-08-06T05:26:34Z",
     "Created_by": "85000184455",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004016518": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26579,
     "Created_when": "2025-08-06T05:29:04Z",
     "Created_by": "85000184455",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004016517": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26580,
     "Created_when": "2025-08-06T05:30:34Z",
     "Created_by": "85000184455",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004016503": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26572,
     "Created_when": "2025-08-05T11:28:30Z",
     "Created_by": "85000916785",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004020311": "2025-08-12T08:28:58Z",
+      "85004020400": "2025-08-12T08:28:58Z",
+      "85004024521": "2025-08-12T08:28:58Z",
+      "85004024576": "2025-08-12T08:28:58Z",
+      "85004036632": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26562,
     "Created_when": "2025-08-05T08:21:33Z",
     "Created_by": "85000474051",
     "Ticket Attachments": "NA",
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004009438": "2025-08-12T08:28:58Z",
+      "85004016101": "2025-08-12T08:28:58Z",
+      "85004016162": "2025-08-12T08:28:58Z",
+      "85004034136": "2025-08-12T08:28:58Z",
+      "85004034941": "2025-08-12T08:28:58Z",
+      "85004035473": "2025-08-12T08:28:58Z",
+      "85004035519": "2025-08-12T08:28:58Z",
+      "85004035688": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26172,
@@ -318,8 +451,13 @@
     "Ticket Attachments": {
       "85001628486": "2025-08-12T05:56:11Z"
     },
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85003846022": "2025-08-12T08:28:58Z",
+      "85003846040": "2025-08-12T08:28:58Z",
+      "85003846106": "2025-08-12T08:28:58Z",
+      "85003846122": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26335,
@@ -328,8 +466,8 @@
     "Ticket Attachments": {
       "85001637886": "2025-08-12T05:56:11Z"
     },
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": "NA",
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26306,
@@ -339,8 +477,8 @@
       "85001635656": "2025-08-12T05:56:11Z",
       "85001635657": "2025-08-12T05:56:11Z"
     },
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": "NA",
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26356,
@@ -349,8 +487,12 @@
     "Ticket Attachments": {
       "85001638742": "2025-08-12T05:56:12Z"
     },
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85003910277": "2025-08-12T08:28:58Z",
+      "85003916884": "2025-08-12T08:28:58Z",
+      "85003926039": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26392,
@@ -359,8 +501,10 @@
     "Ticket Attachments": {
       "85001640093": "2025-08-12T05:56:13Z"
     },
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85003925690": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26199,
@@ -382,8 +526,12 @@
       "85001630425": "2025-08-12T05:56:14Z",
       "85001630426": "2025-08-12T05:56:15Z"
     },
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85003816525": "2025-08-12T08:28:58Z",
+      "85003896149": "2025-08-12T08:28:58Z",
+      "85003896350": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26419,
@@ -393,8 +541,8 @@
       "85001642528": "2025-08-12T05:56:15Z",
       "85001642529": "2025-08-12T05:56:16Z"
     },
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": "NA",
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26533,
@@ -407,8 +555,22 @@
       "85001646838": "2025-08-12T05:56:17Z",
       "85001646839": "2025-08-12T05:56:17Z"
     },
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85004002962": "2025-08-12T08:28:58Z",
+      "85004003011": "2025-08-12T08:28:58Z",
+      "85004016541": "2025-08-12T08:28:58Z",
+      "85004016593": "2025-08-12T08:28:58Z",
+      "85004016617": "2025-08-12T08:28:58Z",
+      "85004017336": "2025-08-12T08:28:58Z",
+      "85004017374": "2025-08-12T08:28:58Z",
+      "85004017420": "2025-08-12T08:28:58Z",
+      "85004018493": "2025-08-12T08:28:58Z",
+      "85004018578": "2025-08-12T08:28:58Z",
+      "85004018717": "2025-08-12T08:28:58Z",
+      "85004018892": "2025-08-12T08:28:58Z",
+      "85004020515": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26334,
@@ -421,8 +583,12 @@
       "85001637868": "2025-08-12T05:56:18Z",
       "85001637869": "2025-08-12T05:56:18Z"
     },
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85003902021": "2025-08-12T08:28:58Z",
+      "85003902132": "2025-08-12T08:28:58Z",
+      "85003903506": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   },
   {
     "Ticket_ID": 26298,
@@ -434,7 +600,25 @@
       "85001635299": "2025-08-12T05:56:19Z",
       "85001635300": "2025-08-12T05:56:20Z"
     },
-    "Conversations": null,
-    "Conversation Attachments": null
+    "Conversations": {
+      "85003870345": "2025-08-12T08:28:58Z",
+      "85003874734": "2025-08-12T08:28:58Z",
+      "85003874948": "2025-08-12T08:28:58Z",
+      "85003875028": "2025-08-12T08:28:58Z",
+      "85003876121": "2025-08-12T08:28:58Z",
+      "85003876665": "2025-08-12T08:28:58Z",
+      "85003876675": "2025-08-12T08:28:58Z",
+      "85003876830": "2025-08-12T08:28:58Z",
+      "85003876916": "2025-08-12T08:28:58Z",
+      "85003877009": "2025-08-12T08:28:58Z",
+      "85003877173": "2025-08-12T08:28:58Z",
+      "85003903000": "2025-08-12T08:28:58Z",
+      "85003903185": "2025-08-12T08:28:58Z",
+      "85003903967": "2025-08-12T08:28:58Z",
+      "85003905163": "2025-08-12T08:28:58Z",
+      "85003910088": "2025-08-12T08:28:58Z",
+      "85003912792": "2025-08-12T08:28:58Z"
+    },
+    "Conversation Attachments": "NA"
   }
 ]

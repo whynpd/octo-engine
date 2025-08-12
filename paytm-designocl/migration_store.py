@@ -91,6 +91,8 @@ def merge_entries(new_entries: List[Dict[str, Any]]) -> List[int]:
 
 
 ATTACHMENTS_FIELD = "Ticket Attachments"
+CONVERSATIONS_FIELD = "Conversations"
+CONVERSATION_ATTACHMENTS_FIELD = "Conversation Attachments"
 
 
 def claim_next_null_attachments() -> int:
@@ -134,6 +136,47 @@ def list_in_progress_attachment_tickets() -> List[int]:
         return [int(rec.get("Ticket_ID")) for rec in records if rec.get(ATTACHMENTS_FIELD) == "I"]
 
 
+def claim_next_null_conversations() -> int:
+    """Find a record where conversations == None, set to "I" and return its Ticket_ID.
+    Returns -1 if none available.
+    """
+    _ensure_paths()
+    with FileLock(LOCK_FILE_PATH):
+        records = _read_records_unlocked()
+        for rec in records:
+            if rec.get(CONVERSATIONS_FIELD, None) is None:
+                rec[CONVERSATIONS_FIELD] = "I"
+                _write_records_unlocked(records)
+                return int(rec.get("Ticket_ID"))
+    return -1
+
+
+def set_conversations_status(ticket_id: int, value: Any) -> None:
+    _ensure_paths()
+    with FileLock(LOCK_FILE_PATH):
+        records = _read_records_unlocked()
+        for rec in records:
+            if int(rec.get("Ticket_ID", -1)) == ticket_id:
+                rec[CONVERSATIONS_FIELD] = value
+                break
+        _write_records_unlocked(records)
+
+
+def list_null_conversation_tickets(limit: Optional[int] = None) -> List[int]:
+    _ensure_paths()
+    with FileLock(LOCK_FILE_PATH):
+        records = _read_records_unlocked()
+        tids = [int(rec.get("Ticket_ID")) for rec in records if rec.get(CONVERSATIONS_FIELD) is None]
+    return tids[:limit] if limit else tids
+
+
+def list_in_progress_conversation_tickets() -> List[int]:
+    _ensure_paths()
+    with FileLock(LOCK_FILE_PATH):
+        records = _read_records_unlocked()
+        return [int(rec.get("Ticket_ID")) for rec in records if rec.get(CONVERSATIONS_FIELD) == "I"]
+
+
 def finalize_in_progress(evaluate_status_fn) -> int:
     """Resolve lingering "I" statuses using the provided evaluator.
 
@@ -148,6 +191,98 @@ def finalize_in_progress(evaluate_status_fn) -> int:
             if rec.get(ATTACHMENTS_FIELD) == "I":
                 tid = int(rec.get("Ticket_ID", -1))
                 rec[ATTACHMENTS_FIELD] = evaluate_status_fn(tid)
+                updated += 1
+        if updated:
+            _write_records_unlocked(records)
+    return updated
+
+
+def claim_next_null_conversation_attachments() -> int:
+    """Find a record where conversation_attachments == None, set to "I" and return its Ticket_ID.
+    Returns -1 if none available.
+    """
+    _ensure_paths()
+    with FileLock(LOCK_FILE_PATH):
+        records = _read_records_unlocked()
+        for rec in records:
+            if rec.get(CONVERSATION_ATTACHMENTS_FIELD, None) is None:
+                rec[CONVERSATION_ATTACHMENTS_FIELD] = "I"
+                _write_records_unlocked(records)
+                return int(rec.get("Ticket_ID"))
+    return -1
+
+
+def set_conversation_attachments_status(ticket_id: int, value: Any) -> None:
+    _ensure_paths()
+    with FileLock(LOCK_FILE_PATH):
+        records = _read_records_unlocked()
+        for rec in records:
+            if int(rec.get("Ticket_ID", -1)) == ticket_id:
+                rec[CONVERSATION_ATTACHMENTS_FIELD] = value
+                break
+        _write_records_unlocked(records)
+
+
+def get_conversations_status(ticket_id: int) -> Any:
+    """Get the current conversations status for a ticket."""
+    _ensure_paths()
+    with FileLock(LOCK_FILE_PATH):
+        records = _read_records_unlocked()
+        for rec in records:
+            if int(rec.get("Ticket_ID", -1)) == ticket_id:
+                return rec.get(CONVERSATIONS_FIELD)
+    return None
+
+
+def list_null_conversation_attachment_tickets(limit: Optional[int] = None) -> List[int]:
+    _ensure_paths()
+    with FileLock(LOCK_FILE_PATH):
+        records = _read_records_unlocked()
+        tids = [int(rec.get("Ticket_ID")) for rec in records if rec.get(CONVERSATION_ATTACHMENTS_FIELD) is None]
+    return tids[:limit] if limit else tids
+
+
+def list_in_progress_conversation_attachment_tickets() -> List[int]:
+    _ensure_paths()
+    with FileLock(LOCK_FILE_PATH):
+        records = _read_records_unlocked()
+        return [int(rec.get("Ticket_ID")) for rec in records if rec.get(CONVERSATION_ATTACHMENTS_FIELD) == "I"]
+
+
+def finalize_in_progress_conversations(evaluate_status_fn) -> int:
+    """Resolve lingering "I" conversation statuses using the provided evaluator.
+
+    The evaluator receives a ticket_id and returns either a mapping or "NA".
+    Returns number of records updated.
+    """
+    _ensure_paths()
+    updated = 0
+    with FileLock(LOCK_FILE_PATH):
+        records = _read_records_unlocked()
+        for rec in records:
+            if rec.get(CONVERSATIONS_FIELD) == "I":
+                tid = int(rec.get("Ticket_ID", -1))
+                rec[CONVERSATIONS_FIELD] = evaluate_status_fn(tid)
+                updated += 1
+        if updated:
+            _write_records_unlocked(records)
+    return updated
+
+
+def finalize_in_progress_conversation_attachments(evaluate_status_fn) -> int:
+    """Resolve lingering "I" conversation attachment statuses using the provided evaluator.
+
+    The evaluator receives a ticket_id and returns either a mapping or "NA".
+    Returns number of records updated.
+    """
+    _ensure_paths()
+    updated = 0
+    with FileLock(LOCK_FILE_PATH):
+        records = _read_records_unlocked()
+        for rec in records:
+            if rec.get(CONVERSATION_ATTACHMENTS_FIELD) == "I":
+                tid = int(rec.get("Ticket_ID", -1))
+                rec[CONVERSATION_ATTACHMENTS_FIELD] = evaluate_status_fn(tid)
                 updated += 1
         if updated:
             _write_records_unlocked(records)
