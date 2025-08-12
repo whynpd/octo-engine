@@ -2,7 +2,7 @@
   {
     "id": 85001628486,
     "name": "image.png",
-    "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001628486/original/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250811%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250811T205806Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=ee958f7266ac883567b5bc4d8a23649ca599e23d96cf58d186c38b2156fc7920",
+    "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001628486/original/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250812%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250812T055440Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=b3ca69f1cf75a9f114b6bc17cc325f01fd7e6dc722ad0a968886263cf5a1ebb4",
     "content_type": "image/png",
     "size": 222337,
     "created_at": "2025-07-09T05:57:16Z",

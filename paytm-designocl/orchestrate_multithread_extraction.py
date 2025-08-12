@@ -29,12 +29,14 @@ from pathlib import Path
 from typing import Any, Dict, List, Tuple
 import threading
 import time
+import logging
 
 from extract_ticket_details import (
     read_ticket_ids_from_csv,
     get_ticket_details,
     fetch_conversations,
 )
+from download_attachments import download_file, sanitize_filename
 
 
 OUTPUT_DIRS = {
@@ -133,6 +135,7 @@ def load_migration_json(path: Path) -> List[Dict[str, Any]]:
 
 
 def merge_migration_entries(path: Path, new_entries: List[Dict[str, Any]], lock: threading.Lock) -> None:
+    added_tids: List[int] = []
     with lock:
         existing = load_migration_json(path)
         seen = {int(rec.get('Ticket_ID')) for rec in existing if isinstance(rec.get('Ticket_ID'), (int,)) or str(rec.get('Ticket_ID')).isdigit()}
@@ -141,7 +144,11 @@ def merge_migration_entries(path: Path, new_entries: List[Dict[str, Any]], lock:
             if tid not in seen:
                 existing.append(rec)
                 seen.add(tid)
+                added_tids.append(tid)
         write_json_atomic(path, existing)
+    # Log stage: attachments=null at creation time
+    for tid in added_tids:
+        logging.info(f"[migration] ticket {tid} -> attachments=null")
 
 
 ATTACHMENTS_FIELD = "Ticket Attachments"
@@ -155,6 +162,7 @@ def claim_next_null_attachments(path: Path, lock: threading.Lock) -> int:
             if rec.get(ATTACHMENTS_FIELD, None) is None:
                 rec[ATTACHMENTS_FIELD] = "I"
                 write_json_atomic(path, records)
+                logging.info(f"[attachments] ticket {int(rec.get('Ticket_ID'))} -> I (claimed)")
                 return int(rec.get("Ticket_ID"))
     return -1
 
@@ -164,9 +172,16 @@ def set_attachments_status(path: Path, lock: threading.Lock, ticket_id: int, val
         records = load_migration_json(path)
         for rec in records:
             if int(rec.get("Ticket_ID", -1)) == ticket_id:
+                before = rec.get(ATTACHMENTS_FIELD)
                 rec[ATTACHMENTS_FIELD] = value
                 break
         write_json_atomic(path, records)
+    # Log transition after write
+    if isinstance(value, dict):
+        sample = list(value.items())[:3]
+        logging.info(f"[attachments] ticket {ticket_id}: I -> mapping({len(value)}) sample={sample}")
+    else:
+        logging.info(f"[attachments] ticket {ticket_id}: I -> {value}")
 
 
 def attachments_worker_loop(mig_path: Path, stop_event: threading.Event, lock: threading.Lock) -> None:
@@ -183,22 +198,56 @@ def attachments_worker_loop(mig_path: Path, stop_event: threading.Event, lock: t
             time.sleep(0.5)
             continue
 
-        # Decide status by inspecting per-ticket attachments file
+        logging.info(f"[attachments] Claimed ticket {tid} -> I")
+        # Download ticket-level attachments and then set final mapping/NA
         att_file = OUTPUT_DIRS['ticket_attachments'] / f"ticket_{tid}_attachments.json"
-        if att_file.exists():
-            try:
-                data = json.loads(att_file.read_text(encoding='utf-8') or '[]')
-                if isinstance(data, list) and len(data) > 0:
-                    now_iso = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
-                    mapping = {str(att.get('id')): now_iso for att in data}
-                    set_attachments_status(mig_path, lock, tid, mapping)
-                else:
-                    set_attachments_status(mig_path, lock, tid, "NA")
-            except Exception:
-                set_attachments_status(mig_path, lock, tid, "NA")
-        else:
-            # No file exists => no attachments
+        # Wait for details writer to produce attachments JSON to avoid race; max ~30s
+        max_wait_seconds = 30
+        waited = 0
+        while not att_file.exists() and waited < max_wait_seconds and not stop_event.is_set():
+            time.sleep(0.5)
+            waited += 0.5
+        if not att_file.exists():
+            # After waiting, still no JSON -> treat as NA
             set_attachments_status(mig_path, lock, tid, "NA")
+            logging.info(f"[attachments] Finalized ticket {tid} -> NA (no ticket_attachments JSON after {waited}s)")
+            continue
+        try:
+            raw_list = json.loads(att_file.read_text(encoding='utf-8') or '[]')
+        except Exception:
+            set_attachments_status(mig_path, lock, tid, "NA")
+            logging.info(f"[attachments] Finalized ticket {tid} -> NA (malformed ticket_attachments JSON)")
+            continue
+        if not isinstance(raw_list, list) or len(raw_list) == 0:
+            set_attachments_status(mig_path, lock, tid, "NA")
+            logging.info(f"[attachments] Finalized ticket {tid} -> NA (no ticket attachments)")
+            continue
+
+        # Perform downloads synchronously per ticket; timestamp on each success
+        ticket_dir = Path('attachments') / str(tid)
+        ticket_dir.mkdir(parents=True, exist_ok=True)
+        mapping: Dict[str, str] = {}
+        for att in raw_list:
+            att_id = att.get('id')
+            name = att.get('name')
+            url = att.get('url') or att.get('attachment_url')
+            if not (att_id and name and url):
+                continue
+            safe_name = sanitize_filename(str(name))
+            dest = ticket_dir / safe_name
+            if dest.exists():
+                # Already downloaded; mark with current time as seen
+                mapping[str(att_id)] = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+                continue
+            ok = download_file(url, str(dest))
+            if ok:
+                mapping[str(att_id)] = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+        if mapping:
+            set_attachments_status(mig_path, lock, tid, mapping)
+            logging.info(f"[attachments] Finalized ticket {tid} -> mapping({len(mapping)})")
+        else:
+            set_attachments_status(mig_path, lock, tid, "NA")
+            logging.info(f"[attachments] Finalized ticket {tid} -> NA (no successful downloads)")
 
 
 def evaluate_attachment_status(ticket_id: int) -> Any:
@@ -226,6 +275,11 @@ def finalize_in_progress_attachments(mig_path: Path, lock: threading.Lock) -> in
             final_value = evaluate_attachment_status(tid)
             rec[ATTACHMENTS_FIELD] = final_value
             updated += 1
+            if isinstance(final_value, dict):
+                sample = list(final_value.items())[:3]
+                logging.info(f"[finalize] ticket {tid} -> mapping({len(final_value)}) sample={sample}")
+            else:
+                logging.info(f"[finalize] ticket {tid} -> {final_value}")
     if updated:
         with lock:
             write_json_atomic(mig_path, records)
@@ -246,13 +300,23 @@ def chunked(seq: List[int], size: int) -> List[List[int]]:
 
 
 def main() -> int:
+    # Log to console and file to make stage transitions easy to inspect
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s %(levelname)s [%(threadName)s] %(message)s',
+        handlers=[
+            logging.StreamHandler(),
+            logging.FileHandler('orchestrator.log', mode='a', encoding='utf-8')
+        ],
+        force=True,
+    )
     ensure_dirs()
 
     ticket_ids = read_ticket_ids_from_csv(CONFIG['input_csv'])
     if CONFIG['limit'] and CONFIG['limit'] > 0:
         ticket_ids = ticket_ids[:CONFIG['limit']]
     if not ticket_ids:
-        print('No ticket IDs found in CSV')
+        logging.error('No ticket IDs found in CSV')
         return 1
 
     mig_path = Path(CONFIG['migration_json'])
@@ -264,17 +328,22 @@ def main() -> int:
     attach_futs = [attach_executor.submit(attachments_worker_loop, mig_path, stop_event, write_lock) for _ in range(CONFIG['attachments_workers'])]
 
     for batch_idx, batch in enumerate(chunked(ticket_ids, CONFIG['batch_size']), start=1):
-        print(f"Processing batch {batch_idx} ({len(batch)} tickets)...")
+        logging.info(f"Processing batch {batch_idx} ({len(batch)} tickets)...")
         results: List[Dict[str, Any]] = []
         with ThreadPoolExecutor(max_workers=max(1, CONFIG['workers'])) as exe:
-            futs = [exe.submit(process_one, tid) for tid in batch]
+            def _wrapped(tid: int):
+                logging.info(f"[details] START ticket {tid}")
+                result = process_one(tid)
+                logging.info(f"[details] END   ticket {tid}")
+                return result
+            futs = [exe.submit(_wrapped, tid) for tid in batch]
             for fut in as_completed(futs):
                 tid, entry = fut.result()
                 if entry:
                     results.append(entry)
         if results:
             merge_migration_entries(mig_path, results, write_lock)
-        print(f"Batch {batch_idx} done. Added {len(results)} entries to {mig_path}")
+        logging.info(f"Batch {batch_idx} done. Added {len(results)} entries to {mig_path}")
 
     # Signal attachments workers to finish when no nulls remain
     stop_event.set()
@@ -285,9 +354,9 @@ def main() -> int:
     # Final sweep to resolve any lingering 'I' statuses
     resolved = finalize_in_progress_attachments(mig_path, write_lock)
     if resolved:
-        print(f"Finalized {resolved} lingering 'I' attachment statuses.")
+        logging.info(f"Finalized {resolved} lingering 'I' attachment statuses.")
 
-    print('All done.')
+    logging.info('All done.')
     return 0
 
 
