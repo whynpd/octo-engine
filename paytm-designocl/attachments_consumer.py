@@ -21,7 +21,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 from download_attachments import download_file, sanitize_filename
-from extract_ticket_details import get_ticket_details
+from extract_ticket_details import get_complete_ticket_data
 from migration_store import (
     claim_next_null_attachments,
     set_attachments_status,
@@ -30,7 +30,8 @@ from migration_store import (
 
 
 OUTPUT_DIRS = {
-    'ticket_attachments': Path('ticket_attachments'),
+    'complete_ticket_data': Path('complete_ticket_data'),
+    'attachments': Path('attachments'),
 }
 
 
@@ -55,19 +56,23 @@ def evaluate_status(ticket_id: int) -> Any:
 
 def process_one(ticket_id: int) -> None:
     logging.info(f"[attachments] Claimed ticket {ticket_id} -> I")
-    att_file = OUTPUT_DIRS['ticket_attachments'] / f"ticket_{ticket_id}_attachments.json"
+    # Read from consolidated complete ticket data file
+    complete_file = OUTPUT_DIRS['complete_ticket_data'] / f"ticket_{ticket_id}_complete.json"
 
     waited = 0.0
-    while not att_file.exists() and waited < CONFIG['max_wait_for_json_seconds']:
+    while not complete_file.exists() and waited < CONFIG['max_wait_for_json_seconds']:
         time.sleep(0.5)
         waited += 0.5
-    if not att_file.exists():
+    if not complete_file.exists():
         set_attachments_status(ticket_id, "NA")
-        logging.info(f"[attachments] Finalized ticket {ticket_id} -> NA (no JSON after {waited}s)")
+        logging.info(f"[attachments] Finalized ticket {ticket_id} -> NA (complete file not found after {waited}s)")
         return
 
     try:
-        raw_list = json.loads(att_file.read_text(encoding='utf-8') or '[]')
+        complete_data = json.loads(complete_file.read_text(encoding='utf-8') or '{}')
+        # Extract ticket-level attachments (not conversation attachments)
+        all_attachments = complete_data.get('attachments', [])
+        raw_list = [att for att in all_attachments if att.get('type') == 'ticket_attachment']
     except Exception:
         set_attachments_status(ticket_id, "NA")
         logging.info(f"[attachments] Finalized ticket {ticket_id} -> NA (malformed JSON)")
@@ -75,7 +80,7 @@ def process_one(ticket_id: int) -> None:
 
     if not isinstance(raw_list, list) or len(raw_list) == 0:
         set_attachments_status(ticket_id, "NA")
-        logging.info(f"[attachments] Finalized ticket {ticket_id} -> NA (no attachments)")
+        logging.info(f"[attachments] Finalized ticket {ticket_id} -> NA (no ticket attachments)")
         return
 
     ticket_dir = Path('attachments') / str(ticket_id)
@@ -104,12 +109,13 @@ def process_one(ticket_id: int) -> None:
     # If nothing succeeded, Freshdesk pre-signed URLs may have expired. Refresh once.
     if not mapping:
         try:
-            latest = get_ticket_details(ticket_id) or {}
-            refreshed = latest.get('attachments') or []
-            # Persist refreshed JSON for traceability
+            latest = get_complete_ticket_data(ticket_id) or {}
+            all_refreshed = latest.get('attachments') or []
+            refreshed = [att for att in all_refreshed if att.get('type') == 'ticket_attachment']
+            # Persist refreshed JSON for traceability (update complete file)
             try:
-                new_file = OUTPUT_DIRS['ticket_attachments'] / f"ticket_{ticket_id}_attachments.json"
-                new_file.write_text(json.dumps(refreshed, ensure_ascii=False, indent=2), encoding='utf-8')
+                new_file = OUTPUT_DIRS['complete_ticket_data'] / f"ticket_{ticket_id}_complete.json"
+                new_file.write_text(json.dumps(latest, ensure_ascii=False, indent=2), encoding='utf-8')
             except Exception:
                 pass
             mapping = attempt_downloads(refreshed)

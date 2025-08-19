@@ -1,4 +1,6 @@
-# step2_extract_ticket_details.py - Enhanced for 40K tickets
+# extract_ticket_details.py - Consolidated Single API Call Approach
+# This script uses a single API call per ticket: ?include=conversations
+# All data (ticket details, conversations, attachments) is stored in one JSON file per ticket
 import requests
 import csv
 import json
@@ -45,6 +47,25 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger(__name__)
+
+def print_usage_info():
+    """Print information about the consolidated API approach"""
+    print("\n" + "="*60)
+    print("🔄 CONSOLIDATED API APPROACH")
+    print("="*60)
+    print("✅ Single API call per ticket: ?include=conversations")
+    print("✅ All data in one JSON file per ticket")
+    print("✅ 50% fewer API calls compared to separate calls")
+    print("✅ Complete data includes:")
+    print("   • Ticket details")
+    print("   • All conversations")
+    print("   • Ticket-level attachments")
+    print("   • Conversation attachments")
+    print("\n📁 Output:")
+    print("   • Directory: complete_ticket_data/")
+    print("   • Format: ticket_{id}_complete.json")
+    print("   • Each file contains ALL data for that ticket")
+    print("="*60 + "\n")
 
 # Setup session with retry strategy
 def setup_session_with_retry():
@@ -135,146 +156,215 @@ def read_ticket_ids_from_csv(filename='Sample Data from Design OCL - Sheet1.csv'
         logger.error(f"❌ Error reading CSV: {e}")
         return []
 
-def get_ticket_details(ticket_id):
-    """Get detailed information for a specific ticket with rate limiting"""
-    url = f"https://{FRESHDESK_DOMAIN}/api/v2/tickets/{ticket_id}"
+def get_complete_ticket_data(ticket_id):
+    """Get complete ticket information including conversations in a single API call"""
+    url = f"https://{FRESHDESK_DOMAIN}/api/v2/tickets/{ticket_id}?include=conversations"
     
     try:
         response = rate_limited_request(url, auth=(API_KEY, 'X'))
         
         if response.status_code == 200:
-            ticket_data = response.json()
+            complete_data = response.json()
             
-            # Enhance attachments with more details if they exist
-            if ticket_data.get("attachments"):
+            # Enhance ticket-level attachments with more details if they exist
+            if complete_data.get("attachments"):
                 enhanced_attachments = []
-                for att in ticket_data["attachments"]:
+                for att in complete_data["attachments"]:
                     enhanced_attachments.append({
                         "id": att.get("id"),
                         "name": att.get("name"),
                         "url": att.get("attachment_url") or att.get("url"),
                         "content_type": att.get("content_type"),
                         "size": att.get("size"),
-                        "created_at": att.get("created_at")
+                        "created_at": att.get("created_at"),
+                        "type": "ticket_attachment"  # Mark as ticket-level attachment
                     })
-                ticket_data["attachments"] = enhanced_attachments
+                complete_data["attachments"] = enhanced_attachments
             
-            return ticket_data
-        else:
-            logger.error(f"Error fetching ticket details for {ticket_id}: {response.status_code}")
-            return None
-            
-    except Exception as e:
-        logger.error(f"Error fetching ticket {ticket_id}: {e}")
-        return None
-
-def fetch_conversations(ticket_id):
-    """Fetch conversations for a ticket with rate limiting"""
-    url = f"https://{FRESHDESK_DOMAIN}/api/v2/tickets/{ticket_id}/conversations"
-    
-    try:
-        response = rate_limited_request(url, auth=(API_KEY, 'X'))
-
-        if response.status_code != 200:
-            logger.error(f"Error fetching conversations for ticket {ticket_id}")
-            return []
-
-        conversations = []
-        for convo in response.json():
-            # attachments = [
-            #     {
-            #         "id": att.get("id"),
-            #         "name": att.get("name"),
-            #         "url": att.get("attachment_url") or att.get("url"),
-            #         "content_type": att.get("content_type"),
-            #         "size": att.get("size"),
-            #         "created_at": att.get("created_at")
-            #     }
-            #     for att in convo.get("attachments", [])
-            # ]
-            conversation_data = {
-                "id": convo.get("id"),
-                "body_text": convo.get("body_text"),
-                "body": convo.get("body"),
-                "private": convo.get("private"),
-                "created_at": convo.get("created_at"),
-                "updated_at": convo.get("updated_at"),
-                "user_id": convo.get("user_id"),
-                "incoming": convo.get("incoming"),
-                "source": convo.get("source"),
-                "support_email": convo.get("support_email"),
-                "to_emails": convo.get("to_emails"),
-                "from_email": convo.get("from_email"),
-                "cc_emails": convo.get("cc_emails"),
-                "bcc_emails": convo.get("bcc_emails"),
-                "email_headers": convo.get("email_headers"),
-                "ticket_id": convo.get("ticket_id"),
-                "conversation_type": convo.get("conversation_type"),
-                "channel": convo.get("channel")
-            }
-            conversation_data = {k: v for k, v in conversation_data.items() if v is not None}
-            if convo.get("attachments"):
-                attachments = [
-                    {
-                        "id": att.get("id"),
-                        "name": att.get("name"),
-                        "url": att.get("attachment_url") or att.get("url"),
-                        "content_type": att.get("content_type"),
-                        "size": att.get("size"),
+            # Enhance conversation attachments if they exist
+            if complete_data.get("conversations"):
+                enhanced_conversations = []
+                for convo in complete_data["conversations"]:
+                    conversation_data = {
+                        "id": convo.get("id"),
+                        "body_text": convo.get("body_text"),
+                        "body": convo.get("body"),
+                        "private": convo.get("private"),
                         "created_at": convo.get("created_at"),
                         "updated_at": convo.get("updated_at"),
                         "user_id": convo.get("user_id"),
+                        "incoming": convo.get("incoming"),
+                        "source": convo.get("source"),
+                        "support_email": convo.get("support_email"),
+                        "to_emails": convo.get("to_emails"),
+                        "from_email": convo.get("from_email"),
+                        "cc_emails": convo.get("cc_emails"),
+                        "bcc_emails": convo.get("bcc_emails"),
+                        "email_headers": convo.get("email_headers"),
+                        "ticket_id": convo.get("ticket_id"),
+                        "conversation_type": convo.get("conversation_type"),
+                        "channel": convo.get("channel")
                     }
-                    for att in convo.get("attachments", [])
-                ]
-                conversation_data["attachments"] = attachments
+                    
+                    # Remove None values
+                    conversation_data = {k: v for k, v in conversation_data.items() if v is not None}
+                    
+                    # Enhance conversation attachments
+                    if convo.get("attachments"):
+                        enhanced_conv_attachments = []
+                        for att in convo.get("attachments", []):
+                            enhanced_conv_attachments.append({
+                                "id": att.get("id"),
+                                "name": att.get("name"),
+                                "url": att.get("attachment_url") or att.get("url"),
+                                "content_type": att.get("content_type"),
+                                "size": att.get("size"),
+                                "created_at": convo.get("created_at"),
+                                "updated_at": convo.get("updated_at"),
+                                "user_id": convo.get("user_id"),
+                                "conversation_id": convo.get("id"),
+                                "type": "conversation_attachment"  # Mark as conversation attachment
+                            })
+                        conversation_data["attachments"] = enhanced_conv_attachments
+                    
+                    enhanced_conversations.append(conversation_data)
+                
+                complete_data["conversations"] = enhanced_conversations
             
-            conversations.append(conversation_data)
-            # conversations.append({
-            #     "id": convo.get("id"),
-            #     "body_text": convo.get("body_text"),
-            #     "body": convo.get("body"),
-            #     "private": convo.get("private"),
-            #     "created_at": convo.get("created_at"),
-            #     "attachments": attachments
-            # })
+            return complete_data
+        else:
+            logger.error(f"Error fetching complete ticket data for {ticket_id}: {response.status_code}")
+            if response.status_code == 404:
+                logger.warning(f"Ticket {ticket_id} not found (404)")
+            return None
+            
+    except Exception as e:
+        logger.error(f"Error fetching complete ticket {ticket_id}: {e}")
+        return None
 
-        return conversations
+def save_complete_ticket_data(ticket_id, complete_data, output_dir="complete_ticket_data"):
+    """Save complete ticket data to a single JSON file"""
+    try:
+        # Create output directory if it doesn't exist
+        Path(output_dir).mkdir(exist_ok=True)
+        
+        # Save complete data to single file
+        filename = Path(output_dir) / f"ticket_{ticket_id}_complete.json"
+        
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(complete_data, f, indent=2, ensure_ascii=False)
+        
+        logger.info(f"✅ Saved complete data for ticket {ticket_id} to {filename}")
+        return True
         
     except Exception as e:
-        logger.error(f"Error fetching conversations for ticket {ticket_id}: {e}")
-        return []
+        logger.error(f"❌ Error saving complete data for ticket {ticket_id}: {e}")
+        return False
+
+def extract_data_components(complete_data):
+    """Extract different data components from the complete ticket data for analysis"""
+    components = {
+        "ticket_details": {},
+        "conversations": [],
+        "ticket_attachments": [],
+        "conversation_attachments": []
+    }
+    
+    if not complete_data:
+        return components
+    
+    # Extract ticket details (everything except conversations)
+    ticket_details = {k: v for k, v in complete_data.items() if k != "conversations"}
+    components["ticket_details"] = ticket_details
+    
+    # Extract conversations
+    conversations = complete_data.get("conversations", [])
+    components["conversations"] = conversations
+    
+    # Extract ticket-level attachments
+    ticket_attachments = complete_data.get("attachments", [])
+    components["ticket_attachments"] = [att for att in ticket_attachments if att.get("type") == "ticket_attachment"]
+    
+    # Extract conversation attachments
+    conversation_attachments = []
+    for conv in conversations:
+        if conv.get("attachments"):
+            for att in conv["attachments"]:
+                att["conversation_id"] = conv.get("id")
+                att["ticket_id"] = complete_data.get("id")
+                conversation_attachments.append(att)
+    
+    components["conversation_attachments"] = conversation_attachments
+    
+    return components
 
 def process_ticket_batch(ticket_ids, batch_number):
-    """Process a batch of tickets with rate limiting"""
+    """Process a batch of tickets with consolidated single API call approach"""
     logger.info(f"\n--- Processing batch {batch_number} ({len(ticket_ids)} tickets) ---")
     
     batch_tickets = []
+    batch_stats = {
+        "successful": 0,
+        "failed": 0,
+        "total_attachments": 0,
+        "total_conversations": 0,
+        "total_conversation_attachments": 0
+    }
     
     for i, ticket_id in enumerate(ticket_ids, 1):
         logger.info(f"Processing ticket {i}/{len(ticket_ids)} (ID: {ticket_id})")
         
-        # Get individual ticket details
-        ticket_details = get_ticket_details(ticket_id)
+        # Get complete ticket data with single API call
+        complete_data = get_complete_ticket_data(ticket_id)
         
-        if ticket_details:
-            # Add conversations
-            ticket_details["conversations"] = fetch_conversations(ticket_id)
-            batch_tickets.append(ticket_details)
-            logger.info(f"✅ Extracted details for ticket {ticket_id}")
+        if complete_data:
+            # Save complete data to single JSON file
+            if save_complete_ticket_data(ticket_id, complete_data):
+                batch_tickets.append(complete_data)
+                batch_stats["successful"] += 1
+                
+                # Update statistics
+                conversations = complete_data.get("conversations", [])
+                attachments = complete_data.get("attachments", [])
+                
+                batch_stats["total_conversations"] += len(conversations)
+                batch_stats["total_attachments"] += len(attachments)
+                
+                # Count conversation attachments
+                conv_attachments = 0
+                for conv in conversations:
+                    conv_attachments += len(conv.get("attachments", []))
+                batch_stats["total_conversation_attachments"] += conv_attachments
+                
+                logger.info(f"✅ Extracted complete data for ticket {ticket_id} "
+                          f"({len(conversations)} conversations, {len(attachments)} ticket attachments, "
+                          f"{conv_attachments} conversation attachments)")
+            else:
+                batch_stats["failed"] += 1
+                logger.error(f"❌ Failed to save data for ticket {ticket_id}")
         else:
-            logger.error(f"❌ Failed to extract details for ticket {ticket_id}")
+            batch_stats["failed"] += 1
+            logger.error(f"❌ Failed to extract data for ticket {ticket_id}")
         
         # Rate limiting between tickets
         if i < len(ticket_ids):
             logger.info(f"Waiting {CONFIG['delay_between_requests']} seconds...")
             time.sleep(CONFIG['delay_between_requests'])
     
+    # Log batch statistics
+    logger.info(f"\n📊 Batch {batch_number} Statistics:")
+    logger.info(f"   ✅ Successful: {batch_stats['successful']}")
+    logger.info(f"   ❌ Failed: {batch_stats['failed']}")
+    logger.info(f"   💬 Total Conversations: {batch_stats['total_conversations']}")
+    logger.info(f"   📎 Total Ticket Attachments: {batch_stats['total_attachments']}")
+    logger.info(f"   📎 Total Conversation Attachments: {batch_stats['total_conversation_attachments']}")
+    
     return batch_tickets
 
 def main():
-    """Main function to run step 2 with rate limiting and batch processing"""
-    logger.info("🚀 Starting Step 2: Extract detailed ticket information")
+    """Main function to run consolidated ticket extraction"""
+    print_usage_info()
+    logger.info("🚀 Starting Consolidated Ticket Data Extraction")
     logger.info(f"Configuration: {CONFIG}")
     
     # Check for existing progress
@@ -324,9 +414,7 @@ def main():
         batch_tickets = process_ticket_batch(batch_ticket_ids, batch_num)
         
         if batch_tickets:
-            # Save batch immediately
-            save_batch_json(batch_tickets, batch_num)
-            
+            # Individual ticket files are already saved by process_ticket_batch
             # Update progress
             processed_tickets.extend(batch_ticket_ids)
             save_progress(processed_tickets, batch_num)
@@ -340,13 +428,85 @@ def main():
             logger.info(f"Waiting {CONFIG['delay_between_batches']} seconds before next batch...")
             time.sleep(CONFIG['delay_between_batches'])
     
+    # Generate final summary
+    generate_extraction_summary(processed_tickets)
+    
     logger.info(f"\n🎉 Step 2 completed! Processed {len(processed_tickets)} tickets")
-    logger.info("📁 Batch files saved in 'batches/' directory")
+    logger.info("📁 Complete ticket data saved in 'complete_ticket_data/' directory")
+    logger.info("📊 Each ticket has a single JSON file with all data (ticket details, conversations, attachments)")
     
     # Clean up progress file on successful completion
     if os.path.exists("step2_progress.json"):
         os.remove("step2_progress.json")
         logger.info("Cleaned up progress file")
+
+def generate_extraction_summary(processed_tickets):
+    """Generate a summary of the extraction process"""
+    summary = {
+        "extraction_timestamp": datetime.now().isoformat(),
+        "total_tickets_processed": len(processed_tickets),
+        "processed_ticket_ids": processed_tickets,
+        "api_approach": "single_consolidated_call",
+        "api_endpoint": f"https://{FRESHDESK_DOMAIN}/api/v2/tickets/{{ticket_id}}?include=conversations",
+        "output_format": "single_json_per_ticket",
+        "output_directory": "complete_ticket_data",
+        "data_included": [
+            "ticket_details",
+            "conversations",
+            "ticket_attachments", 
+            "conversation_attachments"
+        ]
+    }
+    
+    # Count statistics from saved files
+    output_dir = Path("complete_ticket_data")
+    if output_dir.exists():
+        total_conversations = 0
+        total_ticket_attachments = 0
+        total_conversation_attachments = 0
+        
+        for ticket_id in processed_tickets:
+            ticket_file = output_dir / f"ticket_{ticket_id}_complete.json"
+            if ticket_file.exists():
+                try:
+                    with open(ticket_file, 'r', encoding='utf-8') as f:
+                        ticket_data = json.load(f)
+                    
+                    conversations = ticket_data.get("conversations", [])
+                    attachments = ticket_data.get("attachments", [])
+                    
+                    total_conversations += len(conversations)
+                    total_ticket_attachments += len(attachments)
+                    
+                    for conv in conversations:
+                        total_conversation_attachments += len(conv.get("attachments", []))
+                        
+                except Exception as e:
+                    logger.warning(f"Could not read ticket file for summary: {ticket_file}")
+        
+        summary["statistics"] = {
+            "total_conversations": total_conversations,
+            "total_ticket_attachments": total_ticket_attachments,
+            "total_conversation_attachments": total_conversation_attachments,
+            "average_conversations_per_ticket": round(total_conversations / len(processed_tickets), 2) if processed_tickets else 0
+        }
+    
+    # Save summary
+    summary_file = "extraction_summary.json"
+    with open(summary_file, 'w', encoding='utf-8') as f:
+        json.dump(summary, f, indent=2, ensure_ascii=False)
+    
+    logger.info(f"📊 Extraction summary saved to {summary_file}")
+    
+    # Log key statistics
+    if summary.get("statistics"):
+        stats = summary["statistics"]
+        logger.info(f"📈 Final Statistics:")
+        logger.info(f"   🎫 Total Tickets: {summary['total_tickets_processed']}")
+        logger.info(f"   💬 Total Conversations: {stats['total_conversations']}")
+        logger.info(f"   📎 Total Ticket Attachments: {stats['total_ticket_attachments']}")
+        logger.info(f"   📎 Total Conversation Attachments: {stats['total_conversation_attachments']}")
+        logger.info(f"   📊 Avg Conversations/Ticket: {stats['average_conversations_per_ticket']}")
 
 if __name__ == "__main__":
     main() 

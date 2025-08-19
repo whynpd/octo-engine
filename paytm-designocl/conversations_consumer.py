@@ -28,7 +28,7 @@ from migration_store import (
 
 
 OUTPUT_DIRS = {
-    'conversations': Path('conversations'),
+    'complete_ticket_data': Path('complete_ticket_data'),
 }
 
 
@@ -54,26 +54,28 @@ def evaluate_conversation_status(ticket_id: int) -> Any:
 
 def process_one_conversation(ticket_id: int) -> None:
     logging.info(f"[conversations] Claimed ticket {ticket_id} -> I")
-    conv_file = OUTPUT_DIRS['conversations'] / f"ticket_{ticket_id}_conversations.json"
+    # Read from consolidated complete ticket data file
+    complete_file = OUTPUT_DIRS['complete_ticket_data'] / f"ticket_{ticket_id}_complete.json"
 
     waited = 0.0
-    while not conv_file.exists() and waited < CONFIG['max_wait_for_json_seconds']:
+    while not complete_file.exists() and waited < CONFIG['max_wait_for_json_seconds']:
         time.sleep(0.5)
         waited += 0.5
     
-    if not conv_file.exists():
+    if not complete_file.exists():
         set_conversations_status(ticket_id, "NA")
-        logging.info(f"[conversations] Finalized ticket {ticket_id} -> NA (no JSON after {waited}s)")
+        logging.info(f"[conversations] Finalized ticket {ticket_id} -> NA (complete file not found after {waited}s)")
         return
 
     try:
-        raw_list = json.loads(conv_file.read_text(encoding='utf-8') or '[]')
+        complete_data = json.loads(complete_file.read_text(encoding='utf-8') or '{}')
+        conversations = complete_data.get('conversations', [])
     except Exception:
         set_conversations_status(ticket_id, "NA")
         logging.info(f"[conversations] Finalized ticket {ticket_id} -> NA (malformed JSON)")
         return
 
-    if not isinstance(raw_list, list) or len(raw_list) == 0:
+    if not isinstance(conversations, list) or len(conversations) == 0:
         set_conversations_status(ticket_id, "NA")
         logging.info(f"[conversations] Finalized ticket {ticket_id} -> NA (no conversations)")
         return
@@ -81,7 +83,7 @@ def process_one_conversation(ticket_id: int) -> None:
     # Create mapping with current timestamp for each conversation ID
     now_iso = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
     mapping: Dict[str, str] = {}
-    for conv in raw_list:
+    for conv in conversations:
         conv_id = conv.get('id')
         if conv_id:
             mapping[str(conv_id)] = now_iso

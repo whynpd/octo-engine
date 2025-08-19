@@ -22,7 +22,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 from download_attachments import download_file, sanitize_filename
-from extract_ticket_details import get_ticket_details
+from extract_ticket_details import get_complete_ticket_data
 from migration_store import (
     claim_next_null_conversation_attachments,
     set_conversation_attachments_status,
@@ -32,7 +32,8 @@ from migration_store import (
 
 
 OUTPUT_DIRS = {
-    'conversation_attachments': Path('conversation_attachments'),
+    'complete_ticket_data': Path('complete_ticket_data'),
+    'attachments': Path('attachments'),
 }
 
 
@@ -67,20 +68,30 @@ def process_one_conversation_attachment(ticket_id: int) -> None:
         logging.info(f"[conv_attachments] Finalized ticket {ticket_id} -> NA (conversations is NA)")
         return
     
-    conv_att_file = OUTPUT_DIRS['conversation_attachments'] / f"ticket_{ticket_id}_conversation_attachments.json"
+    # Read from consolidated complete ticket data file
+    complete_file = OUTPUT_DIRS['complete_ticket_data'] / f"ticket_{ticket_id}_complete.json"
 
     waited = 0.0
-    while not conv_att_file.exists() and waited < CONFIG['max_wait_for_json_seconds']:
+    while not complete_file.exists() and waited < CONFIG['max_wait_for_json_seconds']:
         time.sleep(0.5)
         waited += 0.5
     
-    if not conv_att_file.exists():
+    if not complete_file.exists():
         set_conversation_attachments_status(ticket_id, "NA")
-        logging.info(f"[conv_attachments] Finalized ticket {ticket_id} -> NA (no JSON after {waited}s)")
+        logging.info(f"[conv_attachments] Finalized ticket {ticket_id} -> NA (complete file not found after {waited}s)")
         return
 
     try:
-        raw_list = json.loads(conv_att_file.read_text(encoding='utf-8') or '[]')
+        complete_data = json.loads(complete_file.read_text(encoding='utf-8') or '{}')
+        # Extract conversation attachments from all conversations
+        raw_list = []
+        conversations = complete_data.get('conversations', [])
+        for conv in conversations:
+            for att in conv.get('attachments', []):
+                att['conversation_id'] = conv.get('id')
+                att['ticket_id'] = ticket_id
+                att['user_id'] = conv.get('user_id')
+                raw_list.append(att)
     except Exception:
         set_conversation_attachments_status(ticket_id, "NA")
         logging.info(f"[conv_attachments] Finalized ticket {ticket_id} -> NA (malformed JSON)")
@@ -120,8 +131,9 @@ def process_one_conversation_attachment(ticket_id: int) -> None:
     # If nothing succeeded, conversation attachment URLs may have expired. Refresh once.
     if not mapping:
         try:
-            # Refresh conversation attachments by re-fetching conversations
-            latest = get_ticket_details(ticket_id) or {}
+            # Refresh conversation attachments by re-fetching complete data
+            from extract_ticket_details import get_complete_ticket_data
+            latest = get_complete_ticket_data(ticket_id) or {}
             conversations = latest.get('conversations', []) or []
             refreshed_attachments = []
             for conv in conversations:
@@ -130,10 +142,10 @@ def process_one_conversation_attachment(ticket_id: int) -> None:
                     att['ticket_id'] = ticket_id
                     att['user_id'] = conv.get('user_id')
                     refreshed_attachments.append(att)
-            # Persist refreshed JSON for traceability
+            # Persist refreshed JSON for traceability (update complete file)
             try:
-                new_file = OUTPUT_DIRS['conversation_attachments'] / f"ticket_{ticket_id}_conversation_attachments.json"
-                new_file.write_text(json.dumps(refreshed_attachments, ensure_ascii=False, indent=2), encoding='utf-8')
+                new_file = OUTPUT_DIRS['complete_ticket_data'] / f"ticket_{ticket_id}_complete.json"
+                new_file.write_text(json.dumps(latest, ensure_ascii=False, indent=2), encoding='utf-8')
             except Exception:
                 pass
             mapping = attempt_downloads(refreshed_attachments)
