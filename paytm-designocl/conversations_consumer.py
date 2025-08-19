@@ -39,14 +39,13 @@ CONFIG = {
 
 
 def evaluate_conversation_status(ticket_id: int) -> Any:
-    """Check if conversations JSON exists and has data, return mapping or NA."""
+    """Check if conversations JSON exists and has data, return list of conversation IDs or NA."""
     conv_file = OUTPUT_DIRS['conversations'] / f"ticket_{ticket_id}_conversations.json"
     if conv_file.exists():
         try:
             data = json.loads(conv_file.read_text(encoding='utf-8') or '[]')
             if isinstance(data, list) and len(data) > 0:
-                now_iso = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
-                return {str(conv.get('id', 'unknown')): now_iso for conv in data if conv.get('id')}
+                return [str(conv.get('id', 'unknown')) for conv in data if conv.get('id')]
         except Exception:
             pass
     return "NA"
@@ -80,17 +79,16 @@ def process_one_conversation(ticket_id: int) -> None:
         logging.info(f"[conversations] Finalized ticket {ticket_id} -> NA (no conversations)")
         return
 
-    # Create mapping with current timestamp for each conversation ID
-    now_iso = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
-    mapping: Dict[str, str] = {}
+    # Create list of conversation IDs only (no timestamps)
+    conversation_ids = []
     for conv in conversations:
         conv_id = conv.get('id')
         if conv_id:
-            mapping[str(conv_id)] = now_iso
+            conversation_ids.append(str(conv_id))
 
-    if mapping:
-        set_conversations_status(ticket_id, mapping)
-        logging.info(f"[conversations] Finalized ticket {ticket_id} -> mapping({len(mapping)})")
+    if conversation_ids:
+        set_conversations_status(ticket_id, conversation_ids)
+        logging.info(f"[conversations] Finalized ticket {ticket_id} -> conversation_ids({len(conversation_ids)})")
     else:
         set_conversations_status(ticket_id, "NA")
         logging.info(f"[conversations] Finalized ticket {ticket_id} -> NA (no valid conversation IDs)")
