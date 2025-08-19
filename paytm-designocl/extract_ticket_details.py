@@ -137,10 +137,13 @@ def save_batch_json(tickets, batch_number, base_dir="batches"):
     
     logger.info(f"Batch {batch_number} saved: {len(tickets)} tickets to {filename}")
 
-def read_ticket_ids_from_csv(filename='Sample Data from Design OCL - Sheet1.csv'):
+def read_ticket_ids_from_csv(filename=None):
     """Read ticket IDs from CSV file"""
-    ticket_ids = []
+    if filename is None:
+        filename = os.getenv('TICKET_IDS_CSV_FILE')
     
+    ticket_ids = []
+    logger.info(f"📖 Reading ticket IDs from {filename}")
     try:
         with open(filename, 'r', encoding='utf-8') as csvfile:
             reader = csv.DictReader(csvfile)

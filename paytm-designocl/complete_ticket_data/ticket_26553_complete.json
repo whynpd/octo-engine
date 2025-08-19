@@ -1,0 +1,285 @@
+{
+  "cc_emails": [
+    "rakesh3.singh@paytm.com",
+    "kaustubh.fuloriya@paytm.com",
+    "pranav.girdhar@paytm.com",
+    "anchit.gautam@paytm.com"
+  ],
+  "fwd_emails": [],
+  "reply_cc_emails": [
+    "rakesh3.singh@paytm.com",
+    "kaustubh.fuloriya@paytm.com",
+    "pranav.girdhar@paytm.com",
+    "anchit.gautam@paytm.com"
+  ],
+  "ticket_cc_emails": [],
+  "ticket_bcc_emails": [],
+  "fr_escalated": false,
+  "spam": false,
+  "email_config_id": null,
+  "group_id": 85000014774,
+  "priority": 4,
+  "requester_id": 85000238521,
+  "responder_id": 85000184676,
+  "source": 2,
+  "company_id": null,
+  "status": 5,
+  "subject": "cobranded morefun dqr westside",
+  "association_type": null,
+  "support_email": null,
+  "to_emails": null,
+  "product_id": null,
+  "id": 26553,
+  "type": "Adapt (4 Biz Days)",
+  "due_by": "2025-08-11T13:03:40Z",
+  "fr_due_by": "2025-08-05T13:03:40Z",
+  "is_escalated": false,
+  "description": "<div>Not given.</div>",
+  "description_text": "Not given.",
+  "custom_fields": {
+    "cf_enter_promo_code": null,
+    "cf_tat_selection": "Urgent",
+    "cf_emailers": false,
+    "cf_142_for_video_only_link_creativesapp_screens": null,
+    "cf_143_character_animation_voice_overvo_requirement": null,
+    "cf_push_notification_text_only": false,
+    "cf_bannerspush_thin_super_thin_c1_c4": false,
+    "cf_push_banners_1200_x_600": false,
+    "cf_other_landing_page_link": null,
+    "cf_other": "english",
+    "cf_doodle": false,
+    "cf_not_applicable_content_only_sms_pn_etc": false,
+    "cf_category": "Offline_enterprise (Print)",
+    "cf_date_of_going_live": "2025-08-04",
+    "cf_mediumchannel": null,
+    "cf_s": "Co branded_ DQR Westside",
+    "cf_urllink_adaptedit_new_design_requests": "https://drive.google.com/file/d/17RyxgjD4A_bQdCa7OC7zmn9uZs5tY-rd/view?usp=sharing",
+    "cf_count_of_creatives": 1,
+    "cf_creative_type": "dqr co branded morefun",
+    "cf_notification_push_text_only": false,
+    "cf_microsite": false,
+    "cf_10_target_group": "merchants",
+    "cf_icons_logo": false,
+    "cf_pages_web_page_app_page_landing": false,
+    "cf_poster_a3_a4_a5_3x2_wall_roll": false,
+    "cf_dangler297677": false,
+    "cf_tent_card": false,
+    "cf_bill_book": false,
+    "cf_print_ad": false,
+    "cf_other_unique_tracking_code": null,
+    "cf_packaging": false,
+    "cf_aston_lband": false,
+    "cf_push_bannerstext": false,
+    "cf_chathead": false,
+    "cf_super_thin_1440_x_202": false,
+    "cf_ticker_notification": false,
+    "cf_new_c1_1440x720": true,
+    "cf_c1square_bannerinterstitialpopup_banner_1440x_1440": false,
+    "cf_old_c1h1_1440x864": false,
+    "cf_c4_640x640": false,
+    "cf_new_thin_banner_1440_x_480": false,
+    "cf_t3_banner_1024_x_512": false,
+    "cf_doodle_1125_x_642": false,
+    "cf_portrait_3xn_412_x_480": false,
+    "cf_old_thinflyout_1440x404": false,
+    "cf_10_call_to_action": "paytm karo",
+    "cf_creative_brief": "None of the above",
+    "cf_11_landing_page_link": "Not Applicable",
+    "cf_12_promo_code": "Not Applicable",
+    "cf_only_for_video_request": "Not Applicable"
+  },
+  "created_at": "2025-08-04T12:48:00Z",
+  "updated_at": "2025-08-05T06:45:03Z",
+  "tags": [],
+  "attachments": [],
+  "source_additional_info": null,
+  "structured_description": null,
+  "conversations": [
+    {
+      "id": 85004008121,
+      "body_text": "Hi Ashish Agarwal,       Sharing 2 options of Westside morefun DQR for the brand approval.     Thanks  Rakesh",
+      "body": "<div style=\"font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; font-size:14px\">\n<div>Hi Ashish Agarwal,<br><br><br>\n</div>\n<div><div dir=\"ltr\">\n<div dir=\"ltr\">Sharing 2 options of Westside morefun DQR for the brand approval.</div>\n<div><br></div>\n<div dir=\"ltr\">Thanks</div>\n<div dir=\"ltr\">Rakesh</div>\n</div></div>\n</div>",
+      "private": false,
+      "created_at": "2025-08-05T05:32:44Z",
+      "updated_at": "2025-08-05T05:32:44Z",
+      "user_id": 85000184676,
+      "incoming": false,
+      "source": 0,
+      "support_email": "support@paytm-designocl.freshdesk.com",
+      "to_emails": [
+        "ashish2.agarwal@paytm.com"
+      ],
+      "from_email": "\"Rakesh Singh\" <support@paytm-designocl.freshdesk.com>",
+      "cc_emails": [
+        "kaustubh.fuloriya@paytm.com"
+      ],
+      "bcc_emails": [],
+      "ticket_id": 26553,
+      "attachments": [
+        {
+          "id": 85001647393,
+          "name": "Screenshot 2025-08-05 at 11.01.01 AM.png",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647393/original/Screenshot%202025-08-05%20at%2011.01.01%E2%80%AFAM.png?Expires=1755607602&Signature=PHwWEZ1kxJhoffuyv1EF1rGd~7ZWxekVFvkGhexBoVnPnshT4wj-S9KyWXcF7DpCfMJvM575juueL9Br2ZQ84lZ8SWgZN5uexoP-X1wrp2k7BjW3XsmcaydGaL4q74ng2DkiGRYntTMtDWTInE89IIoqYkAG88kCxOQ1Pzm7YwJiWoqKVNGe7lwP76FTIUIl1Kh2KCYtzYZjLQP5hLZ2uJRRv9XXw8LLoTCMdLD1sn0okiHbwEoGJ0XrzVQBvzE9mSwmE5jrOOQTsRGVzoTeCIw39R-0~5er77vA8aHTZ1-6DLAikKUM-zAnd~AIoj8TVCJgYLx85Yo08RT6f6LgvA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/png",
+          "size": 272948,
+          "created_at": "2025-08-05T05:32:44Z",
+          "updated_at": "2025-08-05T05:32:44Z",
+          "user_id": 85000184676,
+          "conversation_id": 85004008121,
+          "type": "conversation_attachment"
+        }
+      ]
+    },
+    {
+      "id": 85004008187,
+      "body_text": "Hi Rakesh,\r\n\r\nPlease share printable file for option 1.\r\n\r\n*Thanks & Regards,*\r\n\r\n*Ashish Agarwal*\r\n\r\n*Enterprise Operations *\r\n\r\n\r\n\r\n\r\n\r\nOn Tue, 5 Aug 2025 at 11:02 AM, Rakesh Singh <\r\nsupport@paytm-designocl.freshdesk.com> wrote:\r\n\r\n> Hi Ashish Agarwal,\r\n>\r\n>\r\n> Sharing 2 options of Westside morefun DQR for the brand approval.\r\n>\r\n> Thanks\r\n> Rakesh\r\n>\r\n> Encès Dl, 4 Ago. a les 8:48 AM , Ashish Agarwal <ashish2.agarwal@paytm.com>\r\n> ha escrit:\r\n> Not given.\r\n>\r\n> 26553:2424999\r\n>\r\n\r\n",
+      "body": "<div dir=\"auto\">Hi Rakesh,</div>\n<div dir=\"auto\"><br></div>\n<div dir=\"auto\">Please share printable file for option 1. <br><br><div dir=\"auto\"><div dir=\"ltr\" class=\"gmail_signature\"><div dir=\"ltr\">\n<div class=\"MsoNormal\"><span lang=\"EN-US\" style=\"background-color:rgb(255,255,255)\"><font color=\"#000000\"><b>Thanks &amp; Regards,<u></u><u></u></b></font></span></div>\n<div class=\"MsoNormal\"><span lang=\"EN-US\" style=\"background-color:rgb(255,255,255)\"><font color=\"#000000\"><b>Ashish Agarwal<u></u></b></font></span></div>\n<div class=\"MsoNormal\"><b style=\"color:rgb(0,0,0);font-family:arial,sans-serif\">Enterprise Operations </b></div>\n<div class=\"MsoNormal\"><font color=\"#000000\" style=\"background-color:rgb(255,255,255)\"><b><img src=\"cid:ii_143661aff216b44d\" style=\"width:101px;max-width:100%\"><br></b></font></div>\n<div class=\"MsoNormal\"><br></div>\n</div></div></div>\n</div>\n<div><br></div>\n<div>\n<br><div class=\"gmail_quote gmail_quote_container\"><div dir=\"ltr\" class=\"gmail_attr\"></div></div>\n</div>\n<div class=\"freshdesk_quote\"><blockquote class=\"freshdesk_quote\">\n<div>On Tue, 5 Aug 2025 at 11:02 AM, Rakesh Singh &lt;<a href=\"mailto:support@paytm-designocl.freshdesk.com\" rel=\"noreferrer\">support@paytm-designocl.freshdesk.com</a>&gt; wrote:<br>\n</div>\n<blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex\"><div style=\"font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;font-size:14px\">\n\t<div style=\"font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;font-size:14px\">\n<div>Hi Ashish Agarwal,<br><br><br>\n</div>\n<div><div dir=\"ltr\">\n<div dir=\"ltr\">Sharing 2 options of Westside morefun DQR for the brand approval.</div>\n<div><br></div>\n<div dir=\"ltr\">Thanks</div>\n<div dir=\"ltr\">Rakesh</div>\n</div></div>\n<div>\n                          <blockquote>\n                            Encès\n                            Dl, 4 Ago. a les  8:48 AM\n                            <span>,  Ashish Agarwal &lt;<a href=\"mailto:ashish2.agarwal@paytm.com\" target=\"_blank\" rel=\"noreferrer\">ashish2.agarwal@paytm.com</a>&gt;  ha escrit:\n                            <div>Not given.</div>\n                          </span>\n</blockquote>\n                        </div>\n</div>\n\n\n\t\n\n\n\n\n\n\n\n\n</div></blockquote>\n</blockquote></div>",
+      "private": false,
+      "created_at": "2025-08-05T05:40:20Z",
+      "updated_at": "2025-08-05T05:40:20Z",
+      "user_id": 85000238521,
+      "incoming": true,
+      "source": 0,
+      "support_email": "ashish2.agarwal@paytm.com",
+      "to_emails": [
+        "\"Rakesh Singh\" <support@paytm-designocl.freshdesk.com>",
+        "Rakesh <rakesh3.singh@paytm.com>"
+      ],
+      "from_email": "ashish2.agarwal@paytm.com",
+      "cc_emails": [
+        "kaustubh.fuloriya@paytm.com",
+        "pranav.girdhar@paytm.com",
+        "anchit.gautam@paytm.com"
+      ],
+      "bcc_emails": [],
+      "ticket_id": 26553
+    },
+    {
+      "id": 85004008243,
+      "body_text": "Hi Rakesh,\r\n\r\nShare printable file for option 2.\r\n\r\n\r\n*Thanks & Regards,*\r\n\r\n*Ashish Agarwal*\r\n\r\n*Enterprise Operations *\r\n\r\n\r\n\r\n\r\n\r\nOn Tue, 5 Aug 2025 at 11:09 AM, Ashish Agarwal <ashish2.agarwal@paytm.com>\r\nwrote:\r\n\r\n> Hi Rakesh,\r\n>\r\n> Please share printable file for option 1.\r\n>\r\n> *Thanks & Regards,*\r\n>\r\n> *Ashish Agarwal*\r\n>\r\n> *Enterprise Operations *\r\n>\r\n>\r\n>\r\n>\r\n>\r\n> On Tue, 5 Aug 2025 at 11:02 AM, Rakesh Singh <\r\n> support@paytm-designocl.freshdesk.com> wrote:\r\n>\r\n>> Hi Ashish Agarwal,\r\n>>\r\n>>\r\n>> Sharing 2 options of Westside morefun DQR for the brand approval.\r\n>>\r\n>> Thanks\r\n>> Rakesh\r\n>>\r\n>> Encès Dl, 4 Ago. a les 8:48 AM , Ashish Agarwal <\r\n>> ashish2.agarwal@paytm.com> ha escrit:\r\n>> Not given.\r\n>>\r\n>> 26553:2424999\r\n>>\r\n>\r\n\r\n",
+      "body": "<div>Hi Rakesh,</div>\n<div dir=\"auto\"><br></div>\n<div dir=\"auto\">Share printable file for option 2. <br><div dir=\"auto\">\n<br><br><div><div dir=\"ltr\" class=\"gmail_signature\"><div dir=\"ltr\">\n<div class=\"MsoNormal\"><span lang=\"EN-US\" style=\"background-color:rgb(255,255,255)\"><font color=\"#000000\"><b>Thanks &amp; Regards,<u></u><u></u></b></font></span></div>\n<div class=\"MsoNormal\"><span lang=\"EN-US\" style=\"background-color:rgb(255,255,255)\"><font color=\"#000000\"><b>Ashish Agarwal<u></u></b></font></span></div>\n<div class=\"MsoNormal\"><b style=\"color:rgb(0,0,0);font-family:arial,sans-serif\">Enterprise Operations </b></div>\n<div class=\"MsoNormal\"><font color=\"#000000\" style=\"background-color:rgb(255,255,255)\"><b><img src=\"cid:ii_143661aff216b44d\" style=\"width:101px;max-width:100%\"><br></b></font></div>\n<div class=\"MsoNormal\"><br></div>\n</div></div></div>\n</div>\n<div dir=\"auto\"><br></div>\n<div dir=\"auto\">\n<br><div class=\"gmail_quote gmail_quote_container\"><div dir=\"ltr\" class=\"gmail_attr\"></div></div>\n</div>\n</div>\n<div class=\"freshdesk_quote\"><blockquote class=\"freshdesk_quote\">\n<div>On Tue, 5 Aug 2025 at 11:09 AM, Ashish Agarwal &lt;<a href=\"mailto:ashish2.agarwal@paytm.com\" rel=\"noreferrer\">ashish2.agarwal@paytm.com</a>&gt; wrote:<br>\n</div>\n<blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex\">\n<div dir=\"auto\">Hi Rakesh,</div>\n<div dir=\"auto\"><br></div>\n<div dir=\"auto\">Please share printable file for option 1. <br><br><div dir=\"auto\"><div dir=\"ltr\" class=\"gmail_signature\"><div dir=\"ltr\">\n<div class=\"MsoNormal\"><span lang=\"EN-US\" style=\"background-color:rgb(255,255,255)\"><font color=\"#000000\"><b>Thanks &amp; Regards,<u></u><u></u></b></font></span></div>\n<div class=\"MsoNormal\"><span lang=\"EN-US\" style=\"background-color:rgb(255,255,255)\"><font color=\"#000000\"><b>Ashish Agarwal<u></u></b></font></span></div>\n<div class=\"MsoNormal\"><b style=\"color:rgb(0,0,0);font-family:arial,sans-serif\">Enterprise Operations </b></div>\n<div class=\"MsoNormal\"><font color=\"#000000\" style=\"background-color:rgb(255,255,255)\"><b><img style=\"width:101px;max-width:100%\"><br></b></font></div>\n<div class=\"MsoNormal\"><br></div>\n</div></div></div>\n</div>\n<div><br></div>\n<div>\n<br><div class=\"gmail_quote\">\n<div dir=\"ltr\" class=\"gmail_attr\">On Tue, 5 Aug 2025 at 11:02 AM, Rakesh Singh &lt;<a href=\"mailto:support@paytm-designocl.freshdesk.com\" target=\"_blank\" rel=\"noreferrer\">support@paytm-designocl.freshdesk.com</a>&gt; wrote:<br>\n</div>\n<blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex\"><div style=\"font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;font-size:14px\">\n\t<div style=\"font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;font-size:14px\">\n<div>Hi Ashish Agarwal,<br><br><br>\n</div>\n<div><div dir=\"ltr\">\n<div dir=\"ltr\">Sharing 2 options of Westside morefun DQR for the brand approval.</div>\n<div><br></div>\n<div dir=\"ltr\">Thanks</div>\n<div dir=\"ltr\">Rakesh</div>\n</div></div>\n<div>\n                          <blockquote>\n                            Encès\n                            Dl, 4 Ago. a les  8:48 AM\n                            <span>,  Ashish Agarwal &lt;<a href=\"mailto:ashish2.agarwal@paytm.com\" target=\"_blank\" rel=\"noreferrer\">ashish2.agarwal@paytm.com</a>&gt;  ha escrit:\n                            <div>Not given.</div>\n                          </span>\n</blockquote>\n                        </div>\n</div>\n\n\n\t\n\n\n\n\n\n\n\n\n</div></blockquote>\n</div>\n</div>\n</blockquote>\n</blockquote></div>",
+      "private": false,
+      "created_at": "2025-08-05T05:46:42Z",
+      "updated_at": "2025-08-05T05:46:42Z",
+      "user_id": 85000238521,
+      "incoming": true,
+      "source": 0,
+      "support_email": "ashish2.agarwal@paytm.com",
+      "to_emails": [
+        "\"Rakesh Singh\" <support@paytm-designocl.freshdesk.com>",
+        "Rakesh <rakesh3.singh@paytm.com>"
+      ],
+      "from_email": "ashish2.agarwal@paytm.com",
+      "cc_emails": [
+        "kaustubh.fuloriya@paytm.com",
+        "pranav.girdhar@paytm.com",
+        "anchit.gautam@paytm.com"
+      ],
+      "bcc_emails": [],
+      "ticket_id": 26553
+    },
+    {
+      "id": 85004008251,
+      "body_text": "Hi Ashish Agarwal,  PFA printable pdf file of the Westside Morefun DQR. Attached jpg for your reference.     Thanks  Rakesh",
+      "body": "<div style=\"font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; font-size:14px\">\n<div dir=\"ltr\">Hi Ashish Agarwal,<br><br>PFA printable pdf file of the Westside Morefun DQR. Attached jpg for your reference.</div>\n<div><br></div>\n<div dir=\"ltr\">Thanks</div>\n<div dir=\"ltr\">Rakesh<br><br>\n</div>\n<div><div dir=\"ltr\"><div><br></div></div></div>\n</div>",
+      "private": false,
+      "created_at": "2025-08-05T05:47:36Z",
+      "updated_at": "2025-08-05T05:47:36Z",
+      "user_id": 85000184676,
+      "incoming": false,
+      "source": 0,
+      "support_email": "support@paytm-designocl.freshdesk.com",
+      "to_emails": [
+        "ashish2.agarwal@paytm.com"
+      ],
+      "from_email": "\"Rakesh Singh\" <support@paytm-designocl.freshdesk.com>",
+      "cc_emails": [
+        "rakesh3.singh@paytm.com",
+        "kaustubh.fuloriya@paytm.com",
+        "pranav.girdhar@paytm.com",
+        "anchit.gautam@paytm.com"
+      ],
+      "bcc_emails": [],
+      "ticket_id": 26553,
+      "attachments": [
+        {
+          "id": 85001647405,
+          "name": "Westside_More fun_DQR_Aug_Released-01.jpg",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647405/original/Westside_More%20fun_DQR_Aug_Released-01.jpg?Expires=1755607602&Signature=BrYqbeLSKhRzceYywroZkboE28drQwZi4s1UZcckFNOw2NoPHZwJwLTzCDKJ4pSTn5ZX9MZeLEZW4eV8VjJb4-oyIcQnsfHP2NYuTV-yRaahI2lv8g9gH9MQshULygN9afNXkizzmHRr4hG3wGPmxZdD~rTVbIr9yYM2T8pxL-hRdDWq2nyAP36zgpBEhoC7KUgntDuUGfChYhiyR0xwU8tu-HUtxdYUmW2wY~9t6aIvN88B-BIy9aitmVgJWCiPl-PE-osKNYsdsV9WnPI6OHvH5YcIuIdSAmTQQtmKW7S4ELfABH1klM~7K-PqYk0U2nJyS5dPesAhZeR-R3PR1Q__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/jpeg",
+          "size": 101191,
+          "created_at": "2025-08-05T05:47:36Z",
+          "updated_at": "2025-08-05T05:47:36Z",
+          "user_id": 85000184676,
+          "conversation_id": 85004008251,
+          "type": "conversation_attachment"
+        },
+        {
+          "id": 85001647406,
+          "name": "Westside_More fun_DQR_Aug_Released.pdf",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647406/original/Westside_More%20fun_DQR_Aug_Released.pdf?Expires=1755607602&Signature=HjmhSHespyxN0XfzvXP8uPYWwEoWaWCpC5c3bzTl9A32h2xUr4XWHC-ORgLZ356IjvHUel8CAHFVILr1fxsnGP1q4vug4Igbd8Lc~97qV4oaFjnYxrHNoXWD2ygKHEztJckzHTY4P1O5iusPU9oweLNzED0vgqZbIINjwVnrYU7TQ2zTTdBss9lxEtdp8cXof6SpxfwmemESa~iBmvnlSYktWp3Hn2AEgGwTQ19KmczTdHkmz-quPU4gnlOqtNhx~SeXeCKCdldbSVTDqUfHQYg0v9zLiKig73PJ90013ie6joRKS0RtHOpNXX6QNzAl-SjsT39BMUsQfMCsiUvFuQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "application/pdf",
+          "size": 463281,
+          "created_at": "2025-08-05T05:47:36Z",
+          "updated_at": "2025-08-05T05:47:36Z",
+          "user_id": 85000184676,
+          "conversation_id": 85004008251,
+          "type": "conversation_attachment"
+        }
+      ]
+    },
+    {
+      "id": 85004008346,
+      "body_text": "Hi Ashish Agarwal,  As per the revised approval on option 2, please disregard the previous artwork. Attached is the updated artwork for the same     Thanks  Rakesh",
+      "body": "<div style=\"font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; font-size:14px\">\n<div dir=\"ltr\">Hi Ashish Agarwal,<br><br>As per the revised approval on option 2, please disregard the previous artwork. Attached is the updated artwork for the same</div>\n<div><br></div>\n<div dir=\"ltr\">Thanks</div>\n<div dir=\"ltr\">Rakesh<br><br>\n</div>\n<div><div dir=\"ltr\"><div><br></div></div></div>\n<div><br></div>\n</div>",
+      "private": false,
+      "created_at": "2025-08-05T05:57:09Z",
+      "updated_at": "2025-08-05T05:57:09Z",
+      "user_id": 85000184676,
+      "incoming": false,
+      "source": 0,
+      "support_email": "support@paytm-designocl.freshdesk.com",
+      "to_emails": [
+        "ashish2.agarwal@paytm.com"
+      ],
+      "from_email": "\"Rakesh Singh\" <support@paytm-designocl.freshdesk.com>",
+      "cc_emails": [
+        "rakesh3.singh@paytm.com",
+        "kaustubh.fuloriya@paytm.com",
+        "pranav.girdhar@paytm.com",
+        "anchit.gautam@paytm.com"
+      ],
+      "bcc_emails": [],
+      "ticket_id": 26553,
+      "attachments": [
+        {
+          "id": 85001647412,
+          "name": "Westside_More fun_DQR_Aug_Released_-01.jpg",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647412/original/Westside_More%20fun_DQR_Aug_Released_-01.jpg?Expires=1755607602&Signature=mxqLzkUaJYPbCYK-ri6lwp8ikDLl-zzC~hoLlI2fv7s-s8B4-qmuY~YBJ-NtkB7JWzEZ~ruvAAXh8E2V4fj6hvOABI40UiBY1Vw6MPigp6wwcNMPXILXmUDrck26bGNqppVuSoIWfS0HrxQ7IB95IEXxAVCExLtHdhfYyDd9c9Tksc-4GgO5Ba89K4KOIEjb~I53B1TcQTsU6Lg~BzZ1Y8JKNUrlbkgEJxfojxLuIP1ILQGSiIKx~1o3OFj5xnL~teLfVeJMNQ0uQ6giEg25~3s9iMY~3PHiwvarD7bs~YkRDBWCGbI5nSmQ5zFk4SWpy5n8ys~0qe2ohoVPdwxL-g__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/jpeg",
+          "size": 96378,
+          "created_at": "2025-08-05T05:57:09Z",
+          "updated_at": "2025-08-05T05:57:09Z",
+          "user_id": 85000184676,
+          "conversation_id": 85004008346,
+          "type": "conversation_attachment"
+        },
+        {
+          "id": 85001647413,
+          "name": "Westside_More fun_DQR_Aug_Released_.pdf",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647413/original/Westside_More%20fun_DQR_Aug_Released_.pdf?Expires=1755607602&Signature=ZoezlXB6khhKSnke8hy0vzf8KelV3BCf7V6HyHS9WeJ4x24OnvvfkUZiT3Gh2uFPpPf3tRqslF1jhrNEprTuYm6sEcnBa7uB1z5Suf-IOIe84KBaQCmu2qr23apiHH-PUJNZaODR-~abT9FLUcATO5RySOHe18ditesGhrkUd65p759XQNkmhC6-MIdN3qn1-LJnZLzneySkZ~2zmNLdMEke-p-1SGncUKYFCgK5WTjt0cQnlJnM6M3lNKPEP9w2aSXc8y2d34P9jokh7p63XD8LpcQn48zOzjiTazaix8VVqGP0eufx92cvgRGduis0bM~ltti7uUIv29XlUThEgA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "application/pdf",
+          "size": 462925,
+          "created_at": "2025-08-05T05:57:09Z",
+          "updated_at": "2025-08-05T05:57:09Z",
+          "user_id": 85000184676,
+          "conversation_id": 85004008346,
+          "type": "conversation_attachment"
+        }
+      ]
+    }
+  ],
+  "form_id": 85000001715,
+  "nr_due_by": null,
+  "nr_escalated": false
+}

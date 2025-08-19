@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
@@ -35,7 +36,7 @@ OUTPUT_DIRS = {
 
 
 CONFIG = {
-    'input_csv': 'Sample Data from Design OCL - Sheet1.csv',
+    'input_csv': os.getenv('TICKET_IDS_CSV_FILE'),
     'workers': 20,
     'batch_size': 20,
     'limit': 0,  # 0 = all

@@ -1,6 +1,6 @@
 {
-  "migration_completed": "2025-08-19T17:58:37.672346",
-  "duration_seconds": 0.019987,
+  "migration_completed": "2025-08-19T18:11:43.380342",
+  "duration_seconds": 0.014569,
   "tickets_processed": 49,
   "files_created": {
     "ticket_details": 49,

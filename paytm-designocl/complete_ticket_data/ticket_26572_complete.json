@@ -1,0 +1,494 @@
+{
+  "cc_emails": [
+    "sarahana.sanchay@paytm.com",
+    "nikita3.sharma@paytm.com"
+  ],
+  "fwd_emails": [],
+  "reply_cc_emails": [
+    "sarahana.sanchay@paytm.com",
+    "nikita3.sharma@paytm.com"
+  ],
+  "ticket_cc_emails": [],
+  "ticket_bcc_emails": [],
+  "fr_escalated": true,
+  "spam": false,
+  "email_config_id": null,
+  "group_id": 85000014909,
+  "priority": 4,
+  "requester_id": 85000916785,
+  "responder_id": 85000184689,
+  "source": 2,
+  "company_id": null,
+  "status": 5,
+  "subject": "Creative Request | Edit | Non ICA Enabled Merchants | 5th Aug'25",
+  "association_type": null,
+  "support_email": null,
+  "to_emails": null,
+  "product_id": null,
+  "id": 26572,
+  "type": "Edit (1 Biz Day)",
+  "due_by": "2025-08-11T11:46:40Z",
+  "fr_due_by": "2025-08-06T11:44:19Z",
+  "is_escalated": false,
+  "description": "<div>Not given.</div>",
+  "description_text": "Not given.",
+  "custom_fields": {
+    "cf_enter_promo_code": null,
+    "cf_tat_selection": "Urgent",
+    "cf_emailers": false,
+    "cf_142_for_video_only_link_creativesapp_screens": null,
+    "cf_143_character_animation_voice_overvo_requirement": null,
+    "cf_push_notification_text_only": false,
+    "cf_bannerspush_thin_super_thin_c1_c4": false,
+    "cf_push_banners_1200_x_600": false,
+    "cf_other_landing_page_link": null,
+    "cf_other": "Hindi, English, tamil, telugu, Marathi",
+    "cf_doodle": false,
+    "cf_not_applicable_content_only_sms_pn_etc": false,
+    "cf_category": "Devices - Soundbox, EDC (Digital)",
+    "cf_date_of_going_live": "2025-08-06",
+    "cf_mediumchannel": null,
+    "cf_s": "Hi Zeeshan & Team,\nWe have one small edit request, We need an updated banner for the ICA Opt-Out campaign. The only change is the date — from 14th August to 31st August.\nIf we can get it in a festive theme, that would be a great plus.\n\nLanguages Required - English, Hindi, Marathi, Tamil, Telugu.\nGoogle Drive - https://drive.google.com/drive/u/0/folders/1tm3vHIerjQDszzlHqNLtbi7DYLIr0qD5",
+    "cf_urllink_adaptedit_new_design_requests": "https://drive.google.com/drive/u/0/folders/1tm3vHIerjQDszzlHqNLtbi7DYLIr0qD5",
+    "cf_count_of_creatives": 20,
+    "cf_creative_type": null,
+    "cf_notification_push_text_only": false,
+    "cf_microsite": false,
+    "cf_10_target_group": "Consumer",
+    "cf_icons_logo": false,
+    "cf_pages_web_page_app_page_landing": true,
+    "cf_poster_a3_a4_a5_3x2_wall_roll": false,
+    "cf_dangler297677": false,
+    "cf_tent_card": false,
+    "cf_bill_book": true,
+    "cf_print_ad": false,
+    "cf_other_unique_tracking_code": null,
+    "cf_packaging": false,
+    "cf_aston_lband": false,
+    "cf_push_bannerstext": false,
+    "cf_chathead": false,
+    "cf_super_thin_1440_x_202": false,
+    "cf_ticker_notification": false,
+    "cf_new_c1_1440x720": false,
+    "cf_c1square_bannerinterstitialpopup_banner_1440x_1440": false,
+    "cf_old_c1h1_1440x864": false,
+    "cf_c4_640x640": false,
+    "cf_new_thin_banner_1440_x_480": false,
+    "cf_t3_banner_1024_x_512": false,
+    "cf_doodle_1125_x_642": false,
+    "cf_portrait_3xn_412_x_480": false,
+    "cf_old_thinflyout_1440x404": false,
+    "cf_10_call_to_action": "Watch Demo",
+    "cf_creative_brief": "Growth Head",
+    "cf_11_landing_page_link": "Not Applicable",
+    "cf_12_promo_code": "Not Applicable",
+    "cf_only_for_video_request": "Not Applicable"
+  },
+  "created_at": "2025-08-05T11:28:30Z",
+  "updated_at": "2025-08-18T09:06:04Z",
+  "tags": [],
+  "attachments": [],
+  "source_additional_info": null,
+  "structured_description": null,
+  "conversations": [
+    {
+      "id": 85004020311,
+      "body_text": "Hi Parakram Raj Bhardwaj,    Please find the banners attached below.",
+      "body": "<div style=\"font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; font-size:14px\">\n<div>Hi Parakram Raj Bhardwaj,<br><br>\n</div>\n<div dir=\"ltr\">Please find the banners attached below.</div>\n</div>",
+      "private": false,
+      "created_at": "2025-08-06T13:20:49Z",
+      "updated_at": "2025-08-06T13:20:49Z",
+      "user_id": 85000184689,
+      "incoming": false,
+      "source": 0,
+      "support_email": "support@paytm-designocl.freshdesk.com",
+      "to_emails": [
+        "parakram1.bhardwaj@paytm.com"
+      ],
+      "from_email": "\"Swati Singh\" <support@paytm-designocl.freshdesk.com>",
+      "cc_emails": [
+        "sarahana.sanchay@paytm.com",
+        "nikita3.sharma@paytm.com"
+      ],
+      "bcc_emails": [],
+      "ticket_id": 26572,
+      "attachments": [
+        {
+          "id": 85001648389,
+          "name": "26572_Creative Request _ Edit _ Non ICA Enabled Merchants _ 5th Aug'25.png",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648389/original/26572_Creative%20Request%20_%20Edit%20_%20Non%20ICA%20Enabled%20Merchants%20_%205th%20Aug%2725.png?Expires=1755607603&Signature=XM8kvL9PNPGdBZz6BLHs2Afqd4e-EmQPgmsLSer62YRLeI3TvIn~szA4HLnHfgqu0I2BaoB40pfcyUQxQo~DwkH~a9nbGE3pOfzDwOp~wwY7rYXIg~27GnpTyb7qkKYd0GYfhAqJedO1H1AW2OscauY7XSJP1T6JvcIdO-Y0Oeexk1O3OgktJ~arJAwyCTV4n-3talsf--E~Rw3Dl1IpmE77jMDABuBciho90M50WKs0MHwMN9I6a78RtxR9eSKZRh4FNc1Cf0N9N5jQyRICGucvoW2dwo48NGC6h4Pck6pujicwR32G9GycI7X9fKJ9Wpsal4GBGS~Y1477Z7zDMg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/png",
+          "size": 442516,
+          "created_at": "2025-08-06T13:20:49Z",
+          "updated_at": "2025-08-06T13:20:49Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004020311,
+          "type": "conversation_attachment"
+        },
+        {
+          "id": 85001648390,
+          "name": "26572_Creative Request _ Edit _ Non ICA Enabled Merchants _ 5th Aug'25-1.png",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648390/original/26572_Creative%20Request%20_%20Edit%20_%20Non%20ICA%20Enabled%20Merchants%20_%205th%20Aug%2725-1.png?Expires=1755607603&Signature=Q-cjotnjC7R4-BMbTVtEJG~1ZVFhfEEni9TVtrorD4EW-AHy90DPMJ725OxkNgQgjJ~uFcagpaYPhLLpD-pmqB2HtFuTnCRzYt8lk5yiTx-4IbPbqUaRyvGYT98FFqVJooIPiDKRJhXQT-T7VgLANVLXMu0e-NYxyVI2NPH6FLg8h3OI5l2tW1XUDEPHfpiI2c~CcyVH95HF1rZ27DHWcaEs1s5FNfHtxjGBfHJ-dsfsQef-yLPiknPxooWEoIdfE2NZ9rjD6006uBHtABgIYx~Yfe70MidrQUEeckEIjEQXUSBELSnD2vGfK0uP9Fuw~FJZI4J8l-gW0pBuS53T3w__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/png",
+          "size": 610030,
+          "created_at": "2025-08-06T13:20:49Z",
+          "updated_at": "2025-08-06T13:20:49Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004020311,
+          "type": "conversation_attachment"
+        },
+        {
+          "id": 85001648391,
+          "name": "26572_Creative Request _ Edit _ Non ICA Enabled Merchants _ 5th Aug'25-2.png",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648391/original/26572_Creative%20Request%20_%20Edit%20_%20Non%20ICA%20Enabled%20Merchants%20_%205th%20Aug%2725-2.png?Expires=1755607603&Signature=YBLl3E~-O5Upd4-d0M9ABkVdmzLxw2gbevuFEzhjpXblRQl19m6r~cZvzMmdXHdUOy6e8hiL0Hh-be5LOVDqwCaN308hCdv9ZQiLqJQy0qyhST9uLJXJfejFlXLsaMqE~iU58EtJW~0T-PYu3hZ6OG~sPcaaTXgZsFD9oUMu52zGfEAWOM7oH2hk0o4Z0Z0IiAobwBXOgqvgFdTUvd~LTzNjGtdsW1IF2EYUkaMCsVMcbDl0ZNyN~wD75YT7PaSpV-NmMMjMhk1ny39QSaAp2mijzGnzXpEEOP-p6yypfwIklJ3iIL0xkVA985eEYK3vcZo5bvomb5uYOFGQmadvMQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/png",
+          "size": 913400,
+          "created_at": "2025-08-06T13:20:49Z",
+          "updated_at": "2025-08-06T13:20:49Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004020311,
+          "type": "conversation_attachment"
+        }
+      ]
+    },
+    {
+      "id": 85004020400,
+      "body_text": "Hi Parakram Raj Bhardwaj,  Please find the banners attached below.",
+      "body": "<div style=\"font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; font-size:14px\"><div>Hi Parakram Raj Bhardwaj,<br><br><span style='color: rgb(24, 50, 71); font-family: -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none' dir=\"ltr\">Please find the banners attached below.</span>\n</div></div>",
+      "private": false,
+      "created_at": "2025-08-06T13:33:51Z",
+      "updated_at": "2025-08-06T13:33:51Z",
+      "user_id": 85000184689,
+      "incoming": false,
+      "source": 0,
+      "support_email": "support@paytm-designocl.freshdesk.com",
+      "to_emails": [
+        "parakram1.bhardwaj@paytm.com"
+      ],
+      "from_email": "\"Swati Singh\" <support@paytm-designocl.freshdesk.com>",
+      "cc_emails": [
+        "sarahana.sanchay@paytm.com",
+        "nikita3.sharma@paytm.com"
+      ],
+      "bcc_emails": [],
+      "ticket_id": 26572,
+      "attachments": [
+        {
+          "id": 85001648401,
+          "name": "26572_Creative Request _ Edit _ Non ICA Enabled Merchants _ 5th Aug'25.png",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648401/original/26572_Creative%20Request%20_%20Edit%20_%20Non%20ICA%20Enabled%20Merchants%20_%205th%20Aug%2725.png?Expires=1755607603&Signature=Rpt0XUp6ofp7XhfH3hRcNbxnx~j~pzONVOxryu1FjcuM1HuwpC-hx1lxy~0G9Yp2JOa3bCWC2t97I-xfIT3edwjqTSZTR9Usc1lJ6F-jOePah3PwKYtBaIMZ6B4YGZBvM8-YwBueZS1jarR2g4hOl~H4nYQRUraoGJtSDr6YoIajmxxo7tkTrHS4Qm0X-gPBHK3Ntqr8u0nI~g3nrJ5Wn8HCdinax6arH8cbmzUFbBIPG~B2MWbEtEe4RelqUFp2taJentyIiM1JY6GzMuKWLD0pTmcq1BSISA--bTY3rhbB2s1OyNujfkP~nHfCxRf5sQTewCx60DmlY348QSdZRQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/png",
+          "size": 439709,
+          "created_at": "2025-08-06T13:33:51Z",
+          "updated_at": "2025-08-06T13:33:51Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004020400,
+          "type": "conversation_attachment"
+        },
+        {
+          "id": 85001648402,
+          "name": "26572_Creative Request _ Edit _ Non ICA Enabled Merchants _ 5th Aug'25-1.png",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648402/original/26572_Creative%20Request%20_%20Edit%20_%20Non%20ICA%20Enabled%20Merchants%20_%205th%20Aug%2725-1.png?Expires=1755607603&Signature=D9Q~FDDHGz1auwoh0zmmRafZRij9IcCUgqGC22efcpthNt1x5ZlwmqSEJ~OsyjilhewWJ8wbBsHCh8HLOyGKPnDoCJVd91IAhMBbjVcIOV~yuxcdJfx5hpZH4CMOg-OiZLocvOMS~p9D0~4Z9MUhNRBtzGg9mu3wLwNTVUzoXGAMn5DgUC7mKUlJLX5OPiReiuqRrJYwAIqTH5aNY9A0AaoT5NCFxTa2y9SrqK6a52LJfhExtJdAwvmWdoK1sNPH1EZWaYuY4zz-U8zYDiki5yl-9T4cu6BMS2bONBv-WoHitDhIhBdy0~-GMDzhlbEoBwXfW9rwdCZm-WsbP9OYUQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/png",
+          "size": 610030,
+          "created_at": "2025-08-06T13:33:51Z",
+          "updated_at": "2025-08-06T13:33:51Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004020400,
+          "type": "conversation_attachment"
+        },
+        {
+          "id": 85001648403,
+          "name": "26572_Creative Request _ Edit _ Non ICA Enabled Merchants _ 5th Aug'25-2.png",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648403/original/26572_Creative%20Request%20_%20Edit%20_%20Non%20ICA%20Enabled%20Merchants%20_%205th%20Aug%2725-2.png?Expires=1755607603&Signature=Sk2-3TZP3zWy18AsJkaQlFKd9lNw2Y2Oyv3fa8kvqPHgC360hQaWKzHJFHQtftS~~B44nLMc6i1XZJOYOx2RxKHgNNM9z3I5ZTJ0vrtO~TDRyENy-RMyzMyIkdXYuWJR4UpzsbaEFHgkdl-9fvKoVzcRfvnJCFHT4W~n2DCZqUZ7csEnqsxfnjfiFsz9QXxUd~~djgoj2jQx6yhioG3pawW44yC4haN7l~TVIMu5zCZ3iYOZqP1~U9M4KnhgRdcEcAQZI~xbeSPiQofWrpPFbdYDpSbN7F9DQuA7JyjWsUmuujTz-x209taLOrjG-Rk383DAHs90ImvHRr2Gc-Ql4w__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/png",
+          "size": 913400,
+          "created_at": "2025-08-06T13:33:51Z",
+          "updated_at": "2025-08-06T13:33:51Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004020400,
+          "type": "conversation_attachment"
+        }
+      ]
+    },
+    {
+      "id": 85004024521,
+      "body_text": "Hi Parakram Raj Bhardwaj,  PFA",
+      "body": "<div style=\"font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; font-size:14px\">\n<div dir=\"ltr\">Hi Parakram Raj Bhardwaj,<br><br>PFA<br><br>\n</div>\n<div></div>\n</div>",
+      "private": false,
+      "created_at": "2025-08-07T05:20:43Z",
+      "updated_at": "2025-08-07T05:20:43Z",
+      "user_id": 85000184689,
+      "incoming": false,
+      "source": 0,
+      "support_email": "support@paytm-designocl.freshdesk.com",
+      "to_emails": [
+        "parakram1.bhardwaj@paytm.com"
+      ],
+      "from_email": "\"Swati Singh\" <support@paytm-designocl.freshdesk.com>",
+      "cc_emails": [
+        "sarahana.sanchay@paytm.com",
+        "nikita3.sharma@paytm.com"
+      ],
+      "bcc_emails": [],
+      "ticket_id": 26572,
+      "attachments": [
+        {
+          "id": 85001648619,
+          "name": "26470_ICA Optout_Emailer_edit.png",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648619/original/26470_ICA%20Optout_Emailer_edit.png?Expires=1755607603&Signature=Cg8g1p4xl6zUEw3xVK~TpNypQw3cS-uxuHbC03jaa1dcKQCdE7RxvNM6aELHP3JPcHOHB9Pqo1j-DyXP3DZe1pE8tllSdsh9FqkLATwpL61pjdxk35UH9~bloWPiYgC9Skuvjx30rfGD~7FQbLiFMGe31DJdqyNK2mrwVz3-1KCuuJYbd44eFQgFqPTg3iW1Lgz0ntfcLO2~giPJ3ny5YgPEAlf9K7qqY4niZiRWBjfSxyQN2Ayode2C3atic5nXBn3zw~p7-NPngIoLzb0eQjVHAFfhcU46-LsaHUBIqu66NmQ2VRKr7RRwX1gxsZQ5xOr2BjQDVzHURZ9sHMPCOA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/png",
+          "size": 249706,
+          "created_at": "2025-08-07T05:20:43Z",
+          "updated_at": "2025-08-07T05:20:43Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004024521,
+          "type": "conversation_attachment"
+        },
+        {
+          "id": 85001648620,
+          "name": "26470_ICA Optout_Thin_edit.jpg",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648620/original/26470_ICA%20Optout_Thin_edit.jpg?Expires=1755607603&Signature=GWm-J5WuORBqN1q2xZSqVYjQLWybgFv-ruNl9MKt0o3zQCINlIquf3SqgFrM~Q1ojEpbRQJleg4w7BdMw4Dm-DNM3Fp1rPpVSha5pGIG~s~pyykCQO99Ff3cnNTU-I-OUc5LO69kMt7fgdV9KvRbTYpCoWFqq0n7vs7EBbVLCexi5KyDf0kUpVkyJ3U7J3~HQV28z1RSqQ~afECcm5VjE9BAMR5kXDWzjVjRdNzOekAVW5zy1ghVcM3LF0TZfDdE-XsO0O79HwG2cFIbZf3z2pFy3xXQQZNfRASZFRkyDpePrOqjDGz5loINSJzzZ88oIfOPvlkUP~EBLzkYyG7VsA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/jpeg",
+          "size": 475251,
+          "created_at": "2025-08-07T05:20:43Z",
+          "updated_at": "2025-08-07T05:20:43Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004024521,
+          "type": "conversation_attachment"
+        },
+        {
+          "id": 85001648621,
+          "name": "26470_ICA Optout_Screensaver_edit.jpg",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648621/original/26470_ICA%20Optout_Screensaver_edit.jpg?Expires=1755607603&Signature=P5Qbxg5HK8agbdk1Zq4z4VelfI~uWul7Tlp1S5UNvzax9F~TI6cnPJz4N5UEx5vG5-v20YDYpiFLDj-AvJx9-pcknHJt2W9uN7vxNMB0lYt7ck8Q8xNnu01Xgh-Z~M8lt0TAjhsNUXjpPoNxEkqbLW0~uL2Jlb5hXADXzg73r-hD0CYxtcxhJSARFXYLEHUA3YH1oHM4ouR4mCaUBp90xkc1g0ZSK247jXGnh7uCjS9PZHg3R80SiJ47AnBTdaSpTQOUVNtn4BK6zD-QiGlty4BHSSAl77qRfpRP6eu9c9uR9OESwJMDGG25Nos0Ifmv0kw0pCHkGGWjjvzMJVET-w__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/jpeg",
+          "size": 574441,
+          "created_at": "2025-08-07T05:20:43Z",
+          "updated_at": "2025-08-07T05:20:43Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004024521,
+          "type": "conversation_attachment"
+        },
+        {
+          "id": 85001648622,
+          "name": "26470_ICA Optout_Push_edit.jpg",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648622/original/26470_ICA%20Optout_Push_edit.jpg?Expires=1755607603&Signature=WuzissdqOgjXbqMtcSuqKGxu~eXHlrhSKRe1nkM3tB0WGXrqS12ys1XV0UcnZf-qTPVhoQLRCD5m8WrckhbwnTyqahl6EZ9kRdRHQc34rTVwI5mqqbLlY28v8GjW03SSD5i3sHXJMm9jcVTU7emQ5l6HX-ax0v2zZjRJKAQWB6aGfIoe~sEES9YG1Y-4C4-jJUaglKdLAZkTTMHVgjWrDXzpAauvW7r4wyz1TXSRiBSFFJpG4oru25IolBUsLCMI5d82qTEgiZhSIfb6TYN~yt6tqKjYseVTbW8pUEjcKsuvJGbTOc37sHp6TulAvKHTbvOG3REn~FpHIe2G26j5Aw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/jpeg",
+          "size": 493562,
+          "created_at": "2025-08-07T05:20:43Z",
+          "updated_at": "2025-08-07T05:20:43Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004024521,
+          "type": "conversation_attachment"
+        }
+      ]
+    },
+    {
+      "id": 85004024576,
+      "body_text": "Hi Parakram Raj Bhardwaj,  PFA",
+      "body": "<div style=\"font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; font-size:14px\">\n<div dir=\"ltr\">Hi Parakram Raj Bhardwaj,<br><br>PFA<br><br>\n</div>\n<div></div>\n</div>",
+      "private": false,
+      "created_at": "2025-08-07T05:26:38Z",
+      "updated_at": "2025-08-07T05:26:38Z",
+      "user_id": 85000184689,
+      "incoming": false,
+      "source": 0,
+      "support_email": "support@paytm-designocl.freshdesk.com",
+      "to_emails": [
+        "parakram1.bhardwaj@paytm.com"
+      ],
+      "from_email": "\"Swati Singh\" <support@paytm-designocl.freshdesk.com>",
+      "cc_emails": [
+        "sarahana.sanchay@paytm.com",
+        "nikita3.sharma@paytm.com"
+      ],
+      "bcc_emails": [],
+      "ticket_id": 26572,
+      "attachments": [
+        {
+          "id": 85001648632,
+          "name": "26470_ICA Optout_Emailer_edit.png",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648632/original/26470_ICA%20Optout_Emailer_edit.png?Expires=1755607603&Signature=SHnAgB3uVyAL4prOfBb6VhbjN-t8Z5cAuhoUBFRFAHn0vrSz2l9T8sUJnC7trr0HoSxPZItqSIOHfk1vO2~sIn-XPgF6rEcS8UOkH2pAHmMz0yJj~uah1Y1qQay~PN1gbOSZA8883mFlfrfuwTxBQHH047~IBBBlaeeD-zwnhqOaXGTWf7Kr0Y3PtElNMkOtPFkB7HzCinyR021Bm9u7qQhjAXfKGnEQ8p0UEfZ3IfOOfKpsgp~UdojVKafpvdMpNBwQ7SL2Dct214hUUE~SaoqfjHHSWx17763b9vzV658gEdivoaGfnKWhYfTZMiu35qQlN4hsnhOAD2nVM2Kgpw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/png",
+          "size": 249068,
+          "created_at": "2025-08-07T05:26:38Z",
+          "updated_at": "2025-08-07T05:26:38Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004024576,
+          "type": "conversation_attachment"
+        },
+        {
+          "id": 85001648633,
+          "name": "26470_ICA Optout_Thin_edit.jpg",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648633/original/26470_ICA%20Optout_Thin_edit.jpg?Expires=1755607603&Signature=M1Rhx7Hlqpdnwtc5DcqNuM88BRZvAbD1JHHnKPJ4GglMq5l1oVP~V8gDoQGxFXq7Jh~2b7TrTQzc6LU-jYZ47aUmYTYFNLA~VxO1a0gnz4Q8ckWsQ6VFVuJtuCt-MZPK6sNSFvfasD1Rkf3v9w2I8EFexBqjsrMzOjWLVQ4GCIPXlN2KLWd0qzzY7K-cwzSoz-Q7sIzXj8Qvj0HUbG9jSiCdgvisZxdNcKvbNxRpU8weCsVsz7uKO7N6FJoN67EiIn0bYbiwGHPNTNNxFCmWQer2kWqRE00IvkvFvSEgW1ZRT4AYw7SwjS6EcTNe31cEncbLQnhHZbpkknMR2dx~WA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/jpeg",
+          "size": 474031,
+          "created_at": "2025-08-07T05:26:38Z",
+          "updated_at": "2025-08-07T05:26:38Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004024576,
+          "type": "conversation_attachment"
+        },
+        {
+          "id": 85001648634,
+          "name": "26470_ICA Optout_Push_edit.jpg",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648634/original/26470_ICA%20Optout_Push_edit.jpg?Expires=1755607603&Signature=CUta2TZSVWK-mzkxWDlQ39iH1WAGxiZMt0fbGvbFGx2RannncYIk7Npp69Tn4NjHsmqz92lM0oey2xX8DVHX87lXjXBzTj4flK4sUR860yoZFjF-wqO0BS9ow--TrgWAi~4STYKwLNH7Q8BSdgN3jOIH3nxRuDdhJyYMLL7~SLBxU9xdorgABLrrM5O5UHgDrJlCOseH31XV-sRI37UpkO27qF1gMNKZBoFa2VDUOQ5Nj3NZGYRPW1ixmFmahOazVUqGj2Ml3gQER4En1InuMimqSiA7sCGdDjX909VjB2YK6Vb0Wh656kQJku3mzPeZuuiiPT5miivy9zgZGomgtw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/jpeg",
+          "size": 492509,
+          "created_at": "2025-08-07T05:26:38Z",
+          "updated_at": "2025-08-07T05:26:38Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004024576,
+          "type": "conversation_attachment"
+        },
+        {
+          "id": 85001648635,
+          "name": "26470_ICA Optout_Screensaver_edit.jpg",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648635/original/26470_ICA%20Optout_Screensaver_edit.jpg?Expires=1755607603&Signature=ABn~O3r9OSTBLQLHUbo44igxAUsvXMspQ~SrDfOISbx0fI9UluvVHcDE1upihaCk8sFCockJPNcEalBTKCPIKVkMaJCqsCt4k2GTiPiitNyW447z6~jGJx2n6sx5t~QSLzHAAwHQMHvRyERJQlGMUi-rs6Fjok3utL2T7I-4uReLyIHtJXCfHblIW0UXhHd0pqBSDEtqWMV5Ff38y289ovck0Kay1OoFN60e-DQDvJHH~GtZCopMjMV6TE6ilvDolPdi8XPaycCl8edcvSgx6u678ZK8WjLor1h17TLHR6Tfl~qEnEhkcysSsM-bvf6vOJ0XPPqFf--B3UhioLqMuw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/jpeg",
+          "size": 568589,
+          "created_at": "2025-08-07T05:26:38Z",
+          "updated_at": "2025-08-07T05:26:38Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004024576,
+          "type": "conversation_attachment"
+        }
+      ]
+    },
+    {
+      "id": 85004036632,
+      "body_text": "Hi Parakram Raj Bhardwaj,  PFA",
+      "body": "<div style=\"font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; font-size:14px\">\n<div dir=\"ltr\">Hi Parakram Raj Bhardwaj,<br><br>PFA<br><br>\n</div>\n<div></div>\n</div>",
+      "private": false,
+      "created_at": "2025-08-08T19:10:02Z",
+      "updated_at": "2025-08-08T19:10:02Z",
+      "user_id": 85000184689,
+      "incoming": false,
+      "source": 0,
+      "support_email": "support@paytm-designocl.freshdesk.com",
+      "to_emails": [
+        "parakram1.bhardwaj@paytm.com"
+      ],
+      "from_email": "\"Swati Singh\" <support@paytm-designocl.freshdesk.com>",
+      "cc_emails": [
+        "sarahana.sanchay@paytm.com",
+        "nikita3.sharma@paytm.com"
+      ],
+      "bcc_emails": [],
+      "ticket_id": 26572,
+      "attachments": [
+        {
+          "id": 85001649722,
+          "name": "26585_Design Request _ Brand EMI Creative _ Urgent _ 6th Aug'25_Hindi.png",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649722/original/26585_Design%20Request%20_%20Brand%20EMI%20Creative%20_%20Urgent%20_%206th%20Aug%2725_Hindi.png?Expires=1755607603&Signature=pioX2s~crcRL-U0Xk1F9r9woL58xHWgQTFUw-G1mBHvFFpgm~roTr6WARLT2SaSapdp3pCXyQJ6Yy3LzMVJ0vK~8mfTVXuWrT9runZMuVb~XR6n7LYlNPkuVzaZmkBzgLkm-pS9f6zVmoGQZogy8k1kBLFbBr98o93TJFdk0BwTjW3mLhMI9CGt~fXWMOZYUCBiYQvO9lP1ffOn~pltVJjUTAXMsKEOpRHZd0YPYswD5Ck5JpBVRWeIGW5QhIXQg0Bhj4siab1WmJkB60PPigSwV-5X9HfzyEh8ZK6-nRPii~FWU9e1upxLbLhnpV2NwiQXksXsVT~kkd8Aajgz1ZA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/png",
+          "size": 322546,
+          "created_at": "2025-08-08T19:10:02Z",
+          "updated_at": "2025-08-08T19:10:02Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004036632,
+          "type": "conversation_attachment"
+        },
+        {
+          "id": 85001649723,
+          "name": "26585_Design Request _ Brand EMI Creative _ Urgent _ 6th Aug'25_Hindi-1.png",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649723/original/26585_Design%20Request%20_%20Brand%20EMI%20Creative%20_%20Urgent%20_%206th%20Aug%2725_Hindi-1.png?Expires=1755607603&Signature=Q0HzTJjcH94VXxV6TNgur03NToY~2RTcXOAXcrGChRu1NAtNCcd6zVM6ApXhcrJlCbhVOoBF~rMHJvBXWawBcyNcUJl-Q8sJIzShRmqSXRG4fONGBfyPvgnht~fcpoY3Kl1OYfcIC4e44p-3cj83sxzcif6bgnqusXEbpFG~AbtHFuOhQ2JHMzyJI8ueQOLQZwRkoNHSk0S4EcO3Ri4UmdSu8nkriO7wwqkLO6DRok~Do~pntFIQB9vVZQJ9Wok0abQpGRLOCxohtZ7gRM6RAabAdW002XZ6tMFOi12e96EDLZf5Yfws9NJ8A6r6vpYN40ItAfNGKt7fwLEIZ5WUKQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/png",
+          "size": 323404,
+          "created_at": "2025-08-08T19:10:02Z",
+          "updated_at": "2025-08-08T19:10:02Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004036632,
+          "type": "conversation_attachment"
+        }
+      ]
+    },
+    {
+      "id": 85004106496,
+      "body_text": "Hi Parakram Raj Bhardwaj,  PFA the vernacular banner.",
+      "body": "<div style=\"font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; font-size:14px\">\n<div dir=\"ltr\">Hi Parakram Raj Bhardwaj,<br><br>PFA the vernacular banner.<br><br>\n</div>\n<div><br></div>\n</div>",
+      "private": false,
+      "created_at": "2025-08-18T09:06:04Z",
+      "updated_at": "2025-08-18T09:06:04Z",
+      "user_id": 85000184689,
+      "incoming": false,
+      "source": 0,
+      "support_email": "support@paytm-designocl.freshdesk.com",
+      "to_emails": [
+        "parakram1.bhardwaj@paytm.com"
+      ],
+      "from_email": "\"Swati Singh\" <support@paytm-designocl.freshdesk.com>",
+      "cc_emails": [
+        "sarahana.sanchay@paytm.com",
+        "nikita3.sharma@paytm.com"
+      ],
+      "bcc_emails": [],
+      "ticket_id": 26572,
+      "attachments": [
+        {
+          "id": 85001654155,
+          "name": "26499_Thin_Banner_ICA Optout_Marathi.jpg",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001654155/original/26499_Thin_Banner_ICA%20Optout_Marathi.jpg?Expires=1755607603&Signature=YIn-hMzyTwSUsdYwwATOm5S-rm~9IT~q0WuT420P8GZQgizEXKp9o2Z-L6DfvQuFQdaVkvJ1~yB2K7dZzL6j0n77QpL-VYEgXDKba2NdlwZj6Ce~8JK4hgiwOdr1cuY0mVfuBQptJbSp7KapOlPChx40yZiztS6Ob6ugpdL-RSF4YXY4rQQa4ZNNQbxJFjMRfUmwNZPfzrFcO7ErypUfudiN1SueC0q177HVzOhOlHNjdHjPDCt9WhE~gEG3yPouyCvzM7bT~Isl8VKHfpLLe-iZnZ4qY2U-uGXa1~uzY5nGjO4mm4Rz59Cre3X3muN7dwL4g9OAC1iZpN2WSc1d5A__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/jpeg",
+          "size": 476649,
+          "created_at": "2025-08-18T09:06:04Z",
+          "updated_at": "2025-08-18T09:06:04Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004106496,
+          "type": "conversation_attachment"
+        },
+        {
+          "id": 85001654156,
+          "name": "26499_Thin_Banner_ICA Optout_Telugu.jpg",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001654156/original/26499_Thin_Banner_ICA%20Optout_Telugu.jpg?Expires=1755607603&Signature=kNUzCBhN-nhzSYq4dAQQDO4X-ijHuX4FnZ516-RhYWkHqg5Hs45sTV~Xq3Q1p5uQeixIMdL1dEFEdjagQ0ZKRoGRfNks7k83kSvxAIMumykaXjYKG-DQHQYrdZJ35vcbmxzgD9UxxT9Xk~rRn0pXZ4GwomLJf9kSD9okjOwQhdoaTehVj2vH1iypBYKpbvNrKT0oqEkXzw9fOcwLMFLIpmxChpy~BPy4KXgmsS3haTlHi-IGKGAA1PpHBKkTKtfhVu6J2y3eTJLSEWYDPTj4kkqVZavMG5h-Q81RDWkHFwmR5~AOraCgnP8TxtmjgfH-~oIBQB3ThOLfniJVNMNudw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/jpeg",
+          "size": 519489,
+          "created_at": "2025-08-18T09:06:04Z",
+          "updated_at": "2025-08-18T09:06:04Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004106496,
+          "type": "conversation_attachment"
+        },
+        {
+          "id": 85001654157,
+          "name": "26499_Thin_Banner_ICA Optout_English.jpg",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001654157/original/26499_Thin_Banner_ICA%20Optout_English.jpg?Expires=1755607603&Signature=SEPg6~~TgVPk7qpi8kzF6B5Uf1ZDAQpYlfaZ5Q19-DjsvRQ~kbytaLnaQmwxv4b2nvNWQm57zY7tSUy8NTi-vCWx~c9n3IXIaJ29HvEUEThd4C3OtlIqcEaIdPiVvnIOjxGTufXQXR53J42EvGdVeF6Vt9Nmzmo0KAtk3d6y~Y5EoIJIA6Xacssbi2l8BVh5Ppfksw03ZXW5LJxLPU~XX9IIlrWUDX0H9s~SRoJUYB6uPtk3ZUJTcPt9i4lBcTKZXVSDntjkjxHY78SSua3-GqZE0wetlVpjoJYGHRBKuVhfj16mJZ7TaaILqoBsR3FpAZ7xG6Zr3Htn24wtHYwAQw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/jpeg",
+          "size": 481658,
+          "created_at": "2025-08-18T09:06:04Z",
+          "updated_at": "2025-08-18T09:06:04Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004106496,
+          "type": "conversation_attachment"
+        },
+        {
+          "id": 85001654158,
+          "name": "26499_Thin_Banner_ICA Optout_Tamil.jpg",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001654158/original/26499_Thin_Banner_ICA%20Optout_Tamil.jpg?Expires=1755607603&Signature=VqhYNIP9Tbnpyq1vKE16zRj0P3gzag93pUwoHwb4r0m5KkykcrQA5u0wZ1H9jpr9PfIAiTjIZxC40agmXOf~SQDMcHKwFTOr25QUXgpSsoWhVUVxEPhFDMyOIvqKNtxPDgggj1cAzmwS7jP6xT3vZ6qV82KlrtnxMx8BhyCAKd1yMGw3a7Ai0RiOYXlA4tq92mAYzz2OGMnzi-hSt25WRncR3ZaEdI0-ZLmmR~VcfxLvpd2~BivxYTbtkDPjN2IFOhtxAbR8XYoDJBNxRZCoFfvJPyz7iB-~2qnEE2-vj3C-hRnM~4-j2Zb0of9001U~iER4pEOEFcjf-AlvTZxNhA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/jpeg",
+          "size": 545022,
+          "created_at": "2025-08-18T09:06:04Z",
+          "updated_at": "2025-08-18T09:06:04Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004106496,
+          "type": "conversation_attachment"
+        },
+        {
+          "id": 85001654159,
+          "name": "26499_Thin_Banner_ICA Optout_Hindi.jpg",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001654159/original/26499_Thin_Banner_ICA%20Optout_Hindi.jpg?Expires=1755607603&Signature=X3vqufKskROVDLGlpZuV2qnvOjCXqTP5w3SU6L-0XfTxqhHP3mfGfF-BLnK9IvKjYfITGbe3KMXjMGelEIpzYV19HzMJZjkvt7vO8pqLsqYBheF~vk1l8ybZREqBSqJ29QbcSecPp-L6jardrqyLg2gXldInd89f~N5MCEa8SUiKXTfgSqzGg8TApyot-EYyr1Lp83nCkN0tj5lxeVYSHaHJ2-lv0grflfpItO2qbUUmgGKVbiKJnIeKz7GMK8zqlobfmQojWvB6XOaw-lBbW1IdLMGGF19txJbQj~YDP1PQk-Ix38dc-rRRfSQ04mmCXsvZ69ljE5V3bwTR026WSg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "image/jpeg",
+          "size": 486166,
+          "created_at": "2025-08-18T09:06:04Z",
+          "updated_at": "2025-08-18T09:06:04Z",
+          "user_id": 85000184689,
+          "conversation_id": 85004106496,
+          "type": "conversation_attachment"
+        }
+      ]
+    }
+  ],
+  "form_id": 85000001715,
+  "nr_due_by": null,
+  "nr_escalated": false
+}
