@@ -149,11 +149,22 @@ def process_one_conversation_attachment(ticket_id: int) -> None:
 
 
 def worker_loop(stop_flag: List[bool]) -> None:
+    consecutive_empty_checks = 0
+    max_empty_checks = 60  # Stop after 60 consecutive empty checks (30 seconds with 0.5s sleep)
+    
     while not stop_flag[0]:
         tid = claim_next_null_conversation_attachments()
         if tid == -1:
+            consecutive_empty_checks += 1
+            if consecutive_empty_checks >= max_empty_checks:
+                logging.info(f"[conv_attachments] Worker stopping after {consecutive_empty_checks} consecutive empty checks")
+                break
             time.sleep(0.5)
             continue
+        
+        # Reset counter when work is found
+        consecutive_empty_checks = 0
+        
         try:
             process_one_conversation_attachment(tid)
         except Exception as exc:
