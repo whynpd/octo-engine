@@ -1,0 +1,56 @@
+[
+  {
+    "available": false,
+    "occasional": false,
+    "id": 1060011035553,
+    "ticket_scope": 2,
+    "created_at": "2024-04-05T11:00:34Z",
+    "updated_at": "2025-08-19T10:45:08Z",
+    "last_active_at": "2025-08-19T10:45:08Z",
+    "available_since": null,
+    "type": "support_agent",
+    "contact": {
+      "active": true,
+      "email": "neetu.kurichh@paytm.com",
+      "job_title": null,
+      "language": "en",
+      "last_login_at": "2025-08-15T08:34:07Z",
+      "mobile": null,
+      "name": "Neetu kurichh",
+      "phone": null,
+      "time_zone": "New Delhi",
+      "created_at": "2024-04-05T11:00:33Z",
+      "updated_at": "2025-02-25T09:13:03Z"
+    },
+    "deactivated": false,
+    "signature": "<div dir=\"ltr\"><p>&nbsp;</p><p><b style=\"color: rgb(0, 0, 0);\"><span style=\"background-image: initial; background-position: initial; background-repeat: initial;\">Please note</span><span style=\"background-image: initial; background-position: initial; background-repeat: initial;\">&nbsp;:&nbsp;</span><u></u><span style=\"background-image: initial; background-position: initial; background-repeat: initial;\">Receipt of an invoice by a company does not, in any manner, confirm or acknowledge a liability on the part of the company to make payment against the invoiced amount.&nbsp;</span><span style=\"background-image: initial; background-position: initial; background-repeat: initial;\">Payment against the invoice is subject to internal validation and approval as per company policy and the underlying agreement.</span></b><br></p><div><br><p></p><p></p><div style=\"font-size: small;\"><div style=\"font-size: 12.8px;\"><div style=\"font-size: 12.8px; padding-bottom: 5px;\"><div><b>Regards,</b><p></p><p><b>Vendor Helpdesk</b><b>&nbsp;</b></p><p><img src=\"https://ci3.googleusercontent.com/proxy/GMvUYjgviqhPjWXV3U6vtNo_BKgj2Tq3tAkQvAjG54RohgOZqfPT72C5ynlC07fui5JYu73UjRFR89E2SYnOje6xxv39GeMsW8GsnESx-_1zfmjVxMVqJYIT0aWHoLvT7OcSheKNot-K5XyjGeWpKmmFL0TncPlU=s0-d-e1-ft#https://c.ap2.content.force.com/servlet/servlet.ImageServer?id=015280000014mpa&amp;oid=00D28000000dVwY\"><br><a href=\"http://www.paytm.com/\" target=\"_blank\" style=\"color: rgb(17, 85, 204); font-size: small;\" rel=\"noreferrer\"><span style=\"color: rgb(5, 99, 193);\">www.paytm.com</span></a><br></p><p></p><p></p></div>\n</div><div style=\"font-size: 12.8px;\">\n<p style=\"font-size: small;\"><br style=\"color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small;\"></p></div></div></div></div>\n</div>",
+    "focus_mode": true
+  },
+  {
+    "available": false,
+    "occasional": false,
+    "id": 1060010736211,
+    "ticket_scope": 2,
+    "created_at": "2024-03-24T17:20:53Z",
+    "updated_at": "2025-08-15T08:28:56Z",
+    "last_active_at": "2025-08-15T08:28:56Z",
+    "available_since": null,
+    "type": "support_agent",
+    "contact": {
+      "active": true,
+      "email": "pooja1.pandey@paytm.com",
+      "job_title": null,
+      "language": "en",
+      "last_login_at": "2025-08-11T04:53:08Z",
+      "mobile": null,
+      "name": "Pooja Pandey",
+      "phone": "9582186666",
+      "time_zone": "Chennai",
+      "created_at": "2024-03-24T17:20:53Z",
+      "updated_at": "2025-04-17T10:35:14Z"
+    },
+    "deactivated": false,
+    "signature": null,
+    "focus_mode": true
+  }
+]

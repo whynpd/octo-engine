@@ -167,7 +167,6 @@ class FileLock:
 attachment_tracker = AttachmentURLTracker()
 
 def track_attachment_download(ticket_id: int, freshdesk_url: str, saved_location: str, 
-                            attachment_id: str = None, attachment_name: str = None, 
                             attachment_type: str = None, storage_type: str = "local"):
     """
     Convenience function to track an attachment download
@@ -176,17 +175,13 @@ def track_attachment_download(ticket_id: int, freshdesk_url: str, saved_location
         ticket_id: The ticket ID
         freshdesk_url: Original Freshdesk URL
         saved_location: Where file was saved (local path, S3 URL, or server URL)
-        attachment_id: Freshdesk attachment ID (optional)
-        attachment_name: Original attachment name (optional)
-        attachment_type: 'ticket_attachment' or 'conversation_attachment' (optional)
+        attachment_type: 'tic' or 'conv' (optional)
         storage_type: 'local', 's3', 'server', etc. (optional)
     """
     attachment_tracker.add_attachment_record(
         ticket_id=ticket_id,
         freshdesk_url=freshdesk_url,
         saved_location=saved_location,
-        attachment_id=attachment_id,
-        attachment_name=attachment_name,
         attachment_type=attachment_type,
         storage_type=storage_type
     )

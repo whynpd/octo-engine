@@ -129,9 +129,7 @@ def process_one_conversation_attachment(ticket_id: int) -> None:
                         ticket_id=ticket_id,
                         freshdesk_url=url,
                         saved_location=storage_url,
-                        attachment_id=str(att_id),
-                        attachment_name=name,
-                        attachment_type="conversation_attachment",
+                        attachment_type="conv",
                         storage_type=get_storage_type()
                     )
                 except Exception as e:
@@ -147,9 +145,7 @@ def process_one_conversation_attachment(ticket_id: int) -> None:
                         ticket_id=ticket_id,
                         freshdesk_url=url,
                         saved_location=storage_url,
-                        attachment_id=str(att_id),
-                        attachment_name=name,
-                        attachment_type="conversation_attachment",
+                        attachment_type="conv",
                         storage_type=get_storage_type()
                     )
                 except Exception as e:
