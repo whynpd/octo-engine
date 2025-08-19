@@ -1,0 +1,28 @@
+[
+  {
+    "id": 85001648161,
+    "name": "26566_TSP BAPA Onboarding_Mac.jpg",
+    "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648161/original/26566_TSP%20BAPA%20Onboarding_Mac.jpg?Expires=1755602514&Signature=Bmzh42wJos0Sl8SMeuCogusMmHjZQX7NxO12l47AiUqUxvADDJNIJj6OVNIYmUOzdWPhB5-DQOYdwkvqW2uvqbFm8WI74rmvCJZ8g52UUSf5sz9Kd8AHYxbihaEnM3Pkc9CpKwaFcNmkue3vyjYnIDRXdCf6V7DPjfxXQVLl-2f6V2IEdRmr71nR33JYBCTG45TejQ2AQAIpxsegeCBVRSAOu6GJDi8Ra3cW-NThH~SeZOElFNeeqPtfQoB8IHQiChzZOTZL5zkChv4CUw0ykaDAJGRq4XsnSs8kmhKzUQ14igL9955KURYNfmfKIdFWG3XGQu8md1LAWe~SWcn7CA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "content_type": "image/jpeg",
+    "size": 517498,
+    "created_at": "2025-08-06T08:12:07Z",
+    "updated_at": "2025-08-06T08:12:07Z",
+    "user_id": 85000184682,
+    "conversation_id": 85004017738,
+    "type": "conversation_attachment",
+    "ticket_id": 26566
+  },
+  {
+    "id": 85001648162,
+    "name": "26566_TSP BAPA Onboarding_Windows.jpg",
+    "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648162/original/26566_TSP%20BAPA%20Onboarding_Windows.jpg?Expires=1755602514&Signature=jcrq9sQD6Wqe1uTqsawR9PWYBmyWhBI1ScfqaayAfqMBuZGq1AuDQroHaJae0pMrvnXMkWW2-MWaau9SGxyTJCvMI9CvNZPVxd7xjlk8bcNp9X8fvRO~ekwqUrxZDFNN1UoaA1yOSS3y75-CUdGvFFxG8UaF90zM-PMHAUcg3WU2DX0C39uFDEF9By0AX7rDNcj2rnyoJIaAlpOVyvU2DI1rc6Ee9gOLUzp5O8ehM5XSBftj1qh9vDDnClWDKYu~Rluip-VKOn-tEi6gVuNOC3XCLnVwfu8uBwc3PaMEPWXkJKILm8Lpj8U40U9bA2M91EHLHbNHLOBJxxGmnwt~tA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "content_type": "image/jpeg",
+    "size": 516545,
+    "created_at": "2025-08-06T08:12:07Z",
+    "updated_at": "2025-08-06T08:12:07Z",
+    "user_id": 85000184682,
+    "conversation_id": 85004017738,
+    "type": "conversation_attachment",
+    "ticket_id": 26566
+  }
+]

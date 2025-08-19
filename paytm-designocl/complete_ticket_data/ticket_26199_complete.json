@@ -1,0 +1,328 @@
+{
+  "cc_emails": [
+    "m-amitabh.anand@ocltp.com",
+    "gautam2.verma@paytm.com",
+    "vikash2.nagar@paytmservices.com"
+  ],
+  "fwd_emails": [],
+  "reply_cc_emails": [
+    "m-amitabh.anand@ocltp.com",
+    "gautam2.verma@paytm.com",
+    "vikash2.nagar@paytmservices.com"
+  ],
+  "ticket_cc_emails": [
+    "gautam2.verma@paytm.com",
+    "vikash2.nagar@paytmservices.com"
+  ],
+  "ticket_bcc_emails": [],
+  "fr_escalated": true,
+  "spam": false,
+  "email_config_id": 85000002682,
+  "group_id": 85000014865,
+  "priority": 1,
+  "requester_id": 85000184667,
+  "responder_id": 85000184676,
+  "source": 1,
+  "company_id": null,
+  "status": 5,
+  "subject": "Re: Creative for 6th Floor - Super urgent",
+  "association_type": null,
+  "support_email": "support@paytm-designocl.freshdesk.com",
+  "to_emails": [
+    "\"Amitabh Anand\" <m-amitabh.anand@ocltp.com>",
+    "\"One97 Communications Limited\" <support@paytm-designocl.freshdesk.com>"
+  ],
+  "product_id": null,
+  "id": 26199,
+  "type": "Creation (7 Biz Days)",
+  "due_by": "2025-07-30T05:57:56Z",
+  "fr_due_by": "2025-07-21T05:57:56Z",
+  "is_escalated": false,
+  "description": "<div dir=\"ltr\">\n<div class=\"gmail_default\" style=\"font-family:trebuchet ms,sans-serif;font-size:small;color:#0b5394\">Hi Amitabh,</div>\n<div class=\"gmail_default\" style=\"font-family:trebuchet ms,sans-serif;font-size:small;color:#0b5394\">Sharing the creatives based on the templates we have, have a look. Let me know what you think.<br><br>Also, I'm sharing some references of the signage designs that I feel are better than chains. </div>\n<div><br></div>\n<span class=\"gmail_default\" style='font-family:\"trebuchet ms\",sans-serif;font-size:small;color:rgb(11,83,148)'>Regard,</span><span class=\"gmail_default\" style='font-family:\"trebuchet ms\",sans-serif;font-size:small;color:rgb(11,83,148)'><br>Priya</span>\n</div>\n<div dir=\"ltr\"><div class=\"gmail_default\" style='font-family:\"trebuchet ms\",sans-serif;font-size:small;color:rgb(11,83,148)'><br></div></div>\n<br><div class=\"gmail_quote\">\n<div dir=\"ltr\" class=\"gmail_attr\">On Wed, Jul 9, 2025 at 8:41 PM Amitabh Anand &lt;<a href=\"mailto:m-amitabh.anand@ocltp.com\" target=\"_blank\" rel=\"noreferrer\">m-amitabh.anand@ocltp.com</a>&gt; wrote:<br>\n</div>\n<blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\">\n<div dir=\"ltr\">\n<div>Dear Priya,</div>\n<div><br></div>\n<div>As discussed, please share the creatives for 6th Floor Cafeteria, the basic details required by you are shared in the attached sheet.</div>\n<div>Please feel free to connect if any further information is required.</div>\n<span class=\"gmail_signature_prefix\">-- </span><br><div dir=\"ltr\" class=\"gmail_signature\"><div dir=\"ltr\">\n<b><font>Regards,</font></b><div><b><font>Amitabh Anand,</font></b></div>\n<div><font>Key Account Manager,</font></div>\n<div><font>+91 9540101442.</font></div>\n</div></div>\n</div>\n</blockquote>\n</div>\n\n",
+  "description_text": "Hi Amitabh,\r\nSharing the creatives based on the templates we have, have a look. Let me\r\nknow what you think.\r\n\r\nAlso, I'm sharing some references of the signage designs that I feel are\r\nbetter than chains.\r\n\r\nRegard,\r\nPriya\r\n\r\n\r\nOn Wed, Jul 9, 2025 at 8:41 PM Amitabh Anand <m-amitabh.anand@ocltp.com>\r\nwrote:\r\n\r\n> Dear Priya,\r\n>\r\n> As discussed, please share the creatives for 6th Floor Cafeteria, the\r\n> basic details required by you are shared in the attached sheet.\r\n> Please feel free to connect if any further information is required.\r\n> --\r\n> *Regards,*\r\n> *Amitabh Anand,*\r\n> Key Account Manager,\r\n> +91 9540101442.\r\n>\r\n\r\n",
+  "custom_fields": {
+    "cf_enter_promo_code": null,
+    "cf_tat_selection": "Standard",
+    "cf_emailers": false,
+    "cf_142_for_video_only_link_creativesapp_screens": null,
+    "cf_143_character_animation_voice_overvo_requirement": null,
+    "cf_push_notification_text_only": false,
+    "cf_bannerspush_thin_super_thin_c1_c4": false,
+    "cf_push_banners_1200_x_600": false,
+    "cf_other_landing_page_link": null,
+    "cf_other": "english",
+    "cf_doodle": false,
+    "cf_not_applicable_content_only_sms_pn_etc": false,
+    "cf_category": "Paytm Admin (Print)",
+    "cf_date_of_going_live": "2025-07-22",
+    "cf_mediumchannel": null,
+    "cf_s": "As discussed, please share the creatives for 6th Floor Cafeteria, the basic details required by you are shared in the attached sheet.\nPlease feel free to connect if any further information is required.\n--",
+    "cf_urllink_adaptedit_new_design_requests": "www.paytm.com",
+    "cf_count_of_creatives": 22,
+    "cf_creative_type": null,
+    "cf_notification_push_text_only": false,
+    "cf_microsite": false,
+    "cf_10_target_group": "internal",
+    "cf_icons_logo": false,
+    "cf_pages_web_page_app_page_landing": false,
+    "cf_poster_a3_a4_a5_3x2_wall_roll": false,
+    "cf_dangler297677": false,
+    "cf_tent_card": false,
+    "cf_bill_book": false,
+    "cf_print_ad": false,
+    "cf_other_unique_tracking_code": null,
+    "cf_packaging": false,
+    "cf_aston_lband": false,
+    "cf_push_bannerstext": false,
+    "cf_chathead": false,
+    "cf_super_thin_1440_x_202": false,
+    "cf_ticker_notification": false,
+    "cf_new_c1_1440x720": false,
+    "cf_c1square_bannerinterstitialpopup_banner_1440x_1440": false,
+    "cf_old_c1h1_1440x864": false,
+    "cf_c4_640x640": false,
+    "cf_new_thin_banner_1440_x_480": false,
+    "cf_t3_banner_1024_x_512": false,
+    "cf_doodle_1125_x_642": false,
+    "cf_portrait_3xn_412_x_480": false,
+    "cf_old_thinflyout_1440x404": false,
+    "cf_10_call_to_action": "no",
+    "cf_creative_brief": "None of the above",
+    "cf_11_landing_page_link": "Not Applicable",
+    "cf_12_promo_code": "Not Applicable",
+    "cf_only_for_video_request": "Not Applicable"
+  },
+  "created_at": "2025-07-10T13:38:30Z",
+  "updated_at": "2025-07-21T07:00:52Z",
+  "tags": [],
+  "attachments": [
+    {
+      "id": 85001630413,
+      "name": "Noida Office- Cafeteria Signages_01_fresh cup.png",
+      "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630413/original/Noida%20Office-%20Cafeteria%20Signages_01_fresh%20cup.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=6300a86fcd6e76a55a3b02d05069a72df2d671408111763f7407ee9f638ac377",
+      "content_type": "image/png",
+      "size": 149933,
+      "created_at": "2025-07-10T13:38:29Z",
+      "type": "ticket_attachment"
+    },
+    {
+      "id": 85001630414,
+      "name": "Noida Office- Cafeteria Signages_01_fresh cups.png",
+      "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630414/original/Noida%20Office-%20Cafeteria%20Signages_01_fresh%20cups.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=05c396b54399b6f1974e0bd494336a13c23d77886cd059e080e6335aa0d4f265",
+      "content_type": "image/png",
+      "size": 23812,
+      "created_at": "2025-07-10T13:38:29Z",
+      "type": "ticket_attachment"
+    },
+    {
+      "id": 85001630415,
+      "name": "Noida Office- Cafeteria Signages_01_Food station veg.png",
+      "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630415/original/Noida%20Office-%20Cafeteria%20Signages_01_Food%20station%20veg.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=4693ea1104ac1b6452cb93432717ec175dc8fd30de906f22e306f1de9dd82b04",
+      "content_type": "image/png",
+      "size": 138593,
+      "created_at": "2025-07-10T13:38:29Z",
+      "type": "ticket_attachment"
+    },
+    {
+      "id": 85001630416,
+      "name": "Noida Office- Cafeteria Signages_01_Dishwashing area.png",
+      "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630416/original/Noida%20Office-%20Cafeteria%20Signages_01_Dishwashing%20area.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=929bf63477ccb517fbb3c06aef744c9b84bbfc14d8d9229efd5b3d7bf4754805",
+      "content_type": "image/png",
+      "size": 103156,
+      "created_at": "2025-07-10T13:38:29Z",
+      "type": "ticket_attachment"
+    },
+    {
+      "id": 85001630417,
+      "name": "Noida Office- Cafeteria Signages_01_Food station non veg.png",
+      "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630417/original/Noida%20Office-%20Cafeteria%20Signages_01_Food%20station%20non%20veg.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=ebdb2a1a15e7920210974cc4e263899ab3d6d69e5c88c4ae9a4eff1b4e4c8df0",
+      "content_type": "image/png",
+      "size": 147211,
+      "created_at": "2025-07-10T13:38:29Z",
+      "type": "ticket_attachment"
+    },
+    {
+      "id": 85001630418,
+      "name": "Noida Office- Cafeteria Signages_01_Handwash area.png",
+      "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630418/original/Noida%20Office-%20Cafeteria%20Signages_01_Handwash%20area.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=5bc6e20c926b8f23d45ddcb7ca2b7e2dfeff9026c695a74a1ee22a8cfb626f85",
+      "content_type": "image/png",
+      "size": 94140,
+      "created_at": "2025-07-10T13:38:29Z",
+      "type": "ticket_attachment"
+    },
+    {
+      "id": 85001630419,
+      "name": "Noida Office- Cafeteria Signages_01_fresh glass.png",
+      "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630419/original/Noida%20Office-%20Cafeteria%20Signages_01_fresh%20glass.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=98043d0125588dcea0d900036701eaf75330094f63c149ce9bbc84ad4ff434fd",
+      "content_type": "image/png",
+      "size": 25227,
+      "created_at": "2025-07-10T13:38:29Z",
+      "type": "ticket_attachment"
+    },
+    {
+      "id": 85001630420,
+      "name": "Noida Office- Cafeteria Signages_01_Medical room.png",
+      "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630420/original/Noida%20Office-%20Cafeteria%20Signages_01_Medical%20room.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=6812042b2206f95227d10e983794c6906553c8bbf935fe4d1fc39562c7b81594",
+      "content_type": "image/png",
+      "size": 90045,
+      "created_at": "2025-07-10T13:38:29Z",
+      "type": "ticket_attachment"
+    },
+    {
+      "id": 85001630421,
+      "name": "Noida Office- Cafeteria Signages_01_Micro dos and donts.png",
+      "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630421/original/Noida%20Office-%20Cafeteria%20Signages_01_Micro%20dos%20and%20donts.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=762747035fcdcd707aa73810c55d7374a3da7abd178230e8f11586fc1b6bddae",
+      "content_type": "image/png",
+      "size": 34094,
+      "created_at": "2025-07-10T13:38:29Z",
+      "type": "ticket_attachment"
+    },
+    {
+      "id": 85001630422,
+      "name": "Noida Office- Cafeteria Signages_01_used cups.png",
+      "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630422/original/Noida%20Office-%20Cafeteria%20Signages_01_used%20cups.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=4b2b3103cb138ceee058167c9d8fdc3bdf6c9e207fe414d4a8d20fe8d0a51faa",
+      "content_type": "image/png",
+      "size": 24886,
+      "created_at": "2025-07-10T13:38:29Z",
+      "type": "ticket_attachment"
+    },
+    {
+      "id": 85001630423,
+      "name": "Noida Office- Cafeteria Signages_01_used glass.png",
+      "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630423/original/Noida%20Office-%20Cafeteria%20Signages_01_used%20glass.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=3a0d58fd794ed69309c6bc657112f7386ef926840859923cd5d91bf2661e51f0",
+      "content_type": "image/png",
+      "size": 26580,
+      "created_at": "2025-07-10T13:38:29Z",
+      "type": "ticket_attachment"
+    },
+    {
+      "id": 85001630424,
+      "name": "55bc79d517f265d750ce43073e71a27f.jpg",
+      "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630424/original/55bc79d517f265d750ce43073e71a27f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=1923f86923af22a636414d979aa0208b34a083b5fe01f89f9f0104d04e7ff090",
+      "content_type": "image/jpeg",
+      "size": 42954,
+      "created_at": "2025-07-10T13:38:29Z",
+      "type": "ticket_attachment"
+    },
+    {
+      "id": 85001630425,
+      "name": "c5f81effd29562559a9bf42662d1b166.jpg",
+      "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630425/original/c5f81effd29562559a9bf42662d1b166.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=e6d29582b16b9894fecdf0aa7d3611fee1aa9a14804a52cb760979105bd3005e",
+      "content_type": "image/jpeg",
+      "size": 33227,
+      "created_at": "2025-07-10T13:38:29Z",
+      "type": "ticket_attachment"
+    },
+    {
+      "id": 85001630426,
+      "name": "Screenshot 2025-07-10 at 6.00.53 PM.png",
+      "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630426/original/Screenshot%202025-07-10%20at%206.00.53%E2%80%AFPM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=102eb3f8d4b7be84aed63b18937ea9ae22c4d414fbc5116ce316f35c8c707105",
+      "content_type": "image/png",
+      "size": 3118728,
+      "created_at": "2025-07-10T13:38:29Z",
+      "type": "ticket_attachment"
+    }
+  ],
+  "source_additional_info": null,
+  "structured_description": null,
+  "conversations": [
+    {
+      "id": 85003816525,
+      "body_text": "Dear Priya,\r\n\r\nThanks a lot for this swift reply.\r\n\r\nThese creatives look great, but still will discuss with management and\r\nrevert back if at all any modifications are required.\r\n\r\nThanks Again.\r\n\r\n",
+      "body": "<div dir=\"ltr\">Dear Priya,<div><br></div>\n<div>Thanks a lot for this swift reply.</div>\n<div><br></div>\n<div>These creatives look great, but still will discuss with management and revert back if at all any modifications are required.</div>\n<div><br></div>\n<div>Thanks Again.</div>\n</div>\n<br><div class=\"gmail_quote gmail_quote_container\"><div dir=\"ltr\" class=\"gmail_attr\"></div></div>\n<div class=\"freshdesk_quote\"><blockquote class=\"freshdesk_quote\">\n<div>On Thu, Jul 10, 2025 at 7:07 PM Priya Saini &lt;<a href=\"mailto:priya.saini@paytm.com\" rel=\"noreferrer\">priya.saini@paytm.com</a>&gt; wrote:<br>\n</div>\n<blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\">\n<div dir=\"ltr\">\n<div class=\"gmail_default\" style='font-family:\"trebuchet ms\",sans-serif;font-size:small;color:rgb(11,83,148)'>Hi Amitabh,</div>\n<div class=\"gmail_default\" style='font-family:\"trebuchet ms\",sans-serif;font-size:small;color:rgb(11,83,148)'>Sharing the creatives based on the templates we have, have a look. Let me know what you think.<br><br>Also, I'm sharing some references of the signage designs that I feel are better than chains. </div>\n<div><br></div>\n<span class=\"gmail_default\" style='font-family:\"trebuchet ms\",sans-serif;font-size:small;color:rgb(11,83,148)'>Regard,</span><span class=\"gmail_default\" style='font-family:\"trebuchet ms\",sans-serif;font-size:small;color:rgb(11,83,148)'><br>Priya</span>\n</div>\n<div dir=\"ltr\"><div class=\"gmail_default\" style='font-family:\"trebuchet ms\",sans-serif;font-size:small;color:rgb(11,83,148)'><br></div></div>\n<br><div class=\"gmail_quote\">\n<div dir=\"ltr\" class=\"gmail_attr\">On Wed, Jul 9, 2025 at 8:41 PM Amitabh Anand &lt;<a href=\"mailto:m-amitabh.anand@ocltp.com\" target=\"_blank\" rel=\"noreferrer\">m-amitabh.anand@ocltp.com</a>&gt; wrote:<br>\n</div>\n<blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\">\n<div dir=\"ltr\">\n<div>Dear Priya,</div>\n<div><br></div>\n<div>As discussed, please share the creatives for 6th Floor Cafeteria, the basic details required by you are shared in the attached sheet.</div>\n<div>Please feel free to connect if any further information is required.</div>\n<span class=\"gmail_signature_prefix\">-- </span><br><div dir=\"ltr\" class=\"gmail_signature\"><div dir=\"ltr\">\n<b><font>Regards,</font></b><div><b><font>Amitabh Anand,</font></b></div>\n<div><font>Key Account Manager,</font></div>\n<div><font>+91 9540101442.</font></div>\n</div></div>\n</div>\n</blockquote>\n</div>\n</blockquote>\n<div><br></div>\n<div><br></div>\n<span class=\"gmail_signature_prefix\">-- </span><br><div dir=\"ltr\" class=\"gmail_signature\"><div dir=\"ltr\">\n<b><font>Regards,</font></b><div><b><font>Amitabh Anand,</font></b></div>\n<div><font>Key Account Manager,</font></div>\n<div><font>+91 9540101442.</font></div>\n</div></div>\n</blockquote></div>",
+      "private": false,
+      "created_at": "2025-07-10T14:12:22Z",
+      "updated_at": "2025-07-10T14:12:22Z",
+      "user_id": 85000917919,
+      "incoming": true,
+      "source": 0,
+      "support_email": "m-amitabh.anand@ocltp.com",
+      "to_emails": [
+        "\"Priya Saini\" <priya.saini@paytm.com>"
+      ],
+      "from_email": "m-amitabh.anand@ocltp.com",
+      "cc_emails": [
+        "support@paytm-designocl.freshdesk.com",
+        "gautam2.verma@paytm.com",
+        "vikash2.nagar@paytmservices.com"
+      ],
+      "bcc_emails": [],
+      "ticket_id": 26199
+    },
+    {
+      "id": 85003896149,
+      "body_text": "Hi Priya Saini,  PFA printable pdf files of the signages for cafetaria 6th floor. Attachd jpgs for your reference only.     Thanks  Rakesh",
+      "body": "<div style=\"font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; font-size:14px\">\n<div dir=\"ltr\">Hi Priya Saini,<br><br>PFA printable pdf files of the signages for cafetaria 6th floor. Attachd jpgs for your reference only.</div>\n<div><br></div>\n<div dir=\"ltr\">Thanks</div>\n<div dir=\"ltr\">Rakesh<br><br>\n</div>\n<div><div dir=\"ltr\"><div><br></div></div></div>\n<div><br></div>\n</div>",
+      "private": false,
+      "created_at": "2025-07-21T06:30:21Z",
+      "updated_at": "2025-07-21T06:30:21Z",
+      "user_id": 85000184676,
+      "incoming": false,
+      "source": 0,
+      "support_email": "support@paytm-designocl.freshdesk.com",
+      "to_emails": [
+        "priya.saini@paytm.com"
+      ],
+      "from_email": "\"Rakesh Singh\" <support@paytm-designocl.freshdesk.com>",
+      "cc_emails": [
+        "m-amitabh.anand@ocltp.com",
+        "gautam2.verma@paytm.com",
+        "vikash2.nagar@paytmservices.com",
+        "priya.saini@paytm.com"
+      ],
+      "bcc_emails": [],
+      "ticket_id": 26199,
+      "attachments": [
+        {
+          "id": 85001637262,
+          "name": "PDF.zip",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001637262/original/PDF.zip?Expires=1755602514&Signature=V8k-geEu6aA-C8oJRvu4gQGLGJaiWThtWanwfQZv7ZgLu06oJheYFlCy8hcqySjbJ0TvrgpY8e6SeIpLjAIOpYLfjqCr0IQ3aC70EcKx-vKDOilte0idTfuJPIvDXm3nY6M6fdSH~qDr3YJnYYavXKpEISQA-hZmAziMZb7TdGdC5A4gqTTxHXDrkzma3jaTy0Nb7YwZ5FfRMG2YOjOAYCWdud0Aub-pbHOOrpc~cZZJHSOAP~tXxKtHrhWcseFgwzdTr2BtIqZkk22gVmHXtOqOmNSLZksBTq~Ubds5~YJTpITJK3Ms6zo0JymNVgLhlpJww4xpK~o3Rl8xfmj6dg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "application/octet-stream",
+          "size": 734496,
+          "created_at": "2025-07-21T06:30:21Z",
+          "updated_at": "2025-07-21T06:30:21Z",
+          "user_id": 85000184676,
+          "conversation_id": 85003896149,
+          "type": "conversation_attachment"
+        },
+        {
+          "id": 85001637263,
+          "name": "Jpg.zip",
+          "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001637263/original/Jpg.zip?Expires=1755602514&Signature=TVbE3nwUheseXCS4fPTZ8miNZjbvdcJqTJYdYvZjIfycTZJH-TzzWwKbLqJ70j4foxfzsSuWNlYFxpjYhskKgYQ2Vh7kxVE9rQwjg8xE1nwppf1UnHVjjsDGXAHNyhgANijW12mHVQH0MggIPt2~IN~8iMQYRqSCaHYSemA9ok3MLm21YnmWg1uOulHF7POMPdhDCwd2WTEQ73uzKdGfnJH1mLTMzTT7tUo-KswH1uqmlZ9EkfDVEI0JlSO2mkOVrYKOJXJ-H93H~aIXuWi7hrSVhwRL0tcNNUoTDkcqjMixnm0~pyDjUu78gSuQ~PVEy9C4YexvwJHwFq1yc0vuVQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+          "content_type": "application/octet-stream",
+          "size": 3208448,
+          "created_at": "2025-07-21T06:30:21Z",
+          "updated_at": "2025-07-21T06:30:21Z",
+          "user_id": 85000184676,
+          "conversation_id": 85003896149,
+          "type": "conversation_attachment"
+        }
+      ]
+    },
+    {
+      "id": 85003896350,
+      "body_text": "Hi Amitabh,\r\n\r\nPlease connect with Rakesh for the changes suggested to you.\r\n\r\nRegards,\r\n\r\nGautam Verma\r\n\r\nOn Mon, Jul 21, 2025 at 12:01 PM Rakesh Singh <\r\nsupport@paytm-designocl.freshdesk.com> wrote:\r\n\r\n> Hi Priya Saini,\r\n>\r\n> PFA printable pdf files of the signages for cafetaria 6th floor. Attachd\r\n> jpgs for your reference only.\r\n>\r\n> Thanks\r\n> Rakesh\r\n>\r\n>\r\n>\r\n> On Thu, 10 Jul at 7:42 PM , Amitabh Anand <m-amitabh.anand@ocltp.com>\r\n> wrote:\r\n> Dear Priya,\r\n>\r\n> Thanks a lot for this swift reply.\r\n>\r\n> These creatives look great, but still will discuss with management and\r\n> revert back if at all any modifications are required.\r\n>\r\n> Thanks Again.\r\n>\r\n> ",
+      "body": "<div dir=\"ltr\">\n<div dir=\"ltr\">\n<div>Hi Amitabh,</div>\n<div><br></div>\n<div>Please connect with Rakesh for the changes suggested to you.</div>\n<div><br></div>\n<div><div dir=\"ltr\" class=\"gmail_signature\"><div dir=\"ltr\">\n<div class=\"MsoNormal\" style=\"color:rgb(34,34,34)\"><span lang=\"EN-US\">Regards,<u></u><u></u></span></div>\n<div class=\"MsoNormal\" style=\"color:rgb(34,34,34)\"><span lang=\"EN-US\">Gautam Verma</span></div>\n</div></div></div>\n</div>\n<br><div class=\"gmail_quote gmail_quote_container\"><div dir=\"ltr\" class=\"gmail_attr\"></div></div>\n</div>\n<div class=\"freshdesk_quote\"><blockquote class=\"freshdesk_quote\">\n<div>On Mon, Jul 21, 2025 at 12:01 PM Rakesh Singh &lt;<a href=\"mailto:support@paytm-designocl.freshdesk.com\" rel=\"noreferrer\">support@paytm-designocl.freshdesk.com</a>&gt; wrote:<br>\n</div>\n<blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\"><div style='font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;font-size:14px'>\n\t<div style='font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;font-size:14px'>\n<div dir=\"ltr\">Hi Priya Saini,<br><br>PFA printable pdf files of the signages for cafetaria 6th floor. Attachd jpgs for your reference only.</div>\n<div><br></div>\n<div dir=\"ltr\">Thanks</div>\n<div dir=\"ltr\">Rakesh<br><br>\n</div>\n<div><div dir=\"ltr\"><div><br></div></div></div>\n<div><br></div>\n<div>\n                          <blockquote>\n                            On\n                            Thu, 10 Jul at  7:42 PM\n                            <span>,  Amitabh Anand &lt;<a href=\"mailto:m-amitabh.anand@ocltp.com\" target=\"_blank\" rel=\"noreferrer\">m-amitabh.anand@ocltp.com</a>&gt;  wrote:\n                            <div dir=\"ltr\">Dear Priya,<div><br></div>\n<div>Thanks a lot for this swift reply.</div>\n<div><br></div>\n<div>These creatives look great, but still will discuss with management and revert back if at all any modifications are required.</div>\n<div><br></div>\n<div>Thanks Again.</div>\n</div>\n<br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\"></div></div>\n<div><blockquote>\n<div>On Thu, Jul 10, 2025 at 7:07 PM Priya Saini &lt;<a href=\"mailto:priya.saini@paytm.com\" rel=\"noreferrer\" target=\"_blank\">priya.saini@paytm.com</a>&gt; wrote:<br>\n</div>\n<blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\">\n<div dir=\"ltr\">\n<div style='font-family:\"trebuchet ms\",sans-serif;font-size:small;color:rgb(11,83,148)'>Hi Amitabh,</div>\n<div style='font-family:\"trebuchet ms\",sans-serif;font-size:small;color:rgb(11,83,148)'>Sharing the creatives based on the templates we have, have a look. Let me know what you think.<br><br>Also, I'm sharing some references of the signage designs that I feel are better than chains. </div>\n<div><br></div>\n<span class=\"gmail_default\" style='font-family:\"trebuchet ms\",sans-serif;font-size:small;color:rgb(11,83,148)'>Regard,</span><span class=\"gmail_default\" style='font-family:\"trebuchet ms\",sans-serif;font-size:small;color:rgb(11,83,148)'><br>Priya</span>\n</div>\n<div dir=\"ltr\"><div style='font-family:\"trebuchet ms\",sans-serif;font-size:small;color:rgb(11,83,148)'><br></div></div>\n<br><div class=\"gmail_quote\">\n<div dir=\"ltr\" class=\"gmail_attr\">On Wed, Jul 9, 2025 at 8:41 PM Amitabh Anand &lt;<a href=\"mailto:m-amitabh.anand@ocltp.com\" rel=\"noreferrer\" target=\"_blank\">m-amitabh.anand@ocltp.com</a>&gt; wrote:<br>\n</div>\n<blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\">\n<div dir=\"ltr\">\n<div>Dear Priya,</div>\n<div><br></div>\n<div>As discussed, please share the creatives for 6th Floor Cafeteria, the basic details required by you are shared in the attached sheet.</div>\n<div>Please feel free to connect if any further information is required.</div>\n<span class=\"gmail_signature_prefix\">-- </span><br><div dir=\"ltr\" class=\"gmail_signature\"><div dir=\"ltr\">\n<b><font>Regards,</font></b><div><b><font>Amitabh Anand,</font></b></div>\n<div><font>Key Account Manager,</font></div>\n<div><font>+91 9540101442.</font></div>\n</div></div>\n</div>\n</blockquote>\n</div>\n</blockquote>\n<div><br></div>\n<div><br></div>\n<span class=\"gmail_signature_prefix\">-- </span><br><div dir=\"ltr\" class=\"gmail_signature\"><div dir=\"ltr\">\n<b><font>Regards,</font></b><div><b><font>Amitabh Anand,</font></b></div>\n<div><font>Key Account Manager,</font></div>\n<div><font>+91 9540101442.</font></div>\n</div></div>\n</blockquote></div>\n                          </span>\n</blockquote>\n                        </div>\n</div>\n\n\n\t\n\n\n\n\n\n\n\n\n</div></blockquote>\n</blockquote></div>",
+      "private": false,
+      "created_at": "2025-07-21T07:00:52Z",
+      "updated_at": "2025-07-21T07:00:52Z",
+      "user_id": 85000388762,
+      "incoming": true,
+      "source": 0,
+      "support_email": "gautam2.verma@paytm.com",
+      "to_emails": [
+        "\"Rakesh Singh\" <support@paytm-designocl.freshdesk.com>",
+        "m-amitabh.anand@ocltp.com"
+      ],
+      "from_email": "gautam2.verma@paytm.com",
+      "cc_emails": [
+        "priya.saini@paytm.com",
+        "vikash2.nagar@paytmservices.com"
+      ],
+      "bcc_emails": [],
+      "ticket_id": 26199
+    }
+  ],
+  "nr_due_by": null,
+  "nr_escalated": false
+}

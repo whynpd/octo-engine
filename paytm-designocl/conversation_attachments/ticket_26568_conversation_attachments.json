@@ -1,0 +1,28 @@
+[
+  {
+    "id": 85001648300,
+    "name": "Consumer_Tent Card_A5_Aug_01-01.jpg",
+    "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648300/original/Consumer_Tent%20Card_A5_Aug_01-01.jpg?Expires=1755602514&Signature=SHnajrC9muuea5nu~f69GhgiClTr66bOPXGtyt31gCPzHSpvZqG3ktnnAmLGesjxk1mkaH8ONW1PyUu9EmwbveZO5zbVdPpK7WP1dyoZOXegyO-QwmbuA4JUb5iZ8LyzDHWDr~gErIkKtlv3hk8g2eq~1iydPNr21Rf4jViC4fi6BD2fmk~sjdoXDqeS6cq98qXTjHKHz6IxL4GQa-~mVGxgVnVzcp1fTq6yuM5tRsXQ5btth5Puo1JLthaA7Yx~V2e1QvRcntAsbKTrWvmgzC1ULE9iTJbLvCKWHFpMA-IZm32hGpse0eBtn80v3Eip7TPzCBy5Iht44yRdRqKIDQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "content_type": "image/jpeg",
+    "size": 853737,
+    "created_at": "2025-08-06T12:16:14Z",
+    "updated_at": "2025-08-06T12:16:14Z",
+    "user_id": 85000184654,
+    "conversation_id": 85004019850,
+    "type": "conversation_attachment",
+    "ticket_id": 26568
+  },
+  {
+    "id": 85001648686,
+    "name": "Consumer_Tent Card_A5_Aug_01.jpg",
+    "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648686/original/Consumer_Tent%20Card_A5_Aug_01.jpg?Expires=1755602514&Signature=f3lsHig2HGcIaTz1Wryx6kejvFByGmfNG8Zw~Aj9mJnEahGVz3~RJYWglWmU9tZzK8ZCvM1-3MvVtbd4l3Xbcj6a4qdbGgnfj8-~NhT~wRY8km25vTJTWCxE65xzNdbyfRXqwWSdIfpU28vrEx6GTASNWb6WNPHNiOJmQqCqo9r1mfKz4mOcrmDbFl6Ltin6CbMky2gDV9bS3Dw61IlVsWLTtUkCPTq7NkwQcQw8rxRNN93mrrgORzOk40ROgU1zF6nmeQ4Nquv04vIyabUhFKvTk2zrUIb4i6a9ZQ4b04So~4UDkjSURgo1pDxyCeADa8uyuWxaBdVw45N~sqIJcg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "content_type": "image/jpeg",
+    "size": 870216,
+    "created_at": "2025-08-07T06:23:55Z",
+    "updated_at": "2025-08-07T06:23:55Z",
+    "user_id": 85000184654,
+    "conversation_id": 85004025039,
+    "type": "conversation_attachment",
+    "ticket_id": 26568
+  }
+]

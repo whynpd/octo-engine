@@ -1,0 +1,52 @@
+[
+  {
+    "id": 85001646835,
+    "name": "61aa63e6cdca1be62ee18a987c18d1ac.jpg",
+    "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001646835/original/61aa63e6cdca1be62ee18a987c18d1ac.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=ba52fd07d420b78c74cc5f48f0b5c7c9f021a71ed3a0fd2c772e42b06bff9692",
+    "content_type": "image/jpeg",
+    "size": 97193,
+    "created_at": "2025-08-04T05:28:40Z",
+    "type": "ticket_attachment",
+    "ticket_id": 26533
+  },
+  {
+    "id": 85001646836,
+    "name": "9c4101928c7ccc2d3342301ffe8c03a8.jpg",
+    "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001646836/original/9c4101928c7ccc2d3342301ffe8c03a8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=4179d6abdcd91f54c2ba094639f1d01c22a868f5778fe6e2d5200c0e4da79bd9",
+    "content_type": "image/jpeg",
+    "size": 162140,
+    "created_at": "2025-08-04T05:28:40Z",
+    "type": "ticket_attachment",
+    "ticket_id": 26533
+  },
+  {
+    "id": 85001646837,
+    "name": "4ebb87ff87e4c298b030b1f149dcb9cc.jpg",
+    "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001646837/original/4ebb87ff87e4c298b030b1f149dcb9cc.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=e0845c777833a046d23efe50665e2ce528c0d8cc0e9062a97593b100c06d4885",
+    "content_type": "image/jpeg",
+    "size": 108599,
+    "created_at": "2025-08-04T05:28:40Z",
+    "type": "ticket_attachment",
+    "ticket_id": 26533
+  },
+  {
+    "id": 85001646838,
+    "name": "2d21540042130f9951bc79221d3bb137.jpg",
+    "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001646838/original/2d21540042130f9951bc79221d3bb137.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=3cfc4e28eefe9edd865e7272c80a595420f32f731cff8d58ebba429a5750c5c9",
+    "content_type": "image/jpeg",
+    "size": 128607,
+    "created_at": "2025-08-04T05:28:40Z",
+    "type": "ticket_attachment",
+    "ticket_id": 26533
+  },
+  {
+    "id": 85001646839,
+    "name": "d80135e6eab4a91840065859fddd667e.jpg",
+    "url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001646839/original/d80135e6eab4a91840065859fddd667e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T111654Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=b781b9f6d53e30ca2310b382f1fb10081cca6ddc7f9532faaefcd01fbf9c3661",
+    "content_type": "image/jpeg",
+    "size": 191302,
+    "created_at": "2025-08-04T05:28:40Z",
+    "type": "ticket_attachment",
+    "ticket_id": 26533
+  }
+]
