@@ -38,7 +38,7 @@ OUTPUT_DIRS = {
 
 CONFIG = {
     'workers': 7,
-    'max_wait_for_json_seconds': 30,
+    'max_wait_for_json_seconds': 10,
 }
 
 

@@ -181,25 +181,63 @@ def fetch_conversations(ticket_id):
 
         conversations = []
         for convo in response.json():
-            attachments = [
-                {
-                    "id": att.get("id"),
-                    "name": att.get("name"),
-                    "url": att.get("attachment_url") or att.get("url"),
-                    "content_type": att.get("content_type"),
-                    "size": att.get("size"),
-                    "created_at": att.get("created_at")
-                }
-                for att in convo.get("attachments", [])
-            ]
-            conversations.append({
+            # attachments = [
+            #     {
+            #         "id": att.get("id"),
+            #         "name": att.get("name"),
+            #         "url": att.get("attachment_url") or att.get("url"),
+            #         "content_type": att.get("content_type"),
+            #         "size": att.get("size"),
+            #         "created_at": att.get("created_at")
+            #     }
+            #     for att in convo.get("attachments", [])
+            # ]
+            conversation_data = {
                 "id": convo.get("id"),
                 "body_text": convo.get("body_text"),
                 "body": convo.get("body"),
                 "private": convo.get("private"),
                 "created_at": convo.get("created_at"),
-                "attachments": attachments
-            })
+                "updated_at": convo.get("updated_at"),
+                "user_id": convo.get("user_id"),
+                "incoming": convo.get("incoming"),
+                "source": convo.get("source"),
+                "support_email": convo.get("support_email"),
+                "to_emails": convo.get("to_emails"),
+                "from_email": convo.get("from_email"),
+                "cc_emails": convo.get("cc_emails"),
+                "bcc_emails": convo.get("bcc_emails"),
+                "email_headers": convo.get("email_headers"),
+                "ticket_id": convo.get("ticket_id"),
+                "conversation_type": convo.get("conversation_type"),
+                "channel": convo.get("channel")
+            }
+            conversation_data = {k: v for k, v in conversation_data.items() if v is not None}
+            if convo.get("attachments"):
+                attachments = [
+                    {
+                        "id": att.get("id"),
+                        "name": att.get("name"),
+                        "url": att.get("attachment_url") or att.get("url"),
+                        "content_type": att.get("content_type"),
+                        "size": att.get("size"),
+                        "created_at": convo.get("created_at"),
+                        "updated_at": convo.get("updated_at"),
+                        "user_id": convo.get("user_id"),
+                    }
+                    for att in convo.get("attachments", [])
+                ]
+                conversation_data["attachments"] = attachments
+            
+            conversations.append(conversation_data)
+            # conversations.append({
+            #     "id": convo.get("id"),
+            #     "body_text": convo.get("body_text"),
+            #     "body": convo.get("body"),
+            #     "private": convo.get("private"),
+            #     "created_at": convo.get("created_at"),
+            #     "attachments": attachments
+            # })
 
         return conversations
         
