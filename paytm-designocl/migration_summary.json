@@ -1,6 +1,6 @@
 {
-  "migration_completed": "2025-08-19T17:32:02.808528",
-  "duration_seconds": 0.012878,
+  "migration_completed": "2025-08-19T17:58:37.672346",
+  "duration_seconds": 0.019987,
   "tickets_processed": 49,
   "files_created": {
     "ticket_details": 49,
@@ -10,9 +10,9 @@
   },
   "total_files_created": 122,
   "csv_reconciliation_records": {
-    "ticket_attachments": 0,
-    "conversation_attachments": 0,
-    "conversations": 0,
+    "ticket_attachments": 36,
+    "conversation_attachments": 151,
+    "conversations": 147,
     "ticket_details": 49
   },
   "data_summary": {

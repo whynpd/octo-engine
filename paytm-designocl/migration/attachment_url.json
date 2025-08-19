@@ -1,0 +1,1685 @@
+[
+  {
+    "ticket_id": 26306,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001635656/original/attachment.ics?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=8f59ebd893442485f421c1923a713d1738e7a740b3de49e6236fd7e731467276",
+    "local_path": "attachments/26306/attachment.ics",
+    "recorded_at": "2025-08-19T17:47:18.585414",
+    "attachment_id": "85001635656",
+    "attachment_name": "attachment.ics",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26419,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001642528/original/18x12.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=d96afe0db1628c7ce255a86cd945286af5ee2466a5367ab769e937598aa47532",
+    "local_path": "attachments/26419/18x12.pdf",
+    "recorded_at": "2025-08-19T17:47:18.687726",
+    "attachment_id": "85001642528",
+    "attachment_name": "18x12.pdf",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26334,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001637865/original/Revenue-%20Twitter.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=ac279661c385bfc99778f3f31c37bb52b9d74e28d3ce9a68c1429c1cd412bcc6",
+    "local_path": "attachments/26334/Revenue- Twitter.png",
+    "recorded_at": "2025-08-19T17:47:18.711765",
+    "attachment_id": "85001637865",
+    "attachment_name": "Revenue- Twitter.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26306,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001635657/original/invite.ics?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=162a5a0b6de44e39d7da968598b7001f19d59a5abc6121fd176deed97d302fe0",
+    "local_path": "attachments/26306/invite.ics",
+    "recorded_at": "2025-08-19T17:47:18.790336",
+    "attachment_id": "85001635657",
+    "attachment_name": "invite.ics",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26172,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001628486/original/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=bba428ba879b9b5e7a6aa574372e9808938b20b03df102ba06da285e61cdb7d8",
+    "local_path": "attachments/26172/image.png",
+    "recorded_at": "2025-08-19T17:47:18.816841",
+    "attachment_id": "85001628486",
+    "attachment_name": "image.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26335,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001637886/original/Sankey%20for%20Email.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=9b1a85f923930b20c96bd8280f9f5039946a944a3f3bb71f34dc3a5bac3e331e",
+    "local_path": "attachments/26335/Sankey for Email.png",
+    "recorded_at": "2025-08-19T17:47:19.053925",
+    "attachment_id": "85001637886",
+    "attachment_name": "Sankey for Email.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26533,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001646835/original/61aa63e6cdca1be62ee18a987c18d1ac.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=b36ac4cb3b865654be8bae94cdc9a010ed8e7874bd0c34d38bbbba430c38c33c",
+    "local_path": "attachments/26533/61aa63e6cdca1be62ee18a987c18d1ac.jpg",
+    "recorded_at": "2025-08-19T17:47:19.066066",
+    "attachment_id": "85001646835",
+    "attachment_name": "61aa63e6cdca1be62ee18a987c18d1ac.jpg",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26199,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630413/original/Noida%20Office-%20Cafeteria%20Signages_01_fresh%20cup.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=a6010952ae205bed72ccee041fa6bed291af80dc96764c66df0f275d9b0d7e95",
+    "local_path": "attachments/26199/Noida Office- Cafeteria Signages_01_fresh cup.png",
+    "recorded_at": "2025-08-19T17:47:19.088043",
+    "attachment_id": "85001630413",
+    "attachment_name": "Noida Office- Cafeteria Signages_01_fresh cup.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26334,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001637866/original/PAT-%20Twitter.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=a4e7efff80f7c7e1cfd775f4af0a326ce6a9a68125dcb5177c608bd269688600",
+    "local_path": "attachments/26334/PAT- Twitter.png",
+    "recorded_at": "2025-08-19T17:47:19.104845",
+    "attachment_id": "85001637866",
+    "attachment_name": "PAT- Twitter.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26419,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001642529/original/48x12.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=696e20224c3c1527011bf337f1d0bf760bbf2233e02818a23a6a5a0845c149f2",
+    "local_path": "attachments/26419/48x12.pdf",
+    "recorded_at": "2025-08-19T17:47:19.110701",
+    "attachment_id": "85001642529",
+    "attachment_name": "48x12.pdf",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26356,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001638742/original/LIST%20OF%20FINISHES.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=48380fbc26275e875f9a75ec07c99996e44a297b30752df443051b74e6393823",
+    "local_path": "attachments/26356/LIST OF FINISHES.pdf",
+    "recorded_at": "2025-08-19T17:47:19.346069",
+    "attachment_id": "85001638742",
+    "attachment_name": "LIST OF FINISHES.pdf",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26298,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001635297/original/Speed%20if%20our%20bet_06.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=5d533faba5631858e6b834af01a30c98acbdad48148486ee998ab72ecc924c49",
+    "local_path": "attachments/26298/Speed if our bet_06.png",
+    "recorded_at": "2025-08-19T17:47:19.374614",
+    "attachment_id": "85001635297",
+    "attachment_name": "Speed if our bet_06.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26199,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630414/original/Noida%20Office-%20Cafeteria%20Signages_01_fresh%20cups.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=2a1d35bb609533cf208b3a81491ff0011dde718c5b7a0af6740811bb0b716c35",
+    "local_path": "attachments/26199/Noida Office- Cafeteria Signages_01_fresh cups.png",
+    "recorded_at": "2025-08-19T17:47:19.388374",
+    "attachment_id": "85001630414",
+    "attachment_name": "Noida Office- Cafeteria Signages_01_fresh cups.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26533,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001646836/original/9c4101928c7ccc2d3342301ffe8c03a8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=45c688b5c9d4cfc3d1cd02ab01192b2a7af773800995c6eeb736cd88f4a0d0c9",
+    "local_path": "attachments/26533/9c4101928c7ccc2d3342301ffe8c03a8.jpg",
+    "recorded_at": "2025-08-19T17:47:19.404918",
+    "attachment_id": "85001646836",
+    "attachment_name": "9c4101928c7ccc2d3342301ffe8c03a8.jpg",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26334,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001637867/original/Tech%20stack%20image_1000x625.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=2c0c7cc98527fae9558a56cb12b772649645b810be001d424b1dbd8659a137aa",
+    "local_path": "attachments/26334/Tech stack image_1000x625.png",
+    "recorded_at": "2025-08-19T17:47:19.427591",
+    "attachment_id": "85001637867",
+    "attachment_name": "Tech stack image_1000x625.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26392,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001640093/original/Annual_Cover_26_A4_July_Released.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=f901a0b4e66649f23457dfa10c765e5a93b3c47add0b4a3eace5e0bccb44c526",
+    "local_path": "attachments/26392/Annual_Cover_26_A4_July_Released.png",
+    "recorded_at": "2025-08-19T17:47:19.444589",
+    "attachment_id": "85001640093",
+    "attachment_name": "Annual_Cover_26_A4_July_Released.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26199,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630415/original/Noida%20Office-%20Cafeteria%20Signages_01_Food%20station%20veg.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=ae0284592e66b001aeb94205bd917128923da9e6f45193ae8b9b9d86c59c8c9b",
+    "local_path": "attachments/26199/Noida Office- Cafeteria Signages_01_Food station veg.png",
+    "recorded_at": "2025-08-19T17:47:19.513317",
+    "attachment_id": "85001630415",
+    "attachment_name": "Noida Office- Cafeteria Signages_01_Food station veg.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26334,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001637868/original/Pontribution%20Profit-twitter.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=ef567bc1d17415665336f6c9202e7bde9a22f0898a27cba9c83cbef47bec3b9b",
+    "local_path": "attachments/26334/Pontribution Profit-twitter.png",
+    "recorded_at": "2025-08-19T17:47:19.560287",
+    "attachment_id": "85001637868",
+    "attachment_name": "Pontribution Profit-twitter.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26533,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001646837/original/4ebb87ff87e4c298b030b1f149dcb9cc.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=37440514868385787fe406eb9370a40aa22c9e596bbce6612bc75fb4e926103a",
+    "local_path": "attachments/26533/4ebb87ff87e4c298b030b1f149dcb9cc.jpg",
+    "recorded_at": "2025-08-19T17:47:19.638672",
+    "attachment_id": "85001646837",
+    "attachment_name": "4ebb87ff87e4c298b030b1f149dcb9cc.jpg",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26199,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630416/original/Noida%20Office-%20Cafeteria%20Signages_01_Dishwashing%20area.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=5ac72f41d5356685840611a234b1265f7cafcc56830889ebd4e4cc944a29a162",
+    "local_path": "attachments/26199/Noida Office- Cafeteria Signages_01_Dishwashing area.png",
+    "recorded_at": "2025-08-19T17:47:19.794589",
+    "attachment_id": "85001630416",
+    "attachment_name": "Noida Office- Cafeteria Signages_01_Dishwashing area.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26298,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001635298/original/Mockup.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=6ff2e36860f84ecf1819ed0d81dbe0723e6df6b9256c2757fe27f11d62d5e977",
+    "local_path": "attachments/26298/Mockup.png",
+    "recorded_at": "2025-08-19T17:47:19.876659",
+    "attachment_id": "85001635298",
+    "attachment_name": "Mockup.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26334,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001637869/original/Sankey%20Diagram_1000x625.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=aa90dd00536f1c4f386a299660098f672c1dbfce2cf19092d886622398b7f02b",
+    "local_path": "attachments/26334/Sankey Diagram_1000x625.png",
+    "recorded_at": "2025-08-19T17:47:19.892961",
+    "attachment_id": "85001637869",
+    "attachment_name": "Sankey Diagram_1000x625.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26533,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001646838/original/2d21540042130f9951bc79221d3bb137.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=327c57142a21a5a063bd00ce5a5069c771f8f7b04de1d4a06418f5b8b80884c7",
+    "local_path": "attachments/26533/2d21540042130f9951bc79221d3bb137.jpg",
+    "recorded_at": "2025-08-19T17:47:19.896536",
+    "attachment_id": "85001646838",
+    "attachment_name": "2d21540042130f9951bc79221d3bb137.jpg",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26199,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630417/original/Noida%20Office-%20Cafeteria%20Signages_01_Food%20station%20non%20veg.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=832437ca7904e4454ce93eaf2b08bab7af6931a341a0bc8ae52fa5e8904d704d",
+    "local_path": "attachments/26199/Noida Office- Cafeteria Signages_01_Food station non veg.png",
+    "recorded_at": "2025-08-19T17:47:19.977427",
+    "attachment_id": "85001630417",
+    "attachment_name": "Noida Office- Cafeteria Signages_01_Food station non veg.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26298,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001635299/original/Speed%20if%20our%20bet_06_Sampling.ai?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=1f2d62c3198e4ad9878314d5b5c19e48ea392c1448f065b41a7687da443b9631",
+    "local_path": "attachments/26298/Speed if our bet_06_Sampling.ai",
+    "recorded_at": "2025-08-19T17:47:20.124094",
+    "attachment_id": "85001635299",
+    "attachment_name": "Speed if our bet_06_Sampling.ai",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26533,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001646839/original/d80135e6eab4a91840065859fddd667e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=146b45d2fc25dc8dc916140c7a1b051d77ae9ad95d09072275c8b341133f1d69",
+    "local_path": "attachments/26533/d80135e6eab4a91840065859fddd667e.jpg",
+    "recorded_at": "2025-08-19T17:47:20.132239",
+    "attachment_id": "85001646839",
+    "attachment_name": "d80135e6eab4a91840065859fddd667e.jpg",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26199,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630418/original/Noida%20Office-%20Cafeteria%20Signages_01_Handwash%20area.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=7e154fbb4dcf19ed1364a9235b61ec3f34855cf1dd00a55e505a2da4a4783fe9",
+    "local_path": "attachments/26199/Noida Office- Cafeteria Signages_01_Handwash area.png",
+    "recorded_at": "2025-08-19T17:47:20.137697",
+    "attachment_id": "85001630418",
+    "attachment_name": "Noida Office- Cafeteria Signages_01_Handwash area.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26199,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630419/original/Noida%20Office-%20Cafeteria%20Signages_01_fresh%20glass.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=983f1e7bb2317970beb1acfd74e688d61c069dee8374df6a35e6d8f6efb7cdf0",
+    "local_path": "attachments/26199/Noida Office- Cafeteria Signages_01_fresh glass.png",
+    "recorded_at": "2025-08-19T17:47:20.286180",
+    "attachment_id": "85001630419",
+    "attachment_name": "Noida Office- Cafeteria Signages_01_fresh glass.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26199,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630420/original/Noida%20Office-%20Cafeteria%20Signages_01_Medical%20room.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=e6bfcf2c8f05103d58e78d0439caab049bde443fe0cbe2a83cfca95a5e993548",
+    "local_path": "attachments/26199/Noida Office- Cafeteria Signages_01_Medical room.png",
+    "recorded_at": "2025-08-19T17:47:20.722141",
+    "attachment_id": "85001630420",
+    "attachment_name": "Noida Office- Cafeteria Signages_01_Medical room.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26298,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001635300/original/Speed%20if%20our%20bet_06_Sampling.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=98c8d16a6a76ca6db1091dbcd892c09ddc70d48a757ef594b11fc15c38222ba2",
+    "local_path": "attachments/26298/Speed if our bet_06_Sampling.pdf",
+    "recorded_at": "2025-08-19T17:47:20.744232",
+    "attachment_id": "85001635300",
+    "attachment_name": "Speed if our bet_06_Sampling.pdf",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26199,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630421/original/Noida%20Office-%20Cafeteria%20Signages_01_Micro%20dos%20and%20donts.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=84f9b952fccfa1c46c2101b936bb7529ee1044ba94891ad86afbf1e169ef1213",
+    "local_path": "attachments/26199/Noida Office- Cafeteria Signages_01_Micro dos and donts.png",
+    "recorded_at": "2025-08-19T17:47:20.854480",
+    "attachment_id": "85001630421",
+    "attachment_name": "Noida Office- Cafeteria Signages_01_Micro dos and donts.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26199,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630422/original/Noida%20Office-%20Cafeteria%20Signages_01_used%20cups.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=eb00871c75e21cbab6562dc2f11fe1f5a91d38e51338a6feb97d5f212b73dd34",
+    "local_path": "attachments/26199/Noida Office- Cafeteria Signages_01_used cups.png",
+    "recorded_at": "2025-08-19T17:47:20.975794",
+    "attachment_id": "85001630422",
+    "attachment_name": "Noida Office- Cafeteria Signages_01_used cups.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26199,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630423/original/Noida%20Office-%20Cafeteria%20Signages_01_used%20glass.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=3389d352280e2192bac19c9d91134f5c8da700bf71c5cd6ca5f4c0159cfb02d1",
+    "local_path": "attachments/26199/Noida Office- Cafeteria Signages_01_used glass.png",
+    "recorded_at": "2025-08-19T17:47:21.118033",
+    "attachment_id": "85001630423",
+    "attachment_name": "Noida Office- Cafeteria Signages_01_used glass.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26199,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630424/original/55bc79d517f265d750ce43073e71a27f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=a210b895bab9ccb11060564eef6d30fcd9645d7fffe23fe54898efecd4c186a0",
+    "local_path": "attachments/26199/55bc79d517f265d750ce43073e71a27f.jpg",
+    "recorded_at": "2025-08-19T17:47:21.187763",
+    "attachment_id": "85001630424",
+    "attachment_name": "55bc79d517f265d750ce43073e71a27f.jpg",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26199,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630425/original/c5f81effd29562559a9bf42662d1b166.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=877f047f225f0a8671069965073782670af84ba8bcf3bcf8c7acc22451fd1f37",
+    "local_path": "attachments/26199/c5f81effd29562559a9bf42662d1b166.jpg",
+    "recorded_at": "2025-08-19T17:47:21.280469",
+    "attachment_id": "85001630425",
+    "attachment_name": "c5f81effd29562559a9bf42662d1b166.jpg",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26199,
+    "freshdesk_url": "https://s3.ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/85001630426/original/Screenshot%202025-07-10%20at%206.00.53%E2%80%AFPM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20250819%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250819T121712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=df0c956d23c20523ac0df818934b54becfde9fd4211e36c7cb815d46b80f93ee",
+    "local_path": "attachments/26199/Screenshot 2025-07-10 at 6.00.53 PM.png",
+    "recorded_at": "2025-08-19T17:47:22.197234",
+    "attachment_id": "85001630426",
+    "attachment_name": "Screenshot 2025-07-10 at 6.00.53 PM.png",
+    "attachment_type": "ticket_attachment"
+  },
+  {
+    "ticket_id": 26556,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648097/original/26556_Adapt%20Request%20_%20Screensaver%20_%20IC%20_%20DCC%20_%205%20Aug%2725.png?Expires=1755606131&Signature=j408ArdL~yaxwuVOXrbPLrKUq~0IcsMtP9P08Cq7G4lm2wGjLSo4BuNJJhRZlicMlfH8y9mXMrBohXjjte9RaA50V7yshHOoaNeINiodwWcZmByO0jzxXA38aA-0wkXGd8uRTtaRw29OSMdqXhBBQAtRSroOOq0spak0FVxoSRSK4MeV3oX91LzEksY821EYHAdagaQQICsF4S1IIcfqKqIB3yu86yYp-Zvj1pB2NuDadAXEbEUEB2DNlBAFiCbfN0Yuj~whmheI0c7VePhXMrIX9T83n5t-kuO-hNzaN2xPp5ybvMUW2EPfkRCQpAQlYRwXij7SS90x4QubXUikoQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26556/conv_26556_Adapt Request _ Screensaver _ IC _ DCC _ 5 Aug'25.png",
+    "recorded_at": "2025-08-19T17:47:28.216158",
+    "attachment_id": "85001648097",
+    "attachment_name": "26556_Adapt Request _ Screensaver _ IC _ DCC _ 5 Aug'25.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26553,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647393/original/Screenshot%202025-08-05%20at%2011.01.01%E2%80%AFAM.png?Expires=1755606131&Signature=W01o9wpF4s17m4uEgPpBxLcWHdzb4tBnI8rYr4Y~o9pFhBmZo7XwgI4MUQxaqDlEQbXDBnyVSKD6H9x40LqfS0bLMDBHidF0yJBqqp8qS70k53EZKAIAZQv3kcJU0ztSro4I7oiNiCThKaluB-yd8FcxG1SBlgKzJEdPLg0rSp9eMbPxE78FIc0MIVR69acy5bnwmLoEZO5xaBUyuHLSzymkRFAxhJgf8o9RQwUvQPgVh~1thRICec-Yc9kI6Qr5W6EqOvjON0wEIV9DofxlDHvFT2TLPTWflcVFXrvo-cLfA52QsnwH2hgGD3IKKyRlCMwjiwJubFOYGIVX8S3y3w__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26553/conv_Screenshot 2025-08-05 at 11.01.01 AM.png",
+    "recorded_at": "2025-08-19T17:47:28.253317",
+    "attachment_id": "85001647393",
+    "attachment_name": "Screenshot 2025-08-05 at 11.01.01 AM.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26548,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647816/original/Insurance.png?Expires=1755606131&Signature=cn78-MNeLt8OOHow5eICT1U7v1CKbzh6fYHm271KEXMBX48zdzkb2T-c-AmCUOhoiuEECsagj1kiTYUtDADfFXO0j29yhZv95Hg3QFg53nHMqbZnphj7sUfuyehvPeZfeL1tnyPRA-7GJIBOQQ-mkweAwZy7-G4AetDUveNSL-k-rkmvdFYmaS5OC54kWZhBtP9RYWOjLRC7Tp2NFENjxt4r6QwnI0PaPCPqzIMoMwUsNf-SCTQ-uRfdzckxSK3ipJgt4UzwOHF1xEqnXuaoYjckteUDvM3q3KCw2Hc9z5c-TtrHXGSZbXflDMdEOEIm4CfGOF~-73cTHHgmJw9usw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26548/conv_Insurance.png",
+    "recorded_at": "2025-08-19T17:47:28.285534",
+    "attachment_id": "85001647816",
+    "attachment_name": "Insurance.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26556,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648757/original/26556_Adapt%20Request%20_%20Screensaver%20_%20IC.png?Expires=1755606131&Signature=dG0gX6fO-hHXYdZ9x8s~PwMzI3PTPM8BIrtndKIcr7TYrJiqw9dEF2i60oX4a2FFncBT5I-fK7aIeXeSqbLPN5mddsIs8T4VSyLHKd2IUuPhCkMGzGRR4LZfm2RB9Ap9bLN~Nv8SasGTybR5orl-py96WzKd30iI538fnfe2R0c~3VopkPrXMCHNuZgofyE~FvlCZoy~nyVZRhLLMXSOYIXG83ZmKKl2bdb2oa2sZtBe32C-ORKV-~--SnoZUR1YD0vwbXKS~czgymOfPUGQx-Cg0ss0NpYFVUZyL11O1n0TZahS2f9N5y41Jet9~NRt3671Gc-Lf3NCi6iFvuErfw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26556/conv_26556_Adapt Request _ Screensaver _ IC.png",
+    "recorded_at": "2025-08-19T17:47:28.296677",
+    "attachment_id": "85001648757",
+    "attachment_name": "26556_Adapt Request _ Screensaver _ IC.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26561,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647550/original/Post%20Dispatch_Newspaper%20Advertisement_Hindi.docx?Expires=1755606131&Signature=BK-YOxSgLZWvPDuRh~ElTBEZZ~IK0ald16JR3wdQ9RRvHFmz4pDGo-V7D0Z1YlZ8Xaa2gNxgsB-hFTd1ha6CPD34atv6AipnsxuHWWa17i8Emh-uDfHCws0EiPKiGkSFkBcwokZpB6DOXidKHjdAa8Oa9Cv80jcXPuprW6FUFcldpNDlQxCHzRkksZJWP09mRq~XSlcDFNbTNVyqKQMAFuJTGY4OhXNd8BhbuVjEozbAY2nGpaL1JiQFkzisN2kqw3vxrzj5XyONjXL2DJBSQxK~LlJ7Bpk61QF7td~eSXFVIZ3ZACIeJPhGSOph44xUqXMGG55lmIr9HMryucZY3g__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26561/conv_Post Dispatch_Newspaper Advertisement_Hindi.docx",
+    "recorded_at": "2025-08-19T17:47:28.313331",
+    "attachment_id": "85001647550",
+    "attachment_name": "Post Dispatch_Newspaper Advertisement_Hindi.docx",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26553,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647405/original/Westside_More%20fun_DQR_Aug_Released-01.jpg?Expires=1755606131&Signature=RtIlML100IS9BNon6X06LSmCR10g-q5e7bqe93bFoieHTohE7R8~pBssjoL4SmEkPuedQ8DY6sv39ux0KjZl1Pv3QVRCxYSLc~S0NkuvarY~mqEaQjD0fB~~dHk-b7bQSYUVtsLGDlxb6mFvdZytJx0b8B60wQNUMHmzQ9vHMoCMs9Gh6Nv4dlfOPAhn7xlfofqOXCent34~i3iAs84fot5tv2aRrX3907YsHjeFGHVeh2BX8q3f0Xwwl3MLQPDPHX7lGaapBNWL6jDUZzqSF8sLTJ3EA8esu0i1UWaoRZhp8rAI~xTZEnqkD6GzMAOzvI9ZQWHXmO8gp7aKzvfkuw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26553/conv_Westside_More fun_DQR_Aug_Released-01.jpg",
+    "recorded_at": "2025-08-19T17:47:28.321997",
+    "attachment_id": "85001647405",
+    "attachment_name": "Westside_More fun_DQR_Aug_Released-01.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26552,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648181/original/26552_Voltas%20__%20Brand%20Offer%20-%20Aug.jpg?Expires=1755606131&Signature=gsjN0S-DiHl~6rThMii095aDzEKSyLdCMXSSdnyqm34h6tfJHAU5CoTMzPcPHuLTE2se2MP9pdNxcZlQS0VbH-~r~2mmGmp-RJ~qVkzXyJmhXdFfGv4r0ujA5EuAt6rL3kWBbmprb-QleW52Nmh9Em9W8wo7nZB5kZdH23PBf8TM8qe2taTDCebUmS0RPf7W9d9Lrj84LTgNl09zcMg9Q9QKsR8OuwtQwX3JlXuNQQPC-F4zqYtcw5bVUGNzwZYw~e35MwNgFAgfgICeClUXZET~4rXk65VrpUXkT0eM5gsvx~YdfTI0F-CoYLqJjoO~S52cd5W069Xy-Ignc9tHwA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26552/conv_26552_Voltas __ Brand Offer - Aug.jpg",
+    "recorded_at": "2025-08-19T17:47:28.335004",
+    "attachment_id": "85001648181",
+    "attachment_name": "26552_Voltas __ Brand Offer - Aug.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26561,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647551/original/Post%20Dispatch_Newspaper%20Advertisement_English.docx?Expires=1755606131&Signature=gohRm4PA5qBop~kDg1RLkD8-DaDdo3sndysdQ6ZrkWZTEyprZ0WTXO2C8w~Nw0l717lo~2TKdgVEy7kJjU3lU6ugAxKX1sgC9Me1NJr0yUoTFtu~A0pXhbWgLUUxnV8ouYrlkdUm~mF~vEi6KZtDwFLYG6fFtCPURAhf4N~7FWW0C-Cf8yOA1j9tohRwKrz-vrSPuUQtoxgglRT68tK6hEvKY408IVsLCjE~8TmNgd2uT0Dc3itlfXACpst~UCrlJVoK~W8Idp0yWfcQLGkKVeVlGJU5xuawe771pWYHs0MH18nv8SVSjUjiOQKrmRyNYJce7Gh~q2ntODcL6gsnOw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26561/conv_Post Dispatch_Newspaper Advertisement_English.docx",
+    "recorded_at": "2025-08-19T17:47:28.467891",
+    "attachment_id": "85001647551",
+    "attachment_name": "Post Dispatch_Newspaper Advertisement_English.docx",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26568,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648300/original/Consumer_Tent%20Card_A5_Aug_01-01.jpg?Expires=1755606132&Signature=LIEPPdGFIdS~fv79i~IW5599K9hXWQTxpTVriPnietT9bOgYKMNC7e3BSSWsmc9ur2mDVelLSnAwUGoKh-7iyt9lotaeYAjULdW~sKiYWpZ49w6FuZAJX7y7Menjj9y5m83dweh7ux~cVTndq2praqnjaiQ3A1~pd5w9H0KIxTKXnlUy9zmsrGy-qb6vu2G7I~jmvgs2ihfkzD7anjYdbV4dVHuOYQ95Nyv1FeRC7U4IVO~pLmtfErCw5OLuij8mZUvy4wl3wyWGqDrR3iJYoyzKiVhpkSEGmIvBjpLTQeDkLglxOatInNonNbPDO0QDH7sDU2T~cvS2Q~anagb3ug__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26568/conv_Consumer_Tent Card_A5_Aug_01-01.jpg",
+    "recorded_at": "2025-08-19T17:47:28.504435",
+    "attachment_id": "85001648300",
+    "attachment_name": "Consumer_Tent Card_A5_Aug_01-01.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26552,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648182/original/26552_Bose%20__%20Brand%20Offer%20-%20Aug.png?Expires=1755606131&Signature=W7R1f-c5xHMWYhN7M4wnXjaeg2JX~Xu4l1~mSFmTbCyqXaeTleek0h-vO2QdNO-66AWAN5C4YeiIY~ofBxnESNc8kkCc1eSbnXyQE4gVNuRAOS1WLVb38gI6yhXPHcfYNsCnwZi1lvlDrL3SOgMX80juOPg-zw0c2fkkIv96ork5Vv-12hQnOXfniJ8~EKxPORBVvPJUudcOr-veYFm71ZiEiFklBbsePvV1CwlbjJ5uJKX9ibl6CIZuY4~yPLcrU4A7TgnFlIBLQs9GJRra1zCjgkoXtDY-~XMB0wqQ3tVmvJ3jczVUdLI5eRjVriP2d9FeityIEszPbKpZf1lrfw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26552/conv_26552_Bose __ Brand Offer - Aug.png",
+    "recorded_at": "2025-08-19T17:47:28.516705",
+    "attachment_id": "85001648182",
+    "attachment_name": "26552_Bose __ Brand Offer - Aug.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26548,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647817/original/New%20C1.png?Expires=1755606131&Signature=WdAphP4RHiKjVE9PCv6g~jz6ta8sywg6pL5hHL0AuXJnNwLdvZcW1hOvBddYYczU5oqBC-8fKqEIwERyOVJ9tR46XpQNPpmHdgd8YyTLDnYXUo1BBXZTPtWqddSYSoQ1dO2jTO2ogwPkdu~cdwwJ8bckFqBYzzUCng95ITQPL6biGpfq3MoKb~EKhKgX4iOPyVUus4qy60pBFmVCBFr50~rCCmzIYfQgOqfHDJWwGqbHo-Mzg8oLb-zj2WP3~QvDTlwRbZsAQtQDOmvBoCE563h2ZhW-e2jvCXrWGBoLg3ENsZV~VEmN4h7wnXICNDY~xw1Ri2XrQ0RzmYyGOqVx3g__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26548/conv_New C1.png",
+    "recorded_at": "2025-08-19T17:47:28.519683",
+    "attachment_id": "85001647817",
+    "attachment_name": "New C1.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26554,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648259/original/Props.jpg?Expires=1755606131&Signature=oN7kB3eSm0wZF743ZWeW6fJboQGQCpDJpgJKFJx-6BbtOBIakIFzJ7fFJ4S4cayp-Zl2-72Y4DJmbLSBOg2g8Qqas4nbk1yhhdlYmzlm-tiStMjoKqRUeRJZyVDmTAEXjmNUo2Djebliml-wn-LH9FPoPF8oeNA6aA-1f~T1kRrCjcM9y0zrIg3Ttu321r0kJKAprKseIP1zRyaRWajfNWbi4SikWVACFNIDbYitQeLQPVJQWyPjvArg1kzGcaxR7NuFDLwjZYTIr24mIBXJdv~XfXgVUPYoBI89yeMsh89qp3YX1Yc8RnKXZrFA-BSpqHdKuG4dvuLysn~S~88CEw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26554/conv_Props.jpg",
+    "recorded_at": "2025-08-19T17:47:28.551417",
+    "attachment_id": "85001648259",
+    "attachment_name": "Props.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26553,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647406/original/Westside_More%20fun_DQR_Aug_Released.pdf?Expires=1755606131&Signature=h1r2hZJh349aQr2q40j-dUByvQ99tXdWakBuYYmX9ZETg6BUba5DA5Hga5Iek0TO4jsTZoDMmnCtpNhX~leteC8JWKFrPHeAGmAyN6acjgOmDxfEPNElSrElLTA43loHvRod4EOc9RqCqoO1FtAEFNVlHVSz5jAz7aDWCaJT8K5x~myKz6fj1kVLoyiMfBpIyuiAYLaYexOimN3jB~OgwkK2plogW0q8Or1L1okq8ulb2C57APT5ULiG1cbtjy786DNUl4YvRKnCxmHPSTMYjNAVXIR7OXMEM19pK9DCENr-tGseuCs8bS7DcdpVK5gGaht6ZqHZPb-cATUa-H8nxA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26553/conv_Westside_More fun_DQR_Aug_Released.pdf",
+    "recorded_at": "2025-08-19T17:47:28.558000",
+    "attachment_id": "85001647406",
+    "attachment_name": "Westside_More fun_DQR_Aug_Released.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26553,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647412/original/Westside_More%20fun_DQR_Aug_Released_-01.jpg?Expires=1755606131&Signature=SqFCROgSRlB-h1haxITCgWUp6f9gD8EcqNAF6qRHjXA2Ntr~9trY1rLguDMwwexxzPCjixTpR~8D0Ntu23XjMAPWyUfCXY2JcbpBTR15amY4wdtcv~E248idMFk4ke49MHEBMO~ZOIXd2vZpbTexby4UPjas~VgWZsFJKNfWb1RqrmN3x10BsaJtjXDh-1X8~RzE8mkwvS~qJ-kJSeuYtmH0PQaKX3kCISzV4A22wEHuY~z4~mWsNOoSPIVG9xHR17MLTpnsdLjUBOkbuxKx43PYyLBGz-N7epGx6acu9z99Z-IyLv3xwNZ1qd8sGYZ-3VQlvIeweJKAq8U~erZKtQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26553/conv_Westside_More fun_DQR_Aug_Released_-01.jpg",
+    "recorded_at": "2025-08-19T17:47:28.676522",
+    "attachment_id": "85001647412",
+    "attachment_name": "Westside_More fun_DQR_Aug_Released_-01.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26568,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648686/original/Consumer_Tent%20Card_A5_Aug_01.jpg?Expires=1755606132&Signature=nSqxhUZNGARwYLRrrcitpkdRmTRB5d21Vu7kiufU5gBarjtrb7XYFn0pa77XBarEAgp7nE7sCHjWza1UN8bpiFLtTp91DL7WYcJTYdOKZsa31jhSL1bk7cInml6Bw1l18GWSTFM1u99nOJhOCsMSPsv5VSvg9HvarKqLoXBPJN81HnseHt65O1Kb2FNYvnlKNndzzu5T1jMk682pNvdNsNY1xLTNllqK1pCGn0PVkCvoJVeYAgCgCp4QxAIvkZR2VdGr~AofJh4j9ck4cgVfUx12-xcQkmu0Cm0cZ7PvYUfi2nsNxOvye9el6-tDGp32BRexsmgdDyGo5FFExRz~WQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26568/conv_Consumer_Tent Card_A5_Aug_01.jpg",
+    "recorded_at": "2025-08-19T17:47:28.687669",
+    "attachment_id": "85001648686",
+    "attachment_name": "Consumer_Tent Card_A5_Aug_01.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26552,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648183/original/26552_Bose%20__%20Samsung%20Offer%20-%20Aug.png?Expires=1755606131&Signature=G96m1-JOeobdmfNVLCAmcY8IWq8RervNQQwIHLL1~geQ7c4j084EmYYKsZGBd3cjgqeeyH4y2yVZBB1t1S1Tjd~~3uiYvMAhk280bf5v9mD9La6oXgimzQGftdal-YsA~Yv9F8DAlyAI0E6XKJbMI-l13NS6exxzLtTv9nVNMhZeWEhyvioOWmLGwRW4uUyKOvFxXtgVWcsF~SULETL--HKvYy00vTlrtCJ0EpZUfpspeaPpvQJ~sxAg2Mb-tMNhoV2CUU8CCTRAD35KmPa2Jr3O2Z--elGitQLmxx~RIokDeNNKfcyu2gZKZT8rYOvScIxJuipwc6DcgQe4VEyy7Q__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26552/conv_26552_Bose __ Samsung Offer - Aug.png",
+    "recorded_at": "2025-08-19T17:47:28.690455",
+    "attachment_id": "85001648183",
+    "attachment_name": "26552_Bose __ Samsung Offer - Aug.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26552,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648311/original/26552_Bose%20__%20Brand%20Offer%20-%20Aug.png?Expires=1755606131&Signature=KjLRzvUZtMNWvQdG49ZeBhrManoHr5eV84BcHzE68R~oZHl1l3ADaqpGJICvZ4nLk4VO6fc9or-TCX8lDHGOPO0bRFmA1D0dSqaUViaKaJebk9NP~srz4YgihsE78t95NCRYJPdSB4rgGHz13KedbVPwgrFEWTiTCHxZ4HQNGIOgmKZb55AkdoUCTAfHIuVKFZ1zym3Dmgosuq1kwGTHRmVe2xhD312~Lm8CyxwPYFHDsWUnVdRT3tX~udizaC2fq6YxmQ--cenBhepv7bIANsA7jSGDdLWcaA1x661nWrItuptxtixjW~KhbvCZIhJBBFpOO~H3DgcSssMES3b4wA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26552/conv_26552_Bose __ Brand Offer - Aug.png",
+    "recorded_at": "2025-08-19T17:47:28.692460",
+    "attachment_id": "85001648311",
+    "attachment_name": "26552_Bose __ Brand Offer - Aug.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26548,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647818/original/Loan.png?Expires=1755606131&Signature=OAEn1-scW57qO5iBNzmkPCGyd~kCdeoApI59~zWmTmkorFoO7L9geYqwUVkcA2BmNGQJHs3egfetDxDLV-3iPc00T05qyey2Giv9pK9SGsZPgqh0GAsvr-1WBolwlWmWDpmsmDejSaWGtyZKzR-oNVTY2ZrYdLLv5vjaZLqfj2NFO6fB1UrBDPsz~Z~LZuQlyCBQY00~0f44x4QChJ1yiRgfKLLzK9~8xbAnIcPCIJPfya0SR7Vnyw2ot9ONZMggQt-cbYptftj7LTAN2cv3tSbBcf9dVyQOybR4aI1ePXV5nTWhlVj2WMtZZWAMrGv9VuaRt~eCDZ-a9RQv6j5XHw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26548/conv_Loan.png",
+    "recorded_at": "2025-08-19T17:47:28.701768",
+    "attachment_id": "85001647818",
+    "attachment_name": "Loan.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26548,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647819/original/New%20C1.png?Expires=1755606131&Signature=AxStuOXZZpTDOtRezVceituDR7mfC82NdgPFUZ8H1L736oa2iQy0umaSkkO41gK9YxtAaGKnvdC68vhiTYy1bHAfYUWvVyBZ8QGn-G5GV6zYKuvuP1uWbJvv~SvXGTbeSVLRuzOW3yFO~jdxEuQSvCOPjH5DUe3876NPRf-hVcLAAeLor5iZJpuMlL-iUIafC78IBmTjxbx0muCOndogFFxuKC49ZUG~aoIQx-jkVCO0EnsAf8TVPRO00~Z-5AhOf11SigA7nXxcS8MRPB0Nm8-Ef4r75VB9ofRqsv1J4~5A60SU0lOJWFCnWX7DwhOTX5Ig7oumtkHJKnel0QvyZA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26548/conv_New C1.png",
+    "recorded_at": "2025-08-19T17:47:28.703902",
+    "attachment_id": "85001647819",
+    "attachment_name": "New C1.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26561,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647589/original/Newspaper_AGM_Post%20Notice%20Ad_12x20cm_Aug_02.jpg?Expires=1755606131&Signature=LoWePogGriy1AW52d-kywSWGD1uHx~KxscBtUrj2q22nVNkU8npF1bRHkZX6D7m32GzzkBJg2y5nEnNc9oaL3hgcnqLtc59Lsp-dJHeNdq8oZEwccuw2twBxWlBjde2FKuX~jR07iS-HOXkvwW2wf8eTiKL8-RiIGGWxCHqdun~N8udMruTl-r0Muam~SU1MuCfJSXDT8Rc~lIW-pWaHd2azu7TXjxTtWFzdl3zRNNL2AZlNezAybe5fmlKh-4ZltYpovIFmq8ymU4TagIwniND2pOo2Lj-NG-uY-xR7lkyvJEQIwhFF3314CKqlsoVGwF~UDExzc~LhdhwlbWoIFA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26561/conv_Newspaper_AGM_Post Notice Ad_12x20cm_Aug_02.jpg",
+    "recorded_at": "2025-08-19T17:47:28.719196",
+    "attachment_id": "85001647589",
+    "attachment_name": "Newspaper_AGM_Post Notice Ad_12x20cm_Aug_02.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26554,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648952/original/Merchant%20Meetup_Props_Aug_Released_2.pdf?Expires=1755606131&Signature=eaBSCHqo1w9VP94xe9cAAEluwqSTCSTjRptvg8AVf3qzUfsRZrQCWny~GBjR9EeCg6Ok~tn5RFNaXj~lVrBuFdykOVi5PiV-7XoUodJDulSial31iM~5fa1VtkPizcbrV1OfXMFDAya1slQk0Fd6ByP-3XkIQu6MnonTgRVNwqnKb8I6ceXiyPqMhvTeGw2YtflYYCuDBVt84RmK4GxR7QGbPrbLeAZxCUaw9LU8jGKJlTqk8toXbY50qE-3yN9A-VokTd8tS8dkx4-GfH9apVWZWEPC7MZ1-cO87sv41rTFFUOVbcY1rfNMZ9smKgZMcJEWoIsgvMe1yhgnAyg0IA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26554/conv_Merchant Meetup_Props_Aug_Released_2.pdf",
+    "recorded_at": "2025-08-19T17:47:28.784967",
+    "attachment_id": "85001648952",
+    "attachment_name": "Merchant Meetup_Props_Aug_Released_2.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26552,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648312/original/26552_Bose%20__%20Samsung%20Offer%20-%20Aug-1.png?Expires=1755606131&Signature=Z-Xq3wmobQMUpKp9xNEUOhNA4rn-ASdNBUGJP3K4IQaxsZbgxnxlZ0pg4uw1o1WaCN8-X9rp5aW6-O1WZF2u017747O9ejPeUcufDkf-exkU2aT8CGk6iOa4p9zHvNZTP-yJHvj~DzI8PF-dv3OzU4bPHGcbQd~uIATh8mN21es0K~3EBm2U5BPabgelvE5LvdFzw0Ke8oFaDwuTVxbY1uIFV-ZxysJAix7pUVJMJlQ0RltuOCd0ykXRinRHxAhowp4xqas9PcPB8Oua3qgjpXFVg3XoRx9Fb6tyPj5bHaNCwF-yWDcSCioVFAf22nFD8WDsaP2WLOYMaC4SzNG7qg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26552/conv_26552_Bose __ Samsung Offer - Aug-1.png",
+    "recorded_at": "2025-08-19T17:47:28.837266",
+    "attachment_id": "85001648312",
+    "attachment_name": "26552_Bose __ Samsung Offer - Aug-1.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26552,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648313/original/26552_Voltas%20__%20Brand%20Offer%20-%20Aug.jpg?Expires=1755606131&Signature=aY9wLxGgjpMYJzvVK9Jn17hTTy1wGdMW0lBZGJ~qhyPGIkVGwSqhut6m1lGkRcZ9a98tFezG2XAti9CDcsT9d-BEcpSX~fObvhcKJxgZ9KKmCT8MwBzhm8kVNBvs3M4ZqXqCttccfA0q-9cjN593kgrUKgFCRFSd8tPKkzIJHFKXUKyS09eaIJ8CeDCxMl5NTIhpGBA0HxUOa08xtxl9ssjaCuWOlMYE1xL6hqiwUWlOZIsP5xtOPcv--410k698C~bcHCnOayE7uHlVw-WIcqRXaKvgZ-KYI7knOBEjXGjSH49DYkvRGmInIqU-avNXJihKYEAupItc325hX0AYwQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26552/conv_26552_Voltas __ Brand Offer - Aug.jpg",
+    "recorded_at": "2025-08-19T17:47:28.838983",
+    "attachment_id": "85001648313",
+    "attachment_name": "26552_Voltas __ Brand Offer - Aug.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26552,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648314/original/26552_Bose%20__%20Samsung%20Offer%20-%20Aug.png?Expires=1755606131&Signature=ggi6p-VRHLhL2Wj3pv37aKVAwUG6ZBRwJhfYzh5m-rN~nh9Fb7nXlLYP8TmPrkTS0wEiNAaTPWQy~qYwJ9b68RdMoI9ow5rdYszosUpoLJTp8V3scKflNI0lh4MdwJcQolM97fuHEHc3y3D47j668Ppg~2s83LxJe3-NaBDW6Ua4Vz2D7RAHsPnQjKVbg7JBomGyllqNEHgeMu6KpcnksDffPuy~8beG5DtRU2ZGHf-0y1OWjOnurra4DadtxhP8vCdx3ao91LtrL4zOwPR4OwRvq9FOprPnjNRirtOPwgpaIcJE590G8bhNVgDJ3JhEdrdwXVQt3Vzy73mHG4hlkQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26552/conv_26552_Bose __ Samsung Offer - Aug.png",
+    "recorded_at": "2025-08-19T17:47:28.840441",
+    "attachment_id": "85001648314",
+    "attachment_name": "26552_Bose __ Samsung Offer - Aug.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26566,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648161/original/26566_TSP%20BAPA%20Onboarding_Mac.jpg?Expires=1755606132&Signature=cwUBjx3KSpFY~EcyZPrjEbLjWAUrWyqm1px84B4~Ghsjd-BQxjPF2DA4SsG6pB8ih1Gbl4sXuCgi4KYsB~jikE2kNds7hAGMpYjVcvPDo7FbebsqLVSxs5JXACQX58hEuQrvh-TtgIo7FycguOpJBYhgRdAK1~5brQHbV6U4XXb0KXIZFIx0q5eByYXk8lDUzZcM225xdttcdGULDINyAc4AngCfTGdZpgJgszdDJhRlq4nJMkCjfNHg4aQ5uKo8G-HwdQgJfI~mHwjDl~jHoLIsvvAforxvpgURvopHObR8BtxGOMAvfMHXVHox1NnL2AnGXi8PVPFenTwM34WBEQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26566/conv_26566_TSP BAPA Onboarding_Mac.jpg",
+    "recorded_at": "2025-08-19T17:47:28.847665",
+    "attachment_id": "85001648161",
+    "attachment_name": "26566_TSP BAPA Onboarding_Mac.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26561,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647590/original/Newspaper_AGM_Post%20Notice%20Ad_12x20cm_Aug_022.jpg?Expires=1755606131&Signature=QFnhIkNUn0d7SiLW2~niz3BvwkDYYvk-rGru4HvFUDdUITqQHhZ3d-1wnKBwtAh9XUEK7O3KPx3woy7atZLpPRRylzRMPhoUVPpbXSTVq6yTY8UTSisJr1SneSgr8jfNH~LlosxVSm7VpDZK~cgufI3r6~ebB6vr4v5yxuE7uZnB2akpqhlGQJaEO0cc2NNfVFbhirwclkt7wh~z3sxHpY7XwBSdTFcUn4yymlzoJSMmO4sv6UUrzAWxS5bRtO827V09hpAJ2AFWkOH5pxzw2LrWaigu4vLxe1m3Id53swBlKksugMwKDJ5UR50LPnxra3eVbr8XcYK6t9C66df0uA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26561/conv_Newspaper_AGM_Post Notice Ad_12x20cm_Aug_022.jpg",
+    "recorded_at": "2025-08-19T17:47:28.855045",
+    "attachment_id": "85001647590",
+    "attachment_name": "Newspaper_AGM_Post Notice Ad_12x20cm_Aug_022.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26553,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647413/original/Westside_More%20fun_DQR_Aug_Released_.pdf?Expires=1755606131&Signature=QrUKFq1WKOkQ7Jyc2ZZq4W5oghbb7kuRo3f65ifIaqsSEN-Z8h4vYK0lvy6dMhimbrsgR1VRxyUmfD3630kHqqVbF6x9iuEjzuN3sJF6k4oqbbc8-TZ0EG2PtT61ou8vHrXDpOpX~R~HtwwngRGoM9T9tHs47r32IhDUvLhDg9zdwGLtkVE6i52BTU1BB1VJPeucjwPHyv22DcA7i1-VMSUc6Gx43QnDWCLzXkl623MUTYKE3-NDbQvP-SvlckO2wLlejEeOoiB5h5OGE2RGmtoDK9H6gHoVFaE15gg-0L3XlvDAo0tHhm1SFLkAxLIfkoTz45yw~QhY5LnIzUjmeA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26553/conv_Westside_More fun_DQR_Aug_Released_.pdf",
+    "recorded_at": "2025-08-19T17:47:28.865927",
+    "attachment_id": "85001647413",
+    "attachment_name": "Westside_More fun_DQR_Aug_Released_.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26552,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648449/original/Samsung%20microwave%20oven.avif?Expires=1755606131&Signature=B3EK01osvREzID1IzT62GCIBTOTOTSOYJbJ~Tae5Y7S6-SpBiWQb63rF-0BkJxG2qki5P0SsUmXtxX7ayJoF0Xs2KhkqbzKJZk3q9Z415aG1v5KFNjQFzR2jC3K87-KHfBs0qwT~8rVKnpVU9ehCa-dPMALtbapoYscCjEE~MIupeI9TZEk~zx6EKqgwuKKAGmxA~pZM2ZqKneEhSBodSA7PaQ40vu74TuIfnpzdjMtVrQ7cJoufPjJ4XK1RHBaaDDZWdKTn3MXsgYV3Q7k7wTdlwt6H7e5AluD-jk8hL2RMC4irtRTvRSxmIR4P6bSy9JTyp3izXcdtJRkySUPAPA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26552/conv_Samsung microwave oven.avif",
+    "recorded_at": "2025-08-19T17:47:28.885223",
+    "attachment_id": "85001648449",
+    "attachment_name": "Samsung microwave oven.avif",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26552,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648450/original/Samsung%20tab%201.avif?Expires=1755606131&Signature=ms79UbNVR6stoukfYBVXmfw0ShNgTtLbvPus68yZMxyOnwok5NDpRHLiiFGaS3GROEc11o80-MruZvuGDikRWzxNsanUzS0M0RrAmA-ET0aEuNjLyKPFFzBE-hiOv6swFg1y7iwQQJ0zGgwRokwnliQz8jhdq6TYIdYIwM-ISA-idjWx4MBP1JFtOqKunBNoSEp8Qg6DgPUfLQNlXUveCfHnYI6-9LPRmmvcx77-XSMdXCWRkMEru34N3ZUiiTVYPKn4KvpfeT2s8b8Iu2JVo3T9SHta41mHHDkJXrK7FSrTI9lbHAPnPln1AXQtnM9fddqwv9tlbHdJNiS6UyNqrA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26552/conv_Samsung tab 1.avif",
+    "recorded_at": "2025-08-19T17:47:28.940783",
+    "attachment_id": "85001648450",
+    "attachment_name": "Samsung tab 1.avif",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26566,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648162/original/26566_TSP%20BAPA%20Onboarding_Windows.jpg?Expires=1755606132&Signature=B9TnGXP40DIn0zX7QUbAnNfRyGa3bVrATm5p12bbQduXvJ6awlGQighEyEGYx4IOt1BymBnMjVfjPNUuoUXNUjLoCJqdGK8t2OzDV0hS4-c8V9OE4~wy3pObUyMVFDJbRSJHyn8CaWm2qGxux-r21LHUsGGmyQx2vNkky2w2hdEJG-A7CUWcxffaX7mWIAwmZK00aoSOKmHtDmfIOIHmHi0a2e9BzrLX8EhwaXaZb9nVdN9Kq0uqOH3Gqvzrj0Z71VC4ZKD08bQYWRqozMM6zO4quRUZuXUjmSGzdq2i~z-7kVbghwLD6tqUGACaIY8gP99TL8rK-WnXaokKibRoSQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26566/conv_26566_TSP BAPA Onboarding_Windows.jpg",
+    "recorded_at": "2025-08-19T17:47:28.985927",
+    "attachment_id": "85001648162",
+    "attachment_name": "26566_TSP BAPA Onboarding_Windows.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26562,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649450/original/26562_Push_Oneplus%20__%20Live%20on%20Device.png?Expires=1755606132&Signature=YaaNJnhidivfl5dxipYDi3txpONx-juEY4VeUgc5rKrtXR~yTXELV4pw38HvCNyndv8i0NZZGvZDls1gRljagRPw0mq8lik2~G5~FjAbBlNGdVEhc~Cm8FEr9vvenpCx3euALjtIhDwQMw~3p-wh7ARRlZCH2pdaWHhO6xze5WhIyIieMGQgXfoFr7CJsa6idAX~Ic-qU~dGTIlAxpL31v-yuAlaFjLZVPltDVh3wen9CWmbag3gR02ZzZtDiWW6AkSL1Fw-HconEZKY5IkVlk9u~5sy~CfZoWqCqdkYBSz7Ne53TjR904el6BcwrzecnpSM12NurgZkttpd~tTNaQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26562/conv_26562_Push_Oneplus __ Live on Device.png",
+    "recorded_at": "2025-08-19T17:47:28.989932",
+    "attachment_id": "85001649450",
+    "attachment_name": "26562_Push_Oneplus __ Live on Device.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26560,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648974/original/Mahakumbh%20Soundbox%20Hindi%20E-user%20Manual_Aug.pdf?Expires=1755606131&Signature=lmyfW69zZQK6Gv6AkU5gGXcVoV84OZTVq2zn1W7~5iWG1g-CWlzujt9T6oS~GJ-vohu0NhTGRovaQApYrG3ObkHSRYsY4NqsJiPEdq~Z6UFBixHqYQxkAO48p6eJXK8VLKZ~Qfgi7gxC2bgarpeiYXkYWWHDQxo4xSOsb099Oy9psGjKeqa66vicbblP3aaVQmNBaJKrr8U52XegV73~nnfb-Rl0~pIfUTJ0TF9h7UI7bx5E7vW-BK3X01gjiPN6qcuiFj9dE3-6zmGweSvePFhAZoBvMbusFWHiXw9AXT4QngJddj-ZXNh-vXNh-Wlchwk0fKkI1IWZg3Km6nS1HQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26560/conv_Mahakumbh Soundbox Hindi E-user Manual_Aug.pdf",
+    "recorded_at": "2025-08-19T17:47:29.004364",
+    "attachment_id": "85001648974",
+    "attachment_name": "Mahakumbh Soundbox Hindi E-user Manual_Aug.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26552,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648451/original/Samsung%20tab%202.avif?Expires=1755606131&Signature=lg475oEd9SLg6M6ZbHOOsAHC8HBnpXLtUAJHRasg7CVU8k35ZE2nfjV6m4rYVFgpvVhQKXJA8is9zXshfHMkqS6TIeD8k5mxe8w6bnj-BR0bwYsRL615uE1I0Bn007JG6synU-Ve1YjJ~4BctHRWGCOLjDErnTezc68d2bJz6X8Sbqx8NvKFX81iD6AUNOohqhGYidRryPozkuV7UUzkjKbtHx5ANktJnH7cuaTXpXaW7qZId6tNlWHpv4L2FLo8t3xfdTx85JW0-iMteWarD37QU7j94MX8N5Ukvwe~lepu30YXIuwru0v7KguTXfqHfMokXjd6-OOBlxsnu2nhEQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26552/conv_Samsung tab 2.avif",
+    "recorded_at": "2025-08-19T17:47:29.005779",
+    "attachment_id": "85001648451",
+    "attachment_name": "Samsung tab 2.avif",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26560,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651787/original/Mahakumbh%20Soundbox%20Hindi%20E-user%20Manual_Aug.pdf?Expires=1755606131&Signature=bxkFaAFbwsykYT4VqkhNO81mHfQyRGYviCnYE5BNtaN8NF~fCuWD479u6Lft8nhQr0UAlKmg2MR6QjwwiAj4fAuSzweNcXxniPqqfCqySGH1Chvm3lbTQZbKG1PPYaWsoAMJ52R8FqzaW0UxHz8bEUq7wZ1YBvMieC3ikFhrX5qHf5eZYkOsW-EPhrrYM99dlcPu81r6cO1~AMPP1DTiw5ZjlZELGECoU7ng9YyXX~6DmxmkYuwc-RMVREvH4ebkwF5QPo~bfQyE6zA4GCIQzXFBd2NrIzDzBL6tjHUI71ARL-6sZ4Auy8w6DHznLdJnrJ2KsO5TDcQLEFw8cw6kiw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26560/conv_Mahakumbh Soundbox Hindi E-user Manual_Aug.pdf",
+    "recorded_at": "2025-08-19T17:47:29.006066",
+    "attachment_id": "85001651787",
+    "attachment_name": "Mahakumbh Soundbox Hindi E-user Manual_Aug.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26560,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651873/original/Mahakumbh%20Soundbox%20Hindi%20E-user%20Manual_Aug.pdf?Expires=1755606131&Signature=RIUkuWplJcyzTDfAQhyDCZ6DBtYE2uG8NH1t4AR0WCRB-C98O2oW59TnrKznI-ry30UDaOBYUgnVFsSbN4aF~jQyBEon8plMke5uV9zZV3jROOJri4sQdAOzp4NDkMGxcmkb7U2wNyaArAYW70ZBYAhdIzC4uUdPt6Ct~ckhrU-zDWLcD0rC6Ma-FLBiGADGFmByAPkPdKx2Rc4G6LwpvrrEaqMzCrL0EqayyF0327Fzyo7pduYn1CEJ~kk48445L4ImWfR0qKqZt~-t5ra3rEsZBP1ZWZxUAZx3C7D1UXeZNFUak58kDY7al4jMJV~Iw2XzjKo53PSdC8TPJT6jgQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26560/conv_Mahakumbh Soundbox Hindi E-user Manual_Aug.pdf",
+    "recorded_at": "2025-08-19T17:47:29.008974",
+    "attachment_id": "85001651873",
+    "attachment_name": "Mahakumbh Soundbox Hindi E-user Manual_Aug.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26569,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648034/original/Interstitial.png?Expires=1755606132&Signature=B~dkCg6CmQ6Pg~BEPPb~y0-GUYATePOVXEyz-sBudFyfeGVGH6PV7H5OYlkOVl-8oN3sdHZtS4pFailK6rR51V~nzDtkWMjP3s0BXNnPSXE9-vZv-jHEaH8Rg-q~HYBrbG~~Vhc7FufyrPVKpnKkfLL5wzT22yq4XtA8h0BfRw6H6CSOrtNRcU5A4hZlZ7DMrE9r5IT9En5Zd7MByW1a2IddacngDlwgTwIA6mhS2R~cHIHYjvTu-fDfTuNlOHZqXoC5QEJmt5eart09CkGfutAO8zHHYyFONntG~I7G1tbAj-~6Z2EBRJN~Y1qSA4NvKP6atDaMhvQsZBRF5rS9KQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26569/conv_Interstitial.png",
+    "recorded_at": "2025-08-19T17:47:29.043702",
+    "attachment_id": "85001648034",
+    "attachment_name": "Interstitial.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26562,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649451/original/26562_Oneplus%20__%20Live%20on%20Device_Screensaver.jpg?Expires=1755606132&Signature=X3QDiaY7wBDKBGljk70FedGFOsV-iP035I0OQMixJg~jPR0u3w~WmVjFY93b7xXuB~bVUC3mYbZu5r7dkA1fi990rCpBcPIxBBJ1GPY9tRyWnRkYPnuqdiLe2qIV6fTj34kw4uNp~Qd8TZLbB7zUYi-iZx8zsKNF-ziGrWBxslDPOJG4886gegzNThK34~wiSfjqPhjFLEnx3CteqPyOi-Mmw~DjgtYhHThlmNt9uObbNIY7I~sl~~fuqODig~4P7-uyLNVzJptJUXVhH2Y7LFDncrl6xV5L7nwgDE9E-jqJD49UdZzEOvzVX-ok9TdXpPQBZv5OJL1O8~Yez6o5lA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26562/conv_26562_Oneplus __ Live on Device_Screensaver.jpg",
+    "recorded_at": "2025-08-19T17:47:29.081819",
+    "attachment_id": "85001649451",
+    "attachment_name": "26562_Oneplus __ Live on Device_Screensaver.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26563,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001650767/original/26563_Vivo%20V60%20__%20New%20Product%20Launch_Emailer.jpg?Expires=1755606132&Signature=RYFl0VbHx7mmPGzh-p2L0TxeU3etvfhDN7KU~BAf~keRjiaqVc5PdFWPK7xolNJvVkTf-8hhjLdawBRwdvTxJHcc1v40Hiqp4crBTjkf8W1EvTJ-pFwtvfJ-KRDvSctBihWy4jbmzsPDeWVGdnPQTwGFiSAB7PJvoisbf3P94sU~8G7ZK6BELDjtWhEslzbR2PYX55Qolv7WVDMfCrD73m8UiRAnFVXuR4EdS0EMSjhCV7YeNfgYxx~S6YQDpIa6P00kpHy3LGFjxzkoYf2dCeF5oBTQdB6QDrj62dQ1KMp5ondsU-47ChehpNahG8LusuJCPh2166kx7Awm~RQTqg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26563/conv_26563_Vivo V60 __ New Product Launch_Emailer.jpg",
+    "recorded_at": "2025-08-19T17:47:29.086858",
+    "attachment_id": "85001650767",
+    "attachment_name": "26563_Vivo V60 __ New Product Launch_Emailer.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26552,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648452/original/Samsung%20tab%20-ref.jpg?Expires=1755606131&Signature=Grvlxuuw~oYGOSHMwYtl-1WUTUuJ~QxZRbOSuKvzOzEowBK~laGuVGSd~B4BU1f5atXRgd9dFhGh-Qvc3eIl0f2YnBfM3PraXLL--2gG50GIFmhjnjKz7CqrAtsrDgDLG79hPiLXDDKtpnUqIJmniPkrOO3fQeKgVw5lz8F8lCzGOkdq7IMvo5CD~JxZD33AAQ8dLy6oS4lApTgnjD15EfUO0xgNt6KxjMzUZeUCPpHhc06jP2lKEjNrDqH74pgQaUGYi9mVh2gNPBVBThXFSnPB2DMHr5SmPkKtKPovyEvjdQhovlNhwk3jzodVnlC0THZRtGvzXo6A2PvQdwttfQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26552/conv_Samsung tab -ref.jpg",
+    "recorded_at": "2025-08-19T17:47:29.091886",
+    "attachment_id": "85001648452",
+    "attachment_name": "Samsung tab -ref.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26569,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648035/original/Superthin.png?Expires=1755606132&Signature=RdllC946QhPIbSqZZ21QXGCPnMchDIzaBrzqH09BDceVsQo1KoYPoUDkR~RBYbeVtVbTd~aHBFsRzCXH6rELOIQCjL6mRKIOtnpTsReslQJftSc4Am~orDjc59hu-63QukQS-sSHpysRLt2uMSCa2yLsSP6~JU9yhyX2VEd3DGMFjG-KUn3cGj0l9-jqexPgEcTvjD1JScGGnStCQv~Xf2KYvAVkOYyBBaND-hiHaslMXGb~ja2LFnZPUCu9JseLdBqDHu4tIfVVwQrVaW4F6cfyuu46teHjlaqseacIZn4ZnI2mVw9IVpoOeGxUY~ZjkQXXEggcwHpETEwq2yYPrQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26569/conv_Superthin.png",
+    "recorded_at": "2025-08-19T17:47:29.099136",
+    "attachment_id": "85001648035",
+    "attachment_name": "Superthin.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26564,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651769/original/KOZEN%20F12%20Device%20Branding%20%283%29%20%284%29.pdf?Expires=1755606132&Signature=aPgZg4NPZu4s6yQKybOiCxC97OycA~xjVb8F7iNAGhbhCOBdJz7NdtgNQL-9JecEI~b8mnvxfx0c~29mQOaHJxrcsqXl5xKZLiZUe3zNCGWjWBlPWp46G7dM~4M6WO3-QjTYS5UH2B~zkPa76tVnuICb-EtOKYrhen9o6JVIVDbChLfbKX-YoUfCvyrDHfjuGNXP~5XhaNYDF2CGa65bjaZMQC7BDFWLbfqq9Dymf6lFouX8mRKEA1nIaTmgyVOA890hD9wSZ6yPadp8qpDPI3QrLPeLmOAuFYshwH33U8TKNfC~aXDQVNhj6VicrHXDxp-Gmlz4QE7M9mnuih3RyQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26564/conv_KOZEN F12 Device Branding (3) (4).pdf",
+    "recorded_at": "2025-08-19T17:47:29.156280",
+    "attachment_id": "85001651769",
+    "attachment_name": "KOZEN F12 Device Branding (3) (4).pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26552,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648754/original/Bose%20speakers%20collage.jpeg?Expires=1755606131&Signature=AxeBW5xEqekWl5PgLqQS2XFoupeyR0E2eVBE5~MxduRJ8uuy~M5N8hxT9MlkRDk8HV3ewvPW8ez8WpdxwyqLRQSVjAy5xJLgQXqQP~gINQjZjwD5XuHA9L3oOaui9Ek5kX8sy1JyH~L1YTvCHz15iDpwg02LRfLn3F1GzZtXeoUNtuDfwShd33-yhEAwkSVGRibranrrNszXA8KXzHGiCj1uAdv-xqB6T-ia-iLOkderKD7L69rUWgnjP6thtOySYpzDy0~XYOJAoY55fPQLj2CNtCZcdlokm29rNKT2ZhJ81bj-aXEAVFyqNuE4w7erhwrdngtzMsj1uqt1D61Cgw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26552/conv_Bose speakers collage.jpeg",
+    "recorded_at": "2025-08-19T17:47:29.174902",
+    "attachment_id": "85001648754",
+    "attachment_name": "Bose speakers collage.jpeg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26552,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648838/original/26552_Bose%20__%20Brand%20Offer%20-%20Aug.png?Expires=1755606131&Signature=RkoQtTmPypWt3~D0KFm31C1WMuY3vPIHa9o6zzdwBLh5ecIrkHXQL5YiAtn0sJYUf0mDMygoyfMm~qpa2BvX31PrGHufCM3HbJu5-SanlpX8UdjZr~2PFnR~WRXcavsDiAL1j5lAkNPdAEZoXvbQqOcIL5RdRTvDSK2IG46m0asYqaWFUAwHiAv9RvuwuI7wN6weINVhwxmPeEZtkbNa5DBB0TESERgd3MMyK1LwOxdAdt7P0WCtCKsDVaqQXlcX1VBBUdCbLv84kIQ1BQ2l4XVTcxs2zzi5EdIRvuiTNxYBYjpnGghm~6kIZE01ipYnS--6Fjx6APwPh2YpfK4vMQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26552/conv_26552_Bose __ Brand Offer - Aug.png",
+    "recorded_at": "2025-08-19T17:47:29.176693",
+    "attachment_id": "85001648838",
+    "attachment_name": "26552_Bose __ Brand Offer - Aug.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26552,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648839/original/26552_Bose%20__%20Samsung%20Offer%20-%20Aug.png?Expires=1755606131&Signature=Lfwh1ZwU-uznhOYlep7aFTRUyMTtxw2~RsC~FgvlgrlWG4KI3iWP8NLmxA5sRPV0M2Q9lx-c85ANTxOLrSM87HZFS9YrtdqgvYabVWpSkWWiSifEDa379ZxV~EiG1bywOB9WNZMQt7yBn-sX93RCJ2UjXngLGj~fhBYNmisC-al8yCqyTPxMYOoBGIWwzOm5aubWnppzxzxpQ9EkSixjLrA5blnMfooUiSY2aGVDcV~t2kE6Z~QX91McnuealdNBjR5k39~A~VIDkfigMK~ov-FVIq~dOqyr9Sqth~yL5WGZi-FS7lsjD2Msq6WlSCtcSXH7D6BoVOOPqQm~PBxxLw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26552/conv_26552_Bose __ Samsung Offer - Aug.png",
+    "recorded_at": "2025-08-19T17:47:29.178027",
+    "attachment_id": "85001648839",
+    "attachment_name": "26552_Bose __ Samsung Offer - Aug.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26563,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001650768/original/26563_Vivo%20V60%20__%20New%20Product%20Launch_Screensaver.jpg?Expires=1755606132&Signature=oN2r0mxlJ3iiLhQxE-o5jUMxYvy7ENEm1zEAJa4rPq~tJ3kRbOYyb7hNpC7mLZwkQreuILCS-tRAGO74oNwU9bHGjMC9Pb-nwbY1RPcPK072GvFhxQ0I8yrInZr5s7LSghWf4fPL7Bwja9uRLV54uqIbXGrHwUAs6ogykCfRKaCNW016~S0vpj94zNoGrbYxTKTXcDj1r6l7sH2pqfDZYpFTBcFOlFbYWJZoaPhCrurwo~0BZMx1kdWEoq1nNeDW6DUyr6nlvjR9TlmhsQPuXoegDhL7uPq61IWiyP3Jam-hqcQgy10rcCTlX72g7GmgA1YAWz7To12yTWLs5fcyAg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26563/conv_26563_Vivo V60 __ New Product Launch_Screensaver.jpg",
+    "recorded_at": "2025-08-19T17:47:29.232649",
+    "attachment_id": "85001650768",
+    "attachment_name": "26563_Vivo V60 __ New Product Launch_Screensaver.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26569,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648036/original/New%20Thin.png?Expires=1755606132&Signature=eV3Km1Y~UqzaZHBLujPmDj2hq5E-iVGWO1cr7ngaBGEzSvFlJzR7Q9zpScxJUsRQ8JfwBU00zW4JzIvYghJy2eVCLPD7wXemrf7DCVnH-mx8DELu~ZcjcZogxybttPUMvfREleiHyWmVtwdBg76U-85YLq8gIDh7yhHZe06xKk5NUq-fuxwWp2drdR8rN61PO1juJ2Fm4svEQxU~kbbvktWDUdiAFiOCQ1RGhr1RvMyRJHBc7YI1Xs1mKLKDrDud-oUMOdBW0-EiysI2xwXisV~3wV7iscs04kZ0jdSoFMOF6zrg9HcDbczFUwMnFpHr3Y3oZ5aYJk6oIw~aetGVGQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26569/conv_New Thin.png",
+    "recorded_at": "2025-08-19T17:47:29.239570",
+    "attachment_id": "85001648036",
+    "attachment_name": "New Thin.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26562,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649452/original/26562_Oneplus%20__%20Live%20on%20Device_Whatsapp.jpg?Expires=1755606132&Signature=apdMELG~WUQ62Fk2NGt~nT93tMpuHQTNtKnnBXpSa9r0MtIBzWS1bE~6iXc2IifOtWEqlqDra-M5nN93bp~7LjdcKpbiboMpNl-uFyjFbnvnlO1FChcSGCuttyxKmsde90W-OosY2m4ERc-s6TgJfmwq5gYEHnfnq~a7b1QtAZQIuaKx041nqXe45HIu7lsotQGmEV-mHtw-Nn2g7p~P6kvIfwVMSvacEELqkm92IwXkN1Bi-Lxso~VhDFiFHGeY0YH0TuJIvMIaDLFAF1fp3dJZCP79w0TnWDtoiWTvFKN-rRJhqAGBqdk2jLFeRlcL7qyau2W9nW78mxZsnat8LA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26562/conv_26562_Oneplus __ Live on Device_Whatsapp.jpg",
+    "recorded_at": "2025-08-19T17:47:29.244363",
+    "attachment_id": "85001649452",
+    "attachment_name": "26562_Oneplus __ Live on Device_Whatsapp.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26562,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649571/original/26562_Push_Oneplus%20__%20Live%20on%20Device.png?Expires=1755606132&Signature=glvEvG6JufQFN5FAgVwcvRRNF6~TOmcirQklwcgXZIyAzZqbNPQTbyFb-2J3PeVVBLufFanUjDEGRQsQGCSANREWioAieOY5kOFtLUbhB88Di8PnS410AZoXWKx8YSOlAfvwSv59LcdpuDd1ACBdQPg34AV96GYH2xKbg1Qe~l4DJzjv8nLbXIjtI59kJxoDa-CvpYDG2WEsSzqra9w0QuNBlPwxHFJj2i4wdLND8wnmJiNHLVLPnN2xgojkDXsu7cXAwVo13cpqZ-HYviKPKPDId9lAvNGYtLewrFO6RX-GOeOqguTNWcASdhj1TNFX2nIxlS9UdDJCmeQC7dkVfQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26562/conv_26562_Push_Oneplus __ Live on Device.png",
+    "recorded_at": "2025-08-19T17:47:29.246340",
+    "attachment_id": "85001649571",
+    "attachment_name": "26562_Push_Oneplus __ Live on Device.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26172,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001633078/original/WhatsApp%20Image%202025-07-14%20at%205.00.35%20PM.jpeg?Expires=1755606132&Signature=ovZ2ijzGAPmPk0glv2DsxUquCgRnO~Azp0bY9XDM4KBYbLdBk4TlwcTlcGDBbKkscUVL93r8ptbtf8icW91pUnU5Chy4nIIDXNECYxTVXSKlwAoZD1WFcvGcyiFvjflO4YULrjrVmRpSYxq93GXbIk8Prdx1eTV0J2IVKmRq1Y7RNR3PWcRnDCrIKkGBMU2M9hdJ44N-MTXmzh0SK5VrkasNmC8Q4aQBmpHXPGXe6Kj0uNxtH5XQM3Wi760CarivNvfpuYGlbn7oNbxqBr6~BRObo7ag9ltkUv0MBoKF5yiUqRf-B1UP0jvbfE1cyGAM-DraOc3KKe6g0PmCV7Edfw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26172/conv_WhatsApp Image 2025-07-14 at 5.00.35 PM.jpeg",
+    "recorded_at": "2025-08-19T17:47:29.247664",
+    "attachment_id": "85001633078",
+    "attachment_name": "WhatsApp Image 2025-07-14 at 5.00.35 PM.jpeg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26562,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649572/original/26562_Oneplus%20__%20Live%20on%20Device_Screensaver.jpg?Expires=1755606132&Signature=N4fNx4TbOG0imOvfyYcxWlNLAtIEl8t9vEfRPyIxNCTVC6SGYkjwQOlvsDuxwceNquyoWdT1gR1JLV6vA~VSN-MH6wYowTEgZ4IbraZVP9ZMaNLV7ekl2-sbVXYoZQk6vCd7ahcZbQUdss8oMAwOH4kVceam2DZASV~wMdLEimLtzykpFmB5HvPane-5A5oAKt-RJ5OlIKS279LLh7KwiyTXWQ6vOGrpizz6yOc6w7zNlMLo6AP3JeC2TPWhnMvo1R3FlRkJ-zwrAbzdRUW29dBY-vfyvpwsO5Lnq4hqWyZjNLaGJdKmFSOhtMVyxsnT2GmL~Zb0YmFjBXy8RXF4Ow__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26562/conv_26562_Oneplus __ Live on Device_Screensaver.jpg",
+    "recorded_at": "2025-08-19T17:47:29.248410",
+    "attachment_id": "85001649572",
+    "attachment_name": "26562_Oneplus __ Live on Device_Screensaver.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26562,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649573/original/26562_Oneplus%20__%20Live%20on%20Device_Whatsapp.jpg?Expires=1755606132&Signature=Urn4gfdP8RQvBueapzbebGeV9-n1xZ2oe3RqVqbK7gDPVOnh576AHGpCO7PuB93-wpDTfqRrbwizvFjhF9cBMmnlcjBhFxU9wAoci4p1l7l~6f3ABwLRziYhgvI-nREkqV62oOmT95Mlj1m~Ly-UqUT8KWe1rO09FJOq0RV-eMq4Wnznh~hdYc0h7APyF-xwThOenx7peNKOuRcazNX513SgLs4iNLmR9cfSFPaMpAuIM31DLKBvZBnCFpacZ7SIsMUAs5OY6K1AXpUti6pJs8eDwGv43Zs2g29sV3Ynn2U82lk7-jEXzXMHLDUPFwhlxMNrIi70Z~lUOOrg-bFYcg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26562/conv_26562_Oneplus __ Live on Device_Whatsapp.jpg",
+    "recorded_at": "2025-08-19T17:47:29.252092",
+    "attachment_id": "85001649573",
+    "attachment_name": "26562_Oneplus __ Live on Device_Whatsapp.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26562,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649627/original/26562_Push_Oneplus%20__%20Live%20on%20Device.png?Expires=1755606132&Signature=asT2PqPd28WaIBYCWcFP021QZRCKmWzgWe-~QEn1fKYVLY-y~G2lthbZtICGE9zM8V1DjkasM4oxahozT11LHl3upY8cx1VxsVOhkzUhmuqPy633vI~6m7nMRQAvWLtF8osMiIpngSu2-HFV8JnyenYBZpUbB8PHkTD9kuKeno5XU3dTZ-TM-4YhifDsOlRrD7XvJoN8hC37UFLGmD1LEDOcyYDP7-5XuFzUem--8nqFeS1Xh9cBdfl8CPLMHk8WilCac-H5XpdZ1H5onuKDuLpRWtZGJuDiNPmQgZ~ltiGHjbhIqrCs1Y9XXHSW9nPVqpMQumM-zPG~RVloI5hO0g__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26562/conv_26562_Push_Oneplus __ Live on Device.png",
+    "recorded_at": "2025-08-19T17:47:29.254307",
+    "attachment_id": "85001649627",
+    "attachment_name": "26562_Push_Oneplus __ Live on Device.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26562,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649628/original/26562_Oneplus%20__%20Live%20on%20Device_Screensaver.jpg?Expires=1755606132&Signature=alRC1uFIu0tragJGqGiC7BP3elWI4XuSgCXAGDyUzBuIeIV0eNYNRBUZXpXXeeMzGN94N5eKOpyu-YWzf7OgL6NKvn7WTJyGx1PqZvcq8W-js4QmVToFroFiXwwU8vRPFAe5NeOQ2O5fUYC5KTz3lexSSneb6ATrXgp679VlAo8CrWIgFwuLiLKdQajrtEQdypt3c2szRWh~ZQXuNU5RNvOP6QWNMaSZPT-DQDNmuFcNZoVPgOyLJIjv8egfgOrlOqHwJDCPRMy5bREzWQefxfeD4zP1eB5qsfhIrT8BGuIsSZV3AJMlP93vFr4VlcVzf96X7HfiXA~ILQdroy7fvw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26562/conv_26562_Oneplus __ Live on Device_Screensaver.jpg",
+    "recorded_at": "2025-08-19T17:47:29.256066",
+    "attachment_id": "85001649628",
+    "attachment_name": "26562_Oneplus __ Live on Device_Screensaver.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26562,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649629/original/26562_Oneplus%20__%20Live%20on%20Device_Whatsapp.jpg?Expires=1755606132&Signature=pE-NEB7-9-n24ZGTlegNWL8ka~X6C5S5X9nIzj6t15fjsiuSnVqWr3kSD1ffcUwJbS8F8-gwstLqou7KdyODg0W93sdhD3I30t79roKyMa1st63D-8jBUIgBUe4ECZyhINHPkkJ8q-6zhb5RdgmL0kjrdXv9kUaD1975U8H16Wlh8gThuQPmI3Nr0ofLeumcAqM2893ypAMXiW2Qzq5p9sZZ4cH-ErJFJibd4Q-UKsntgT8vs7an96yQe5fHNUvc0XpoMRSsKlsmJn9Bvd65JAoB2QQFVCIFqr5RYFVTsbfcM8X6WOjvrPesQD5kbKZhG74w75YpxDknZcvnOrN~6w__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26562/conv_26562_Oneplus __ Live on Device_Whatsapp.jpg",
+    "recorded_at": "2025-08-19T17:47:29.258175",
+    "attachment_id": "85001649629",
+    "attachment_name": "26562_Oneplus __ Live on Device_Whatsapp.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26562,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649634/original/26562_Push_Oneplus%20__%20Live%20on%20Device.png?Expires=1755606132&Signature=ESfY9PNeFskT6D~9qjm7a8ZOq82sSen8D28LmcSFVEXJViefsvz3ggUUmfHn4uS-jrDRT7S0pZDhpZ2Cgjt21Mou7D3niGWsc-pfxsQOnb5qQJnoGB~rkua4~jXabyRQhsYNwbkRTmupYMLG~L5LQW6Hnc8Igq6Q4j7ALekCOxYv09ZdHFycV9zXVJE3t~KqblM5WsfcaXTNLjLNW0eeLIQ13JMNw9Bcv0NAY6xLpY0ffhu8uiEnZINsUZ3MFqhhO0mQ2ZCLocpX~XuWDZ0~lb4fsbqFipJsZx6QCRCHoId-a79OxGfduW5P3tSqCGXX5y9rWKuAFueAw4JVjAOcLw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26562/conv_26562_Push_Oneplus __ Live on Device.png",
+    "recorded_at": "2025-08-19T17:47:29.260225",
+    "attachment_id": "85001649634",
+    "attachment_name": "26562_Push_Oneplus __ Live on Device.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26562,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649635/original/26562_Oneplus%20__%20Live%20on%20Device_Screensaver.jpg?Expires=1755606132&Signature=A0OGZAUCLPT-IOm7AitVRKeDd94q57a1dKb0V0EUSoVvCGZkm5pHQTbE1lboCetCui6NyFKL1U0u2duoP7OY6DxbK2GTsH1Sj~AR7hBM19EihJMxBwCCioyST3t3uMtX7ASd~NOtcXX791qG09Ehyn8FSQz0q22bDrMOM2A6EEL~XQKSR9gjI44Qx-4O~YKXylkvOIQO5tjbu~8XtiM-TV8VHojViZyWmqncChYxAcLbKPs37jCGiEE0rJe01OEXDeZC3kb-STJp6LIC-NcRqRgSmWtja~kSNA0L9EsCqgYMzzdffNQ5GGU85uMl4yvJC5RGmUqVsnTwBIkkO9stXw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26562/conv_26562_Oneplus __ Live on Device_Screensaver.jpg",
+    "recorded_at": "2025-08-19T17:47:29.261985",
+    "attachment_id": "85001649635",
+    "attachment_name": "26562_Oneplus __ Live on Device_Screensaver.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26562,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649636/original/26562_Oneplus%20__%20Live%20on%20Device_Whatsapp.jpg?Expires=1755606132&Signature=UPUZVbW95WIfuRAdBGd-LBq~FzNjjvdl24Sc4laOYuYjkWnkufD7ZQFUpbQxVKLGXF1evQpYi3kbipyXZLJ79aCUrOd3XEIIwu99Lfx~1gK5eDXFaUxawB8waxPzOCWCXNHpdTjA~u3psjhAsqnrrNhwQdvxpBGNJSzG753XjRmZpb5-jP1sO~Xw7uIWYfQCgn0zfpkyGMHrVRkwybNoQWvLrcysfEytTw5F~T09Ll06W5LFNqtDd~7BQNeXvqrEkq3weIBUCyEbava-bBoSMLLhnTstSF2CA1Agj9HZsvQsT4Dn359kODNOLaj~kOR6FMlxC~uMA-mWq8GAb35lgQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26562/conv_26562_Oneplus __ Live on Device_Whatsapp.jpg",
+    "recorded_at": "2025-08-19T17:47:29.264665",
+    "attachment_id": "85001649636",
+    "attachment_name": "26562_Oneplus __ Live on Device_Whatsapp.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001650415/original/26570_Samsung_Festive%20Creatives_01.jpg?Expires=1755606132&Signature=eQCavlqBewvPBxHD00~np~U1R49sHbZ75oxzIRDnm1xPuK8uR1WOIfZMxPjZ3KOmfcrZsyP1BqdE33Ap7e7O5jXMp7o1S4dEEWysUfOC8LfvkJdvjRjYiZIZekM4JfFFBoLGVdTO1DhEsKJdsuAEiCk-71zyR4Htho6zkzsvzONWkLjIrUHARbaffT0YZ3fcpg42M-SU5Ae9JA~aJ8yHa2s6Q3X6uL-frPQAR5xPaZtBnacYC9jYC8AzCZrgsCihgU1c13m3evnyxr9297F~3Nr8KCedQMmRQHxrjOVWd~a8QO33gxAo~GAa56HHts42uQO1PJFHgdDr2hcmUqYbcQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Samsung_Festive Creatives_01.jpg",
+    "recorded_at": "2025-08-19T17:47:29.276255",
+    "attachment_id": "85001650415",
+    "attachment_name": "26570_Samsung_Festive Creatives_01.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26172,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001633079/original/WhatsApp%20Image%202025-07-14%20at%205.00.46%20PM.jpeg?Expires=1755606132&Signature=SLEAxMMFDEyOJORbcUkKQ3p25kBKdnmh7MjsypsPP1KuoJ5WLocb3Zvg8mxBawXnGD6ScxS9QKwxHOp71k6kw7qADfFer6VSQM6eFTn~~M5dJ0oN5m3IRmLTJqd3K665cZNFKfAgX7w0SenMk7U6rToqdqrY-zY17xfHkIMPZtcKFxDnqXXfg~xkFZTXJhy3QZoBPk9QrwYBqHfV~ylY0zJXfjRxH6ik7~CmUMpxReONLQPQZM~VWjBPB16nVGKjabSHcXPfbyACw3IXAYF41I98UabcMwwHgHyPfireiQDsHS2F9YyB15AF1wBg4b2fcGYEUGE-q7OBxw9my~jHgA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26172/conv_WhatsApp Image 2025-07-14 at 5.00.46 PM.jpeg",
+    "recorded_at": "2025-08-19T17:47:29.348205",
+    "attachment_id": "85001633079",
+    "attachment_name": "WhatsApp Image 2025-07-14 at 5.00.46 PM.jpeg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26172,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001633082/original/WhatsApp%20Image%202025-07-14%20at%205.00.35%20PM.jpeg?Expires=1755606132&Signature=V3Jsni1LFgfxq-h5~6ov9wkXfZ2mseseEQAGQtiUJDrqZPr~JZboStOzhWp4GwO66GnPkluWdz8p15nEdDlnDlPMvVOqKFwUQZPZp9qkRDOAGKWQXvvLaveXnFL9d4jdmcp4eAZIliLKD8qphq1nwv8bJ1VhYwBgaa86-4uCjHHOVIddFHnqWjnVH9ODtkfGfKaYSLmmUmLoi62WU9Pv5Q6QG6xATIRvVDR0cfsBvIbi1j1nTfalIrBlonctHlzWyDXKLZgq8QqOP1nwSv7SzL-CY3UHa0U4mywg7hB2EJS8RIfDGCNzdfZCTTEL6HVPwg~witAcdBL2wG9MFveAgg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26172/conv_WhatsApp Image 2025-07-14 at 5.00.35 PM.jpeg",
+    "recorded_at": "2025-08-19T17:47:29.353119",
+    "attachment_id": "85001633082",
+    "attachment_name": "WhatsApp Image 2025-07-14 at 5.00.35 PM.jpeg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26172,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001633083/original/WhatsApp%20Image%202025-07-14%20at%205.00.46%20PM.jpeg?Expires=1755606132&Signature=N2PRmrIaCZSLaOH46-2AgoclKrcpR5KW3ifeJFzhaLOecX85b2qIj-2whKQP04CLXSX3QfKiO2Il0roNgBluh0AtsJULkqlipO5v8EEYM6HSF8d4~-b1H8Ga3Hl5bISJIAk9tT-rZwsejKbOVdQo1FWBRAgKlc2cYm2Wn-vCWV23v0TepS0zXbifrWgZRwawF7wtXgnzkH2SUnQWSo-KWrTkVgKbVqrkq7otHlwK0h47WhFCrd3K8fnTqSOi8-FjI2zvHjrbCO-Xo~ByTw83tpNpplFGUo2Nh9Nqny4cn2Y2BP49v6~ZTldURzhrxXg~dYkPsutHytIRUhAAKPAxrQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26172/conv_WhatsApp Image 2025-07-14 at 5.00.46 PM.jpeg",
+    "recorded_at": "2025-08-19T17:47:29.356492",
+    "attachment_id": "85001633083",
+    "attachment_name": "WhatsApp Image 2025-07-14 at 5.00.46 PM.jpeg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26563,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001650769/original/26563_Vivo%20V60%20__%20New%20Product%20Launch_Generic.jpg?Expires=1755606132&Signature=j1YxveGJf2kJlXPh~Ge0N8quqqZJ-GPNR5rGHXPSia7tRVRyxo9gXXFhEyjOFTr1~U4VDH8kj3z-bAQvsokpSWY7QGy-CTfikJD~49FBGF264gLpUp1fCPVYcU9yXKX6qrZ4Jy3nnEcGxZoaDSUI0OY6Ko9H0q3Zv~Va2aBchESqhLEA~MGvUwlg9O3yHVxbhoUzJULQsut80DB0Onn24wY695RV4cg0D2eC2~xm2aXpVBNT0iUa~0qFGyteiuROnZVmb0~dJwTIkJ9EzYliuD5s-NdkSCLnFh3gZY7ehpczXtF9QQPWuXcBdYBnuflxyDVpwNGG1~gNlYQi3CLWJQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26563/conv_26563_Vivo V60 __ New Product Launch_Generic.jpg",
+    "recorded_at": "2025-08-19T17:47:29.365494",
+    "attachment_id": "85001650769",
+    "attachment_name": "26563_Vivo V60 __ New Product Launch_Generic.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26563,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001650770/original/26563_Vivo%20V60%20__%20New%20Product%20Launch_Screensaver.jpg?Expires=1755606132&Signature=COt6rrKno576w4oXrf1mxLDzNEUKtNVQ7LGt1K411TDwejRimiOygJ9GTU7iBCkFAp8nxbwIpPS~YwQeU90CqVVap4gpUp2vdSn3lWWgkducRuKjuQWrMJMJJuSJBXaAzLFHJwVG8CxdXhvhKr3Wm2CqZ~Sd6oLtKTfYMrljf78VphkETTThdTSsLb8sJQmZFIAmk9uTl6mTGGAC6zAiz4PUXIcOkmkQRWS3ONU1yjV3VuqAx1kANLRkNVM1Oks88717KxilWtjTRjgIv20Vlx7grqk77ZA3S4yiXLyDg6Mt~M4unMreNcWXw97VXZEIvNbDsBzHhDf3Y3sIPtWrTg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26563/conv_26563_Vivo V60 __ New Product Launch_Screensaver.jpg",
+    "recorded_at": "2025-08-19T17:47:29.367970",
+    "attachment_id": "85001650770",
+    "attachment_name": "26563_Vivo V60 __ New Product Launch_Screensaver.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26569,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648037/original/Push.png?Expires=1755606132&Signature=ef95gAIeewtimZlvjNbTzabU3TZtKt-7FinOrF3ZuaMs~GUNFO1Caye9o90rTJ5reTnUzKCYZ5ad8i5sZ96UJwKwA~pGS2-tQDJ8aAy3zG6ULhcCVpSWP8~Ff2QO5XIWgDRzv-PMNxi9KXPqFL-Dl0C48VifmvLGbq95zh2I72ikYFnJbObfvrY7~IFjAiLSMw1r6IdbT9QcKtPFq3KYzSDTFhq3KqyoqCvu-bNRKaTkyEh6GuhbOB-R7UpZQaVnsET8Di2-XSPBut1M3t7389ajBeWj-dF2gV76ICY~4bbMBVcacuKCWWYsiXygUyW5tRprQo9EkTA5A7E4~e2dQQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26569/conv_Push.png",
+    "recorded_at": "2025-08-19T17:47:29.412029",
+    "attachment_id": "85001648037",
+    "attachment_name": "Push.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648389/original/26572_Creative%20Request%20_%20Edit%20_%20Non%20ICA%20Enabled%20Merchants%20_%205th%20Aug%2725.png?Expires=1755606132&Signature=a8hGkeid4RDa8VTc7N6Arl4-TChOTVVexjnOMkgBf1AjeuPnaPVIj6LNEhrVmbVkWco-l860M2j4B4Kz36DBLFfFnHNrE8OQaUtO0qjBjYEh4RPfDdfNghkyaeoT4oU7Mb69DRBH35124xZNEfIC3m2Bg~eMtsDmHLqmNb9cqpA0veeEIYBuvXa58~HgpeGCVgsFSrrkQ5lzSYNNxODN4amUhqkCNPyp1A2W7r-j73nUiCn5QbskpZxUvzS8rFpGF1s6YtDMUHuZ-fRF37kbL49fJJG2deW6adzgzOBzOyON4OS2RqnSr1M~ASycV14VQLp99bE7028dwwt4pLPmAA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26572_Creative Request _ Edit _ Non ICA Enabled Merchants _ 5th Aug'25.png",
+    "recorded_at": "2025-08-19T17:47:29.427313",
+    "attachment_id": "85001648389",
+    "attachment_name": "26572_Creative Request _ Edit _ Non ICA Enabled Merchants _ 5th Aug'25.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001650416/original/26570_Bose_Festive%20Creatives.jpg?Expires=1755606132&Signature=JtqUYtdlgamXYx72vJqhtk8pF~Wu6ugyVT0KqCFxzkxOQagOwdFORAstkDaXKVXko0JKowCsp4O6kvJBski4NCQ~MFH3Kjz1DETHc3A1Pd8ob6VXUX3K39~ek69e6nw4jEPWpp8x~ngy-e8P~LK8e4-ZuOC1LLHy31E8wZmCFOMUNRB~cUelRY84d23mMDZ6m8Cg2krnz1YYmksBACWQlR4cOor8i2dnLbncG8qq15yppmkcXIJ5ADkIXL-eMNwGx4jGREAYTR0Ib3HmGprYn4gMpD7B1VLKfSjQwCXC9PZLCJg4-EWEs3KA8ngzOyzL7NfDUfOML42zNskO-e0EHA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Bose_Festive Creatives.jpg",
+    "recorded_at": "2025-08-19T17:47:29.434816",
+    "attachment_id": "85001650416",
+    "attachment_name": "26570_Bose_Festive Creatives.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26554,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648953/original/Merchant%20Meetup_Props_Aug_Released_4.pdf?Expires=1755606131&Signature=mdpiu-2ZlfbdZ5FZfXAwxZLhGY4EVJLr4f84U-OmS1KgdDajVdCW1VXdj52aaXBFsD2FnYcUTfyeJk2gaKrTD5QuSga7ta7GHOS1uyUF1oikohWRhxhdvSWhFEZNqMh7lpzxSX62r~LcCgE6tOLXvolwYYKu~514Cyf8pSDkhfPozfXmiXE4qBlh4KU-yfbRCxC2lhbZW68V9Em510wMFoBxMxIMCZd85Dct4HFn4oLwQMALzLIVOmWG~vcprvGBiFdjP9vNNtY~zoMxLg~IeBN~-AI2vwnMzDpY2TUrPL2VYvj~QFM8jdTxzIg5QfBg0i7364WlHNBbOnryveM3Rw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26554/conv_Merchant Meetup_Props_Aug_Released_4.pdf",
+    "recorded_at": "2025-08-19T17:47:29.476578",
+    "attachment_id": "85001648953",
+    "attachment_name": "Merchant Meetup_Props_Aug_Released_4.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26561,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647656/original/Newspaper_AGM_Post%20Notice%20Ad_12x20cm_Aug_022%20-%20Hindi.pdf?Expires=1755606131&Signature=DZk5MRZQxNmScNJlbYVW~Wqk4z7whPjvjXlUh7qbAQ1pM2HB-Uehh2HGaDhcKXsAVORLdYo4VIp3o2gXfSCHa6Jlr92wcxAoujAkG8LrTg4vZDqk7c9I-Gpx6egQtN2ugzZSkZzAwkupaslhT5W5e29zk3NvojvB98rYWUQ5CpDXTfTAbam0D-Em0MnZ0Rpy6oQ6Y8UmREPvhozYPoooKRRLd7oRcVBg0P~VaPB4OfKKPvgliI4egEcQCe3aMcQritIY9qPFgaAuWw91TwnWf6nHsJOzmsKUlyQJNZjjlcDvdCybLsDCngoegFAxRcy0p0SUwnDRHd3K-cf3rO800A__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26561/conv_Newspaper_AGM_Post Notice Ad_12x20cm_Aug_022 - Hindi.pdf",
+    "recorded_at": "2025-08-19T17:47:29.519827",
+    "attachment_id": "85001647656",
+    "attachment_name": "Newspaper_AGM_Post Notice Ad_12x20cm_Aug_022 - Hindi.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26569,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648038/original/New%20C1.png?Expires=1755606132&Signature=n0Jk9h-2sfvMwXC9q2bL6gzY5TCUIl07Y4OkqwgUglw~HydcnhrrcA75QWEfT0~ahaENlaXg2dhaNLsoItUfP1EB0fXCpOVkDXGuiZFV6~RIJKy7uCwg6eYZR~wIel4Ri4t852S2Z4rhQ3NiD3fDtZouomkDzQOakKpjBGgWD8IDpSCNbqc-h56U0bYXla-pTbOxV7UGsLsnrwEqVkiFWfeqGmv41wxroSe6zpvUMx5wftYJNC16-YTU88WRpMvVQ7cYZ~HLuJaGlwos66Qtb0G7Sdbj9ZOvKsvyAn85Ik1uFGTss7o~jePWwWIH1QQOr8GAHNslVmSmfODGK9-D4w__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26569/conv_New C1.png",
+    "recorded_at": "2025-08-19T17:47:29.554981",
+    "attachment_id": "85001648038",
+    "attachment_name": "New C1.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26563,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001650771/original/26563_Vivo%20V60%20__%20New%20Product%20Launch.jpg?Expires=1755606132&Signature=WSclev-vWBCJfeYg55pVCJaT7RinFUykN-H-VMcOjT2SD8i0G10d39C3WjSt~9BTdcmj74H0ihjYtGBTormBs8mCTnJc5XBEnRfdJR70rw1KR2rYXERb58AkL4sIIozUVHs7S8cTTJDTMembAjRQ58f1ZyAnRazeKKVnZCCWlwhtOtTeJnGIVqYHvdjt1xypLx9KEVD0cybbjf5mfEJdXIgaeWZr8bE9Z4Q9EIoPiQBj-eM6J6snzZFdTsAX8ZOqQo88g-fBSqQthsvyKnWxJHIsS-JlCiDWsTWUyHj239HdNt484EXBW7fpWbE3oEiTT7z-xIcaj20ce9Ykux8KIg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26563/conv_26563_Vivo V60 __ New Product Launch.jpg",
+    "recorded_at": "2025-08-19T17:47:29.555149",
+    "attachment_id": "85001650771",
+    "attachment_name": "26563_Vivo V60 __ New Product Launch.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648390/original/26572_Creative%20Request%20_%20Edit%20_%20Non%20ICA%20Enabled%20Merchants%20_%205th%20Aug%2725-1.png?Expires=1755606132&Signature=Q8w4iPqIejkNLKEotQy1Qss9XBbdcpPlUAIB8Nn-osjcRlviH68cuH9VPNzGRI9XjLRuOALRCujPRRV31WoX~5eFrlJHEWRLi5yThI7kJwzHgLlKeMfhyFB74ptvNrbFqfed9qDTCsszSxkCdZI6Ncv2DC~RnkgY0T7k7zDJIm9e93ojxnsI28CHqkJnUWtsBPhzqUic9m2dQ-K-EsSm90nsFaHLSufWwI2xWPfqtll~wTas5JG-9ItGXAvZ5eSzNopKnM5hVMyDmogbyrOyppTwdP12cin4EuHX4NV55uEzNBzptxyA19~OmfHBsn1cPZ~BMzn2MetFBNRO71pfJg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26572_Creative Request _ Edit _ Non ICA Enabled Merchants _ 5th Aug'25-1.png",
+    "recorded_at": "2025-08-19T17:47:29.578410",
+    "attachment_id": "85001648390",
+    "attachment_name": "26572_Creative Request _ Edit _ Non ICA Enabled Merchants _ 5th Aug'25-1.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001650417/original/26570_Voltas_Festive%20Creatives.jpg?Expires=1755606132&Signature=nPcXMOOT55VE6vRzBSnq7~uGnUy0LHXcdFiCvpCZYg1hV3Jt8h5-fJ0i~T1Wvjjj8Cv~8B46ACuNmNnvPBOdZd64CWmpHyHeSj8~gUYClir5vtw0PRNjO~4PZVM~CA9mT7-uB-OGNDAxWCF25fOgDzEc35N~L9FfkM~MeZvgGtiPKX-uaDltmswuCXBnA95YvZu7fAH529ePGEZGa~QBExay32kIB6ltzgVUMRLqKVgzE8zRI~Y0mpfKVJM4jLo4eoSnTb4WDLL4ur5xHWr5g8XJ-ZKN5y9K~MmuPeiavULVsRzdao-wffkzZGRtP-tiGt0~kxQYC1pYF~OcAJjOyQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Voltas_Festive Creatives.jpg",
+    "recorded_at": "2025-08-19T17:47:29.602383",
+    "attachment_id": "85001650417",
+    "attachment_name": "26570_Voltas_Festive Creatives.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26563,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001650772/original/26563_Vivo%20V60%20__%20New%20Product%20Launch_CT.jpg?Expires=1755606132&Signature=mF7asfjhmomB-gNGafUvSoB-ElWmpMek8BUUYDTSYYwxryz9xX0TFEfbbm4EXfEujxQp0vS8xRh9HXZuBsRf8Jcb7mHWMTjl33-LtMDMrKoyeScOn5YRe2~-PMW9U9fpUarwcI9aftNjgMFWN9MYR1AYkf8jwbwLDOn2PsAac99yAJv--8gNiizMCx1ZDccURqJqMfJQnMqXhrsJiCeGnqPwaKtu1uAVg8Z4uk7AqvKojb8VZ1WcsOQlcHrsiz99Iv7Yi5p6lHEIKsP8wKhoV2LVn84FLbut3e4opK6Tr5hq-LoAaxWAoAyAZU5RVUhYYV8KCdgj51P4dIyjeml6eA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26563/conv_26563_Vivo V60 __ New Product Launch_CT.jpg",
+    "recorded_at": "2025-08-19T17:47:29.674115",
+    "attachment_id": "85001650772",
+    "attachment_name": "26563_Vivo V60 __ New Product Launch_CT.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26563,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651362/original/26563_Vivo%20V60%20__%20New%20Product%20Launch_CT.jpg?Expires=1755606132&Signature=XdW4raDib5RbJShHPbOatuI3isEX7WQzYmsOyAvwgXUer9Abc-z9k6aLoHTLlgb~MZhG1jBKlHLhJBScd2JfWILyrwf49yMMCFLP6oYA-RnMJnnQcACPgyTYdfuoFJ-yakK404LOtpk4dy8dGPrXoL3F-8BUCJJQ7Jm4CNHvqtw7j3-8nvZn4HitFrbn8O1AFFL-zD~pAdskfuLKiRCYTYN7ibCFokUi~VCdLSjXrcCCCjeE~H~xXZsfaW7Txkh6QRJDSva3-~MJV6IUtt9lpCKYp7MRtZPX36qQPuRyk-dXxegquI3rnlx9IIsuG-2TAYJmQgDB9bSl9NNJG2FJtg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26563/conv_26563_Vivo V60 __ New Product Launch_CT.jpg",
+    "recorded_at": "2025-08-19T17:47:29.676469",
+    "attachment_id": "85001651362",
+    "attachment_name": "26563_Vivo V60 __ New Product Launch_CT.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26563,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651363/original/26563_Vivo%20V60%20__%20New%20Product%20Launch_Screensaver.jpg?Expires=1755606132&Signature=ZrFTnHuHDMsecpLi07OjSOgk9yrsrNxX6O0JPfrxlaYp04iSBFkR-GG366xdqq83W-oervKqb6qrd1efO4JqNSLVif6xyum3-cmQTUx3QKf68J4SC4mPeWStNOAgBrj9pIK~BsHeeMnX9h7OoyTrxQIr68IcOkMN4yQ7SU8WJlFnYQxz3FRVtYK~yJL1gYKcu2pPX3CG2ZUBoqUP~sndwtQU14~w4opRzPwhejmEUsMfqRl5T1KtyUEXcYkOBCznbesEXBsrMILjLTHfg7h2OU7Qh65S8ZwNcc2~4f6unyDKVQb9r1z7SXHjKTim0VRDBEXbiaW5MKC3g1C0nffcsA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26563/conv_26563_Vivo V60 __ New Product Launch_Screensaver.jpg",
+    "recorded_at": "2025-08-19T17:47:29.678531",
+    "attachment_id": "85001651363",
+    "attachment_name": "26563_Vivo V60 __ New Product Launch_Screensaver.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26563,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651364/original/26563_Vivo%20V60%20__%20New%20Product%20Launch.jpg?Expires=1755606132&Signature=gPh5ayiSaIlA7IXMRju2tKj3SA2GOmlqVhXNLwAIGbvcQuHxxcKi~84lCiMzn5r~Ao-gf0UczBJdec8WOneP9BF3SplmbxrKsvyZ22oISKl41kMTvJaxhF-nXRg7jT9t6rSs7bghxE1YNyeu189iTFUz3TcRa6-4govru0Y14Ci3zDFhvo8EO~-Pk3X4JZggp~cWmUZq44vVj7V1bdHtfxTOwJQgkw~ZzOpOBG0DvqIwVSmxxKe8l24J2o84iB0JaS6IiTPqwQG~wR2sOxe8eotKjRWbE7wfuac8tojID2smK7UWozkw1JMk~89~XbUsLnEO5PJvrxO0KOsCVI~5Rw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26563/conv_26563_Vivo V60 __ New Product Launch.jpg",
+    "recorded_at": "2025-08-19T17:47:29.680361",
+    "attachment_id": "85001651364",
+    "attachment_name": "26563_Vivo V60 __ New Product Launch.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26563,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651365/original/26563_Vivo%20V60%20__%20New%20Product%20Launch_Screensaver.jpg?Expires=1755606132&Signature=ipQ1-B8oj5Wvn8IK3h8Bz80e72Vo2SlMoFnVPUfW6oK3tqBBL7wFn-zvQzsi2ZT3UwaifuKor4o7kVkYbsyc1QaZEISLVHKO96jUiPw-b7VBgr80fkW1tfqYi0FmbjdA8gj-oKYu9rWo8qJ1fVU2uxKVtKpgSS-GvVUlDB6I5mqkoVB10rXKsh~YjZg4YfHewVYETxveIkU4U~lQKDBxpSETdJBRC9andosy~vcWLE~r4UsbgxbkPzWM0DNYuUnWRhrjImLjPhxcePZBna51Dej7saLDdT1qHUcOYOxdJVGn9Q3fSLYiVWSt7p-ZIoleHPKuxL1w4TfHBQ~dJfUbxQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26563/conv_26563_Vivo V60 __ New Product Launch_Screensaver.jpg",
+    "recorded_at": "2025-08-19T17:47:29.682150",
+    "attachment_id": "85001651365",
+    "attachment_name": "26563_Vivo V60 __ New Product Launch_Screensaver.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26563,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651366/original/26563_Vivo%20V60%20__%20New%20Product%20Launch_Emailer.jpg?Expires=1755606132&Signature=a3H9xSSUtvzhQXOMVsw0kn4vzAk~WfI1yfc2U4lTm851VIy65cxi-5uRmG0Sj3G1LzBj9OS4GtGNAUVsy~cknvuGqheNnG7xhRPP8hmX2fxxtz4ddAok~gJOBSa7LZ2d1mhxvRF37TdhAEEwNuPFjtgzF9bi9zsC378kus82G4bAGing~h6pyZKDLhdbMVZ4idCFPk5pwDsHKBsgTh7SWgXSApC9SNwnR1TSO7T1jIfi4fw50RYBUtgVu08-JqD63JrhRF1JyZ~7wUBSwh9XNuAxwxIBlAXpZP-57amiQV-kAHBpdvqgojjEhwa0wOD4tnHJnL0ONAp4FBTa94XXYw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26563/conv_26563_Vivo V60 __ New Product Launch_Emailer.jpg",
+    "recorded_at": "2025-08-19T17:47:29.683887",
+    "attachment_id": "85001651366",
+    "attachment_name": "26563_Vivo V60 __ New Product Launch_Emailer.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26563,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651367/original/26563_Vivo%20V60%20__%20New%20Product%20Launch_Generic.jpg?Expires=1755606132&Signature=VpxVVr7Odchr9TiGz7XcL5nr0bI-lbeymfbBB0v4IaRKcXlcN3uYTRkLLPD3NbSa2KtZMQTq1~tG66bUpD9elOo3Yv5u-qqE7l8pkUC6LsVuQbDxWRmq4V6XBlqqkBlWvI0iYdLMC2GzM-~mexbKnRI46SacRI9KWyPwzTFtd9IIyFTvtkYAtFz7gGfVw-p1oUCJc7yIC-nsAXIxBXT3PULakc7gW6iOXjc5deBUvpGk~ksqH-W5yBMpALqczNqCMkWOFPB0xvyd1co-KTFWKqu7U43mA4xmFa1WKP6b759~Ld7Tki89tnwUyBqX79tphX5catQl4q1Rz5aKcvTJig__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26563/conv_26563_Vivo V60 __ New Product Launch_Generic.jpg",
+    "recorded_at": "2025-08-19T17:47:29.685837",
+    "attachment_id": "85001651367",
+    "attachment_name": "26563_Vivo V60 __ New Product Launch_Generic.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648391/original/26572_Creative%20Request%20_%20Edit%20_%20Non%20ICA%20Enabled%20Merchants%20_%205th%20Aug%2725-2.png?Expires=1755606132&Signature=W6iYJ-itgXU6V4tYdwYXonNpDq-geFjCUPynwl74KHrM4ZzruHJFWzFvUaZYgNBtZnv60RZW1p8-GCvCMeBXpiPyy1pyHH2aBjosel5-bgYTdVeVzW7zFOmiQSQ1yAoSbGya2c3JHYCIKXuC3tdqRYWIlVOF6NyGcGJBFlRfmX4jPLqf3P3--BF3ofu3Jv5sGtv6xPjTwRT5b0Qv7tNWwRJtsBMdL82QNw3RGjusKjDFTuG3TGxZcXDx77U4JPAkPS-xHE5R7V8Oll~Kds0E3LvzPr~dd8~XBSrfUKcatUfi5RUWziIffLoMZrdxFVBqIQzf7bTQ0GF0hWccoVX3Gw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26572_Creative Request _ Edit _ Non ICA Enabled Merchants _ 5th Aug'25-2.png",
+    "recorded_at": "2025-08-19T17:47:29.747293",
+    "attachment_id": "85001648391",
+    "attachment_name": "26572_Creative Request _ Edit _ Non ICA Enabled Merchants _ 5th Aug'25-2.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26554,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648954/original/Merchant%20Meetup_Props_Aug_Released_1.pdf?Expires=1755606131&Signature=EhGLyXFXDyFF0rws1EjshsIENrwEtajbU5Oaff-52HRTU8-0luL4bILS~iLR0P-XkyNelYQyGFKlwtt9IFqHqxU5cmYw6bMfh4uoX8eGWOIXkIeOxRHmS9RC746Nr7I2PUP6wvxMc0vhzWkjz14NDvfNeUt8i9halc3yP0oATcnHyy6ioMMwMJSxjxx2k58cFeBY8TEbySWmX0k5tFaah1zOB-O4CjHB4zBkBpcLENmpp6GRweAsIubLu-WXjsb15JDGYLjQt1r1DLKfRIWrk0FxZGmFAtQZc-zErG1L1LN7d8oAPVEVXRja2nFSye-r1cXry9T9~~qT27vMuxXwYw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26554/conv_Merchant Meetup_Props_Aug_Released_1.pdf",
+    "recorded_at": "2025-08-19T17:47:29.747594",
+    "attachment_id": "85001648954",
+    "attachment_name": "Merchant Meetup_Props_Aug_Released_1.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648401/original/26572_Creative%20Request%20_%20Edit%20_%20Non%20ICA%20Enabled%20Merchants%20_%205th%20Aug%2725.png?Expires=1755606132&Signature=KlWD0U1BqPVDtWNgSF7YDXmXTL2dFvvVjeo-xsWaYAg8gQDhAqaiU6ELWWQAbVMylK6rap-MMOn67KblVd4mUHhicAehHaPBFZWalGjhJqD-f4gMKn2Wtm9aAKerkSUVruroqQc2LuepsIoIK3d8JAQ7BL~lyQAoYTjaLtaP8kJpqIaK5eUuGm0Xe~RP42Zz1goiwrVy2tfII4C5dlQL4ZEV~Ul-gbC2uJ8kvtdykuU3M3o3k3j6CISmf6C1Yg9jaHC5JtT0E50cywbPmL~FVfDfnNF~o1RBjNyvwPMOxnv7qedss1pvcHVNPs1x9RsOmQ6~JitC~x8QHN-I5xBS8g__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26572_Creative Request _ Edit _ Non ICA Enabled Merchants _ 5th Aug'25.png",
+    "recorded_at": "2025-08-19T17:47:29.749442",
+    "attachment_id": "85001648401",
+    "attachment_name": "26572_Creative Request _ Edit _ Non ICA Enabled Merchants _ 5th Aug'25.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648402/original/26572_Creative%20Request%20_%20Edit%20_%20Non%20ICA%20Enabled%20Merchants%20_%205th%20Aug%2725-1.png?Expires=1755606132&Signature=TVy4E5A8sHb9lrLJqiy7bkYdQcr2utNFosb5jz1PQG4vx6VqDY25T6X4-ODqPtKzuFvMXPZNA39yXbsQHAsq0S2PEi2GX~5ntc8VBwCIRPymEGHV~lybJ7HesRnJbxBPKrRQCZaEgNwj8eXM6iFGNnyuRhiIwC7ydZE7WADj~tED5Tyj5hB8uRMy3XeoPE-zJYlE8dIWpdbJku0G8ZbjKHateBcmplXlRumTQJCCBymSfl3KKOuO77AXMFTEEoiR8Jq4r6MNP2QFAos8FhPwVVnEzGL668eV1GleDg~Zm0xORsp7uIj1RZH9Rt502D3H9lQpJI35TNSlhFk3ozvN0g__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26572_Creative Request _ Edit _ Non ICA Enabled Merchants _ 5th Aug'25-1.png",
+    "recorded_at": "2025-08-19T17:47:29.753242",
+    "attachment_id": "85001648402",
+    "attachment_name": "26572_Creative Request _ Edit _ Non ICA Enabled Merchants _ 5th Aug'25-1.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648403/original/26572_Creative%20Request%20_%20Edit%20_%20Non%20ICA%20Enabled%20Merchants%20_%205th%20Aug%2725-2.png?Expires=1755606132&Signature=lt5OQcaaFts8HAutn2XhPt1AFqWy5mO8XgSZ~LtIS1NZj2BmD7Y8P376ZpD-MbL4RZCCHyos7bhxWep7bfLF-EbgmgusQ3F9yLo8B8EQTIMclSLRR6XBvEywhaa00IC1p9leQM~qzMPIGJjaHwNOVi5bfd8nkx5Pdr1Xa1gg5SQwE9JzpwqjfpxgJ8yN9aHo8hGSWvZCM3oCKrmZ5vvlPoytRPdkvFacfXwKMJ1MXIcmQNKLdbpbrdHclNemmGE~knZBrDRic14jBNJSMfIk1M9zBdXS8aXJv5i4~FJnc5pjNbTpI4drqqIlsQ1ScIKJVwhU1KCVPTL75r42XXYebw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26572_Creative Request _ Edit _ Non ICA Enabled Merchants _ 5th Aug'25-2.png",
+    "recorded_at": "2025-08-19T17:47:29.755536",
+    "attachment_id": "85001648403",
+    "attachment_name": "26572_Creative Request _ Edit _ Non ICA Enabled Merchants _ 5th Aug'25-2.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001650418/original/26570_Samsung_Festive%20Creatives.jpg?Expires=1755606132&Signature=YKG0Uw4e~oW1WhQkHG2BaPTLqEbG69ii3MzHf87RmmzzfED3jboImwRpyvCqLbEnAjwZJXSMOFE1ZuJTmzUoQ0MNjFbWlb5xBmDJeQUNwG7OntjEupimgwHsTjhDTXvWmRjKAO9VybtDWUSc88gd5Bs2Q~shxSp9rE7CfJdZIIqV1H3Au2Tk7tJg2OlE52tkkOOphZGQiAZiWc77MbkCL0a8GWlpa3ud5N-LEInkSkF5jxq7nLjeuZSTSATc02~8AT1sJ2LaFgmYj43Tho5Wtz3YC8AYKGI4nynbV~Wv78Apfwd8B-8Ge5fHSMJbNxYFlmQpYEPIfjyioh-B7tOndA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Samsung_Festive Creatives.jpg",
+    "recorded_at": "2025-08-19T17:47:29.766723",
+    "attachment_id": "85001650418",
+    "attachment_name": "26570_Samsung_Festive Creatives.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651238/original/26570_Bose_Festive%20Creatives.jpg?Expires=1755606132&Signature=GBaH9HuqCPpThPjtiQkp92KcefpbKVqBSoBX-n5iqAZ9~AS4ONTeiLU7QjH~ztf2h1xBhw9V7Y8TuEdZTYqB8Bn~TquVg02Nlui0Qb1M1bW8dFI3HSOKtnTzoUTPTmqfz6BdZoZGLQXVEVRyodM5zMv5JEOQtEGi43h4~Gc1A8v~jMq5UfTrPIR4oiYzlct~kLoufxF1KE07ZsLBq-uvsuuCK3G1EVWG4p9vDcxYYrS6a1gXioPePOb-RHMT~3b3Y-ZM-0jgWOBxnK3MkQStFpiAzhypa-5SGdNX4aCqBQcyqLoAILeinWDFdUd0wpcuvbPHonarTYe-BoVO9AxZYg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Bose_Festive Creatives.jpg",
+    "recorded_at": "2025-08-19T17:47:29.768748",
+    "attachment_id": "85001651238",
+    "attachment_name": "26570_Bose_Festive Creatives.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651239/original/26570_Voltas_Festive%20Creatives.jpg?Expires=1755606132&Signature=RzxTZirRDss~KSMQg7Ow33FCc49VSk5eTgQXo3l~mcqCiwYogDVKt9BWlR90uBRKsQqxhaEHMcQNhoxRmP1JK9shnaUEDmm1umNqqexHdsyx2~zXv17P6c5a~bRfY6Ics7AYG3VUdBbB31KsfxhM4jzn3f54zeR~f1ghTDni8LSCJhdTMWv22IaHmw4jdXD6OlJTTF8ZBBp6dcw9ETCMaxv8R9t3Lnkox1PHt4Hl~GWhi9wkijHuWPjsJWawGWwKlxuvP6bMcGR6k2aZMQ~lUo72cDd~rSRJ~IrCzf1hSKqNgmkHXiJUm21iNW6ZEkguK97ErvHRvRuGZ5xRyChz6Q__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Voltas_Festive Creatives.jpg",
+    "recorded_at": "2025-08-19T17:47:29.771517",
+    "attachment_id": "85001651239",
+    "attachment_name": "26570_Voltas_Festive Creatives.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648619/original/26470_ICA%20Optout_Emailer_edit.png?Expires=1755606132&Signature=mTaUblRzBe4cqO-2FiAJbBEPV6EOLEb8d1D-nevySs6ZPHtLUc7Ka~WlV~Ai~b-3TSesXaFGIbs27WY80u3iDQfeBNBOns3qcJ4coHDHgqnSMQDUs5Ey9~Py1L~9LTvX-F6mTg8b1t0mR9Hb-e3U9U6dVPt~Jo-Z1zbz0-orDGhjLzBgCaNEzt1c38AgbxbDj8CuBGdyTm6SehzIl9W5V757McHBPlblqpq47Wo0oIDa2KspKSapo8tgdw8vgJMYTmLHbHcJdS7IzaITbc4Fa~auygMMLveteURoMImkqgaAQEFGpSYwQ8W~3iQ0SXYKb1gNO5H7Y91uSgpOdb9PTg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26470_ICA Optout_Emailer_edit.png",
+    "recorded_at": "2025-08-19T17:47:29.834208",
+    "attachment_id": "85001648619",
+    "attachment_name": "26470_ICA Optout_Emailer_edit.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26392,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001640739/original/Board%20of%20director_2B_Final.pdf?Expires=1755606132&Signature=XJxzN8DiG11SAaTVk5an-OIA9Eto0uMHD5so6YGJyv4z2Z8X8yFQZI3l5dpiTROt4lQLiPCfZNk1UjCmrTrCMWwnKfSRgplqaP9MgNrEmaiMBZbmHVS1WdzmLxTSQUf9TrXp5DK6YIXV0gJm2qzi~sWFPsbM~6SuLlpFcZjLbmAmh8dejKz1FG~IN72qyimkACJjapnQ2buIn~8hsjQ4hIH4O8zna7WwK1vpTg9bVJi9SqOisaGK7meOLCmGM5byCFUj5dCi8rZa31v~iuYnuFJGjIptiPIRedpNRlUHBPF~Gx8g4XU3pDbXgBrMPCDm25vKqCRwGuj~n3eeVEQViQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26392/conv_Board of director_2B_Final.pdf",
+    "recorded_at": "2025-08-19T17:47:29.869983",
+    "attachment_id": "85001640739",
+    "attachment_name": "Board of director_2B_Final.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651240/original/26570_Bose_Festive%20Creatives-1.jpg?Expires=1755606132&Signature=m1qttnx~dpsw6QMZ-ig0sgFmYHIVILaT9lX61HCe4u5MRJhiIiVoSJGiir8vueHgsXtIDYKMpXKxTxzobu~TKaXk--q7SkcRHjnVs0h0auxPTYst9P0EOXkNyDiyW3SATAI6CICEiq~gIk-g6BDGpQZbCuxsX~d1ehFj2YGf36TJp2uAH0yyMvsUEB119y~Sueti8K2BXsUIw5vdqFE8tKRmtPiDfX70Zvenjp4dItmLqyxcYNOaCfahj-ihCUH5u4AtQ478U5qmv3CDrDv0ZVVIrHLAUOVgQOjKfY9nJmkKkBUw1ZkL8qEoOHVO6ZK238oMC4QUCTDrXY4qz0o9hw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Bose_Festive Creatives-1.jpg",
+    "recorded_at": "2025-08-19T17:47:29.880022",
+    "attachment_id": "85001651240",
+    "attachment_name": "26570_Bose_Festive Creatives-1.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651241/original/26570_Samsung_Festive%20Creatives.jpg?Expires=1755606132&Signature=HOITmI~lDd53XYEDwhF8MnaAN0a~~ITA3E0Oc7JSstdUw-yEYRkisRpZq0wtbxE1VEXbvwNPSXSqPSbe3tSon9s3TlvnuUGR8vzzGCihuYw-U1T75DAs-APEtnH1iH~6XQeti9eYl-ENmjHFTapvO8fn3u5-4-lACVJinny~Sr7~1ykRgIHyqmGCrTaHvPel9EW7UpzxpQM0U8~fTaGLrBjSEcjn6ZXv-zYcrswr8gGseFnaAB8Op7mu019dnYsIiYqk2rQoikZ13QIQgxQ31jl1Q5SsNKJMdltLMtcz~e5rJVwavYeFnaqV5hatfaKjM4uc6UybL3wBC6WE50fwTg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Samsung_Festive Creatives.jpg",
+    "recorded_at": "2025-08-19T17:47:29.882253",
+    "attachment_id": "85001651241",
+    "attachment_name": "26570_Samsung_Festive Creatives.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648620/original/26470_ICA%20Optout_Thin_edit.jpg?Expires=1755606132&Signature=IwQBjYr6~q8FmL~nDCUZc~8igBO8TYlEZllT0x7Uq4RzU7cg70PlP7iCuTafdmfbe8YTBZNVWD2aqCJq8FgrInX9bGqWnOPVua0qsv8KRjQtgqVBVyE7IPiT2pGGHyp2pK1HI6WmkemID9oy3K4AfGt5ETzikNpL5UKj5~-IBeam0gNifB8aYqWBE1gDwmZPi2UE7EYHs7RVfPJ5uOApLvaGUVn2s7oVTYk4HlAf33sOiTbonMLckoBzmAMv2-ixmRW1o4BNFYrAqW9KrXdslYx9Irwt9t3dii7FSwbl80TwIGytWNMG-p6A6lgVVP6T-uGOZzUofNmM3A3VqjiJlw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26470_ICA Optout_Thin_edit.jpg",
+    "recorded_at": "2025-08-19T17:47:29.909985",
+    "attachment_id": "85001648620",
+    "attachment_name": "26470_ICA Optout_Thin_edit.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26561,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647657/original/Newspaper_AGM_Post%20Notice%20Ad_12x20cm_Aug_02%20-%20English.pdf?Expires=1755606131&Signature=HiD8fM0Sd84GeI8vmWq9bU2KESgvRsxw0B5FTFRr6x7PJuEWMnMk2Xec4UnvYt-Za9c0nj4h72jS5xYBf6HI9eN2fDGrZbRZocJTRMJ5RBcn2X-YH9gNKl3-uAmyh7MinB516wtNjXU81CHVwgIo7KKUi7k-qVWiCcH5RHT5P1x23~vQyQrF~fqnWEW0MiKZse9C3WKeMSyvPMe7cpmEZGPhplRO1-QuFmfoQa3RXtE0ARvbxy1OcuNkI17L2bNtp2LgCkSiykxVABfGQhhJmthAz6~5WEOlXD6RlzkAoFCFeF9dr-ql8mFgbqCnpUsQdyyqH-soWNUvZ-gCxx1l2Q__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26561/conv_Newspaper_AGM_Post Notice Ad_12x20cm_Aug_02 - English.pdf",
+    "recorded_at": "2025-08-19T17:47:29.938467",
+    "attachment_id": "85001647657",
+    "attachment_name": "Newspaper_AGM_Post Notice Ad_12x20cm_Aug_02 - English.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26561,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647673/original/Newspaper_AGM_Post%20Notice%20Ad_12x20cm_Aug_022%20-%20Hindi.pdf?Expires=1755606131&Signature=ASZrL6ZZXz5tWIrDzVx9JeTG51oK1Ay8SfOhg-ARvKGZ9XoiMzSInultPsDi6D-dSgQ3blXvY~jGUhWxzasX-Vcf6kX0K-Wxua2L8069RkBcjRHx5Z6Uo9zy1~4SHzwpIJ-E5snJ4HZt~XfU4AkMCSoImBMlMoa50K0qKV~I~OVuQ6ZU~uiQaLoTuhJKxkD8j~iZdcjRiHQwze9xsV-XqAK8KHBAd7GVqkNa5wgFufTMdF9iu4G68GAc4IL0Li31hlW7dd5CGU4ltGgL86m6Dq1sLQ7li0bbDuOKvpTmuyZNraa5f63anj3MpYPOfT7a7QuMR9EFpOyk6JK7jpCbHQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26561/conv_Newspaper_AGM_Post Notice Ad_12x20cm_Aug_022 - Hindi.pdf",
+    "recorded_at": "2025-08-19T17:47:29.940729",
+    "attachment_id": "85001647673",
+    "attachment_name": "Newspaper_AGM_Post Notice Ad_12x20cm_Aug_022 - Hindi.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26561,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647709/original/Newspaper_AGM_Post%20Notice%20Ad_12x20cm_Aug_022.jpg?Expires=1755606131&Signature=NWVRLp1gLYNgKvxS4uPF6N2q2HydEQgGAke-Ct165oskHutyH69YbTzIpxHUUbHYpCkhc~pGmpAhqJlOvZVyOG1u3lu~BJwb8k3OMLsDSx8HTWwjjgHUjtMxqDp9kWOPLTJWwNVda1~t53ZCMyCwQrfH~1LBjsHUKqUYt6Ixk7amD0GwKyO~8qC0y7TnY1Ie4tTU14-tkNkAoCCIKU5PCgX-dF-auJ3W4WchpgTrm1IQz6aRImqNUtgnd1jzkg0oa5siJjF2-Mng4TZ5aYoUDu-RYXLzgQgBGIpY4pdsKGc~2oHxpgtt63NTB2Fgigxn9sEBQAUaj61792j65ARv6A__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26561/conv_Newspaper_AGM_Post Notice Ad_12x20cm_Aug_022.jpg",
+    "recorded_at": "2025-08-19T17:47:29.942744",
+    "attachment_id": "85001647709",
+    "attachment_name": "Newspaper_AGM_Post Notice Ad_12x20cm_Aug_022.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26561,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647710/original/Newspaper_AGM_Post%20Notice%20Ad_12x20cm_Aug_02.jpg?Expires=1755606131&Signature=NDCnba1Zn8TUk6YYTny~npeLHYNecnrQArqEWEymKIDDOO2meKQS7GY25QXTNqNOdCAnZikKPjxCjMEyuOqSH-lOVAm7sD-ijjAYpeUTr0-tiOOuXLfS~53zVu3zbSfGT1PG4hUhqwcG5IKPk3wqaUdkNmh~5FDcyoPSW-YwOPB155vGmSbNziaDfU5d~q0Xl~HnDyFTzccFiJBwWDyuw4qbZhhj6WEixCRIQmfMO6WslYbYNvDVpvWJsEISzwc43GHleT5iuPlxL0UXgJUieT1QZ1BcUojHHju-kvTyAqcvUgE4hcICByC9MZcwLgW~ZD4ZZDOWxzRQCkkQuMFfqA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26561/conv_Newspaper_AGM_Post Notice Ad_12x20cm_Aug_02.jpg",
+    "recorded_at": "2025-08-19T17:47:29.944608",
+    "attachment_id": "85001647710",
+    "attachment_name": "Newspaper_AGM_Post Notice Ad_12x20cm_Aug_02.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26561,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647764/original/Newspaper_AGM_Post%20Notice%20Ad_12x20cm_Aug_022.jpg?Expires=1755606131&Signature=pxdGEpfO7NFOcmfUd7uu~wSD9qmBvKEWkV6lJDJVTSmmX6Wrf6Yzrp1McOgW3WXqHziRKkwaMwGY14KHEjV88c4JeCLgeQDIuj45kILdiB0v76xj69XLquwXO8AO4VpaERDrI3UrZOTBdFp8eHfpaBPyt4Rwxfr~4hGQ~ZpteNs6bI8o3MP1765qEU4ZLz92lVaYqYzDaw94uXovsDL5XwYAubGxI01seVDWaUnUM8x3z0hFliVs-lgrLBWl4iaBEWaJfFjBXwwGlmoIOlgnm6hBX7sv6LxF1bRgKwQWbDuQG2dSrgcBMKQDXcBKL0NSxs-AZay8sZf1Ulgkqe25Iw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26561/conv_Newspaper_AGM_Post Notice Ad_12x20cm_Aug_022.jpg",
+    "recorded_at": "2025-08-19T17:47:29.946440",
+    "attachment_id": "85001647764",
+    "attachment_name": "Newspaper_AGM_Post Notice Ad_12x20cm_Aug_022.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651242/original/26570_Samsung_Festive%20Creatives-1.jpg?Expires=1755606132&Signature=nCPt~JZRTfGJvmuK02HlCNmhpxuYIq5aX5P2QNXqWcW3CE8vOuOGVNxptFbJTAEz-2OhKH4d93v1MTiHOUHyvmgBYsOFNz4Cb8gmMzsmb4zJIZP7RlVe2B62ZiFR~cehr0JT2obN2uTFsz7PSucNp0QDp0wWEhJJ4qK0CV7DI2JEgkEDE56rk074JrlyY9f28O2eipJPX44EhLZWqjMp1f32dHf-m9ONwI5iJT-Z1-M9eCE6riMV8HjupJXU6cyPNUulH9K51YWFJ8MOZKpn9XH~HAHA1B3u1afdnqibWtsMPwhaZQwi9M7HMkfmc9qwJRCWK~N382w8lT18zurerQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Samsung_Festive Creatives-1.jpg",
+    "recorded_at": "2025-08-19T17:47:29.964859",
+    "attachment_id": "85001651242",
+    "attachment_name": "26570_Samsung_Festive Creatives-1.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648621/original/26470_ICA%20Optout_Screensaver_edit.jpg?Expires=1755606132&Signature=I8d1oUrT~af8bRJDWnATRXiDc7bkEu4gGraIbkiLAAE8gX0mUVtBFLIBnDqJ0F4cVG7kMFT1qi~-egzWWyGRDq7oM1jtkUMpVTfm68ZpjRAm~uyEwR70gNmo~EQrpF81IhuAFPG2~UDQ96eS8HG6OlaRCYYdq-dyKMd7VYmOzTRP38pi1N4haEn-084ENeukjZxSa4UDoH~MySgf5B4DUKmq3PuXKgdVxk0~0tlkzT~XT1Zlb6-7CTfpmhf7tdVcGJ9~o0sMRh8ULvJfht5B6B25Qe8PGLfa7G8xzbSYU5AzcTVOMma87PmZnTVYt4D6TfBhMxPTke2McufDNHUuuw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26470_ICA Optout_Screensaver_edit.jpg",
+    "recorded_at": "2025-08-19T17:47:30.018241",
+    "attachment_id": "85001648621",
+    "attachment_name": "26470_ICA Optout_Screensaver_edit.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26554,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648955/original/Merchant%20Meetup_Props_Aug_Released_5.pdf?Expires=1755606131&Signature=oML92tnfVQJm1M~G9BtabZVQA0WMbXg6cPM9~tiLjfCjElbl6W5rm9zU5LhqH35HQhSQbV6kJIOtal0e0HPLnv2smKVFxbKTKiQZ17rxPqJ2DgthYsw4jIIV9~gWVlg4C5I1DGcyOd5Lw2lOZRn3ku9lP5jY-BWifupvbv16k-bo-rNPDe2OSSTkwAQE9I2sEepZJ7w6AQUjYrgKxsVyxCXn2JwJXdf2Fjmh129678ePXl3-IvZ-VYjUjXz22Tf9A~0DduqZ7~FX7QIaFzCVr0yYwIvAsOmJjXrxk6U6JfHTzdzO-4g9StlrwdNW6SJ-LvXdq1SbH38FL1LTKQrYNQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26554/conv_Merchant Meetup_Props_Aug_Released_5.pdf",
+    "recorded_at": "2025-08-19T17:47:30.077789",
+    "attachment_id": "85001648955",
+    "attachment_name": "Merchant Meetup_Props_Aug_Released_5.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651243/original/26570_Voltas_Festive%20Creatives-1.jpg?Expires=1755606132&Signature=DUQwC0F4i1tz8MtSY9F9fkkJRWGAqzFRvyquys7CpThUovCxNaOP8uYQLkcVmN5e11lUfqMaC6rPjUb9tM6~3LW5AkeXMeE6Rb2oowxmPdZz33EG2hjb9WjF4BkOFQLy24i8LAZX74nNNRFHhNaAjxcYMIl2CHWHcQ9h~-eQe24PWLvZK-sozsKO-ba~xenOQ8YXgNX5i8sMzwqaHWa-7GVP-NR64q45rs~pA5XFXLwGbwlVjt-Wu6T~PmAljA07GkkROlXkkmVdEfLBE7R7gPsUwwt4TW7tYBYyD1XPq36bPvzahjl~aYsQY1Z2YrBvxr3vNnj9UV57h4yb7Znq~w__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Voltas_Festive Creatives-1.jpg",
+    "recorded_at": "2025-08-19T17:47:30.084322",
+    "attachment_id": "85001651243",
+    "attachment_name": "26570_Voltas_Festive Creatives-1.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648622/original/26470_ICA%20Optout_Push_edit.jpg?Expires=1755606132&Signature=Cy4ZAcLeRYiqGuLB9W~6TnFV-TkDkWeoOmxpGaEGqKIH9wU2ZIhVaQ4XtJODJz1f-C8YxFL8wQQ09aR9sqIpXEAipf4WE-Fdhxnya4-ebmJUcmX2lEl42qTB1Sov5ihXSU98NG4vawVB~Q7Ra~KdPyLMVmV0cusSWzlvSx7IDB8QCGtC1l1~4AklbgEIqNRoKaoEHUxSgiykYV1SlgNAGwv7n-DGqRsFSt9aJDbr9QhH8gXVfsaXmoj5fBpBil9SVplHUtylfIO69JsA3N5HIZOnRslQhQol2OQNFb96WU0s8WUTuL8xqc54Ovhaz20vqqDC7Zbk0z2Bc-wkjnqHhg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26470_ICA Optout_Push_edit.jpg",
+    "recorded_at": "2025-08-19T17:47:30.137410",
+    "attachment_id": "85001648622",
+    "attachment_name": "26470_ICA Optout_Push_edit.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648632/original/26470_ICA%20Optout_Emailer_edit.png?Expires=1755606132&Signature=lrvnKBY4rw1s6FwepjOEJSrj5OOwQSkyCXPWQCyWePluaBSqu5gJP3vPOg6KQ9NhE5UXY-poPi7TIU5fVgoNol4nmcb6OQ5C0-bDsjS4xIcxFNwGtKYd3Ta1z1ACoY0~uExBX6WLmmeJrfbyZd3q3pkFqg~D2gT3L~gVQaYbY~XqZYWiqjB9KbJS8YMOAHfPPqAj~8S9LJWDmCbCTqTCZQSLNM5mXveolPiPxPx0KwNSn90tq1LaoecrnJBzNQ90sHt4JpC6fG7rbuCPXltbmHCTU6LiS~B~F-OJuaPV17sp3bvvAz0T43RFbIgYXhyR7gM--jJwGQlDiEjkKCU1-g__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26470_ICA Optout_Emailer_edit.png",
+    "recorded_at": "2025-08-19T17:47:30.141030",
+    "attachment_id": "85001648632",
+    "attachment_name": "26470_ICA Optout_Emailer_edit.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26561,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647792/original/Newspaper_AGM_Post%20Notice%20Ad_12x20cm_Aug_02_Released_Hindi.pdf?Expires=1755606131&Signature=YJc2TGOkTs2miltKGQou21eYTZrxCXtvmHf9tJVafjkRQt5mYqkKUoUgNenfD5lV3nNb-rP3-v~PF6Nj2XqJZF9vRrJPnzscfeV1-u5CVJsWv4E7MpJ9TzV--puRYD8OArqN5UkDNfvAyI~t8pDme~KmxuXRoo6ePe9CY4uRaQ9nbOaSAHaOefKypVp6v5DOpIQI~1PjwHh2faPHebwZX1BXIhc5p70K~EUGENCGwPNfNQrwW81Ck3u8fI96bGpq2WTBGLguQ66SFoa~n12eJmASfGMt5tbCpq6MLJrU5cwzsCCEO5dJdn7e7uKodbRecaSM7wzK~LwbfmW~1gs4mw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26561/conv_Newspaper_AGM_Post Notice Ad_12x20cm_Aug_02_Released_Hindi.pdf",
+    "recorded_at": "2025-08-19T17:47:30.145879",
+    "attachment_id": "85001647792",
+    "attachment_name": "Newspaper_AGM_Post Notice Ad_12x20cm_Aug_02_Released_Hindi.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648633/original/26470_ICA%20Optout_Thin_edit.jpg?Expires=1755606132&Signature=Z58QBiDJqw70BGcln8ttlrWWcuj6Q--D46tosOuTLF7y~3ov-vENCV1a1rkMu2~2-HWUAQzDGdr4nc72hSwd0dc2KD-bm8t~c4k9SZma~6~RgIctuojwPhFH-x7DVB8nJErtRvJJPs08eUsszIxs4Xhzf5tg4w487pkte9odQE0XnZvPb3goVFdgksk3RKSTVgIQy7ItrJLdSQi3u-PjzwFlsn84Moa8Qpo109OTPOXCAfakFquRtLks7H8sSf1sWl-6h7fDjjNO-IMaVwg0on7kzxvmap57lvY~O-b5NLG0TXNEAoYwN95L92k1iQy8DG7kxDB8LjIR~QsJVjwX4A__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26470_ICA Optout_Thin_edit.jpg",
+    "recorded_at": "2025-08-19T17:47:30.146202",
+    "attachment_id": "85001648633",
+    "attachment_name": "26470_ICA Optout_Thin_edit.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648634/original/26470_ICA%20Optout_Push_edit.jpg?Expires=1755606132&Signature=MJKdRaQiflR~kvkbgvOv-talrNmVxwBv-vqCnwbmuEijA3Zkvw6WRUjYfEQQUiGXDWoIDo2sJFCNfwJ-8JVcJa1UnuM3-I0rqdJPQ5id6YPnxCuPEzgYFBKYePIUR3DqulSeH-d7U81cqTTwytV4e7yssp5Muv4SwQcpmv7yQQB115rdTqsqhbobbpiOSKILGti5kz1bAB0JMpt2X1of3lu594Z0gWQpuMCpJMpS3q~Yy~bKd6ylGb3i0oGyO9pLOvGuF2xOlFYypq-9VN-Z~7g2kf5gLwhvVIJq2wbsE4CPJ~jc7c9XehphVV9BaXe6HpYpRwIQKjK5lYg5NEVD2g__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26470_ICA Optout_Push_edit.jpg",
+    "recorded_at": "2025-08-19T17:47:30.151422",
+    "attachment_id": "85001648634",
+    "attachment_name": "26470_ICA Optout_Push_edit.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648635/original/26470_ICA%20Optout_Screensaver_edit.jpg?Expires=1755606132&Signature=b~z4g6Yre5edhCcx1lrHpG2pfUUXG-vGIT41q-hoGKM7ZI4bYIhNMRashfsFxhhtYtdDosVxvxnJXcYEiFvCSVas0lPZQTNrl5wCxeSeX2AcWlDcCGhA5FJxxfi3qbayABCJJtHLGspdal8-EnIaOAmlHTrr5INzF5r9iyoD7dV-peiQG2yX2NLtzNJfzhCCdSNcY-~MjfqG-6EYT8xmfdiNYyPP65dFm4NqckkvM996o8Fy24qUDRFT6gztJHgOveeltVSy5PZfMPuBTS2stNe-BQRQAdqZlYj3ZKtXIiDFYjLyHXWtxPmzm7h8Au7dRFdPI0u1be6zlHwd3Iv-yg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26470_ICA Optout_Screensaver_edit.jpg",
+    "recorded_at": "2025-08-19T17:47:30.153315",
+    "attachment_id": "85001648635",
+    "attachment_name": "26470_ICA Optout_Screensaver_edit.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651333/original/26570_Samsung_Festive%20Creatives_02.jpg?Expires=1755606132&Signature=hDsNQmGScL6IA0~l0l3-3x~4oE~dJDdGLTuw3xra2czNjJyuHuyNKkI5XHDiC0jusSlO5xl2U7MxGgGHBp~vC~YxiIik6eQK-xHAnfNHlVf0wk89EJif-0sp1qg5qRo6IaAIDalWmfvpqFzmpb3lPBTc~NmMG25Ib7UTeKVIcaO-Om4dj228ny9GNmyl2b1~VAWIWhtMMUBsOP0QR0fDeLrolJk7bW7kSGR02L2xyQSoddZl8kfFgjPDh1F2n3~-usBahpWfETRrsjlHB4XiF9J5-Y4-3qMC-1hWSRlgaj-3ChXmiwnkqyeqFF9FdhumdS6jDP4vrD00KDGeIumgtg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Samsung_Festive Creatives_02.jpg",
+    "recorded_at": "2025-08-19T17:47:30.178231",
+    "attachment_id": "85001651333",
+    "attachment_name": "26570_Samsung_Festive Creatives_02.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26561,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647793/original/Newspaper_AGM_Post%20Notice%20Ad_12x20cm_Aug_02_Released_English.pdf?Expires=1755606131&Signature=d07g47-YV~mWgo77poef353Vb8AGhTHXtnZ~zoCVrooUM4ts8oP~e9EqxXTNj8oZ-RuY8RzmTvrtlpO~9Mv~bmh2GQaKtlSAsOrdZqIYc2FqJMveMFmAey~Q3v1krEQd0bjHV6Zf~3~zlEKpXodTEtp5V0~cag4bMjEzYkMkKbiRSuWNLyQdurzNIEmKJ7VXecTRkGcl~kx3MV9IX54dZYrD6lFshTmVVX~HPG~xfocCqCmZZqd3rdUoG93eaMowAsS~709uz6ZW-AlZnDgOtq8MUz0czDtUxjTggz4QajQ8YjeQT4B9RdZzu5HvE7O0M~z6~tpxV4Cg0m3MsAj2vg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26561/conv_Newspaper_AGM_Post Notice Ad_12x20cm_Aug_02_Released_English.pdf",
+    "recorded_at": "2025-08-19T17:47:30.221435",
+    "attachment_id": "85001647793",
+    "attachment_name": "Newspaper_AGM_Post Notice Ad_12x20cm_Aug_02_Released_English.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26561,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647794/original/Newspaper_AGM_Post%20Notice%20Ad_12x20cm_Aug_02.jpg?Expires=1755606131&Signature=d--Rc3Gd6DKBOWhO6gACdn~w4JG8N28duJMi22yB~sc-xIuuDpEc5yvSqrRn3pYskFm7p-Yey6Vkneqi11eywR~XrJpcWURf5dibPlShjis0gYt1ZLQ~FiJrd0x94QhWVq3rUVSEU19GzCVoaonM16pZPkMDh6~px90pccVxp8rVs3xXrl2-hzNGNndbR51XtIeDwC4hoNHcWj6GmsxXadz2i7y3QjjaAqasoy8sNNs~BbzkcQHqBfUk5XCViTt75rsNceBLEFqYYNZ3kj3GK8u9gO-tCy3D3EyqI8rBV66vAl33W2TeW27K00Ctt0lLjjT0KNSHYac4kAMDttcLHw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26561/conv_Newspaper_AGM_Post Notice Ad_12x20cm_Aug_02.jpg",
+    "recorded_at": "2025-08-19T17:47:30.224395",
+    "attachment_id": "85001647794",
+    "attachment_name": "Newspaper_AGM_Post Notice Ad_12x20cm_Aug_02.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649722/original/26585_Design%20Request%20_%20Brand%20EMI%20Creative%20_%20Urgent%20_%206th%20Aug%2725_Hindi.png?Expires=1755606132&Signature=fTw5~lNmBXS6qHjceNzWhxf1~ns5CvzzPfGh7vvWdz39DYyLbS2lwHJoyQpDaIeEmkzCAu~Lw1v9U-YfOKSwRtsYdlnypaXrpidwLTsQkcfURSL7uDeRHqGZ4N7ixACpo8FENWmygvtswHyWEx7oWKTwvE9bzIwNvlM4V330YHCaNbuoeM8Ys5sSm74iKXMY~oFW64jO9AewYYpmrUugVvrActYAS38b8CH~vtDk2EBp08WJL~IuO6Y9-4T0Y57UyIfQDTvi4MqcL2KI6er6YYwKrRA1eUYLA0m9mzBYto4WPcGz5l1eUt6ZeHTnVCp3yqM05v3ZE3xjij22y95zvw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26585_Design Request _ Brand EMI Creative _ Urgent _ 6th Aug'25_Hindi.png",
+    "recorded_at": "2025-08-19T17:47:30.224574",
+    "attachment_id": "85001649722",
+    "attachment_name": "26585_Design Request _ Brand EMI Creative _ Urgent _ 6th Aug'25_Hindi.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26561,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647795/original/Newspaper_AGM_Post%20Notice%20Ad_12x20cm_Aug_022.jpg?Expires=1755606131&Signature=g80SlSglJkWZolCxSYnXxPsUgi1L4azPl8~jJebCjL-dZzMj-RLNE74YB7eJZJQgfHR-kKSRevtD3wgeVKt3tCiZ1g2hSlcC1jw5OFn-XGREBNI02bgVTg3jA32MuBP9mYSeuZnT9g3R9hn4pLU4XJtycAhAu4odBvxqBCELb367g7RzGQg9EK9HG6IkAu7JCfNx2G-LA4ndh6REb1fze1RV8aO13Eg~M943LHJU5mUoBzRt85yfm0D6TC10IxzYBijQhB9ex-NbVJvWNVxGmcGXMdK~eyvkyngV7wL5uOj-T~cYlAq06son3619E1u4fdjJtdEWD1zE0d3OUa9E4Q__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26561/conv_Newspaper_AGM_Post Notice Ad_12x20cm_Aug_022.jpg",
+    "recorded_at": "2025-08-19T17:47:30.226697",
+    "attachment_id": "85001647795",
+    "attachment_name": "Newspaper_AGM_Post Notice Ad_12x20cm_Aug_022.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649723/original/26585_Design%20Request%20_%20Brand%20EMI%20Creative%20_%20Urgent%20_%206th%20Aug%2725_Hindi-1.png?Expires=1755606132&Signature=S1t0-wKr0HWME0XAv6xss4zHwjc6R4xo7Im3JcCuCNLF7v4Ewz7In-4~0D6FZiDdSo8qQH7Aro3FWfuc7cwtBqI58WP4-32PwCy-EMh6FttpeJWT4gVp5KyFswvA6eJ5AJkKg-Y9KgbSucgwx7z6F9i97CUlMAOcSw1ARwhp6IsAKyR8p~lt4kLKREDQQv5qaJ0yELtZbBiGjabAoiOE7xkJRV8v84Dw-gegBNVyOJpK-IDQ35dclS-YLQgKzfvoWXeGRPhvcnIBrx-DoX9MSbF-QZwN-Q4flf7v4xbHJ67kPVQLh7Egbp9MvNfBF560Lyp2WYpIVJlLUVRpt4-QWg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26585_Design Request _ Brand EMI Creative _ Urgent _ 6th Aug'25_Hindi-1.png",
+    "recorded_at": "2025-08-19T17:47:30.413342",
+    "attachment_id": "85001649723",
+    "attachment_name": "26585_Design Request _ Brand EMI Creative _ Urgent _ 6th Aug'25_Hindi-1.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651334/original/26570_Samsung_Festive%20Creatives_02-1.jpg?Expires=1755606132&Signature=Vnec99EsxO6mK1oirruUEmTiLnWW2YSczfliM8AViEB6Bd7Qub7uLfanmg7P7EJHDuu7FZiOYQajs~dueJX4ibSPzDg2ZnJFXz65fU6jK5Nvs1yhYQaCCXwZ5RTo4YGK4sRYwb8FF6djesIB-2X8l4T2xu7-pnc~7CPZ9PLf1cgj~qmiR7yGRvMUaFBEnxyN1t5niz4G-ohmOmgOmzuGo5mSqHNXzbnrxYuJs6STffLblh04DR-zQzRGDhZDAVgxdlT08RSbz77wavzJP684IqzxZzkjYYQoLVFQY9BsOq1q~wcwd5qREJVes0kLXSqonr8SiPGGZ0YxzHPB-zAudg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Samsung_Festive Creatives_02-1.jpg",
+    "recorded_at": "2025-08-19T17:47:30.416735",
+    "attachment_id": "85001651334",
+    "attachment_name": "26570_Samsung_Festive Creatives_02-1.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651335/original/26570_Voltas_Festive%20Creatives.jpg?Expires=1755606132&Signature=pt5EBSh8RYtxvYqKzOIvFAXE~b7h2qEjpR7DDXmUkvl4q7d29TRtx~2b~eYyOIst29oVRzRGw1NcVz~1Y2px-yzi-MJfjstmjrLoeIh4ErTuHAFRNSxJxY81dAf4sPeXvWz7VOWIIktRxyATRRa1rSBc1y1QeaSIfw7LctZiVYSSz1shrTKi-6N4BC0bh-XWkx7uhuKpHjCGgnS4UTZjlfwWYJA8LRP6A9IOrbnMrNcEINhUYl28Mx-2xxIQa07GtNOH2ye9unGqhGE-4dfv-IBiUZkT~ytgRQF7sDgD-k~YtoJMh57SS6kRMtiZckJWFahQC85yMOOpwMHa7cn0ig__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Voltas_Festive Creatives.jpg",
+    "recorded_at": "2025-08-19T17:47:30.419045",
+    "attachment_id": "85001651335",
+    "attachment_name": "26570_Voltas_Festive Creatives.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651336/original/26570_Bose_Festive%20Creatives.jpg?Expires=1755606132&Signature=Vuouv49QrOhbutp8QGeHBP3LQYyYOa2F6gzqPg6di3W93LLto4eXUX6BkflR3PRjo2lRQ4r~mcH4vRwyDMoasFShlnTxL8FqqbJNvfR1wjGQA8XwCOaz3ip-q3noIdZGO8Ov29Ro~coPck58PdAgakCVXF~dzzrL8Fdbhc9hGl3jMLgl~3LIpaYcLgNmJ9JPWtxkooqsIzlWXoEi71CG3mqZf5sCc5HgmfRetb0up5JWSpb5dth1IKKxdoxVLicXXAP6n7rb2qj3Lm3JKxq2jXNcUNNgn7rUgzrYx~tjFNGqy9zM2sGc6HeXCcVIhrLS07nowWvXP77QhD96NAloRQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Bose_Festive Creatives.jpg",
+    "recorded_at": "2025-08-19T17:47:30.421015",
+    "attachment_id": "85001651336",
+    "attachment_name": "26570_Bose_Festive Creatives.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651337/original/26570_Samsung_Festive%20Creatives_01.jpg?Expires=1755606132&Signature=j~kmBSpVlJtGTejchphl0Es9As5u8lCimqboQ2WsrtMQlsnucvE6UFaNnK6gJi6mJL9mBl-jWyNcYQAT~5M2xW76z3UCaaJQx5t-Ng384YxH9JNPukG~IncKjiBHPMnKEr-uClVzA4NLLZYI9WeAev0CC-usfCxPDeGHYRw3qASp9vhH8Fx1RorUfcxSX-7JEJSZa27WA859lryd0CambA2kMT~P-1cufvW02WktcUSYcmvvG3-JpfKQlzprZsjrpRq1Kf0z2BXxEYeZjCsXQTl6mBZIZK3c300E6TIQwOmykQ-u5Cd4MHnDFzYLE-1ow1OdeNsWKtWErkTsQW6rnA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Samsung_Festive Creatives_01.jpg",
+    "recorded_at": "2025-08-19T17:47:30.422895",
+    "attachment_id": "85001651337",
+    "attachment_name": "26570_Samsung_Festive Creatives_01.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651338/original/26570_Samsung_Festive%20Creatives.jpg?Expires=1755606132&Signature=H1fgtRS~vt4Vm2W7Tc47xm~hn4TYW4WkPXKSVelEj1sGnOz7Ja72DSBDoU7y2rH45-XY7mtlvuNV4F9G8b4gV8ComsCThnmMiCfO49V4Pzx1m9L5EjXX9HwO61jfuz4SFipKXSPoMV92iuYOVPsmd9ukYrufvA~thDAd8OhC1xrpgxzyxdTlx-LWpt~qtDnBMq~vLZv8sj4cyBCw8KOlTABfeS25Nywn-1-jo0I8ZLhax2OnmZ~MWbA2EXM8EWV2saZL1XlH2rbM~AxsYMbsC5-28ouPwWXmmzB2JSgQjjlzmUDcY6Okny9e~Dilxbr5dyyodLOupgvxgc6tuXK43Q__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Samsung_Festive Creatives.jpg",
+    "recorded_at": "2025-08-19T17:47:30.425245",
+    "attachment_id": "85001651338",
+    "attachment_name": "26570_Samsung_Festive Creatives.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651655/original/26570_Bose_Festive%20Creatives-1.jpg?Expires=1755606132&Signature=UTwr5NuVzeC9MLMlY3jc6t~7UQ7qF~tGv7xWqm3vqI7F2-sChNQnmCU008Y0O64kLFfdqMuXEbuzJKsmgyssAVUXVqjgDS-KQdmO96YI8IhdjQxzCYcYEbyo3mPaONjNaDpBkLTaiyrVADVet~tgVXi10XYf9wjoRadj1v82ak44fXLniZ2cHyRGVjmD0SeqcRlcqTe~eOYDHM~OjNwJ2icPUflA1J720dr68~8lAv5SAcbZyFpM2SpNyZxELAhOHGtuYdgCaH7novg6A09knWiB~ykw06ybHDn-dalHoM-zbK7tsWSfCYCCIqawQKENnAqiFNgxRpgE~OnljKGE7g__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Bose_Festive Creatives-1.jpg",
+    "recorded_at": "2025-08-19T17:47:30.427288",
+    "attachment_id": "85001651655",
+    "attachment_name": "26570_Bose_Festive Creatives-1.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651656/original/26570_Voltas_Festive%20Creatives-1.jpg?Expires=1755606132&Signature=JHrmL19dbd4mSx9iDSA7U9mJln~9ZmWjDgHPmMVcU7zNm6JPCkEqVNkkRF99LPsApCYA8SkN4lHRIxFYUoaBuVJwhtB39nGN-bL5gWlEYOiOlS9z-vWU1C5bcjaTX6ey92Q9sTate~wqwFkUGMN~aTgX224bYSFbBocrCrgWLYMX~weKhl5OslpyTTAf~iLyEGqQMZOKoOQBwo78Gehqt92WhKJ~eBxiidbzkVHdOKXVQ1VvNMXxKf-Lash3OYb3oCjMhKvp0e1BOd9NJjixBvP79rmEEpvj24CqxPF~qyJkIDIFStrpm9D~VmWckCOGKgzKflXHbxxi7fx4drC-fw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Voltas_Festive Creatives-1.jpg",
+    "recorded_at": "2025-08-19T17:47:30.429418",
+    "attachment_id": "85001651656",
+    "attachment_name": "26570_Voltas_Festive Creatives-1.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651657/original/26570_Samsung_Festive%20Creatives-1.jpg?Expires=1755606132&Signature=mv3LCpFBxk8cFOVdnVHrm42R1ITeM~ashbMqJeon4A8QFz7-rYqYnKx9HmmEJtnzfzKnPGcTqt3weqCgiNCIn7zCfPvOqTM8na~Ipy-8sRck~QHECBSBDpcd9qZnI9jFA9RHHrNMoU21Xp7-oN-fNQufc-lSbFOaKVIV5AxjzHi9Y11XoUMg~TmutS5sXjiXAhfuj5Qou7yDgvMiPg3oM~kzXvXArF5dUPdyMd7yeiqsZywzOtUOK6qEMP1trWLQC2YjVjOzKIK~UrWs5Wfc6~CGpr539ZtAClNK~M1WOSlWS9M~nex0I9G19gKq-bZVW67OZNBmO5O60DltbtaBoA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Samsung_Festive Creatives-1.jpg",
+    "recorded_at": "2025-08-19T17:47:30.431466",
+    "attachment_id": "85001651657",
+    "attachment_name": "26570_Samsung_Festive Creatives-1.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651658/original/26570_Samsung_Festive%20Creatives.jpg?Expires=1755606132&Signature=olE7IQfIClEOM2vQjYqhcQCWH0~Z9pHcxiW6ieQ3~MTO-eMToEkZYacoFv9PHIKKc9ngAL5UXlGv24SsYDLVPjvWn~v83ecYjcOMs6-qCo-kj1mxAiPqh6QS7RAvyF1RGMuLiE4jc3nxIlZcWVp4jerYSvaPG3garmYU31N~PKYf7vogvk-czT5aRmIQP8j1Ly8Bz2XfelYCx03yChKiPkcDQcPRt4kH~K4Qe8659XHI7xfDQH5mJqkKbFy2H4h4Ugj3khm9lgOrwPRsnmsbUMvLnNX5jKFIX8AEbpimswZ6m-SnnO8srDYTS5CUqWh3OCCgbyB9l4koZiqU4HCuug__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Samsung_Festive Creatives.jpg",
+    "recorded_at": "2025-08-19T17:47:30.433335",
+    "attachment_id": "85001651658",
+    "attachment_name": "26570_Samsung_Festive Creatives.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651659/original/26570_Samsung_Festive%20Creatives_02.jpg?Expires=1755606132&Signature=lnkbXB7bewcXC7-sQqCdYJ8YACkOWGPMeqJGtSVqGeQUhu6OSynkJpXo70u2RSz9uIafAe4UqPVzP18JMFwsqLPrpnxkG~KQ9kkjplSvy~rjocPXKjKAeJRdmH-BGJwMHRYp9PXZi-kr13qZ3iFmpXB-bG9oEfPE1YUa8Jmp2~tekCNBisjgrOf6uVQFyoSkwG3D4CxAJ62V6OZ8D~mzkgE1BAPq~hhyIByPh4IP0eiP0TRUgx2J-oGo3sf5xP2YClPaA9FMWtcJBiEj0zGl4IV00HPEFNCs8NrDcOoUrdT4XXvZFsmKlCYSJ~6oo2fxmD-AsHk0wKN8pr6--NPFZA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Samsung_Festive Creatives_02.jpg",
+    "recorded_at": "2025-08-19T17:47:30.435240",
+    "attachment_id": "85001651659",
+    "attachment_name": "26570_Samsung_Festive Creatives_02.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651660/original/26570_Samsung_Festive%20Creatives_02-1.jpg?Expires=1755606132&Signature=GlOweMk-cLTIM0eyOJVjdDjEEAaJrxym3L2EeBNPCWk4CIODEJ5AvmhXoVyM43G9GckA~vLYJgXvlpoJEY-qmoE0S9nPMH8pkHxuM4k7-m7YD1OYAkqM0OQl8V9K77-h2bTEV-DkZXBW6eJdNluV-Pg7xd4ymt44kPYF6TDXKk0~JXFlxPTZvU8YhYbqr~2jvhrpnqXZctbW~4zrRXmwDh-icLmmFJkYnATpUFrTm4AzJh485naj1DmU8x4O5WbyiZPF~Gi0JpE5ij1sFSmo5lYdGaE2MzSUCJCUvBrAdQYiwhBtj6K2w9kuGivEGKbF1XPv3bpAfjrni6CM1Bfngg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Samsung_Festive Creatives_02-1.jpg",
+    "recorded_at": "2025-08-19T17:47:30.437554",
+    "attachment_id": "85001651660",
+    "attachment_name": "26570_Samsung_Festive Creatives_02-1.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651661/original/26570_Voltas_Festive%20Creatives.jpg?Expires=1755606132&Signature=B0mEKu~q08vzpCwFBLea94XYAz52OF9K6evKoZToyqjIcWmX4nEI13KROpK187L9aP1~4Tue0SKX0lmTEdruxjABW2ECFzayn1C~srzuFeJOZb6oFhAKOoa-wCw66x9HhIhamP9cJd1xHCQY~JhLWVgvDgg8zAsBaxHnHUPIV9A0mVFLrGZvvAo7bb11T~JQvM9E0reErfHTihw7G~TWGWZ-bEf-VqbFtJYy~T6ETozNVxYZX91MOntn4Qt7jUHAHVvMj-ItjKcAxugyzex4aXPx061I6QtS7qrw1Hd0rivg6FWjZvnlUhtd3dEX4ZZvkrEygf8JD-QjdOmUIqxiYQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Voltas_Festive Creatives.jpg",
+    "recorded_at": "2025-08-19T17:47:30.439885",
+    "attachment_id": "85001651661",
+    "attachment_name": "26570_Voltas_Festive Creatives.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26570,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001651662/original/26570_Bose_Festive%20Creatives.jpg?Expires=1755606132&Signature=kxlbBRNf~mPRXwPI1TJ6TazzLHvXB9pJQIJMAGV0z3JHNLgzSLBIM90ERVp5MxNpalmptN6nomhlU9CSW1gl0KLBe7vbrWbBaYBGmBe-5osrv1ouGHwlTHI7HrbjT6NNgZk8IW7Tg5yYdov2VU6ic0j9iE08ng4~fs2esqNPsOhWjxyrNs0fq~14GjuuF7ej~Lm2VBm4CZB6JkiS~78iGs3jjxpsz8A4jyA~ZxUtSlPa-2ltJ7DwAAYFrnKJi8Bd1nkQZX95e222S9dIKTdAt20E0SKwyOWfMCCUVYheJDR5uKk9TMNHpFZIbceO~RXWAq20SKc0xCK4BUq0SU1IHg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26570/conv_26570_Bose_Festive Creatives.jpg",
+    "recorded_at": "2025-08-19T17:47:30.442036",
+    "attachment_id": "85001651662",
+    "attachment_name": "26570_Bose_Festive Creatives.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26554,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648956/original/Merchant%20Meetup_Props_Aug_Released_3.pdf?Expires=1755606131&Signature=KU~Bp-6VmR0ySybEpp~UXUlhPm0wFkhjlfWYraLhSTPaDgV-QmJreq0ZAyFFmLMHZX2ceNOAbKx3CWh78oM2YQKrUZo49HoKOX3Jo7rWBjE2oIH8AdhaIs59-41w4jAmnDY~80DW4ZVdeUxfAeIc-yJiJidTJSyCZigpNs~dg0bOWas0nfrxJu0wSEBEybd~EtpAJcWJl6mvXwN6ZDPy2sQcWAGVpXt~WYkGGyfYPpCAxvqfhHmcEQqWzBTYF-VM33yjDLd-HUwQS5WGM4EPODnnjAaj6TRgS0YYFShDi39eI8Qt9ro1GNyK6EkdEHm7Zi9dVy4XpxvMKUtRusqwng__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26554/conv_Merchant Meetup_Props_Aug_Released_3.pdf",
+    "recorded_at": "2025-08-19T17:47:30.444705",
+    "attachment_id": "85001648956",
+    "attachment_name": "Merchant Meetup_Props_Aug_Released_3.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26199,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001637262/original/PDF.zip?Expires=1755606132&Signature=Ip24vx9INQKtthTMAt2iujctcyRoLgIhgQSvNXXLGcjxNlY~1pTG9u1LOHtM~to~gX77jYBYjT21zIB9LS5x64IYo3wZ0idGsyruGP3XpZDdtNM7rx4WOh0kooG~MfBzJXB4qPb3WQucg7owVU62ki6naAMqjjwPr00-eFE~eB1r3WI7XHKxmBKIBNLRRGAdYX4lf460I2HnSEudUeGOdtgLxRc89V8UkJYpQt1uKFhXgn7ywALwXOVeLUWcm4edGGn3IsziiA750fwsSC88IJGz6IjCwJ15jVP14IMyetIpJW6M8McDqE6hyarSLQ36IZd1ElGNW1I~OMpcxq~DAw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26199/conv_PDF.zip",
+    "recorded_at": "2025-08-19T17:47:30.472148",
+    "attachment_id": "85001637262",
+    "attachment_name": "PDF.zip",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001654155/original/26499_Thin_Banner_ICA%20Optout_Marathi.jpg?Expires=1755606132&Signature=Rqiomk7AdMlcXeQrxZODCIKuiRtEh42bchJwSYUep-9kIRrwVMVfxPfyFRkh~XiQI2xbRgfB41~5DY2bfPh9jquye~CxK88HDvj9VXmjvYTpSgOcdT8m3aC8CuqeXqrc0KFdQs~ycpFWJjPZ6IxMgabGSlHq9o1JEDtB3Zn3QCQ0UlODvnntN4MOBx-~rNMcTpqxivazN1hu~COPlcFmtTgQZBP3Q3fBCpzSFrSqr8AF7Kn-Vf9FLlINIevqlUESZrKbjsyRHATR9iNAANbB-wBsYkt-Ezvuvf~TGZW0eS8Nq6CD2PHDJkWMMX4x4bGSHg7jsV886MNB1sZQDsAC-A__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26499_Thin_Banner_ICA Optout_Marathi.jpg",
+    "recorded_at": "2025-08-19T17:47:30.482286",
+    "attachment_id": "85001654155",
+    "attachment_name": "26499_Thin_Banner_ICA Optout_Marathi.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001654156/original/26499_Thin_Banner_ICA%20Optout_Telugu.jpg?Expires=1755606132&Signature=jZZuB0qsmVYBI4khfZjMzNUcwZTSeP80DDBY-iUlbT9NiAG4pTl~VwS-BICnj8eENKKf1pgMHw7bpUFLliPyz9eRv0kAdg6Werrfy34Fb8h1LGX00j~9GdqSfrF6la9Mq~pVDyyQG-FyLMN-vQ93I9wID-pkMriBDsoU-lHDZUJFrRXrU1HTiwM1qP4D6FH7~dQHpbOnPRN9O259FksX1JDu4za-~svkSBENQPqv1-EvdVRPaP~XBGKPsB8rWIpiA9f49iEKtcL1urrhM7O1dBMUSrF6qjNMwF3Eu9lyr-SiSeK7f4~fKhFpLBgs3Ls~qeG9Dop9MLu8YozrhsyGqw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26499_Thin_Banner_ICA Optout_Telugu.jpg",
+    "recorded_at": "2025-08-19T17:47:30.602159",
+    "attachment_id": "85001654156",
+    "attachment_name": "26499_Thin_Banner_ICA Optout_Telugu.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26554,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649348/original/26484_Merchant%20meet%20up%20invite_WhatsApp%20Invite_Final.png?Expires=1755606131&Signature=lfkjyj7CSzh64hkqCY-J9d2I6rqCTgyREZMpRU46ulX89kf2qA0ukU~75aJssBylBwMBEoMUbcgbFUKw8me8fwaEnMEhUq2qeCY17F4JHkXO27AX9~7tQRSjGI6jTi6yS1XEAMeZrfUcN3efIjeNXgWD1Iwx3T4RqCRFVMAloC9x2nIZ45sCrs-meP7lPcDXT-ioidV4Zo1TX7D8UZkh4jg2RbtH7W8CycidVgPWUCG6v6bb9yPh6V9u~s7Xnvqtj~2sTZsACapcIOvdZLJC3yQuoF~76VXYNaQkLjBClS89nayVy80pQizTIAg~9cm3LneljU4EmSZS1AXXfExm7w__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26554/conv_26484_Merchant meet up invite_WhatsApp Invite_Final.png",
+    "recorded_at": "2025-08-19T17:47:30.662247",
+    "attachment_id": "85001649348",
+    "attachment_name": "26484_Merchant meet up invite_WhatsApp Invite_Final.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26554,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649393/original/26484_Merchant%20meet%20up%20invite_WhatsApp%20Invite_Final.png?Expires=1755606131&Signature=oIRcAinBmOFKWSryjojgcX7ddAIrIj1uwT4A5x9JFu69CU9hPDSCLSG~ar-w6YGwGkPzkJSJILBI0oQLijoDNdTcuufxa8xoMwDWwaoF55y3Xa2ZVY8IXI9T-Urxvm8seXVm-Rg~NFLj-jg53B3RE1IyvsdDl0i8KXpPjg3B52~2BNUAdtfc35y4h7AJLS2WcmaeYfEypEPVHsCh9YSY43BP0gfwJ7xDy~XprMt8Vl0PlBtNIl0wD7JxTt57ycde3OS6BogSgc7hMBIhJVMzvoU8EM~J0~WzhOlQmDlQQq1hLYWNPf7a5gGla7k4z3usOJsxoEsOxeyF34PM1SXSWw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26554/conv_26484_Merchant meet up invite_WhatsApp Invite_Final.png",
+    "recorded_at": "2025-08-19T17:47:30.665485",
+    "attachment_id": "85001649393",
+    "attachment_name": "26484_Merchant meet up invite_WhatsApp Invite_Final.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001654157/original/26499_Thin_Banner_ICA%20Optout_English.jpg?Expires=1755606132&Signature=Mo8eaPd8SYPakKasO-oBEkLnARuXrtSDum1MLgOVzKa5eqH4A5iTTVR8wmp0zykOh3XWA38yUI2FUueFSRuQcz2OIMI1mHPj0l7coVGBYpvo0iUp9Eiur2QyNS-zdhoOjHvNxj17v5PzI6cmhN7J0MzMTt~W1uA5Tx-gcKie6om94ZRTY9nELmCjcDKBzrVbFvxVHMj0YcAe09QANE3EU8ErbJGi-CbO3HeBfY3cEO-8pF9rpLQUFSt0qhcg93YIPizxmwYTnDLxCfUk8fekZl9l~X~0DA77bac199iQ3dEHOka6kpzLuPGBlAXj3feMW38DF2h331cwIW5AxHdBDQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26499_Thin_Banner_ICA Optout_English.jpg",
+    "recorded_at": "2025-08-19T17:47:30.681695",
+    "attachment_id": "85001654157",
+    "attachment_name": "26499_Thin_Banner_ICA Optout_English.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26533,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647194/original/Figma%20meet_aug%20.pdf?Expires=1755606132&Signature=DSk9t0bUGAJ~~4Gxsn3KuXD90aWcT9aVcHqBAq6bMikqdYncwKKGhS9rOTP1-VOyG1yRDBoDqfo3ulcP-DqkfzzU5UUESwhG50u0rIsghBiqJRa1nAavb5NLpdgeyjjrada1gwAUNF-PjpL8VeVDMbkor8XXYhjdXi78cJ7J2X5Y0nGoW3FE5ESpgFKbKgxV4E4Nj5YrcoVqbQBmy78iPI2UcdhShKTtbW8GD3G4DnEgHaEm-yL-Ah~J7ZKXUZ5LM6Eq-5QfU3tOuUWh9MhdYju9N-K2Q~mBCUy5juQ3yMR33xOIbOeH5JwyTRXYr34H1u-V-bs4f--amNjnIXbH-Q__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26533/conv_Figma meet_aug .pdf",
+    "recorded_at": "2025-08-19T17:47:30.732548",
+    "attachment_id": "85001647194",
+    "attachment_name": "Figma meet_aug .pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26533,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001647198/original/Figma%20meet_aug%20.pdf?Expires=1755606132&Signature=gfidAryjuBb-c4WeMNB-MFbT6Zt~jJxoMOscAhLYGMKzN5hyk-OV-cPORwW2paqawrCT07iRgpe6R4OAoe7zSMLc-juft-D8FZqTMO79wLgARXL9R62Euv~BxdQvdusYU16sLu-WPjB-VLjopFJ~OJfEy3CbTofrNH5B7M0QJg1h7PT56YJsLqTfEiBnP5jbrJ4q9Fbw1bs0tSP~Q2SYnpfrqBmTcq-vRILab7JnUDvQqPHCTS7NCVGdll4GG94PiILohTmQ1JD6qtcK~Qg75kHwjT8mSO1yiRspzXfc8F4sxaBRwMgBJnoRvj77bvRbrDu6pPqwf~fGkGJ4DD~Y5g__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26533/conv_Figma meet_aug .pdf",
+    "recorded_at": "2025-08-19T17:47:30.735424",
+    "attachment_id": "85001647198",
+    "attachment_name": "Figma meet_aug .pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001654158/original/26499_Thin_Banner_ICA%20Optout_Tamil.jpg?Expires=1755606132&Signature=pB91XhWHFPW4EFDADxr6AiNbl00kAMHups3Y6mfDVjJhy~HInF4iDv7Y9YR9Y8K-LBdUo56JKbv4fpspI9MUDD3gOpOPR4IBKps3qB0uub0O03eYgDsq~ya2O-7CYehEYaJnu7rx-qJ9zxU1XfsDl0PonV8VAGjEtYJe2F6xMQrpHAVe1XZHUYbhWsGP1BEaguuXNXagwjVU6ntWmWuW7oDL0cM5epZD0WPB7gQqRa0WVNTNFh-pj3UJL2da8ENo1zpAeOBo4XzCeshuAuoKMmrnkQJNmb-IDUAmBPjJd9pzKJUY5Q-N8tbRnPPSBM8ztUCHFYVRjUqe18lrwdTCRQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26499_Thin_Banner_ICA Optout_Tamil.jpg",
+    "recorded_at": "2025-08-19T17:47:30.749512",
+    "attachment_id": "85001654158",
+    "attachment_name": "26499_Thin_Banner_ICA Optout_Tamil.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26572,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001654159/original/26499_Thin_Banner_ICA%20Optout_Hindi.jpg?Expires=1755606132&Signature=VJtiouBLoKhhAxx4qgBYQcOKFcUldLDt~Bbhvv~wPNPes5DzqShh7oh3NkeJ4jM9s6LwbzTHV6Mofa~BLdw593~f6VIrOr9XfDVLW~GjJE2S1kU8w7TcolyFoO~hxw2cfpJYExPN~hUaMiStMsMKCrEnzYhbOUhVjT1KesmpMCtmNaw8Uf-m6fzdxVzRPfUM6COvbp41d2pX~qxNLKL1m2ykf6t8OL9Fewd2DLGacuQoOBAWmQ5B07iKl8kLb~yrue5NZeaibch~mkcjQdIDxZNlk4Q4EA8v6rDRqPSO~xWxOeMR1WeDx6PL6t3v4f9Ro3nHS3F2rKu3T2sbXmRsLA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26572/conv_26499_Thin_Banner_ICA Optout_Hindi.jpg",
+    "recorded_at": "2025-08-19T17:47:30.847751",
+    "attachment_id": "85001654159",
+    "attachment_name": "26499_Thin_Banner_ICA Optout_Hindi.jpg",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26199,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001637263/original/Jpg.zip?Expires=1755606132&Signature=T0g1ix2239Jt3uE8Z8xRb9sK75AgSUTrj~Kl4vL1rrWgh-3UUen8ZRNtnNY6n9xXaU2XYu9Nd3ieXUv8VVaBXUwW8pKNrOezfE5V2EkWUbK37A9k5WxH6ynLEAkkfkHXtadAdorvAq76dCdwENi6dWYYGgry3aIYiiwlpM58k1RF4txHCaYiNAzp1veMOxEybR7b-MPnF-VrC99LL6M1bONwFbOeYbjpi1GcDOseKtHXM1E4~hCTBwhjWnIo~PTFeIuenPrcGlzppLnGdpn-5MAgNmmDTbWTca08ChSfmEOn8jDveWhx78TTRlY0hW4RR6ebMNtM57Ef9c-zuDQPgw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26199/conv_Jpg.zip",
+    "recorded_at": "2025-08-19T17:47:31.165030",
+    "attachment_id": "85001637263",
+    "attachment_name": "Jpg.zip",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26334,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001637905/original/IR%20Social%20%2B%20Blogs.pdf?Expires=1755606132&Signature=TMSyfwDJX3pCh535xazWBN6uVS0qSV8SN5gBcw~kCmRHUoTr0sGKSqKN0d0wr7Th6uUJmWi03~7rOqD7ia2nKj1JltPisViqfKF0~ABknGtOIT4xDSfINGJE60n6n~BfEA5eLwYYjlsBklHVfbH0db9vr7MWu2AToGrY0ISF3vqlmfZQ1902YjpU8xkFoTPsuTv4R8N5bf-eqNAUspChlRw0-jp~UqKBkbZXZhuffT~L-9hO5Y2970qPUUhCIljY3fqeiGRY0ESgQC-amL0C7CO7TgDMgfXV0fV94yN0zwEU-YAfhtPX~~wuMtiFW~dRCWKZ2DGUy7g6TI5Me2wpHA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26334/conv_IR Social + Blogs.pdf",
+    "recorded_at": "2025-08-19T17:47:31.284472",
+    "attachment_id": "85001637905",
+    "attachment_name": "IR Social + Blogs.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26554,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649522/original/Merchant%20Meetup_Certificate_Released.pdf?Expires=1755606131&Signature=StqAGz1z0yYTyu5y33fYnKY7XXQ0RljocMFzE1wz47teom8gd~nM2b-puCtsGQDl9raEC9E1JplmkmBNvw3W65eYnU6Lw~UK5J8Iws9PRuszZMXkicV~-wVZcMJefYesCbSdjwDANu0Ead06ASL0RGr2dB9cONCLGTS-3KlmkdUqQYt-hi9qJpIaF~kemAsWKdgLtFQ2OuUO-csy0luX~kWSPlv8ge1T5g9td-ydul6J76qfWCY6IWK4GfBE-SuWeZ6vqNHLZaKmmrHNkaRqKi1pFpz-Oye4QNoVEy-179V22KA3fRVS7wh8kBdbleA9wcWt8qpZFedeVBOovUuTaw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26554/conv_Merchant Meetup_Certificate_Released.pdf",
+    "recorded_at": "2025-08-19T17:47:31.297616",
+    "attachment_id": "85001649522",
+    "attachment_name": "Merchant Meetup_Certificate_Released.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26334,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001638156/original/Tech%20stack%20image_1000x625.png?Expires=1755606132&Signature=oKKZl8E463ufPocgnfgonc0lq5ZPz5i9VbkFJ8f9SoCNnmZakJxOAQkBQajbYHpZGtIHtESsCWx0KGCnWxI0pRBLxbchzKDtukSwdz7o1RZ-mS-Z7thv8sjj6ypfgeTjRj5xfCYm2LqqJhKrnj1g38lJ8dpjcfrX8g4Ov4KAyiYJJUZipUzCQhBd~Q7Upm5nSVw7bpV~r8wpCn85t1vOpz5EDo0oAJS7kPwSyuyJRT8s6mqAaihFlHygah8DB1Klr~hBsrXjZ0VEMUhRtIVNktEeojGZPHhXLQG4Tr9yreAT9kXnsAmlOoqrI4xsQy-zx6U9BVPs87QfPCl15QSbLA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26334/conv_Tech stack image_1000x625.png",
+    "recorded_at": "2025-08-19T17:47:31.356475",
+    "attachment_id": "85001638156",
+    "attachment_name": "Tech stack image_1000x625.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26334,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001638157/original/Sankey%20Diagram_1000x625.png?Expires=1755606132&Signature=GfLRFOM7mmg81o4UTUecEc-eGm40KXui9N4iO8KLoMziV57k1POG0m0IXu8tBnRYEB0AhBf~jrb~s1uP07ZrL7RO--J5C5jWiOMPPRagKaTLc5g5pfIMQ2TDrJebFzLzmohugTBUouabkLQAjrNcfDX6uDK4g8E9QsOHtxvCBtTTXBs~xabdGsG3YydkFP7CuFj7gOeoa-fZJLRvVEUK4xaNHQp8395TxNN~PH1sqXgacuOhaHmMPONnsS4YAjDfteDRg26f-Eyg9d3JwSe5wnoT4SREBioM2GyDii34oKvVsuP45hXqdWNhj~Eu1Z2zBQXD02dETLqjn0qwZ70eBw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26334/conv_Sankey Diagram_1000x625.png",
+    "recorded_at": "2025-08-19T17:47:31.441855",
+    "attachment_id": "85001638157",
+    "attachment_name": "Sankey Diagram_1000x625.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26334,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001638158/original/Revenue-%20Twitter.png?Expires=1755606132&Signature=GI1cxr8H3v~MFaopFXqog1KmmusetM7P8T6Cfp44VWCJHOITXlsoXXuH8OU2n7uVJwgTqzAjoUhCFbtemqVtnvLnFOfmVN3rRIRIdn7xMwQLWSkEy7E8b9F0VHOKm2-19sU~N4gplKoaZOH5vOe-eNZuByEX3erGCTGBv8wqtBptUiNbEPtq-LV0C-CqXV9rY2COR2QA7WzItIUCFCHkNJV-wnufYm3wejbHOrt0e3hevl0nfqXbLGZ9UbXR4Xujq71z2uATvsFPzqEOyNqnBFCEbLbdEsSgNx8p~5f~lfgV7TuDV8pdts9Sk7YGB5ScFEjrm1qjSdporcYeMdvwxQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26334/conv_Revenue- Twitter.png",
+    "recorded_at": "2025-08-19T17:47:31.513454",
+    "attachment_id": "85001638158",
+    "attachment_name": "Revenue- Twitter.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26334,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001638159/original/PAT-%20Twitter.png?Expires=1755606132&Signature=iOSC4wK-xiPe7OJcibc0mliPjntSgInMpvecPaR6uszGXIxpd-dAaVPn~ujIFg1feEXKMzaxbpztzdreH9srbSLK39sv8twhgXbxACI3oOfmxvS-gBXJX1sYXXK6RezzRQoE2Rnb1ChSeDRlZ6WJtdRzR6hlczfllSQRsv7DdwaKgMMgCnx2Xev3hcfqML6z2rTa6JhNMzqaGdyNiQSsDESC-AXZ7O86Ti~RKG8~oveJhLW2NGmdZFkYIdGjAbtrKIbcYu9f6BIuTgZvywUf5XfD1fHYi8omYJzprbccCYRje3lu7kw3EpHX5IQq4W56nje6XZzQ8Eu4Nq-5W0W4eQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26334/conv_PAT- Twitter.png",
+    "recorded_at": "2025-08-19T17:47:31.567431",
+    "attachment_id": "85001638159",
+    "attachment_name": "PAT- Twitter.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26334,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001638160/original/Pontribution%20Profit-twitter.png?Expires=1755606132&Signature=Ymhdk~LQBA0bSHyd2sxygckMsTk7yOrWlje3YBjB55bRYB8hLiSs31ZWlwdDa8eucFG88zVNrmPrc9gtSNk0GGnYpZ~CXoTJbCl3gCN~vhwWBH-ftK51MdMj1l5m7zUvl8CHGO9RPi~njWB7CeXSa9i6Qj2sHQ5Y9woOF4lvnC1m2zhlZIEbPhEOhBDCNCe853pdKxybYxlOrDWbr76oPtz~Gg-Fi~w1U7lMqL23S5d2SS03VfjtP~5Y6mnZUAWD30CbipopKEjZEzIErjvoqgi9tqTK7H-vvQF3JXyF5WU4ja4cruPph1LOKWPmoCjRGJc6NAsYLJAEMWS7bCQADw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26334/conv_Pontribution Profit-twitter.png",
+    "recorded_at": "2025-08-19T17:47:31.618345",
+    "attachment_id": "85001638160",
+    "attachment_name": "Pontribution Profit-twitter.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26533,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648020/original/Figma%20meet%20standee_6x3ft_Final.pdf?Expires=1755606132&Signature=hOxULIuZvOu-BO6BJUs4G~jEvN58LID69Ma1daxy0Kg~VGzLOhNj2ctVIC-9GAm3yQE9xSR6zzPRCFusH461yir-M4ZRRC0htG6pa3rJhzguDHB3kM7dtFu6HkDm0Df7I9Muf8UD85IteKS5uPar4SNopuMJbfSZjrOeSW-PdJAttl1hlERluQPJP4IvlxZItDjx9cpe2pFQy30QQVD49958eFUEHAVnqZ6zEZaXM2bf8cmTLPTRvzSVKBYR91tP-7RnJHTAIMd201S5zUudtQEfOItwVOZuyPeplCsxKdNs5jESy~O20K6VbkYunSho2StK-ZuQzuNkN-Uf4Ewd0A__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26533/conv_Figma meet standee_6x3ft_Final.pdf",
+    "recorded_at": "2025-08-19T17:47:31.725911",
+    "attachment_id": "85001648020",
+    "attachment_name": "Figma meet standee_6x3ft_Final.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26533,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648021/original/Stadee.png?Expires=1755606132&Signature=mjx0sDs2mPXIeyH1KFwmNG63Oe4~OfykxFXWvsBDq~Dn0YKjqZPBS20Zz-Hj28VD57x5JPv40RaDQbIwIYuwf3DCTlyY0NsClwUMeQQeuy1gu8-CcWuX32cHYCPUmc3bzLkOr7xEycZ9Mdo0p2z8-93ymGSbQaJ0aOzCuz0oWJhUhhzCnIOdEkxV81pN4Y1C20i~nR58Uz557uKvFW~Itm8EXOxN~bF910TBhW2DFpd1LQfjYnWw9TiN5qdnSMIn6GKm-GqKhs8idHM~S71ejmh8Mod~9iSnZH8-vRoq5XiM9yxMeExa-2wza9y85l0CTI2z2MQSlvSdQ~VmnbUIPA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26533/conv_Stadee.png",
+    "recorded_at": "2025-08-19T17:47:31.800615",
+    "attachment_id": "85001648021",
+    "attachment_name": "Stadee.png",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26334,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001638161/original/Q1%20FY%2026-For%20Linkedin.pdf?Expires=1755606132&Signature=GkNKdzqjQ0CGQLmXU-3F1UGZRPX2FiJrvhfoqpu5aMxtqEtctSbzc5MeuaO08d8RlChSFcPpgoiIgvN1HvUJqYH7IEngWrdNEs726Pv96BPcdxgpesBf7~cPMZ0iBEMjURxmAg65UjEzlR5z6pZXIhYDav3twK7gm8DeYlgNrfHMoIjZP65lxTJ0IehxCccNn9xanPuEqWfF-9-Akrh-i62~Hf4Zw53op3GQzpK6I4rbrpuyyhCzjkh2xn848IoJzM3CbOcCNfKEpVPoirvWujtBhGq7AAzdst0gnbW5kXk6NODpOScP28ackH0ZeLeqMwUpONQ3beLVCr5uUhbg7Q__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26334/conv_Q1 FY 26-For Linkedin.pdf",
+    "recorded_at": "2025-08-19T17:47:32.001084",
+    "attachment_id": "85001638161",
+    "attachment_name": "Q1 FY 26-For Linkedin.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26554,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649533/original/Standee_Merchant%20Meetup_3x6feet_August_Released_Welcome%20Standee-02.pdf?Expires=1755606131&Signature=CcbKoJwRBxt~Y4bZ1zktG5trOoT6-6-PupYf29aaFKXZEtDzoVhynwVKArCQMiRw9xwtHJhqI5~7gFqwgZJ8AN1gZv1FDixg0MxmavsOGslGAzK8fHh~Y3zo7lIzVdm-u-gurm0P0URPZ1IRzIokbfP9IM6MnVTtMVqWJG8G6sGjcm0FaI0~ivfV21QQJWRXGSiDCYCwvK06ADpXf-7XTt8fXjrv~XzswOleH4H0cSutNQmw9uXVkUo20GgEkM4GT6k8NwDKSKDoDA7661F8WLSD3uQaX2Ek076uaVwOIxx0taQVFs5cbvrhYUCLEE2ogqdXXK7eXdRu-4ckVj70RA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26554/conv_Standee_Merchant Meetup_3x6feet_August_Released_Welcome Standee-02.pdf",
+    "recorded_at": "2025-08-19T17:47:32.672511",
+    "attachment_id": "85001649533",
+    "attachment_name": "Standee_Merchant Meetup_3x6feet_August_Released_Welcome Standee-02.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26554,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649534/original/Standee_Merchant%20Meetup_3x6feet_August_Released_Welcome%20Standee-01.pdf?Expires=1755606131&Signature=G72fj5Z9rTAfDyk1aVSNUPd2V9ELxrJBrPpzbN-egYFV4cSQ6eoeWcad6Ce2TTZuXE0c7H1zHqij0p0GnF45CAoeHD7~TXNZXL5MfOlMqVXMvmOxE5pKCDHJFxPN5k77SmD8hgDupDJO3UI7ee~47Abb7wAEd4dyM8im3BVXx2ZswIiamHyy0aJXEfPapCvYMCmeEXqDdtkRzHvkWdjWSpSbbe27UWIBKd4Px4MDC27RYt~C~3gDi48Tkrh~GU8k6viHrwKc8tz7iNlp4lwaJ6xBdVw5ep0npx6PKNR5qDf4jcRVNAV1CBF6qlGdHQdie4BHbtSvh4L5zkS1nwAlTA__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26554/conv_Standee_Merchant Meetup_3x6feet_August_Released_Welcome Standee-01.pdf",
+    "recorded_at": "2025-08-19T17:47:34.066734",
+    "attachment_id": "85001649534",
+    "attachment_name": "Standee_Merchant Meetup_3x6feet_August_Released_Welcome Standee-01.pdf",
+    "attachment_type": "conversation_attachment"
+  },
+  {
+    "ticket_id": 26554,
+    "freshdesk_url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001649535/original/Standee_Merchant%20Meetup_3x6feet_August_Released_Welcome%20Standee.pdf?Expires=1755606131&Signature=pahbkxfyjPyD43GxTtPIDmgaJDem3qBCxpYreclz7uFGrYzJ77W-ZjyaTC3z56JxT6byJroCLTNtfh25VcxnpNQ-7NAH1~lxno2mZ~4co1Zcf3eYx5SwnZHtunopLEu4KagRrTkZoFFNZh1vfjglcmzQWmnJ3EUBzijVE2d4gOZqgETFweajW8EvZuNPVmAYz2PlJgc0CDifZVYZ7gh5XWBK5TmcLS8KKWC8kKMu9JhQb~pe3XAf7YMMK57zczGrYFm~rjE9DWm4HMX00VXdNJgV1tCummiqB~OUZ-J4ZYxI~Om6WlYrAUFfHAgKQt8lAe4nUdQ7DFb51QZJJeLnQQ__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "local_path": "attachments/26554/conv_Standee_Merchant Meetup_3x6feet_August_Released_Welcome Standee.pdf",
+    "recorded_at": "2025-08-19T17:47:35.213856",
+    "attachment_id": "85001649535",
+    "attachment_name": "Standee_Merchant Meetup_3x6feet_August_Released_Welcome Standee.pdf",
+    "attachment_type": "conversation_attachment"
+  }
+]

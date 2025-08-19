@@ -23,6 +23,8 @@ from typing import Any, Dict, List
 
 from download_attachments import download_file, sanitize_filename
 from extract_ticket_details import get_complete_ticket_data
+from attachment_url_tracker import track_attachment_download
+from storage_config import get_attachment_storage_url, get_storage_type
 from migration_store import (
     claim_next_null_conversation_attachments,
     set_conversation_attachments_status,
@@ -120,10 +122,38 @@ def process_one_conversation_attachment(ticket_id: int) -> None:
             dest = ticket_dir / safe_name
             if dest.exists():
                 mapping_local[str(att_id)] = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+                # Track existing file (already downloaded)
+                try:
+                    storage_url = get_attachment_storage_url(str(dest), ticket_id, name)
+                    track_attachment_download(
+                        ticket_id=ticket_id,
+                        freshdesk_url=url,
+                        saved_location=storage_url,
+                        attachment_id=str(att_id),
+                        attachment_name=name,
+                        attachment_type="conversation_attachment",
+                        storage_type=get_storage_type()
+                    )
+                except Exception as e:
+                    logging.warning(f"[conv_attachments] Failed to track existing file for {att_id}: {e}")
                 continue
             ok = download_file(url, str(dest))
             if ok:
                 mapping_local[str(att_id)] = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+                # Track the attachment download
+                try:
+                    storage_url = get_attachment_storage_url(str(dest), ticket_id, name)
+                    track_attachment_download(
+                        ticket_id=ticket_id,
+                        freshdesk_url=url,
+                        saved_location=storage_url,
+                        attachment_id=str(att_id),
+                        attachment_name=name,
+                        attachment_type="conversation_attachment",
+                        storage_type=get_storage_type()
+                    )
+                except Exception as e:
+                    logging.warning(f"[conv_attachments] Failed to track download for {att_id}: {e}")
         return mapping_local
 
     mapping: Dict[str, str] = attempt_downloads(raw_list)
