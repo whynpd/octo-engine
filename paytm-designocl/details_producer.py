@@ -176,6 +176,13 @@ def main() -> int:
                 logging.info(f"[migration] ticket {tid} -> attachments=null")
         logging.info(f"Batch {batch_idx} done. Added {len(results)} entries to migration store")
 
+    # Generate migration summary
+    try:
+        from migration_summary_generator import generate_migration_summary
+        generate_migration_summary(ticket_ids)
+    except Exception as e:
+        logging.warning(f"Failed to generate migration summary: {e}")
+    
     logging.info('Details Producer done.')
     return 0
 

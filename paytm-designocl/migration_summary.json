@@ -1,27 +1,27 @@
 {
-  "migration_completed": "2025-08-11T15:51:14.071827",
-  "duration_seconds": 91.475611,
-  "tickets_processed": 80,
+  "migration_completed": "2025-08-19T17:32:02.808528",
+  "duration_seconds": 0.012878,
+  "tickets_processed": 49,
   "files_created": {
-    "ticket_details": 80,
-    "ticket_attachments": 0,
-    "conversations": 60,
+    "ticket_details": 49,
+    "ticket_attachments": 10,
+    "conversations": 43,
     "conversation_attachments": 20
   },
-  "total_files_created": 160,
+  "total_files_created": 122,
   "csv_reconciliation_records": {
     "ticket_attachments": 0,
-    "conversation_attachments": 173,
-    "conversations": 170,
-    "ticket_details": 80
+    "conversation_attachments": 0,
+    "conversations": 0,
+    "ticket_details": 49
   },
   "data_summary": {
-    "tickets": 80,
-    "conversations": 170,
-    "ticket_attachments": 0,
-    "conversation_attachments": 173,
-    "unique_requesters": 38,
-    "unique_conversation_users": 42
+    "tickets": 49,
+    "conversations": 147,
+    "ticket_attachments": 36,
+    "conversation_attachments": 151,
+    "unique_requesters": 25,
+    "unique_conversation_users": 41
   },
   "errors": []
 }

@@ -1,0 +1,28 @@
+[
+  {
+    "id": 85001648097,
+    "name": "26556_Adapt Request _ Screensaver _ IC _ DCC _ 5 Aug'25.png",
+    "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648097/original/26556_Adapt%20Request%20_%20Screensaver%20_%20IC%20_%20DCC%20_%205%20Aug%2725.png?Expires=1755605221&Signature=ijtyoE13HttmhsvOrmOfnpuCB8JRhx-VtGhe8nJflAcvNJ7Wt-2BZh2E9Drw5x~hg3CzDEFAOXDD0SW2LiJxNTv1JoPFmqQ3J1rhwrNhY1kfj8ARRfPQk-MvdD4~N5oynkl-Uxvs6dtmHuOvBoHt6fPtKgJa9baFg-TvbUFZI1-XjwofOlUBu7PbRqwmJVb7xqZ8QF8NdPYUyJJMOlnZ4QhL-g~s0n6pzUiPSXvGhpsIDRtnwF9xKMtICt0QvTDYr319~LgTVcHOB~3EC6arBOHhTh-pnfDcQapXtMDTJaQ73RFbEk~S2~ixVEFCvdB7Btvp9v7ssU-pZAounydTxw__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "content_type": "image/png",
+    "size": 93057,
+    "created_at": "2025-08-06T07:20:45Z",
+    "updated_at": "2025-08-06T07:20:45Z",
+    "user_id": 85000184689,
+    "conversation_id": 85004017246,
+    "type": "conversation_attachment",
+    "ticket_id": 26556
+  },
+  {
+    "id": 85001648757,
+    "name": "26556_Adapt Request _ Screensaver _ IC.png",
+    "url": "https://paytm-designocl.attachments-ind5.freshdesk.com/data/helpdesk/attachments/production/85001648757/original/26556_Adapt%20Request%20_%20Screensaver%20_%20IC.png?Expires=1755605221&Signature=nDLxP6nqx9osjKN8muqdHocoBkzjoAhIY9gdsHBAKhIl0Fi9VRT61KmqBdj0Hyxf7scGHXn6-RdJnaBCcz0QbOt0vY2d4AvyXvhCHRW6vP6MeGkbkHBXV09an6hp~LrZ7qqk3DrMQ-GhguvP24aLcTJVPosntIGfGutiGwatfOuNrpN7WEQTwEqtYu3hYFUGwDTYnw~ZccUqUiSodcvqU0tcIEmoD9ofIrcenbaScWz5R~1-1mX4h2u0mwep811xfeJ9ljI9SYXC8DekRCRYOnceW9PYqV5hIsjFOCIkqRQT-gfc2w8A1T2cYkHt7KTW5ylWmvqEsKU1ysdXyvx1Eg__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA",
+    "content_type": "image/png",
+    "size": 90907,
+    "created_at": "2025-08-07T07:34:31Z",
+    "updated_at": "2025-08-07T07:34:31Z",
+    "user_id": 85000184689,
+    "conversation_id": 85004025548,
+    "type": "conversation_attachment",
+    "ticket_id": 26556
+  }
+]
